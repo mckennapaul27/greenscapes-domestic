@@ -22,7 +22,7 @@ function sendContactForm (name, email, subject, phone, message) {
     
     sendSmtpEmail.sender = {
         name: 'Greenscapes Gardening Sevices',
-        email: 'support@ewalletbooster.com'
+        email: 'simon@greenscapes-gardening.co.uk'
     }
     sendSmtpEmail.to = [
         { email: email, name: name }, 
