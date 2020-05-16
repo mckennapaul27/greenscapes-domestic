@@ -1,7 +1,35 @@
 import React, { Component } from 'react';
+import Link from 'next/link';
+import { sendContactForm } from '../utils/sib.helpers';
 
 class Contact extends Component {
+
+    state = {
+        name: '',
+        email: '',
+        subject: '',
+        phone: '',
+        message: '',
+        submitted: false
+    }
+
+    handleInputChange = (e) => {
+        const target = e.target;
+        const name = e.target.name;
+        const value = target.value;
+        this.setState({
+            [name]: value
+        })
+    }
+
+    handleSubmit = () => {
+        const { name, email, subject, phone, message } = this.state;
+        sendContactForm (name, email, subject, phone, message)
+    }
+
     render() {
+        const { name, email, subject, phone, message } = this.state;
+        const disabled = ( name === '' || email === '' || subject === '' || phone === '' || message === '' );
         return (
             <section id='contact' className='contact-area ptb-100 bg-f9f9f9'>
                 <div className='container'>
@@ -17,7 +45,7 @@ class Contact extends Component {
                                     <div className='col-lg-6 col-md-6'>
                                         <div className='form-group'>
                                             <label>Name</label>
-                                            <input type='text' className='form-control' required={true} data-error='Please enter your name' />
+                                            <input type='text' className='form-control' required={true} data-error='Please enter your name' name={'name'} onChange={this.handleInputChange} />
                                             <div className='help-block with-errors'></div>
                                         </div>
                                     </div>
@@ -25,7 +53,7 @@ class Contact extends Component {
                                     <div className='col-lg-6 col-md-6'>
                                         <div className='form-group'>
                                             <label>Email</label>
-                                            <input type='email' className='form-control' required={true} data-error='Please enter your email' />
+                                            <input type='email' className='form-control' required={true} data-error='Please enter your email' name={'email'} onChange={this.handleInputChange} />
                                             <div className='help-block with-errors'></div>
                                         </div>
                                     </div>
@@ -33,7 +61,7 @@ class Contact extends Component {
                                     <div className='col-lg-6 col-md-6'>
                                         <div className='form-group'>
                                             <label>Subject</label>
-                                            <input type='text' className='form-control' required={true} data-error='Please enter your subject' />
+                                            <input type='text' className='form-control' required={true} data-error='Please enter your subject' name={'subject'} onChange={this.handleInputChange} />
                                             <div className='help-block with-errors'></div>
                                         </div>
                                     </div>
@@ -41,7 +69,7 @@ class Contact extends Component {
                                     <div className='col-lg-6 col-md-6'>
                                         <div className='form-group'>
                                             <label>Phone Number</label>
-                                            <input type='text' className='form-control' required={true} data-error='Please enter your number' />
+                                            <input type='text' className='form-control' required={true} data-error='Please enter your number' name={'phone'} onChange={this.handleInputChange}/>
                                             <div className='help-block with-errors'></div>
                                         </div>
                                     </div>
@@ -49,13 +77,13 @@ class Contact extends Component {
                                     <div className='col-lg-12 col-md-12'>
                                         <div className='form-group'>
                                             <label>Message</label>
-                                            <textarea className='form-control' cols='30' rows='4' required={true} data-error='Write your message' />
+                                            <textarea className='form-control' cols='30' rows='4' required={true} data-error='Write your message' name={'message'} onChange={this.handleInputChange} />
                                             <div className='help-block with-errors'></div>
                                         </div>
                                     </div>
 
                                     <div className='col-lg-12 col-md-12'>
-                                        <button type='submit' className='btn btn-primary'>Send Message</button>
+                                        <button type='submit' className='btn btn-primary' onClick={this.handleSubmit} disabled={disabled}>Send Message</button>
                                         <div id='msgSubmit' className='h3 text-center hidden'></div>
                                         <div className='clearfix'></div>
                                     </div>
@@ -64,7 +92,7 @@ class Contact extends Component {
                         </div>
 
                         <div className='col-lg-4 col-md-12'>
-                            <div className='contact-info-box'>
+                            <address className='contact-info-box'>
                                 <ul>
                                     <li>
                                         <i className='fas fa-map-marker-alt'></i>
@@ -75,22 +103,22 @@ class Contact extends Component {
                                     <li>
                                         <i className='fas fa-envelope'></i>
                                         <span>Email:</span>
-                                        <a href='#'>simon@greenscapes-gardening.co.uk</a>
+                                        <a href='mailto:simon@greenscapes-gardening.co.uk'>simon@greenscapes-gardening.co.uk</a>
                                     </li>
 
                                     <li>
                                         <i className='fas fa-phone'></i>
                                         <span>Phone:</span>
-                                        <a href='#'>07772 656034</a>
-                                        <a>0161 425 0035</a>
+                                        <a href='tel:07772 656034'>07772 656034</a>
+                                        <a href='tel:0161 425 0035'>0161 425 0035</a>
                                     </li>
                                     <li>
                                         <i className='fas fa-globe'></i>
                                         <span>Website:</span>
-                                        <a href='#'>https://greenscapes-gardening.co.uk/</a>
+                                        <Link href='/'><a>https://greenscapes-gardening.co.uk/</a></Link>
                                     </li>
                                 </ul>
-                            </div>
+                            </address>
                         </div>
                     </div>
                 </div>

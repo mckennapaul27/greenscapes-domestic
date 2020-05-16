@@ -11,9 +11,15 @@ import {
     hedgePlantingImages,
     hedgePruningImages 
 } from '../data/data';
+import SeoSection from '../components/Layouts/SeoSection';
 
 const Services = () => (
     <React.Fragment>
+        <SeoSection 
+            title='Our Services | Greenscapes Gardening'
+            desc='We provide a range of services from domestic gardening, landscpaing, turfing and planting to large projects. No job is too big or too small. '
+            url='https://greenscapes-gardening.co.uk/services'
+        />
         <NavbarTwo />
         <section className='page-title-area jarallax' data-jarallax="{'speed': 0.2}">
             <div className='container'>

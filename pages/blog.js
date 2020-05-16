@@ -4,6 +4,7 @@ import Navbar from '../components/Layouts/NavbarTwo';
 import Contact from '../components/Contact';
 import { blogs } from '../data/data';
 import Link from 'next/link';
+import SeoSection from '../components/Layouts/SeoSection';
 
 class Blog extends Component {
    
@@ -12,6 +13,11 @@ class Blog extends Component {
         return (
             <React.Fragment>
                 <Navbar />
+                <SeoSection 
+                    title='Blog | Greenscapes Gardening'
+                    desc='Follow the Greenscapes Blog to keep up-to-date with all the latest news from Greenscapes, along with helpful gardening tips'
+                    url='https://greenscapes-gardening.co.uk/blog'
+                />
                 <section className='page-title-area jarallax' data-jarallax="{'speed': 0.2}">
                     <div className='container'>
                         <h2>Blog</h2>

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-import SeoSection from './SeoSection';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 class NavbarTwo extends Component {
@@ -34,16 +33,11 @@ class NavbarTwo extends Component {
         const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
         return (
             <React.Fragment>
-            <SeoSection 
-                title='Greenscapes Gardening | Call Us Today'
-                desc='Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire'
-                url='https://greenscapes-gardening.co.uk'
-            />
             <nav id='navbar' className='navbar navbar-expand-lg navbar-style-one navbar-light bg-light'>
                 <div className='container'>
                     <Link href='/'>
                         <a className='navbar-brand'>
-                            <img src={require('../../images/gardening-logo-transparent.png')} alt='logo' style={{ maxWidth: '150px' }} />
+                            <img src={require('../../images/greenscapes-test.png')} alt='logo' style={{ maxWidth: '150px' }} />
                             <img src={require('../../images/gardening-logo-transparent.png')} alt='logo' style={{ maxWidth: '150px' }} />
                         </a>
                     </Link>
@@ -72,7 +66,7 @@ class NavbarTwo extends Component {
                                 <Link href='/services'><a className='nav-link'>Services</a></Link>
                             </li>
                             <li className='nav-item'>
-                                <Link href='/services#domestic-garden-maintenance'><a className='nav-link'>Garden Maintenance</a></Link>
+                                <Link href='/garden-maintenance'><a className='nav-link'>Garden Maintenance</a></Link>
                             </li>
                             <li className='nav-item'>                                
                                 <Link href='/landscaping'><a className='nav-link'>Landscaping</a></Link>

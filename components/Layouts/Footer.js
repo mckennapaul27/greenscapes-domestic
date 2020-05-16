@@ -21,8 +21,8 @@ class Footer extends Component {
                                 <ul className='contact-info'>
                                     <li>139 Seal Rd, Bramhall, Stockport</li>
                                     <li>
-                                        <a href='#'>07772 656034</a>
-                                        <a>0161 425 0035</a>
+                                        <a href='tel:07772 656034'>07772 656034</a>
+                                        <a href='tel:0161 425 0035'>0161 425 0035</a>
                                     </li>
                                     <li>
                                         <Link href='#'>
@@ -46,27 +46,27 @@ class Footer extends Component {
         
                                 <ul className='list'>
                                     <li>
-                                        <Link href='#'>
+                                        <Link href='/'>
                                             <a>Home</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href='#'>
+                                        <Link href='/services'>
                                             <a>Projects</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href='#'>
+                                        <Link href='/blog'>
                                             <a>Blog</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href='#'>
+                                        <Link href='/#testimonials'>
                                             <a>Testimonial</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href='#'>
+                                        <Link href='/#contact'>
                                             <a>Contact</a>
                                         </Link>
                                     </li>
@@ -80,9 +80,9 @@ class Footer extends Component {
 
                                 <ul className='list'>
                                     <li>
-                                        <Link href='#'>
+                                        <a href='https://www.facebook.com/greenscapesgardeners'>
                                             <img src={require('../../images/icon-facebook.png')} style={{ maxWidth: '150px' }} />
-                                        </Link>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>

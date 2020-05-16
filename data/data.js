@@ -147,9 +147,9 @@ const landscapingImages = [
 ]
 
 const domesticImages = [
-    { original: domestic1 },
-    { original: domestic2 },
-    { original: domestic3 }
+    { original: domestic1, thumbnail: domestic1 },
+    { original: domestic2, thumbnail: domestic2 },
+    { original: domestic3, thumbnail: domestic3 }
 ]
 
 const turfingImages = [

@@ -20,6 +20,9 @@
     "@zeit/next-less": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "@zeit/next-stylus": "^1.0.1",
+    "axios": "^0.19.2",
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-optipng": "^7.1.0",
@@ -47,6 +50,7 @@
     "react-preloading-screen": "^1.0.2",
     "react-sweet-progress": "^1.1.2",
     "react-visibility-sensor": "^5.1.1",
+    "sib-api-v3-sdk": "^7.2.2",
     "stylus": "^0.54.7",
     "wowjs": "^1.1.3"
   },

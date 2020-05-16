@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import SeoSection from './SeoSection';
-
-function myFunction() {
-    return false;
-  }
 
 class NavbarOne extends Component {
 
@@ -32,14 +27,6 @@ class NavbarOne extends Component {
         window.scrollTo(0, 0);
         // this.menuActiveClass()
     }
-
-    // componentWillUnmount = () => {
-    //     this._isMounted = false;
-    //     if (document.removeEventListener) document.removeEventListener('scroll', myFunction);
-    //     if (window.removeEventListener) window.removeEventListener('scroll', myFunction);
-    //     if (document.detachEvent) document.detachEvent('scroll', myFunction);
-    //     if (window.detachEvent) window.detachEvent('scroll', myFunction)
-    // }
     
 
     // menuActiveClass = () => {
@@ -69,17 +56,12 @@ class NavbarOne extends Component {
         const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
         return (
             <React.Fragment>
-            <SeoSection 
-                title='Greenscapes Gardening | Call Us Today'
-                desc='Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire'
-                url='https://greenscapes-gardening.co.uk'
-            />
             <nav id='navbar' className='navbar navbar-expand-lg navbar-style-one navbar-light bg-light'>
                 <div className='container'>
                     <Link href='/'>
                         <a className='navbar-brand'>
-                            <img src={require('../../images/gardening-logo-transparent.png')} alt='logo' style={{ maxWidth: '150px' }} />
-                            <img src={require('../../images/gardening-logo-transparent.png')} alt='logo' style={{ maxWidth: '150px' }} />
+                            <img src={require('../../images/greenscapes-test.png')} alt='logo' style={{ maxWidth: '150px' }} />
+                            <img src={require('../../images/gardening-logo-transparent.png')} alt='logo' style={{ maxWidth: '125px' }} />
                         </a>
                     </Link>
                     <button 
@@ -111,7 +93,9 @@ class NavbarOne extends Component {
                                 <Link href='/services'><a className='nav-link'>Services</a></Link>
                             </li>
                             <li className='nav-item'>
-                                <a className='nav-link'>Domestic Gardening</a>
+                                <Link href='/garden-maintenance'>
+                                    <a className='nav-link'>Garden Maintenance</a>
+                                </Link>
                             </li>
                             <li className='nav-item'>                                
                                 <Link href='/landscaping'><a className='nav-link'>Landscaping</a></Link>
