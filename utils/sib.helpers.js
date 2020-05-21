@@ -1,21 +1,21 @@
-const path = require('path');
-require('dotenv').config({path: path.join(__dirname, '../.env')});
+// const path = require('path');
+// require('dotenv').config({path: path.join(__dirname, '../.env')});
 
 const SibApiV3Sdk = require('sib-api-v3-sdk');
-// const defaultClient = SibApiV3Sdk.ApiClient.instance;
+console.log(SibApiV3Sdk.ApiClient.instance)
 const defaultClient = SibApiV3Sdk.ApiClient.instance;
 
-const moment = require('moment');
+// const moment = require('moment');
 
 // Configure API key authorization: api-key
 let apiKey = defaultClient.authentications['api-key'];
-apiKey.apiKey = process.env.SIBKEY;
+apiKey.apiKey = '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'
 
-// Configure API key authorization: partner-key
-let partnerKey = defaultClient.authentications['partner-key'];
-partnerKey.apiKey = process.env.SIBKEY;
+// // // Configure API key authorization: partner-key
+// let partnerKey = defaultClient.authentications['partner-key'];
+// partnerKey.apiKey = process.env.SIBKEY;
 
-// send contact form submitted
+// // send contact form submitted
 function sendContactForm (name, email, subject, phone, message) {
     const apiInstance = new SibApiV3Sdk.SMTPApi();
     let sendSmtpEmail = new SibApiV3Sdk.SendSmtpEmail();
@@ -33,9 +33,15 @@ function sendContactForm (name, email, subject, phone, message) {
     sendSmtpEmail.tags = ['support'];
     sendSmtpEmail.params = {
         FIRSTNAME: name,
-        MESSAGE: message
+        MESSAGE: message,
+        PHONE: phone,
+        EMAIL: email
     }
     apiInstance.sendTransacEmail(sendSmtpEmail)
     .then(res => console.log(res))
     .catch(e => console.log(e))
+}
+
+module.exports = {
+    sendContactForm
 }

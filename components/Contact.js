@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 import { sendContactForm } from '../utils/sib.helpers';
-
+import { ToastContainer, toast } from 'react-toastify';
+import '../node_modules/react-toastify/dist/ReactToastify.css'
 class Contact extends Component {
 
     state = {
@@ -13,6 +14,7 @@ class Contact extends Component {
         submitted: false
     }
 
+    
     handleInputChange = (e) => {
         const target = e.target;
         const name = e.target.name;
@@ -23,8 +25,14 @@ class Contact extends Component {
     }
 
     handleSubmit = () => {
+
         const { name, email, subject, phone, message } = this.state;
-        sendContactForm (name, email, subject, phone, message)
+        this.setState({
+            submitted: true
+        }, () => {
+            sendContactForm (name, email, subject, phone, message)
+            toast.success(`Thanks ${name}. We have received your message and will be in contact very soon.`);
+        })
     }
 
     render() {
@@ -83,9 +91,10 @@ class Contact extends Component {
                                     </div>
 
                                     <div className='col-lg-12 col-md-12'>
-                                        <button type='submit' className='btn btn-primary' onClick={this.handleSubmit} disabled={disabled}>Send Message</button>
+                                        <button type='submit' className='btn btn-primary' onClick={this.handleSubmit}>Send Message</button>
                                         <div id='msgSubmit' className='h3 text-center hidden'></div>
-                                        <div className='clearfix'></div>
+                                        <br/>
+                                        {this.state.submitted && <div className='clearfix'><span>We have received your message <i className='fa fa-check-circle'></i></span></div>}
                                     </div>
                                 </div>
                             </form>
@@ -121,6 +130,7 @@ class Contact extends Component {
                             </address>
                         </div>
                     </div>
+                    <ToastContainer  position={'bottom-left'} autoClose={5000}/>
                 </div>
             </section>
         );
