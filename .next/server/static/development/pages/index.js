@@ -101,7 +101,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -208,34 +208,35 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_modal_video__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-modal-video */ "react-modal-video");
-/* harmony import */ var react_modal_video__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_modal_video__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _node_modules_react_modal_video_scss_modal_video_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../node_modules/react-modal-video/scss/modal-video.scss */ "./node_modules/react-modal-video/scss/modal-video.scss");
-/* harmony import */ var _node_modules_react_modal_video_scss_modal_video_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_react_modal_video_scss_modal_video_scss__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-anchor-link-smooth-scroll */ "react-anchor-link-smooth-scroll");
-/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_modal_video__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-modal-video */ "react-modal-video");
+/* harmony import */ var react_modal_video__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_modal_video__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_react_modal_video_scss_modal_video_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/react-modal-video/scss/modal-video.scss */ "./node_modules/react-modal-video/scss/modal-video.scss");
+/* harmony import */ var _node_modules_react_modal_video_scss_modal_video_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_react_modal_video_scss_modal_video_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-anchor-link-smooth-scroll */ "react-anchor-link-smooth-scroll");
+/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_4__);
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
 
-class Banner extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
+
+
+
+class Banner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   constructor(...args) {
     super(...args);
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "state", {
+    _defineProperty(this, "state", {
       isOpen: false
     });
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "openModal", () => {
+    _defineProperty(this, "openModal", () => {
       this.setState({
         isOpen: true
       });
@@ -243,7 +244,7 @@ class Banner extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
   }
 
   render() {
-    return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("div", {
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
       id: "home",
       className: "main-banner jarallax",
       "data-jarallax": "{'speed': 0.2}"
@@ -255,9 +256,9 @@ class Banner extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       className: "container"
     }, __jsx("div", {
       className: "main-banner-content"
-    }, __jsx("h1", null, "Greenscapes Gardening Services North West Cheshire & South Manchester"), __jsx("p", null, "Reliable Cheshire gardneners. We are making your outdoor dreams come true. Experienced domestic garden maintenance."), "=", __jsx("div", {
+    }, __jsx("h1", null, "Greenscapes Gardening Services Cheshire & South Manchester"), __jsx("p", null, "Reliable Cheshire gardeners. We are making your outdoor dreams come true. Experienced domestic garden maintenance."), "=", __jsx("div", {
       className: "btn-box"
-    }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_4___default.a, {
       onClick: this.toggleNavbar,
       offset: () => -10 // className='nav-link' 
       ,
@@ -340,30 +341,31 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _utils_sib_helpers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/sib.helpers */ "./utils/sib.helpers.js");
-/* harmony import */ var _utils_sib_helpers__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_utils_sib_helpers__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-toastify */ "react-toastify");
-/* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_toastify__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _node_modules_react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../node_modules/react-toastify/dist/ReactToastify.css */ "./node_modules/react-toastify/dist/ReactToastify.css");
-/* harmony import */ var _node_modules_react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _utils_sib_helpers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/sib.helpers */ "./utils/sib.helpers.js");
+/* harmony import */ var _utils_sib_helpers__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_utils_sib_helpers__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-toastify */ "react-toastify");
+/* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_toastify__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../node_modules/react-toastify/dist/ReactToastify.css */ "./node_modules/react-toastify/dist/ReactToastify.css");
+/* harmony import */ var _node_modules_react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_4__);
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
 
-class Contact extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
+
+
+
+class Contact extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   constructor(...args) {
     super(...args);
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "state", {
+    _defineProperty(this, "state", {
       name: '',
       email: '',
       subject: '',
@@ -372,7 +374,7 @@ class Contact extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       submitted: false
     });
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "handleInputChange", e => {
+    _defineProperty(this, "handleInputChange", e => {
       const target = e.target;
       const name = e.target.name;
       const value = target.value;
@@ -381,7 +383,7 @@ class Contact extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       });
     });
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "handleSubmit", () => {
+    _defineProperty(this, "handleSubmit", () => {
       const {
         name,
         email,
@@ -392,8 +394,8 @@ class Contact extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       this.setState({
         submitted: true
       }, () => {
-        Object(_utils_sib_helpers__WEBPACK_IMPORTED_MODULE_3__["sendContactForm"])(name, email, subject, phone, message);
-        react_toastify__WEBPACK_IMPORTED_MODULE_4__["toast"].success(`Thanks ${name}. We have received your message and will be in contact very soon.`);
+        Object(_utils_sib_helpers__WEBPACK_IMPORTED_MODULE_2__["sendContactForm"])(name, email, subject, phone, message);
+        react_toastify__WEBPACK_IMPORTED_MODULE_3__["toast"].success(`Thanks ${name}. We have received your message and will be in contact very soon.`);
       });
     });
   }
@@ -507,7 +509,7 @@ class Contact extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       className: "contact-info-box"
     }, __jsx("ul", null, __jsx("li", null, __jsx("i", {
       className: "fas fa-map-marker-alt"
-    }), __jsx("span", null, "Address:"), "139 Seal Rd, Bramhall, Stockport SK7 2LL, UK"), __jsx("li", null, __jsx("i", {
+    }), __jsx("span", null, "Address:"), "Seal Rd, Bramhall, Stockport SK7 2LL, UK"), __jsx("li", null, __jsx("i", {
       className: "fas fa-envelope"
     }), __jsx("span", null, "Email:"), __jsx("a", {
       href: "mailto:simon@greenscapes-gardening.co.uk"
@@ -519,9 +521,9 @@ class Contact extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       href: "tel:0161 425 0035"
     }, "0161 425 0035")), __jsx("li", null, __jsx("i", {
       className: "fas fa-globe"
-    }), __jsx("span", null, "Website:"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    }), __jsx("span", null, "Website:"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/"
-    }, __jsx("a", null, "https://greenscapes-gardening.co.uk/"))))))), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_4__["ToastContainer"], {
+    }, __jsx("a", null, "https://greenscapes-gardening.co.uk/"))))))), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_3__["ToastContainer"], {
       position: 'bottom-left',
       autoClose: 5000
     })));
@@ -576,7 +578,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       }
     })))), __jsx("ul", {
       className: "contact-info"
-    }, __jsx("li", null, "139 Seal Rd, Bramhall, Stockport"), __jsx("li", null, __jsx("a", {
+    }, __jsx("li", null, "Seal Rd, Bramhall, Stockport"), __jsx("li", null, __jsx("a", {
       href: "tel:07772 656034"
     }, "07772 656034"), __jsx("a", {
       href: "tel:0161 425 0035"
@@ -668,28 +670,29 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-anchor-link-smooth-scroll */ "react-anchor-link-smooth-scroll");
-/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-anchor-link-smooth-scroll */ "react-anchor-link-smooth-scroll");
+/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_2__);
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
-class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
+
+
+
+class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   constructor(...args) {
     super(...args);
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "state", {
+    _defineProperty(this, "state", {
       collapsed: true
     });
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "toggleNavbar", () => {
+    _defineProperty(this, "toggleNavbar", () => {
       this.setState({
         collapsed: !this.state.collapsed
       });
@@ -734,12 +737,12 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
     } = this.state;
     const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
     const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
-    return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("nav", {
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("nav", {
       id: "navbar",
       className: "navbar navbar-expand-lg navbar-style-one navbar-light bg-light"
     }, __jsx("div", {
       className: "container"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/"
     }, __jsx("a", {
       className: "navbar-brand"
@@ -773,44 +776,44 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       className: "navbar-nav ml-auto"
     }, __jsx("li", {
       className: "nav-item"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/"
     }, __jsx("a", {
       className: "nav-link"
     }, "Home"))), __jsx("li", {
       className: "nav-item"
-    }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_2___default.a, {
       onClick: this.toggleNavbar,
       href: "#about"
     }, __jsx("a", {
       className: "nav-link"
     }, "About"))), __jsx("li", {
       className: "nav-item"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/services"
     }, __jsx("a", {
       className: "nav-link"
     }, "Services"))), __jsx("li", {
       className: "nav-item"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/garden-maintenance"
     }, __jsx("a", {
       className: "nav-link"
     }, "Garden Maintenance"))), __jsx("li", {
       className: "nav-item"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/landscaping"
     }, __jsx("a", {
       className: "nav-link"
     }, "Landscaping"))), __jsx("li", {
       className: "nav-item"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/blog"
     }, __jsx("a", {
       className: "nav-link"
     }, "Blog")))), __jsx("ul", {
       className: "others-option"
-    }, __jsx("li", null, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    }, __jsx("li", null, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_2___default.a, {
       onClick: this.toggleNavbar,
       href: "#contact"
     }, __jsx("button", {
@@ -866,24 +869,25 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_3__);
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 
-
-
-const OwlCarousel = next_dynamic__WEBPACK_IMPORTED_MODULE_5___default()(() => Promise.resolve(/*! import() */).then(__webpack_require__.t.bind(null, /*! react-owl-carousel3 */ "react-owl-carousel3", 7)), {
+const OwlCarousel = next_dynamic__WEBPACK_IMPORTED_MODULE_3___default()(() => Promise.resolve(/*! import() */).then(__webpack_require__.t.bind(null, /*! react-owl-carousel3 */ "react-owl-carousel3", 7)), {
   loadableGenerated: {
     webpack: () => [/*require.resolve*/(/*! react-owl-carousel3 */ "react-owl-carousel3")],
     modules: ['react-owl-carousel3']
@@ -912,11 +916,11 @@ const options = {
   }
 };
 
-class Partner extends react__WEBPACK_IMPORTED_MODULE_3__["Component"] {
+class Partner extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
   constructor(...args) {
     super(...args);
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(this, "state", {
+    _defineProperty(this, "state", {
       display: false
     });
   }
@@ -937,7 +941,7 @@ class Partner extends react__WEBPACK_IMPORTED_MODULE_3__["Component"] {
       className: "jsx-1471720324"
     }, "Trusted by customers in your area"), __jsx("div", {
       className: "jsx-1471720324" + " " + 'row'
-    }, this.state.display ? __jsx(OwlCarousel, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+    }, this.state.display ? __jsx(OwlCarousel, _extends({
       className: "partner-slides owl-carousel owl-theme"
     }, options), areas.map(a => __jsx("div", {
       key: a,
@@ -947,7 +951,7 @@ class Partner extends react__WEBPACK_IMPORTED_MODULE_3__["Component"] {
     }, __jsx("a", {
       href: "",
       className: "jsx-1471720324"
-    }, a))))) : '')), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    }, a))))) : '')), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
       id: "1471720324"
     }, "a.jsx-1471720324{color:#FFFF;font-size:1.25rem;font-weight:bold;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy91c2VyMS9Eb2N1bWVudHMvZGV2ZWxvcG1lbnQvZ3JlZW5zY2FwZXMvZ3JlZW5zY2FwZXMtZG9tZXN0aWMvY29tcG9uZW50cy9QYXJ0bmVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQThENEIsQUFHcUMsWUFDTSxrQkFDRCxpQkFDckIiLCJmaWxlIjoiL1VzZXJzL3VzZXIxL0RvY3VtZW50cy9kZXZlbG9wbWVudC9ncmVlbnNjYXBlcy9ncmVlbnNjYXBlcy1kb21lc3RpYy9jb21wb25lbnRzL1BhcnRuZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgQ29tcG9uZW50IH0gZnJvbSAncmVhY3QnO1xuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcbmltcG9ydCBkeW5hbWljIGZyb20gJ25leHQvZHluYW1pYyc7XG5jb25zdCBPd2xDYXJvdXNlbCA9IGR5bmFtaWMoaW1wb3J0KCdyZWFjdC1vd2wtY2Fyb3VzZWwzJykpO1xuXG5jb25zdCBvcHRpb25zID0ge1xuICAgIGxvb3A6IHRydWUsXG4gICAgbmF2OiBmYWxzZSxcbiAgICBkb3RzOiBmYWxzZSxcbiAgICBhdXRvcGxheUhvdmVyUGF1c2U6IHRydWUsXG4gICAgYXV0b3BsYXk6IHRydWUsXG4gICAgbmF2VGV4dDogW1xuICAgICAgICBcIjxpIGNsYXNzPSdmYXMgZmEtYW5nbGUtbGVmdCc+PC9pPlwiLFxuICAgICAgICBcIjxpIGNsYXNzPSdmYXMgZmEtYW5nbGUtcmlnaHQnPjwvaT5cIlxuICAgIF0sXG4gICAgcmVzcG9uc2l2ZToge1xuICAgICAgICAwOiB7XG4gICAgICAgICAgICBpdGVtczoyLFxuICAgICAgICB9LFxuICAgICAgICA3Njg6IHtcbiAgICAgICAgICAgIGl0ZW1zOjMsXG4gICAgICAgIH0sXG4gICAgICAgIDEwMjQ6IHtcbiAgICAgICAgICAgIGl0ZW1zOiA0LFxuICAgICAgICB9LFxuICAgICAgICAxMjAwOiB7XG4gICAgICAgICAgICBpdGVtczo2LFxuICAgICAgICB9XG4gICAgfVxufVxuXG5jbGFzcyBQYXJ0bmVyIGV4dGVuZHMgQ29tcG9uZW50IHtcblxuICAgIHN0YXRlID0geyBcbiAgICAgICAgZGlzcGxheTogZmFsc2VcbiAgICB9O1xuXG4gICAgY29tcG9uZW50RGlkTW91bnQoKXsgXG4gICAgICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5OiB0cnVlIH0pIFxuICAgIH1cblxuICAgIHJlbmRlcigpIHtcbiAgICAgICAgY29uc3QgYXJlYXMgPSBbJ1dpbG1zbG93JywgJ0FsZGVybGV5IEVkZ2UnLCAnUG95bnRvbicsICdCcmFtaGFsbCcsICdQcmVzdGJ1cnknLCAnSGF6ZWwgR3JvdmUnLCAnSGFuZGZvcnRoJ11cbiAgICAgICAgcmV0dXJuIChcbiAgICAgICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0ncGFydG5lci1hcmVhJz5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY29udGFpbmVyJz5cbiAgICAgICAgICAgICAgICAgICAgPGgzPlRydXN0ZWQgYnkgY3VzdG9tZXJzIGluIHlvdXIgYXJlYTwvaDM+XG5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9J3Jvdyc+XG4gICAgICAgICAgICAgICAgICAgICAgICB7dGhpcy5zdGF0ZS5kaXNwbGF5ID8gPE93bENhcm91c2VsIFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ncGFydG5lci1zbGlkZXMgb3dsLWNhcm91c2VsIG93bC10aGVtZSdcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Li4ub3B0aW9uc31cbiAgICAgICAgICAgICAgICAgICAgICAgID5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7YXJlYXMubWFwKGEgPT4gPGRpdiBrZXk9e2F9IGNsYXNzTmFtZT0nY29sLWxnLTEyIGNvbC1tZC0xMic+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwYXJ0bmVyLWl0ZW0nPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0nJz57YX08L2E+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pil9XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvT3dsQ2Fyb3VzZWw+IDogJyd9XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICAgICAgICAgICAgYSB7XG4gICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogI0ZGRkY7XG4gICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDEuMjVyZW07XG4gICAgICAgICAgICAgICAgICAgICAgICBmb250LXdlaWdodDogYm9sZDtcbiAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgIGB9PC9zdHlsZT5cbiAgICAgICAgICAgIDwvc2VjdGlvbj5cbiAgICAgICAgKTtcbiAgICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IFBhcnRuZXI7XG4iXX0= */\n/*@ sourceURL=/Users/user1/Documents/development/greenscapes/greenscapes-domestic/components/Partner.js */"));
   }
@@ -967,22 +971,23 @@ class Partner extends react__WEBPACK_IMPORTED_MODULE_3__["Component"] {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _data_data__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../data/data */ "./data/data.js");
-/* harmony import */ var _data_data__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_data_data__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _data_data__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../data/data */ "./data/data.js");
+/* harmony import */ var _data_data__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_data_data__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
-
-const OwlCarousel = next_dynamic__WEBPACK_IMPORTED_MODULE_3___default()(() => Promise.resolve(/*! import() */).then(__webpack_require__.t.bind(null, /*! react-owl-carousel3 */ "react-owl-carousel3", 7)), {
+const OwlCarousel = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(() => Promise.resolve(/*! import() */).then(__webpack_require__.t.bind(null, /*! react-owl-carousel3 */ "react-owl-carousel3", 7)), {
   loadableGenerated: {
     webpack: () => [/*require.resolve*/(/*! react-owl-carousel3 */ "react-owl-carousel3")],
     modules: ['react-owl-carousel3']
@@ -1010,11 +1015,11 @@ const options = {
   }
 };
 
-class ServicesLevel extends react__WEBPACK_IMPORTED_MODULE_2__["Component"] {
+class ServicesLevel extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   constructor(...args) {
     super(...args);
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(this, "state", {
+    _defineProperty(this, "state", {
       display: false
     });
   }
@@ -1037,9 +1042,9 @@ class ServicesLevel extends react__WEBPACK_IMPORTED_MODULE_2__["Component"] {
       className: "bar"
     }), __jsx("p", null, "We ensure all our staff are reliable, well presented in uniform and polite at all times. We offer no obligation quotes and would be happy to discuss your garden requirements. Please see our range of services that we offer and the testimonials that show the high service we provide.")), __jsx("div", {
       className: "row"
-    }, this.state.display ? __jsx(OwlCarousel, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+    }, this.state.display ? __jsx(OwlCarousel, _extends({
       className: "services-slides owl-carousel owl-theme"
-    }, options), _data_data__WEBPACK_IMPORTED_MODULE_4__["services"].map(s => __jsx("div", {
+    }, options), _data_data__WEBPACK_IMPORTED_MODULE_2__["services"].map(s => __jsx("div", {
       key: s.title,
       className: "col-lg-12 col-md-12"
     }, __jsx("div", {
@@ -1048,7 +1053,7 @@ class ServicesLevel extends react__WEBPACK_IMPORTED_MODULE_2__["Component"] {
       src: __webpack_require__("./images sync recursive ^\\.\\/.*$")(`./${s.src}`)
     }), __jsx("div", {
       className: "services-content"
-    }, __jsx("h3", null, s.title), __jsx("p", null, s.desc), __jsx("ul", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    }, __jsx("h3", null, s.title), __jsx("p", null, s.desc), __jsx("ul", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
       href: `/services#${s.id}`
     }, __jsx("li", {
       className: "bg-cdf1d8",
@@ -1073,18 +1078,19 @@ class ServicesLevel extends react__WEBPACK_IMPORTED_MODULE_2__["Component"] {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_1__);
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
-
-const OwlCarousel = next_dynamic__WEBPACK_IMPORTED_MODULE_3___default()(() => Promise.resolve(/*! import() */).then(__webpack_require__.t.bind(null, /*! react-owl-carousel3 */ "react-owl-carousel3", 7)), {
+const OwlCarousel = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(() => Promise.resolve(/*! import() */).then(__webpack_require__.t.bind(null, /*! react-owl-carousel3 */ "react-owl-carousel3", 7)), {
   loadableGenerated: {
     webpack: () => [/*require.resolve*/(/*! react-owl-carousel3 */ "react-owl-carousel3")],
     modules: ['react-owl-carousel3']
@@ -1110,11 +1116,11 @@ const options = {
   }
 };
 
-class Testimonials extends react__WEBPACK_IMPORTED_MODULE_2__["Component"] {
+class Testimonials extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   constructor(...args) {
     super(...args);
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(this, "state", {
+    _defineProperty(this, "state", {
       display: false
     });
   }
@@ -1152,7 +1158,7 @@ class Testimonials extends react__WEBPACK_IMPORTED_MODULE_2__["Component"] {
       className: "section-title"
     }, __jsx("h2", null, "Our customer feedback"), __jsx("p", null, "Please see our range of services that we offer and the testimonials that show the high service we provide.")), __jsx("div", {
       className: "row"
-    }, this.state.display ? __jsx(OwlCarousel, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+    }, this.state.display ? __jsx(OwlCarousel, _extends({
       className: "feedback-slides owl-carousel owl-theme"
     }, options), testimonials.map(t => __jsx("div", {
       key: t.name,
@@ -1179,8 +1185,6 @@ class Testimonials extends react__WEBPACK_IMPORTED_MODULE_2__["Component"] {
 
 "use strict";
 
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
 
 var _gardeningLandscaping = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-landscaping1.jpg */ "./images/gardening-landscaping1.jpg"));
 
@@ -1212,6 +1216,26 @@ var _gardeningDomestic2 = _interopRequireDefault(__webpack_require__(/*! ../imag
 
 var _gardeningDomestic3 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic3.jpeg */ "./images/gardening-domestic3.jpeg"));
 
+var _gardeningDomestic4 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic4.jpeg */ "./images/gardening-domestic4.jpeg"));
+
+var _gardeningDomestic5 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic5.jpeg */ "./images/gardening-domestic5.jpeg"));
+
+var _gardeningDomestic6 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic6.jpeg */ "./images/gardening-domestic6.jpeg"));
+
+var _gardeningDomestic7 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic7.jpeg */ "./images/gardening-domestic7.jpeg"));
+
+var _gardeningDomestic8 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic8.jpeg */ "./images/gardening-domestic8.jpeg"));
+
+var _gardeningDomestic9 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic9.jpeg */ "./images/gardening-domestic9.jpeg"));
+
+var _gardeningDomestic10 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic10.jpeg */ "./images/gardening-domestic10.jpeg"));
+
+var _gardeningDomestic11 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic11.jpeg */ "./images/gardening-domestic11.jpeg"));
+
+var _gardeningDomestic12 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic12.jpeg */ "./images/gardening-domestic12.jpeg"));
+
+var _gardeningDomestic13 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic13.jpeg */ "./images/gardening-domestic13.jpeg"));
+
 var _gardeningTurfing = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-turfing1.jpeg */ "./images/gardening-turfing1.jpeg"));
 
 var _gardeningTurfing2 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-turfing2.jpeg */ "./images/gardening-turfing2.jpeg"));
@@ -1220,9 +1244,27 @@ var _gardeningTurfing3 = _interopRequireDefault(__webpack_require__(/*! ../image
 
 var _gardeningTurfing4 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-turfing4.jpeg */ "./images/gardening-turfing4.jpeg"));
 
+var _gardeningTurfing5 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-turfing5.jpeg */ "./images/gardening-turfing5.jpeg"));
+
+var _gardeningTurfing6 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-turfing6.jpeg */ "./images/gardening-turfing6.jpeg"));
+
+var _gardeningTurfing7 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-turfing7.jpeg */ "./images/gardening-turfing7.jpeg"));
+
+var _gardeningTurfing8 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-turfing8.jpeg */ "./images/gardening-turfing8.jpeg"));
+
+var _gardeningTurfing9 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-turfing9.jpeg */ "./images/gardening-turfing9.jpeg"));
+
+var _gardeningTurfing10 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-turfing10.jpeg */ "./images/gardening-turfing10.jpeg"));
+
+var _gardeningTurfing11 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-turfing11.jpeg */ "./images/gardening-turfing11.jpeg"));
+
 var _gardeningServices = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-services1.jpeg */ "./images/gardening-services1.jpeg"));
 
 var _gardeningPlanting = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-planting1.jpeg */ "./images/gardening-planting1.jpeg"));
+
+var _gardeningPlanting2 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-planting2.jpg */ "./images/gardening-planting2.jpg"));
+
+var _gardeningPlanting3 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-planting3.jpg */ "./images/gardening-planting3.jpg"));
 
 var _gardeningHedgePlanting = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-planting1.jpeg */ "./images/gardening-hedge-planting1.jpeg"));
 
@@ -1232,7 +1274,53 @@ var _gardeningHedgePlanting3 = _interopRequireDefault(__webpack_require__(/*! ..
 
 var _gardeningHedgePlanting4 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-planting4.jpeg */ "./images/gardening-hedge-planting4.jpeg"));
 
+var _gardeningHedgePlanting5 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-planting5.jpeg */ "./images/gardening-hedge-planting5.jpeg"));
+
+var _gardeningHedgePlanting6 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-planting6.jpeg */ "./images/gardening-hedge-planting6.jpeg"));
+
+var _gardeningHedgePlanting7 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-planting7.jpeg */ "./images/gardening-hedge-planting7.jpeg"));
+
+var _gardeningHedgePlanting8 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-planting8.jpg */ "./images/gardening-hedge-planting8.jpg"));
+
+var _gardeningHedgePlanting9 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-planting9.jpg */ "./images/gardening-hedge-planting9.jpg"));
+
+var _gardeningHedgePlanting10 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-planting10.jpeg */ "./images/gardening-hedge-planting10.jpeg"));
+
+var _gardeningHedgePlanting11 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-planting11.jpeg */ "./images/gardening-hedge-planting11.jpeg"));
+
+var _gardeningHedgePlanting12 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-planting12.jpeg */ "./images/gardening-hedge-planting12.jpeg"));
+
+var _gardeningHedgePlanting13 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-planting13.jpeg */ "./images/gardening-hedge-planting13.jpeg"));
+
+var _gardeningHedgePlanting14 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-planting14.jpeg */ "./images/gardening-hedge-planting14.jpeg"));
+
+var _gardeningHedgePlanting15 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-planting15.jpeg */ "./images/gardening-hedge-planting15.jpeg"));
+
+var _gardeningHedgePlanting16 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-planting16.jpeg */ "./images/gardening-hedge-planting16.jpeg"));
+
+var _gardeningHedgePlanting17 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-planting17.jpg */ "./images/gardening-hedge-planting17.jpg"));
+
+var _gardeningHedgePlanting18 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-planting18.jpg */ "./images/gardening-hedge-planting18.jpg"));
+
+var _gardeningHedgePlanting19 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-planting19.jpg */ "./images/gardening-hedge-planting19.jpg"));
+
+var _gardeningHedgePlanting20 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-planting20.jpg */ "./images/gardening-hedge-planting20.jpg"));
+
 var _gardeningHedgePruning = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-pruning1.jpeg */ "./images/gardening-hedge-pruning1.jpeg"));
+
+var _gardeningHedgePruning2 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-pruning2.jpg */ "./images/gardening-hedge-pruning2.jpg"));
+
+var _gardeningHedgePruning3 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-pruning3.jpg */ "./images/gardening-hedge-pruning3.jpg"));
+
+var _gardeningHedgePruning4 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-pruning4.jpeg */ "./images/gardening-hedge-pruning4.jpeg"));
+
+var _gardeningHedgePruning5 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-pruning5.jpeg */ "./images/gardening-hedge-pruning5.jpeg"));
+
+var _gardeningHedgePruning6 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-pruning6.jpeg */ "./images/gardening-hedge-pruning6.jpeg"));
+
+var _gardeningHedgePruning7 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-pruning7.jpeg */ "./images/gardening-hedge-pruning7.jpeg"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const blogs = [// intro 87 characters
 {
@@ -1293,6 +1381,11 @@ const blogs = [// intro 87 characters
   tag: 'Services'
 }];
 const services = [{
+  title: 'Garden Maintenance',
+  src: 'gardening-services1.jpeg',
+  desc: 'Greenscapes gardening services operate throughout the stockport and cheshire areas. We are proud of our professional service and the reputation we have built',
+  id: 'domestic-garden-maintenance'
+}, {
   title: 'Turfing',
   src: 'gardening-servicesTurfing.jpeg',
   desc: 'At Greenscapes we can lift existing lawns, level areas and re-turf using locally sourced quality Cheshire turf. We can provide  instant results to make your lawn look green and attractive immediately. We can re-seed an area if needed',
@@ -1307,11 +1400,6 @@ const services = [{
   src: 'gardening-services1.jpeg',
   desc: 'We provide a full planting service, where we can provide the plants you require or you can provide them if you prefer. We can offer advice and help you select the right plants for your garden that will give you ongoing enjoyment',
   id: 'planting'
-}, {
-  title: 'Garden Maintenance',
-  src: 'gardening-maintenance.jpeg',
-  desc: 'Greenscapes gardening services operate throughout the stockport and cheshire areas. We are proud of our professional service and the reputation we have built',
-  id: 'domestic-garden-maintenance'
 }, {
   title: 'Hedge & Tree Pruning',
   src: 'gardening-servicesHedge1.jpeg',
@@ -1369,6 +1457,36 @@ const domesticImages = [{
 }, {
   original: _gardeningDomestic3.default,
   thumbnail: _gardeningDomestic3.default
+}, {
+  original: _gardeningDomestic4.default,
+  thumbnail: _gardeningDomestic4.default
+}, {
+  original: _gardeningDomestic5.default,
+  thumbnail: _gardeningDomestic5.default
+}, {
+  original: _gardeningDomestic6.default,
+  thumbnail: _gardeningDomestic6.default
+}, {
+  original: _gardeningDomestic7.default,
+  thumbnail: _gardeningDomestic7.default
+}, {
+  original: _gardeningDomestic8.default,
+  thumbnail: _gardeningDomestic8.default
+}, {
+  original: _gardeningDomestic9.default,
+  thumbnail: _gardeningDomestic9.default
+}, {
+  original: _gardeningDomestic10.default,
+  thumbnail: _gardeningDomestic10.default
+}, {
+  original: _gardeningDomestic11.default,
+  thumbnail: _gardeningDomestic11.default
+}, {
+  original: _gardeningDomestic12.default,
+  thumbnail: _gardeningDomestic12.default
+}, {
+  original: _gardeningDomestic13.default,
+  thumbnail: _gardeningDomestic13.default
 }];
 const turfingImages = [{
   original: _gardeningTurfing.default
@@ -1378,11 +1496,29 @@ const turfingImages = [{
   original: _gardeningTurfing3.default
 }, {
   original: _gardeningTurfing4.default
+}, {
+  original: _gardeningTurfing5.default
+}, {
+  original: _gardeningTurfing6.default
+}, {
+  original: _gardeningTurfing7.default
+}, {
+  original: _gardeningTurfing8.default
+}, {
+  original: _gardeningTurfing9.default
+}, {
+  original: _gardeningTurfing10.default
+}, {
+  original: _gardeningTurfing11.default
 }];
 const plantingImages = [{
   original: _gardeningServices.default
 }, {
   original: _gardeningPlanting.default
+}, {
+  original: _gardeningPlanting2.default
+}, {
+  original: _gardeningPlanting3.default
 }];
 const hedgePlantingImages = [{
   original: _gardeningHedgePlanting.default
@@ -1392,9 +1528,53 @@ const hedgePlantingImages = [{
   original: _gardeningHedgePlanting3.default
 }, {
   original: _gardeningHedgePlanting4.default
+}, {
+  original: _gardeningHedgePlanting5.default
+}, {
+  original: _gardeningHedgePlanting6.default
+}, {
+  original: _gardeningHedgePlanting7.default
+}, {
+  original: _gardeningHedgePlanting8.default
+}, {
+  original: _gardeningHedgePlanting9.default
+}, {
+  original: _gardeningHedgePlanting10.default
+}, {
+  original: _gardeningHedgePlanting11.default
+}, {
+  original: _gardeningHedgePlanting12.default
+}, {
+  original: _gardeningHedgePlanting13.default
+}, {
+  original: _gardeningHedgePlanting14.default
+}, {
+  original: _gardeningHedgePlanting15.default
+}, {
+  original: _gardeningHedgePlanting16.default
+}, {
+  original: _gardeningHedgePlanting17.default
+}, {
+  original: _gardeningHedgePlanting18.default
+}, {
+  original: _gardeningHedgePlanting19.default
+}, {
+  original: _gardeningHedgePlanting20.default
 }];
 const hedgePruningImages = [{
   original: _gardeningHedgePruning.default
+}, {
+  original: _gardeningHedgePruning2.default
+}, {
+  original: _gardeningHedgePruning3.default
+}, {
+  original: _gardeningHedgePruning4.default
+}, {
+  original: _gardeningHedgePruning5.default
+}, {
+  original: _gardeningHedgePruning6.default
+}, {
+  original: _gardeningHedgePruning7.default
 }];
 module.exports = {
   blogs,
@@ -1477,13 +1657,45 @@ var map = {
 	"./gardening-blog7.jpg": "./images/gardening-blog7.jpg",
 	"./gardening-blog8.jpg": "./images/gardening-blog8.jpg",
 	"./gardening-domestic1.jpeg": "./images/gardening-domestic1.jpeg",
+	"./gardening-domestic10.jpeg": "./images/gardening-domestic10.jpeg",
+	"./gardening-domestic11.jpeg": "./images/gardening-domestic11.jpeg",
+	"./gardening-domestic12.jpeg": "./images/gardening-domestic12.jpeg",
+	"./gardening-domestic13.jpeg": "./images/gardening-domestic13.jpeg",
 	"./gardening-domestic2.jpeg": "./images/gardening-domestic2.jpeg",
 	"./gardening-domestic3.jpeg": "./images/gardening-domestic3.jpeg",
+	"./gardening-domestic4.jpeg": "./images/gardening-domestic4.jpeg",
+	"./gardening-domestic5.jpeg": "./images/gardening-domestic5.jpeg",
+	"./gardening-domestic6.jpeg": "./images/gardening-domestic6.jpeg",
+	"./gardening-domestic7.jpeg": "./images/gardening-domestic7.jpeg",
+	"./gardening-domestic8.jpeg": "./images/gardening-domestic8.jpeg",
+	"./gardening-domestic9.jpeg": "./images/gardening-domestic9.jpeg",
 	"./gardening-hedge-planting1.jpeg": "./images/gardening-hedge-planting1.jpeg",
+	"./gardening-hedge-planting10.jpeg": "./images/gardening-hedge-planting10.jpeg",
+	"./gardening-hedge-planting11.jpeg": "./images/gardening-hedge-planting11.jpeg",
+	"./gardening-hedge-planting12.jpeg": "./images/gardening-hedge-planting12.jpeg",
+	"./gardening-hedge-planting13.jpeg": "./images/gardening-hedge-planting13.jpeg",
+	"./gardening-hedge-planting14.jpeg": "./images/gardening-hedge-planting14.jpeg",
+	"./gardening-hedge-planting15.jpeg": "./images/gardening-hedge-planting15.jpeg",
+	"./gardening-hedge-planting16.jpeg": "./images/gardening-hedge-planting16.jpeg",
+	"./gardening-hedge-planting17.jpg": "./images/gardening-hedge-planting17.jpg",
+	"./gardening-hedge-planting18.jpg": "./images/gardening-hedge-planting18.jpg",
+	"./gardening-hedge-planting19.jpg": "./images/gardening-hedge-planting19.jpg",
 	"./gardening-hedge-planting2.jpeg": "./images/gardening-hedge-planting2.jpeg",
+	"./gardening-hedge-planting20.jpg": "./images/gardening-hedge-planting20.jpg",
 	"./gardening-hedge-planting3.jpeg": "./images/gardening-hedge-planting3.jpeg",
 	"./gardening-hedge-planting4.jpeg": "./images/gardening-hedge-planting4.jpeg",
+	"./gardening-hedge-planting5.jpeg": "./images/gardening-hedge-planting5.jpeg",
+	"./gardening-hedge-planting6.jpeg": "./images/gardening-hedge-planting6.jpeg",
+	"./gardening-hedge-planting7.jpeg": "./images/gardening-hedge-planting7.jpeg",
+	"./gardening-hedge-planting8.jpg": "./images/gardening-hedge-planting8.jpg",
+	"./gardening-hedge-planting9.jpg": "./images/gardening-hedge-planting9.jpg",
 	"./gardening-hedge-pruning1.jpeg": "./images/gardening-hedge-pruning1.jpeg",
+	"./gardening-hedge-pruning2.jpg": "./images/gardening-hedge-pruning2.jpg",
+	"./gardening-hedge-pruning3.jpg": "./images/gardening-hedge-pruning3.jpg",
+	"./gardening-hedge-pruning4.jpeg": "./images/gardening-hedge-pruning4.jpeg",
+	"./gardening-hedge-pruning5.jpeg": "./images/gardening-hedge-pruning5.jpeg",
+	"./gardening-hedge-pruning6.jpeg": "./images/gardening-hedge-pruning6.jpeg",
+	"./gardening-hedge-pruning7.jpeg": "./images/gardening-hedge-pruning7.jpeg",
 	"./gardening-landscaping1.jpg": "./images/gardening-landscaping1.jpg",
 	"./gardening-landscaping10.jpg": "./images/gardening-landscaping10.jpg",
 	"./gardening-landscaping11.jpg": "./images/gardening-landscaping11.jpg",
@@ -1501,15 +1713,24 @@ var map = {
 	"./gardening-main.jpg": "./images/gardening-main.jpg",
 	"./gardening-maintenance.jpeg": "./images/gardening-maintenance.jpeg",
 	"./gardening-planting1.jpeg": "./images/gardening-planting1.jpeg",
+	"./gardening-planting2.jpg": "./images/gardening-planting2.jpg",
+	"./gardening-planting3.jpg": "./images/gardening-planting3.jpg",
 	"./gardening-services1.jpeg": "./images/gardening-services1.jpeg",
 	"./gardening-servicesHedge1.jpeg": "./images/gardening-servicesHedge1.jpeg",
 	"./gardening-servicesHedge2.jpeg": "./images/gardening-servicesHedge2.jpeg",
 	"./gardening-servicesLandscaping.jpeg": "./images/gardening-servicesLandscaping.jpeg",
 	"./gardening-servicesTurfing.jpeg": "./images/gardening-servicesTurfing.jpeg",
 	"./gardening-turfing1.jpeg": "./images/gardening-turfing1.jpeg",
+	"./gardening-turfing10.jpeg": "./images/gardening-turfing10.jpeg",
+	"./gardening-turfing11.jpeg": "./images/gardening-turfing11.jpeg",
 	"./gardening-turfing2.jpeg": "./images/gardening-turfing2.jpeg",
 	"./gardening-turfing3.jpeg": "./images/gardening-turfing3.jpeg",
 	"./gardening-turfing4.jpeg": "./images/gardening-turfing4.jpeg",
+	"./gardening-turfing5.jpeg": "./images/gardening-turfing5.jpeg",
+	"./gardening-turfing6.jpeg": "./images/gardening-turfing6.jpeg",
+	"./gardening-turfing7.jpeg": "./images/gardening-turfing7.jpeg",
+	"./gardening-turfing8.jpeg": "./images/gardening-turfing8.jpeg",
+	"./gardening-turfing9.jpeg": "./images/gardening-turfing9.jpeg",
 	"./gardening-van.jpg": "./images/gardening-van.jpg",
 	"./gardening-van2.jpeg": "./images/gardening-van2.jpeg",
 	"./greenscapes-test.png": "./images/greenscapes-test.png",
@@ -2233,6 +2454,50 @@ module.exports = "/_next/static/images/gardening-domestic1-f3401130c90d750e90708
 
 /***/ }),
 
+/***/ "./images/gardening-domestic10.jpeg":
+/*!******************************************!*\
+  !*** ./images/gardening-domestic10.jpeg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-domestic10-f677399544676f78b2fb3be2f87619f5.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-domestic11.jpeg":
+/*!******************************************!*\
+  !*** ./images/gardening-domestic11.jpeg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-domestic11-efca56eca456c5b0cc25717afb67d809.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-domestic12.jpeg":
+/*!******************************************!*\
+  !*** ./images/gardening-domestic12.jpeg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-domestic12-c27e15cc0afda100143ef1a6a6fd73ce.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-domestic13.jpeg":
+/*!******************************************!*\
+  !*** ./images/gardening-domestic13.jpeg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-domestic13-b7d37d43bc8b9a473ff1386e102075c0.jpeg";
+
+/***/ }),
+
 /***/ "./images/gardening-domestic2.jpeg":
 /*!*****************************************!*\
   !*** ./images/gardening-domestic2.jpeg ***!
@@ -2255,6 +2520,72 @@ module.exports = "/_next/static/images/gardening-domestic3-fbb8bc9650179afe37419
 
 /***/ }),
 
+/***/ "./images/gardening-domestic4.jpeg":
+/*!*****************************************!*\
+  !*** ./images/gardening-domestic4.jpeg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-domestic4-0c2152118afadc9cbb51efbbf5a3dfb7.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-domestic5.jpeg":
+/*!*****************************************!*\
+  !*** ./images/gardening-domestic5.jpeg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-domestic5-07c8352bdc8fa7133a95856a85e2fba8.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-domestic6.jpeg":
+/*!*****************************************!*\
+  !*** ./images/gardening-domestic6.jpeg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-domestic6-647d7d500dfcd57903d57fb94de2415d.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-domestic7.jpeg":
+/*!*****************************************!*\
+  !*** ./images/gardening-domestic7.jpeg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-domestic7-2e2c63ba922ccb31c314b4642c514af2.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-domestic8.jpeg":
+/*!*****************************************!*\
+  !*** ./images/gardening-domestic8.jpeg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-domestic8-94f74677c690113f7cfcee5a545f7ab5.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-domestic9.jpeg":
+/*!*****************************************!*\
+  !*** ./images/gardening-domestic9.jpeg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-domestic9-cbbbf94c721073057b09f3ca8f3d1f86.jpeg";
+
+/***/ }),
+
 /***/ "./images/gardening-hedge-planting1.jpeg":
 /*!***********************************************!*\
   !*** ./images/gardening-hedge-planting1.jpeg ***!
@@ -2266,6 +2597,116 @@ module.exports = "/_next/static/images/gardening-hedge-planting1-d33d1600c4e38b8
 
 /***/ }),
 
+/***/ "./images/gardening-hedge-planting10.jpeg":
+/*!************************************************!*\
+  !*** ./images/gardening-hedge-planting10.jpeg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-planting10-ed2bb40c811e363b02fd9c15b82beb7c.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-hedge-planting11.jpeg":
+/*!************************************************!*\
+  !*** ./images/gardening-hedge-planting11.jpeg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-planting11-b8f4cb47dfe0ef9db7e2f137c143ecfc.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-hedge-planting12.jpeg":
+/*!************************************************!*\
+  !*** ./images/gardening-hedge-planting12.jpeg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-planting12-a30e2f14e649ed9eddcf98f8e21c2dc3.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-hedge-planting13.jpeg":
+/*!************************************************!*\
+  !*** ./images/gardening-hedge-planting13.jpeg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-planting13-3a115e9331b4c06fff7478de2a4ffde9.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-hedge-planting14.jpeg":
+/*!************************************************!*\
+  !*** ./images/gardening-hedge-planting14.jpeg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-planting14-ed2bb40c811e363b02fd9c15b82beb7c.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-hedge-planting15.jpeg":
+/*!************************************************!*\
+  !*** ./images/gardening-hedge-planting15.jpeg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-planting15-4f4d6bc6c9f8ba541cd4bee24d9d60bf.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-hedge-planting16.jpeg":
+/*!************************************************!*\
+  !*** ./images/gardening-hedge-planting16.jpeg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-planting16-08622d5c32b8eb02fe19c4ae5b6b9d85.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-hedge-planting17.jpg":
+/*!***********************************************!*\
+  !*** ./images/gardening-hedge-planting17.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-planting17-3f2067af1461ae320c55cb91ce13044e.jpg";
+
+/***/ }),
+
+/***/ "./images/gardening-hedge-planting18.jpg":
+/*!***********************************************!*\
+  !*** ./images/gardening-hedge-planting18.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-planting18-a302ae1d4a24755d91449baf52908411.jpg";
+
+/***/ }),
+
+/***/ "./images/gardening-hedge-planting19.jpg":
+/*!***********************************************!*\
+  !*** ./images/gardening-hedge-planting19.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-planting19-ad8d28fe58618c2265c462689d7264bd.jpg";
+
+/***/ }),
+
 /***/ "./images/gardening-hedge-planting2.jpeg":
 /*!***********************************************!*\
   !*** ./images/gardening-hedge-planting2.jpeg ***!
@@ -2274,6 +2715,17 @@ module.exports = "/_next/static/images/gardening-hedge-planting1-d33d1600c4e38b8
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/gardening-hedge-planting2-f48197f3f7c8987213e079ca607a4593.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-hedge-planting20.jpg":
+/*!***********************************************!*\
+  !*** ./images/gardening-hedge-planting20.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-planting20-48d0a534b795f4d75cfeefa07ca6f82e.jpg";
 
 /***/ }),
 
@@ -2299,6 +2751,61 @@ module.exports = "/_next/static/images/gardening-hedge-planting4-b6938befe1320ca
 
 /***/ }),
 
+/***/ "./images/gardening-hedge-planting5.jpeg":
+/*!***********************************************!*\
+  !*** ./images/gardening-hedge-planting5.jpeg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-planting5-cf6ad113e01377b5f6bc948e35f47ea1.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-hedge-planting6.jpeg":
+/*!***********************************************!*\
+  !*** ./images/gardening-hedge-planting6.jpeg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-planting6-6f92ad7d4765c519ef62cde6b3d8b2cd.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-hedge-planting7.jpeg":
+/*!***********************************************!*\
+  !*** ./images/gardening-hedge-planting7.jpeg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-planting7-d33d1600c4e38b81715bd718a142cd65.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-hedge-planting8.jpg":
+/*!**********************************************!*\
+  !*** ./images/gardening-hedge-planting8.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-planting8-cc691e46e904253376524ae28948a316.jpg";
+
+/***/ }),
+
+/***/ "./images/gardening-hedge-planting9.jpg":
+/*!**********************************************!*\
+  !*** ./images/gardening-hedge-planting9.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-planting9-82a9d6bc9404294e70679bc7711986a4.jpg";
+
+/***/ }),
+
 /***/ "./images/gardening-hedge-pruning1.jpeg":
 /*!**********************************************!*\
   !*** ./images/gardening-hedge-pruning1.jpeg ***!
@@ -2307,6 +2814,72 @@ module.exports = "/_next/static/images/gardening-hedge-planting4-b6938befe1320ca
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/gardening-hedge-pruning1-c303c794a0edc819a0e34cd50041f6c4.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-hedge-pruning2.jpg":
+/*!*********************************************!*\
+  !*** ./images/gardening-hedge-pruning2.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-pruning2-69d8dc985389f71a7172fce670f42865.jpg";
+
+/***/ }),
+
+/***/ "./images/gardening-hedge-pruning3.jpg":
+/*!*********************************************!*\
+  !*** ./images/gardening-hedge-pruning3.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-pruning3-bedc614571ea04ff5999fd6c2c0ef5c1.jpg";
+
+/***/ }),
+
+/***/ "./images/gardening-hedge-pruning4.jpeg":
+/*!**********************************************!*\
+  !*** ./images/gardening-hedge-pruning4.jpeg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-pruning4-2424b3002141595f34acfb8362c625b2.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-hedge-pruning5.jpeg":
+/*!**********************************************!*\
+  !*** ./images/gardening-hedge-pruning5.jpeg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-pruning5-95c16626fa92979870c97edf475fdb58.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-hedge-pruning6.jpeg":
+/*!**********************************************!*\
+  !*** ./images/gardening-hedge-pruning6.jpeg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-pruning6-a9101be76a92584618257e9224713167.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-hedge-pruning7.jpeg":
+/*!**********************************************!*\
+  !*** ./images/gardening-hedge-pruning7.jpeg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-hedge-pruning7-2acd51f70cdf3c513d83eb0eade13705.jpeg";
 
 /***/ }),
 
@@ -2497,6 +3070,28 @@ module.exports = "/_next/static/images/gardening-planting1-d22224bb0efd310f23d2b
 
 /***/ }),
 
+/***/ "./images/gardening-planting2.jpg":
+/*!****************************************!*\
+  !*** ./images/gardening-planting2.jpg ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-planting2-72220ec330748e6515421db18144d923.jpg";
+
+/***/ }),
+
+/***/ "./images/gardening-planting3.jpg":
+/*!****************************************!*\
+  !*** ./images/gardening-planting3.jpg ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-planting3-cff2ebf8cdb4ba8bfd84f9d9cb0795da.jpg";
+
+/***/ }),
+
 /***/ "./images/gardening-services1.jpeg":
 /*!*****************************************!*\
   !*** ./images/gardening-services1.jpeg ***!
@@ -2563,6 +3158,28 @@ module.exports = "/_next/static/images/gardening-turfing1-647d7d500dfcd57903d57f
 
 /***/ }),
 
+/***/ "./images/gardening-turfing10.jpeg":
+/*!*****************************************!*\
+  !*** ./images/gardening-turfing10.jpeg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-turfing10-d3d852a48716aa46e60033abb4c5d4f9.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-turfing11.jpeg":
+/*!*****************************************!*\
+  !*** ./images/gardening-turfing11.jpeg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-turfing11-2813c48be09b50dea8d8248058ffd1ca.jpeg";
+
+/***/ }),
+
 /***/ "./images/gardening-turfing2.jpeg":
 /*!****************************************!*\
   !*** ./images/gardening-turfing2.jpeg ***!
@@ -2593,6 +3210,61 @@ module.exports = "/_next/static/images/gardening-turfing3-efd209d46f2eb2ef415123
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/gardening-turfing4-d90741f7db3d10f46f8a9532316aead2.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-turfing5.jpeg":
+/*!****************************************!*\
+  !*** ./images/gardening-turfing5.jpeg ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-turfing5-32767e6d23e01f9839ade7cd9e5bd995.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-turfing6.jpeg":
+/*!****************************************!*\
+  !*** ./images/gardening-turfing6.jpeg ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-turfing6-e0a517c1db705b7adb09b83b5820ac64.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-turfing7.jpeg":
+/*!****************************************!*\
+  !*** ./images/gardening-turfing7.jpeg ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-turfing7-ef5e09607fc4f7571756eb9ead24fcc9.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-turfing8.jpeg":
+/*!****************************************!*\
+  !*** ./images/gardening-turfing8.jpeg ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-turfing8-b6424c77458b9c28f8b00ce14293e7aa.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-turfing9.jpeg":
+/*!****************************************!*\
+  !*** ./images/gardening-turfing9.jpeg ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-turfing9-d90741f7db3d10f46f8a9532316aead2.jpeg";
 
 /***/ }),
 
@@ -3025,95 +3697,10 @@ module.exports = "/_next/static/images/work-img6-3c64cdf99b5518562fed4dfaa74ab28
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js":
+/***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
 /*!**********************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/assign.js ***!
+  !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
   \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/assign */ "core-js/library/fn/object/assign");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/define-property */ "core-js/library/fn/object/define-property");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
-/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
-
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js ***!
-  \********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _extends; });
-/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js");
-/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__);
-
-function _extends() {
-  _extends = _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default.a || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];
-
-      for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }
-
-    return target;
-  };
-
-  return _extends.apply(this, arguments);
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js ***!
-  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -3127,6 +3714,98 @@ module.exports = _interopRequireDefault;
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/interopRequireWildcard.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _typeof = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/@babel/runtime/helpers/typeof.js");
+
+function _getRequireWildcardCache() {
+  if (typeof WeakMap !== "function") return null;
+  var cache = new WeakMap();
+
+  _getRequireWildcardCache = function _getRequireWildcardCache() {
+    return cache;
+  };
+
+  return cache;
+}
+
+function _interopRequireWildcard(obj) {
+  if (obj && obj.__esModule) {
+    return obj;
+  }
+
+  if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") {
+    return {
+      "default": obj
+    };
+  }
+
+  var cache = _getRequireWildcardCache();
+
+  if (cache && cache.has(obj)) {
+    return cache.get(obj);
+  }
+
+  var newObj = {};
+  var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
+
+  for (var key in obj) {
+    if (Object.prototype.hasOwnProperty.call(obj, key)) {
+      var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
+
+      if (desc && (desc.get || desc.set)) {
+        Object.defineProperty(newObj, key, desc);
+      } else {
+        newObj[key] = obj[key];
+      }
+    }
+  }
+
+  newObj["default"] = obj;
+
+  if (cache) {
+    cache.set(obj, newObj);
+  }
+
+  return newObj;
+}
+
+module.exports = _interopRequireWildcard;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/typeof.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/typeof.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _typeof2(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
+
+function _typeof(obj) {
+  if (typeof Symbol === "function" && _typeof2(Symbol.iterator) === "symbol") {
+    module.exports = _typeof = function _typeof(obj) {
+      return _typeof2(obj);
+    };
+  } else {
+    module.exports = _typeof = function _typeof(obj) {
+      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : _typeof2(obj);
+    };
+  }
+
+  return _typeof(obj);
+}
+
+module.exports = _typeof;
+
+/***/ }),
+
 /***/ "./node_modules/next/dist/client/link.js":
 /*!***********************************************!*\
   !*** ./node_modules/next/dist/client/link.js ***!
@@ -3137,45 +3816,37 @@ module.exports = _interopRequireDefault;
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "./node_modules/next/node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js");
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
 
 exports.__esModule = true;
 exports.default = void 0;
 
-var _map = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/map */ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/map.js"));
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
 
 var _url = __webpack_require__(/*! url */ "url");
 
-var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
-
-var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "prop-types"));
+var _utils = __webpack_require__(/*! ../next-server/lib/utils */ "./node_modules/next/dist/next-server/lib/utils.js");
 
 var _router = _interopRequireDefault(__webpack_require__(/*! ./router */ "./node_modules/next/dist/client/router.js"));
 
-var _rewriteUrlForExport = __webpack_require__(/*! ../next-server/lib/router/rewrite-url-for-export */ "./node_modules/next/dist/next-server/lib/router/rewrite-url-for-export.js");
-
-var _utils = __webpack_require__(/*! ../next-server/lib/utils */ "./node_modules/next/dist/next-server/lib/utils.js");
-/* global __NEXT_DATA__ */
-
-
 function isLocal(href) {
-  const url = (0, _url.parse)(href, false, true);
-  const origin = (0, _url.parse)((0, _utils.getLocationOrigin)(), false, true);
+  var url = (0, _url.parse)(href, false, true);
+  var origin = (0, _url.parse)((0, _utils.getLocationOrigin)(), false, true);
   return !url.host || url.protocol === origin.protocol && url.host === origin.host;
 }
 
 function memoizedFormatUrl(formatFunc) {
-  let lastHref = null;
-  let lastAs = null;
-  let lastResult = null;
+  var lastHref = null;
+  var lastAs = null;
+  var lastResult = null;
   return (href, as) => {
     if (lastResult && href === lastHref && as === lastAs) {
       return lastResult;
     }
 
-    const result = formatFunc(href, as);
+    var result = formatFunc(href, as);
     lastHref = href;
     lastAs = as;
     lastResult = result;
@@ -3187,9 +3858,10 @@ function formatUrl(url) {
   return url && typeof url === 'object' ? (0, _utils.formatWithValidation)(url) : url;
 }
 
-let observer;
-const listeners = new _map.default();
-const IntersectionObserver = false ? undefined : null;
+var observer;
+var listeners = new Map();
+var IntersectionObserver = false ? undefined : null;
+var prefetched = {};
 
 function getObserver() {
   // Return shared instance of IntersectionObserver if already created
@@ -3208,7 +3880,7 @@ function getObserver() {
         return;
       }
 
-      const cb = listeners.get(entry.target);
+      var cb = listeners.get(entry.target);
 
       if (entry.isIntersecting || entry.intersectionRatio > 0) {
         observer.unobserve(entry.target);
@@ -3221,8 +3893,8 @@ function getObserver() {
   });
 }
 
-const listenToIntersections = (el, cb) => {
-  const observer = getObserver();
+var listenToIntersections = (el, cb) => {
+  var observer = getObserver();
 
   if (!observer) {
     return () => {};
@@ -3256,8 +3928,7 @@ class Link extends _react.Component {
     });
 
     this.linkClicked = e => {
-      // @ts-ignore target exists on currentTarget
-      const {
+      var {
         nodeName,
         target
       } = e.currentTarget;
@@ -3267,7 +3938,7 @@ class Link extends _react.Component {
         return;
       }
 
-      let {
+      var {
         href,
         as
       } = this.formatUrls(this.props.href, this.props.as);
@@ -3277,14 +3948,14 @@ class Link extends _react.Component {
         return;
       }
 
-      const {
+      var {
         pathname
       } = window.location;
       href = (0, _url.resolve)(pathname, href);
       as = as ? (0, _url.resolve)(pathname, as) : href;
       e.preventDefault(); //  avoid scroll for urls with anchor refs
 
-      let {
+      var {
         scroll
       } = this.props;
 
@@ -3318,36 +3989,61 @@ class Link extends _react.Component {
     this.cleanUpListeners();
   }
 
+  getPaths() {
+    var {
+      pathname
+    } = window.location;
+    var {
+      href: parsedHref,
+      as: parsedAs
+    } = this.formatUrls(this.props.href, this.props.as);
+    var resolvedHref = (0, _url.resolve)(pathname, parsedHref);
+    return [resolvedHref, parsedAs ? (0, _url.resolve)(pathname, parsedAs) : resolvedHref];
+  }
+
   handleRef(ref) {
     if (this.p && IntersectionObserver && ref && ref.tagName) {
       this.cleanUpListeners();
-      this.cleanUpListeners = listenToIntersections(ref, () => {
-        this.prefetch();
-      });
+      var isPrefetched = prefetched[this.getPaths().join( // Join on an invalid URI character
+      '%')];
+
+      if (!isPrefetched) {
+        this.cleanUpListeners = listenToIntersections(ref, () => {
+          this.prefetch();
+        });
+      }
     }
   } // The function is memoized so that no extra lifecycles are needed
   // as per https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html
 
 
-  prefetch() {
+  prefetch(options) {
     if (!this.p || true) return; // Prefetch the JSON page if asked (only in the client)
 
-    const {
-      pathname
-    } = window.location;
-    const {
-      href: parsedHref
-    } = this.formatUrls(this.props.href, this.props.as);
-    const href = (0, _url.resolve)(pathname, parsedHref);
+    var paths = this.getPaths(); // We need to handle a prefetch error here since we may be
+    // loading with priority which can reject but we don't
+    // want to force navigation since this is only a prefetch
 
-    _router.default.prefetch(href);
+    _router.default.prefetch(paths[
+    /* href */
+    0], paths[
+    /* asPath */
+    1], options).catch(err => {
+      if (true) {
+        // rethrow to show invalid URL errors
+        throw err;
+      }
+    });
+
+    prefetched[paths.join( // Join on an invalid URI character
+    '%')] = true;
   }
 
   render() {
-    let {
+    var {
       children
     } = this.props;
-    const {
+    var {
       href,
       as
     } = this.formatUrls(this.props.href, this.props.as); // Deprecated. Warning shown by propType check. If the children provided is a string (<Link>example</Link>) we wrap it in an <a> tag
@@ -3357,9 +4053,9 @@ class Link extends _react.Component {
     } // This will return the first child, if multiple are provided it will throw an error
 
 
-    const child = _react.Children.only(children);
+    var child = _react.Children.only(children);
 
-    const props = {
+    var props = {
       ref: el => {
         this.handleRef(el);
 
@@ -3374,7 +4070,9 @@ class Link extends _react.Component {
           child.props.onMouseEnter(e);
         }
 
-        this.prefetch();
+        this.prefetch({
+          priority: true
+        });
       },
       onClick: e => {
         if (child.props && typeof child.props.onClick === 'function') {
@@ -3384,10 +4082,9 @@ class Link extends _react.Component {
         if (!e.defaultPrevented) {
           this.linkClicked(e);
         }
-      } // If child is an <a> tag and doesn't have a href attribute, or if the 'passHref' property is
-      // defined, we specify the current 'href', so that repetition is not needed by the user
-
-    };
+      }
+    }; // If child is an <a> tag and doesn't have a href attribute, or if the 'passHref' property is
+    // defined, we specify the current 'href', so that repetition is not needed by the user
 
     if (this.props.passHref || child.type === 'a' && !('href' in child.props)) {
       props.href = as || href;
@@ -3395,30 +4092,31 @@ class Link extends _react.Component {
     // "<page>/index.html" directly.
 
 
-    if (false) {}
+    if (false) { var rewriteUrlForNextExport; }
 
     return _react.default.cloneElement(child, props);
   }
 
 }
 
-Link.propTypes = void 0;
-
 if (true) {
-  const warn = (0, _utils.execOnce)(console.error); // This module gets removed by webpack.IgnorePlugin
+  var warn = (0, _utils.execOnce)(console.error); // This module gets removed by webpack.IgnorePlugin
 
-  const exact = __webpack_require__(/*! prop-types-exact */ "prop-types-exact");
+  var PropTypes = __webpack_require__(/*! prop-types */ "prop-types");
+
+  var exact = __webpack_require__(/*! prop-types-exact */ "prop-types-exact"); // @ts-ignore the property is supported, when declaring it on the class it outputs an extra bit of code which is not needed.
+
 
   Link.propTypes = exact({
-    href: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.object]).isRequired,
-    as: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.object]),
-    prefetch: _propTypes.default.bool,
-    replace: _propTypes.default.bool,
-    shallow: _propTypes.default.bool,
-    passHref: _propTypes.default.bool,
-    scroll: _propTypes.default.bool,
-    children: _propTypes.default.oneOfType([_propTypes.default.element, (props, propName) => {
-      const value = props[propName];
+    href: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
+    as: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+    prefetch: PropTypes.bool,
+    replace: PropTypes.bool,
+    shallow: PropTypes.bool,
+    passHref: PropTypes.bool,
+    scroll: PropTypes.bool,
+    children: PropTypes.oneOfType([PropTypes.element, (props, propName) => {
+      var value = props[propName];
 
       if (typeof value === 'string') {
         warn("Warning: You're using a string directly inside <Link>. This usage has been deprecated. Please add an <a> tag as child of <Link>");
@@ -3444,18 +4142,14 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "./node_modules/next/node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js");
+var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 exports.__esModule = true;
 exports.useRouter = useRouter;
 exports.makePublicRouterInstance = makePublicRouterInstance;
 exports.createRouter = exports.withRouter = exports.default = void 0;
-
-var _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ "./node_modules/next/node_modules/@babel/runtime-corejs2/helpers/extends.js"));
-
-var _defineProperty = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/define-property.js"));
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -3471,7 +4165,7 @@ var _withRouter = _interopRequireDefault(__webpack_require__(/*! ./with-router *
 exports.withRouter = _withRouter.default;
 /* global window */
 
-const singletonRouter = {
+var singletonRouter = {
   router: null,
   // holds the actual router instance
   readyCallbacks: [],
@@ -3484,11 +4178,11 @@ const singletonRouter = {
 
 }; // Create public properties and methods of the router in the singletonRouter
 
-const urlPropertyFields = ['pathname', 'route', 'query', 'asPath', 'components'];
-const routerEvents = ['routeChangeStart', 'beforeHistoryChange', 'routeChangeComplete', 'routeChangeError', 'hashChangeStart', 'hashChangeComplete'];
-const coreMethodFields = ['push', 'replace', 'reload', 'back', 'prefetch', 'beforePopState']; // Events is a static property on the router, the router doesn't have to be initialized to use it
+var urlPropertyFields = ['pathname', 'route', 'query', 'asPath', 'components', 'isFallback'];
+var routerEvents = ['routeChangeStart', 'beforeHistoryChange', 'routeChangeComplete', 'routeChangeError', 'hashChangeStart', 'hashChangeComplete'];
+var coreMethodFields = ['push', 'replace', 'reload', 'back', 'prefetch', 'beforePopState']; // Events is a static property on the router, the router doesn't have to be initialized to use it
 
-(0, _defineProperty.default)(singletonRouter, 'events', {
+Object.defineProperty(singletonRouter, 'events', {
   get() {
     return _router2.default.events;
   }
@@ -3499,9 +4193,9 @@ urlPropertyFields.forEach(field => {
   // the property assigned to the actual router
   // The value might get changed as we change routes and this is the
   // proper way to access it
-  (0, _defineProperty.default)(singletonRouter, field, {
+  Object.defineProperty(singletonRouter, field, {
     get() {
-      const router = getRouter();
+      var router = getRouter();
       return router[field];
     }
 
@@ -3512,15 +4206,15 @@ coreMethodFields.forEach(field => {
   ;
 
   singletonRouter[field] = function () {
-    const router = getRouter();
+    var router = getRouter();
     return router[field](...arguments);
   };
 });
 routerEvents.forEach(event => {
   singletonRouter.ready(() => {
     _router2.default.events.on(event, function () {
-      const eventField = "on" + event.charAt(0).toUpperCase() + event.substring(1);
-      const _singletonRouter = singletonRouter;
+      var eventField = "on" + event.charAt(0).toUpperCase() + event.substring(1);
+      var _singletonRouter = singletonRouter;
 
       if (_singletonRouter[eventField]) {
         try {
@@ -3538,7 +4232,7 @@ routerEvents.forEach(event => {
 
 function getRouter() {
   if (!singletonRouter.router) {
-    const message = 'No router instance found.\n' + 'You should only use "next/router" inside the client side of your app.\n';
+    var message = 'No router instance found.\n' + 'You should only use "next/router" inside the client side of your app.\n';
     throw new Error(message);
   }
 
@@ -3560,7 +4254,7 @@ function useRouter() {
 // This should **not** use inside the server.
 
 
-const createRouter = function createRouter() {
+var createRouter = function createRouter() {
   for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
     args[_key] = arguments[_key];
   }
@@ -3575,12 +4269,12 @@ const createRouter = function createRouter() {
 exports.createRouter = createRouter;
 
 function makePublicRouterInstance(router) {
-  const _router = router;
-  const instance = {};
+  var _router = router;
+  var instance = {};
 
-  for (const property of urlPropertyFields) {
+  for (var property of urlPropertyFields) {
     if (typeof _router[property] === 'object') {
-      instance[property] = (0, _extends2.default)({}, _router[property]); // makes sure query is not stateful
+      instance[property] = Object.assign({}, _router[property]); // makes sure query is not stateful
 
       continue;
     }
@@ -3610,47 +4304,32 @@ function makePublicRouterInstance(router) {
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 exports.__esModule = true;
 exports.default = withRouter;
 
-var _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ "./node_modules/next/node_modules/@babel/runtime-corejs2/helpers/extends.js"));
-
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
-var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "prop-types"));
+var _router = __webpack_require__(/*! ./router */ "./node_modules/next/dist/client/router.js");
 
 function withRouter(ComposedComponent) {
-  class WithRouteWrapper extends _react.default.Component {
-    constructor() {
-      super(...arguments);
-      this.context = void 0;
-    }
-
-    render() {
-      return _react.default.createElement(ComposedComponent, (0, _extends2.default)({
-        router: this.context.router
-      }, this.props));
-    }
-
+  function WithRouterWrapper(props) {
+    return _react.default.createElement(ComposedComponent, Object.assign({
+      router: (0, _router.useRouter)()
+    }, props));
   }
 
-  WithRouteWrapper.displayName = void 0;
-  WithRouteWrapper.getInitialProps = void 0;
-  WithRouteWrapper.contextTypes = {
-    router: _propTypes.default.object
-  };
-  WithRouteWrapper.getInitialProps = ComposedComponent.getInitialProps // This is needed to allow checking for custom getInitialProps in _app
+  WithRouterWrapper.getInitialProps = ComposedComponent.getInitialProps // This is needed to allow checking for custom getInitialProps in _app
   ;
-  WithRouteWrapper.origGetInitialProps = ComposedComponent.origGetInitialProps;
+  WithRouterWrapper.origGetInitialProps = ComposedComponent.origGetInitialProps;
 
   if (true) {
-    const name = ComposedComponent.displayName || ComposedComponent.name || 'Unknown';
-    WithRouteWrapper.displayName = "withRouter(" + name + ")";
+    var name = ComposedComponent.displayName || ComposedComponent.name || 'Unknown';
+    WithRouterWrapper.displayName = "withRouter(" + name + ")";
   }
 
-  return WithRouteWrapper;
+  return WithRouterWrapper;
 }
 
 /***/ }),
@@ -3676,17 +4355,12 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
-var _Object$create = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/create */ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/create.js");
-
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-_Object$defineProperty(exports, "__esModule", {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
 function mitt() {
-  const all = _Object$create(null);
-
+  const all = Object.create(null);
   return {
     on(type, handler) {
       ;
@@ -3701,6 +4375,7 @@ function mitt() {
     },
 
     emit(type, ...evts) {
+      // eslint-disable-next-line array-callback-return
       ;
       (all[type] || []).slice().map(handler => {
         handler(...evts);
@@ -3724,8 +4399,6 @@ exports.default = mitt;
 "use strict";
 
 
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
 var __importStar = this && this.__importStar || function (mod) {
   if (mod && mod.__esModule) return mod;
   var result = {};
@@ -3734,45 +4407,13 @@ var __importStar = this && this.__importStar || function (mod) {
   return result;
 };
 
-_Object$defineProperty(exports, "__esModule", {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
 const React = __importStar(__webpack_require__(/*! react */ "react"));
 
 exports.RouterContext = React.createContext(null);
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/next-server/lib/router/rewrite-url-for-export.js":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/next/dist/next-server/lib/router/rewrite-url-for-export.js ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-_Object$defineProperty(exports, "__esModule", {
-  value: true
-});
-
-function rewriteUrlForNextExport(url) {
-  const [pathname, hash] = url.split('#'); // tslint:disable-next-line
-
-  let [path, qs] = pathname.split('?');
-  path = path.replace(/\/$/, ''); // Append a trailing slash if this path does not have an extension
-
-  if (!/\.[^/]+\/?$/.test(path)) path += `/`;
-  if (qs) path += '?' + qs;
-  if (hash) path += '#' + hash;
-  return path;
-}
-
-exports.rewriteUrlForNextExport = rewriteUrlForNextExport;
 
 /***/ }),
 
@@ -3786,19 +4427,13 @@ exports.rewriteUrlForNextExport = rewriteUrlForNextExport;
 "use strict";
 
 
-var _Promise = __webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/promise.js");
-
-var _Object$assign = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/assign.js");
-
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
 var __importDefault = this && this.__importDefault || function (mod) {
   return mod && mod.__esModule ? mod : {
     "default": mod
   };
 };
 
-_Object$defineProperty(exports, "__esModule", {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
@@ -3808,16 +4443,71 @@ const mitt_1 = __importDefault(__webpack_require__(/*! ../mitt */ "./node_module
 
 const utils_1 = __webpack_require__(/*! ../utils */ "./node_modules/next/dist/next-server/lib/utils.js");
 
-const rewrite_url_for_export_1 = __webpack_require__(/*! ./rewrite-url-for-export */ "./node_modules/next/dist/next-server/lib/router/rewrite-url-for-export.js");
+const is_dynamic_1 = __webpack_require__(/*! ./utils/is-dynamic */ "./node_modules/next/dist/next-server/lib/router/utils/is-dynamic.js");
 
 const route_matcher_1 = __webpack_require__(/*! ./utils/route-matcher */ "./node_modules/next/dist/next-server/lib/router/utils/route-matcher.js");
 
 const route_regex_1 = __webpack_require__(/*! ./utils/route-regex */ "./node_modules/next/dist/next-server/lib/router/utils/route-regex.js");
 
-const is_dynamic_1 = __webpack_require__(/*! ./utils/is-dynamic */ "./node_modules/next/dist/next-server/lib/router/utils/is-dynamic.js");
+function addBasePath(path) {
+  // variable is always a string
+  const p = "";
+  return path.indexOf(p) !== 0 ? p + path : path;
+}
 
 function toRoute(path) {
   return path.replace(/\/$/, '') || '/';
+}
+
+const prepareRoute = path => toRoute(!path || path === '/' ? '/index' : path);
+
+function fetchNextData(pathname, query, isServerRender, cb) {
+  let attempts = isServerRender ? 3 : 1;
+
+  function getResponse() {
+    return fetch(utils_1.formatWithValidation({
+      // @ts-ignore __NEXT_DATA__
+      pathname: `/_next/data/${__NEXT_DATA__.buildId}${pathname}.json`,
+      query
+    }), {
+      // Cookies are required to be present for Next.js' SSG "Preview Mode".
+      // Cookies may also be required for `getServerSideProps`.
+      //
+      // > `fetch` won’t send cookies, unless you set the credentials init
+      // > option.
+      // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+      //
+      // > For maximum browser compatibility when it comes to sending &
+      // > receiving cookies, always supply the `credentials: 'same-origin'`
+      // > option instead of relying on the default.
+      // https://github.com/github/fetch#caveats
+      credentials: 'same-origin'
+    }).then(res => {
+      if (!res.ok) {
+        if (--attempts > 0 && res.status >= 500) {
+          return getResponse();
+        }
+
+        throw new Error(`Failed to load static props`);
+      }
+
+      return res.json();
+    });
+  }
+
+  return getResponse().then(data => {
+    return cb ? cb(data) : data;
+  }).catch(err => {
+    // We should only trigger a server-side transition if this was caused
+    // on a client-side transition. Otherwise, we'd get into an infinite
+    // loop.
+    if (!isServerRender) {
+      ;
+      err.code = 'PAGE_LOAD_ERROR';
+    }
+
+    throw err;
+  });
 }
 
 class Router {
@@ -3828,8 +4518,12 @@ class Router {
     wrapApp,
     Component,
     err,
-    subscription
+    subscription,
+    isFallback
   }) {
+    // Static Data Cache
+    this.sdc = {};
+
     this.onPopState = e => {
       if (!e.state) {
         // We get state as undefined for two reasons.
@@ -3854,7 +4548,7 @@ class Router {
       // can be caused by navigating back from an external site
 
 
-      if (e.state.options && e.state.options.fromExternal) {
+      if (e.state && this.isSsr && e.state.as === this.asPath && url_1.parse(e.state.url).pathname === this.pathname) {
         return;
       } // If the downstream application returns falsy, return.
       // They will then be responsible for handling the event.
@@ -3877,6 +4571,20 @@ class Router {
       }
 
       this.replace(url, as, options);
+    };
+
+    this._getStaticData = asPath => {
+      const pathname = prepareRoute(url_1.parse(asPath).pathname);
+      return  false ? undefined : fetchNextData(pathname, null, this.isSsr, data => this.sdc[pathname] = data);
+    };
+
+    this._getServerData = asPath => {
+      let {
+        pathname,
+        query
+      } = url_1.parse(asPath, true);
+      pathname = prepareRoute(pathname);
+      return fetchNextData(pathname, query, this.isSsr);
     }; // represents the current component key
 
 
@@ -3890,7 +4598,9 @@ class Router {
       this.components[this.route] = {
         Component,
         props: initialProps,
-        err
+        err,
+        __N_SSG: initialProps && initialProps.__N_SSG,
+        __N_SSP: initialProps && initialProps.__N_SSP
       };
     }
 
@@ -3898,7 +4608,6 @@ class Router {
       Component: App
     }; // Backwards compat for Router.router.events
     // TODO: Should be remove the following major version as it was never documented
-    // @ts-ignore backwards compatibility
 
     this.events = Router.events;
     this.pageLoader = pageLoader;
@@ -3907,17 +4616,23 @@ class Router {
     // until after mount to prevent hydration mismatch
 
     this.asPath = // @ts-ignore this is temporarily global (attached to window)
-    is_dynamic_1.isDynamicRoute(pathname) && __NEXT_DATA__.nextExport ? pathname : as;
+    is_dynamic_1.isDynamicRoute(pathname) && __NEXT_DATA__.autoExport ? pathname : as;
     this.sub = subscription;
     this.clc = null;
-    this._wrapApp = wrapApp;
+    this._wrapApp = wrapApp; // make sure to ignore extra popState in safari on navigating
+    // back from external site
+
+    this.isSsr = true;
+    this.isFallback = isFallback;
 
     if (false) {}
   } // @deprecated backwards compatibility even though it's a private method.
 
 
   static _rewriteUrlForNextExport(url) {
-    return rewrite_url_for_export_1.rewriteUrlForNextExport(url);
+    if (false) {} else {
+      return url;
+    }
   }
 
   update(route, mod) {
@@ -3928,10 +4643,11 @@ class Router {
       throw new Error(`Cannot update unavailable route: ${route}`);
     }
 
-    const newData = _Object$assign({}, data, {
-      Component
+    const newData = Object.assign(Object.assign({}, data), {
+      Component,
+      __N_SSG: mod.__N_SSG,
+      __N_SSP: mod.__N_SSP
     });
-
     this.components[route] = newData; // pages/_app.js updated
 
     if (route === '/_app') {
@@ -3979,9 +4695,13 @@ class Router {
   }
 
   change(method, _url, _as, options) {
-    return new _Promise((resolve, reject) => {
-      // marking route changes as a navigation start entry
-      if (utils_1.SUPPORTS_PERFORMANCE_USER_TIMING) {
+    return new Promise((resolve, reject) => {
+      if (!options._h) {
+        this.isSsr = false;
+      } // marking route changes as a navigation start entry
+
+
+      if (utils_1.ST) {
         performance.mark('routeChange');
       } // If url and as provided as an object representation,
       // we'll format them into the string version here.
@@ -4002,7 +4722,7 @@ class Router {
       if (!options._h && this.onlyAHashChange(as)) {
         this.asPath = as;
         Router.events.emit('hashChangeStart', as);
-        this.changeState(method, url, as);
+        this.changeState(method, url, addBasePath(as), options);
         this.scrollToHash(as);
         Router.events.emit('hashChangeComplete', as);
         return resolve(true);
@@ -4029,8 +4749,7 @@ class Router {
 
       if (!this.urlIsNew(as)) {
         method = 'replaceState';
-      } // @ts-ignore pathname is always a string
-
+      }
 
       const route = toRoute(pathname);
       const {
@@ -4041,20 +4760,26 @@ class Router {
         const {
           pathname: asPathname
         } = url_1.parse(as);
-        const rr = route_regex_1.getRouteRegex(route);
-        const routeMatch = route_matcher_1.getRouteMatcher(rr)(asPathname);
+        const routeRegex = route_regex_1.getRouteRegex(route);
+        const routeMatch = route_matcher_1.getRouteMatcher(routeRegex)(asPathname);
 
         if (!routeMatch) {
-          console.error('The provided `as` value is incompatible with the `href` value. This is invalid. https://err.sh/zeit/next.js/incompatible-href-as');
-          return resolve(false);
-        } // Merge params into `query`, overwriting any specified in search
+          const missingParams = Object.keys(routeRegex.groups).filter(param => !query[param]);
 
+          if (missingParams.length > 0) {
+            if (true) {
+              console.warn(`Mismatching \`as\` and \`href\` failed to manually provide ` + `the params: ${missingParams.join(', ')} in the \`href\`'s \`query\``);
+            }
 
-        _Object$assign(query, routeMatch);
+            return reject(new Error(`The provided \`as\` value (${asPathname}) is incompatible with the \`href\` value (${route}). ` + `Read more: https://err.sh/zeit/next.js/incompatible-href-as`));
+          }
+        } else {
+          // Merge params into `query`, overwriting any specified in search
+          Object.assign(query, routeMatch);
+        }
       }
 
       Router.events.emit('routeChangeStart', as); // If shallow is true and the route exists in the router cache we reuse the previous result
-      // @ts-ignore pathname is always a string
 
       this.getRouteInfo(route, pathname, query, as, shallow).then(routeInfo => {
         const {
@@ -4066,18 +4791,14 @@ class Router {
         }
 
         Router.events.emit('beforeHistoryChange', as);
-        this.changeState(method, url, as, options);
-        const hash = window.location.hash.substring(1);
+        this.changeState(method, url, addBasePath(as), options);
 
         if (true) {
           const appComp = this.components['/_app'].Component;
           window.next.isPrerendered = appComp.getInitialProps === appComp.origGetInitialProps && !routeInfo.Component.getInitialProps;
-        } // @ts-ignore pathname is always defined
+        }
 
-
-        this.set(route, pathname, query, as, _Object$assign({}, routeInfo, {
-          hash
-        }));
+        this.set(route, pathname, query, as, routeInfo);
 
         if (error) {
           Router.events.emit('routeChangeError', error, as);
@@ -4095,8 +4816,7 @@ class Router {
       if (typeof window.history === 'undefined') {
         console.error(`Warning: window.history is not available.`);
         return;
-      } // @ts-ignore method should always exist on history
-
+      }
 
       if (typeof window.history[method] === 'undefined') {
         console.error(`Warning: window.history.${method} is not available`);
@@ -4105,12 +4825,14 @@ class Router {
     }
 
     if (method !== 'pushState' || utils_1.getURL() !== as) {
-      // @ts-ignore method should always exist on history
       window.history[method]({
         url,
         as,
         options
-      }, null, as);
+      }, // Most browsers currently ignores this parameter, although they may use it in the future.
+      // Passing the empty string here should be safe against future changes to the method.
+      // https://developer.mozilla.org/en-US/docs/Web/API/History/replaceState
+      '', as);
     }
   }
 
@@ -4119,47 +4841,12 @@ class Router {
     // If the route is already rendered on the screen.
 
     if (shallow && cachedRouteInfo && this.route === route) {
-      return _Promise.resolve(cachedRouteInfo);
+      return Promise.resolve(cachedRouteInfo);
     }
 
-    return new _Promise((resolve, reject) => {
-      if (cachedRouteInfo) {
-        return resolve(cachedRouteInfo);
-      }
-
-      this.fetchComponent(route).then(Component => resolve({
-        Component
-      }), reject);
-    }).then(routeInfo => {
-      const {
-        Component
-      } = routeInfo;
-
-      if (true) {
-        const {
-          isValidElementType
-        } = __webpack_require__(/*! react-is */ "react-is");
-
-        if (!isValidElementType(Component)) {
-          throw new Error(`The default export is not a React Component in page: "${pathname}"`);
-        }
-      }
-
-      return new _Promise((resolve, reject) => {
-        // we provide AppTree later so this needs to be `any`
-        this.getInitialProps(Component, {
-          pathname,
-          query,
-          asPath: as
-        }).then(props => {
-          routeInfo.props = props;
-          this.components[route] = routeInfo;
-          resolve(routeInfo);
-        }, reject);
-      });
-    }).catch(err => {
-      return new _Promise(resolve => {
-        if (err.code === 'PAGE_LOAD_ERROR') {
+    const handleError = (err, loadErrorFail) => {
+      return new Promise(resolve => {
+        if (err.code === 'PAGE_LOAD_ERROR' || loadErrorFail) {
           // If we can't load the page it could be one of following reasons
           //  1. Page doesn't exists
           //  2. Page does exist in a different zone
@@ -4182,12 +4869,15 @@ class Router {
           });
         }
 
-        resolve(this.fetchComponent('/_error').then(Component => {
+        resolve(this.fetchComponent('/_error').then(res => {
+          const {
+            page: Component
+          } = res;
           const routeInfo = {
             Component,
             err
           };
-          return new _Promise(resolve => {
+          return new Promise(resolve => {
             this.getInitialProps(Component, {
               err,
               pathname,
@@ -4203,12 +4893,52 @@ class Router {
               resolve(routeInfo);
             });
           });
-        }));
+        }).catch(err => handleError(err, true)));
       });
-    });
+    };
+
+    return new Promise((resolve, reject) => {
+      if (cachedRouteInfo) {
+        return resolve(cachedRouteInfo);
+      }
+
+      this.fetchComponent(route).then(res => resolve({
+        Component: res.page,
+        __N_SSG: res.mod.__N_SSG,
+        __N_SSP: res.mod.__N_SSP
+      }), reject);
+    }).then(routeInfo => {
+      const {
+        Component,
+        __N_SSG,
+        __N_SSP
+      } = routeInfo;
+
+      if (true) {
+        const {
+          isValidElementType
+        } = __webpack_require__(/*! react-is */ "react-is");
+
+        if (!isValidElementType(Component)) {
+          throw new Error(`The default export is not a React Component in page: "${pathname}"`);
+        }
+      }
+
+      return this._getData(() => __N_SSG ? this._getStaticData(as) : __N_SSP ? this._getServerData(as) : this.getInitialProps(Component, // we provide AppTree later so this needs to be `any`
+      {
+        pathname,
+        query,
+        asPath: as
+      })).then(props => {
+        routeInfo.props = props;
+        this.components[route] = routeInfo;
+        return routeInfo;
+      });
+    }).catch(handleError);
   }
 
   set(route, pathname, query, as, data) {
+    this.isFallback = false;
     this.route = route;
     this.pathname = pathname;
     this.query = query;
@@ -4275,14 +5005,15 @@ class Router {
     return this.asPath !== asPath;
   }
   /**
-   * Prefetch `page` code, you may wait for the data during `page` rendering.
+   * Prefetch page code, you may wait for the data during page rendering.
    * This feature only works in production!
-   * @param url of prefetched `page`
+   * @param url the href of prefetched page
+   * @param asPath the as path of the prefetched page
    */
 
 
-  prefetch(url) {
-    return new _Promise((resolve, reject) => {
+  prefetch(url, asPath = url, options = {}) {
+    return new Promise((resolve, reject) => {
       const {
         pathname,
         protocol
@@ -4297,10 +5028,11 @@ class Router {
       } // Prefetch is not supported in development mode because it would trigger on-demand-entries
 
 
-      if (true) return; // @ts-ignore pathname is always defined
+      if (true) {
+        return;
+      }
 
-      const route = toRoute(pathname);
-      this.pageLoader.prefetch(route).then(resolve, reject);
+      Promise.all([this.pageLoader.prefetchData(url, asPath), this.pageLoader[options.priority ? 'loadPage' : 'prefetch'](toRoute(pathname))]).then(() => resolve(), reject);
     });
   }
 
@@ -4311,7 +5043,7 @@ class Router {
       cancelled = true;
     };
 
-    const Component = await this.pageLoader.loadPage(route);
+    const componentResult = await this.pageLoader.loadPage(route);
 
     if (cancelled) {
       const error = new Error(`Abort fetching component for route: "${route}"`);
@@ -4323,10 +5055,10 @@ class Router {
       this.clc = null;
     }
 
-    return Component;
+    return componentResult;
   }
 
-  async getInitialProps(Component, ctx) {
+  _getData(fn) {
     let cancelled = false;
 
     const cancel = () => {
@@ -4334,52 +5066,35 @@ class Router {
     };
 
     this.clc = cancel;
+    return fn().then(data => {
+      if (cancel === this.clc) {
+        this.clc = null;
+      }
+
+      if (cancelled) {
+        const err = new Error('Loading initial props cancelled');
+        err.cancelled = true;
+        throw err;
+      }
+
+      return data;
+    });
+  }
+
+  getInitialProps(Component, ctx) {
     const {
       Component: App
     } = this.components['/_app'];
-    let props;
 
-    if ( // @ts-ignore workaround for dead-code elimination
-    (self.__HAS_SPR || "development" !== 'production') && Component.__NEXT_SPR) {
-      let status;
-      const {
-        pathname
-      } = url_1.parse(ctx.asPath || ctx.pathname);
-      props = await fetch(`/_next/data${pathname}.json`).then(res => {
-        if (!res.ok) {
-          status = res.status;
-          throw new Error('failed to load prerender data');
-        }
+    const AppTree = this._wrapApp(App);
 
-        return res.json();
-      }).catch(err => {
-        console.error(`Failed to load data`, status, err);
-        window.location.href = pathname;
-        return new _Promise(() => {});
-      });
-    } else {
-      const AppTree = this._wrapApp(App);
-
-      ctx.AppTree = AppTree;
-      props = await utils_1.loadGetInitialProps(App, {
-        AppTree,
-        Component,
-        router: this,
-        ctx
-      });
-    }
-
-    if (cancel === this.clc) {
-      this.clc = null;
-    }
-
-    if (cancelled) {
-      const err = new Error('Loading initial props cancelled');
-      err.cancelled = true;
-      throw err;
-    }
-
-    return props;
+    ctx.AppTree = AppTree;
+    return utils_1.loadGetInitialProps(App, {
+      AppTree,
+      Component,
+      router: this,
+      ctx
+    });
   }
 
   abortComponentLoad(as) {
@@ -4398,8 +5113,8 @@ class Router {
 
 }
 
-Router.events = mitt_1.default();
 exports.default = Router;
+Router.events = mitt_1.default();
 
 /***/ }),
 
@@ -4413,14 +5128,11 @@ exports.default = Router;
 "use strict";
 
 
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-_Object$defineProperty(exports, "__esModule", {
+Object.defineProperty(exports, "__esModule", {
   value: true
 }); // Identify /[param]/ in route string
 
-
-const TEST_ROUTE = /\/\[[^\/]+?\](?=\/|$)/;
+const TEST_ROUTE = /\/\[[^/]+?\](?=\/|$)/;
 
 function isDynamicRoute(route) {
   return TEST_ROUTE.test(route);
@@ -4440,11 +5152,7 @@ exports.isDynamicRoute = isDynamicRoute;
 "use strict";
 
 
-var _Object$keys = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
-
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-_Object$defineProperty(exports, "__esModule", {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
@@ -4460,16 +5168,16 @@ function getRouteMatcher(routeRegex) {
       return false;
     }
 
+    const decode = decodeURIComponent;
     const params = {};
-
-    _Object$keys(groups).forEach(slugName => {
-      const m = routeMatch[groups[slugName]];
+    Object.keys(groups).forEach(slugName => {
+      const g = groups[slugName];
+      const m = routeMatch[g.pos];
 
       if (m !== undefined) {
-        params[slugName] = decodeURIComponent(m);
+        params[slugName] = ~m.indexOf('/') ? m.split('/').map(entry => decode(entry)) : g.repeat ? [decode(m)] : decode(m);
       }
     });
-
     return params;
   };
 }
@@ -4488,9 +5196,7 @@ exports.getRouteMatcher = getRouteMatcher;
 "use strict";
 
 
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-_Object$defineProperty(exports, "__esModule", {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
@@ -4499,8 +5205,16 @@ function getRouteRegex(normalizedRoute) {
   const escapedRoute = (normalizedRoute.replace(/\/$/, '') || '/').replace(/[|\\{}()[\]^$+*?.-]/g, '\\$&');
   const groups = {};
   let groupIndex = 1;
-  const parameterizedRoute = escapedRoute.replace(/\/\\\[([^\/]+?)\\\](?=\/|$)/g, (_, $1) => (groups[$1 // Un-escape key
-  .replace(/\\([|\\{}()[\]^$+*?.-])/g, '$1')] = groupIndex++, '/([^/]+?)'));
+  const parameterizedRoute = escapedRoute.replace(/\/\\\[([^/]+?)\\\](?=\/|$)/g, (_, $1) => {
+    const isCatchAll = /^(\\\.){3}/.test($1);
+    groups[$1 // Un-escape key
+    .replace(/\\([|\\{}()[\]^$+*?.-])/g, '$1').replace(/^\.{3}/, '') // eslint-disable-next-line no-sequences
+    ] = {
+      pos: groupIndex++,
+      repeat: isCatchAll
+    };
+    return isCatchAll ? '/(.+?)' : '/([^/]+?)';
+  });
   return {
     re: new RegExp('^' + parameterizedRoute + '(?:/)?$', 'i'),
     groups
@@ -4521,11 +5235,7 @@ exports.getRouteRegex = getRouteRegex;
 "use strict";
 
 
-var _Object$keys = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
-
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-_Object$defineProperty(exports, "__esModule", {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
@@ -4537,11 +5247,14 @@ const url_1 = __webpack_require__(/*! url */ "url");
 
 function execOnce(fn) {
   let used = false;
+  let result = null;
   return (...args) => {
     if (!used) {
       used = true;
-      fn.apply(this, args);
+      result = fn.apply(this, args);
     }
+
+    return result;
   };
 }
 
@@ -4580,10 +5293,12 @@ function isResSent(res) {
 
 exports.isResSent = isResSent;
 
-async function loadGetInitialProps(Component, ctx) {
+async function loadGetInitialProps(App, ctx) {
+  var _a;
+
   if (true) {
-    if (Component.prototype && Component.prototype.getInitialProps) {
-      const message = `"${getDisplayName(Component)}.getInitialProps()" is defined as an instance method - visit https://err.sh/zeit/next.js/get-initial-props-as-an-instance-method for more information.`;
+    if ((_a = App.prototype) === null || _a === void 0 ? void 0 : _a.getInitialProps) {
+      const message = `"${getDisplayName(App)}.getInitialProps()" is defined as an instance method - visit https://err.sh/zeit/next.js/get-initial-props-as-an-instance-method for more information.`;
       throw new Error(message);
     }
   } // when called from _app `ctx` is nested in `ctx`
@@ -4591,24 +5306,31 @@ async function loadGetInitialProps(Component, ctx) {
 
   const res = ctx.res || ctx.ctx && ctx.ctx.res;
 
-  if (!Component.getInitialProps) {
+  if (!App.getInitialProps) {
+    if (ctx.ctx && ctx.Component) {
+      // @ts-ignore pageProps default
+      return {
+        pageProps: await loadGetInitialProps(ctx.Component, ctx.ctx)
+      };
+    }
+
     return {};
   }
 
-  const props = await Component.getInitialProps(ctx);
+  const props = await App.getInitialProps(ctx);
 
   if (res && isResSent(res)) {
     return props;
   }
 
   if (!props) {
-    const message = `"${getDisplayName(Component)}.getInitialProps()" should resolve to an object. But found "${props}" instead.`;
+    const message = `"${getDisplayName(App)}.getInitialProps()" should resolve to an object. But found "${props}" instead.`;
     throw new Error(message);
   }
 
   if (true) {
-    if (_Object$keys(props).length === 0 && !ctx.ctx) {
-      console.warn(`${getDisplayName(Component)} returned an empty object from \`getInitialProps\`. This de-optimizes and prevents automatic static optimization. https://err.sh/zeit/next.js/empty-object-getInitialProps`);
+    if (Object.keys(props).length === 0 && !ctx.ctx) {
+      console.warn(`${getDisplayName(App)} returned an empty object from \`getInitialProps\`. This de-optimizes and prevents automatic static optimization. https://err.sh/zeit/next.js/empty-object-getInitialProps`);
     }
   }
 
@@ -4621,7 +5343,7 @@ exports.urlObjectKeys = ['auth', 'hash', 'host', 'hostname', 'href', 'path', 'pa
 function formatWithValidation(url, options) {
   if (true) {
     if (url !== null && typeof url === 'object') {
-      _Object$keys(url).forEach(key => {
+      Object.keys(url).forEach(key => {
         if (exports.urlObjectKeys.indexOf(key) === -1) {
           console.warn(`Unknown key passed via urlObject into url.format: ${key}`);
         }
@@ -4633,8 +5355,8 @@ function formatWithValidation(url, options) {
 }
 
 exports.formatWithValidation = formatWithValidation;
-exports.SUPPORTS_PERFORMANCE = typeof performance !== 'undefined';
-exports.SUPPORTS_PERFORMANCE_USER_TIMING = exports.SUPPORTS_PERFORMANCE && typeof performance.mark === 'function' && typeof performance.measure === 'function';
+exports.SP = typeof performance !== 'undefined';
+exports.ST = exports.SP && typeof performance.mark === 'function' && typeof performance.measure === 'function';
 
 /***/ }),
 
@@ -4647,171 +5369,6 @@ exports.SUPPORTS_PERFORMANCE_USER_TIMING = exports.SUPPORTS_PERFORMANCE && typeo
 
 module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/next/dist/client/link.js")
 
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/map.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/map.js ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/map */ "core-js/library/fn/map");
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/assign.js":
-/*!****************************************************************************************!*\
-  !*** ./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/assign.js ***!
-  \****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/assign */ "core-js/library/fn/object/assign");
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/create.js":
-/*!****************************************************************************************!*\
-  !*** ./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/create.js ***!
-  \****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/create */ "core-js/library/fn/object/create");
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/define-property.js":
-/*!*************************************************************************************************!*\
-  !*** ./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/define-property.js ***!
-  \*************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/define-property */ "core-js/library/fn/object/define-property");
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js":
-/*!*************************************************************************************************************!*\
-  !*** ./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js ***!
-  \*************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-descriptor */ "core-js/library/fn/object/get-own-property-descriptor");
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/keys.js":
-/*!**************************************************************************************!*\
-  !*** ./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/keys.js ***!
-  \**************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/keys */ "core-js/library/fn/object/keys");
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/promise.js":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/promise.js ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/promise */ "core-js/library/fn/promise");
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime-corejs2/helpers/extends.js":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/next/node_modules/@babel/runtime-corejs2/helpers/extends.js ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var _Object$assign = __webpack_require__(/*! ../core-js/object/assign */ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/assign.js");
-
-function _extends() {
-  module.exports = _extends = _Object$assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];
-
-      for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }
-
-    return target;
-  };
-
-  return _extends.apply(this, arguments);
-}
-
-module.exports = _extends;
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js":
-/*!************************************************************************************************!*\
-  !*** ./node_modules/next/node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js ***!
-  \************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    "default": obj
-  };
-}
-
-module.exports = _interopRequireDefault;
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js":
-/*!*************************************************************************************************!*\
-  !*** ./node_modules/next/node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js ***!
-  \*************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var _Object$getOwnPropertyDescriptor = __webpack_require__(/*! ../core-js/object/get-own-property-descriptor */ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js");
-
-var _Object$defineProperty = __webpack_require__(/*! ../core-js/object/define-property */ "./node_modules/next/node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-function _interopRequireWildcard(obj) {
-  if (obj && obj.__esModule) {
-    return obj;
-  } else {
-    var newObj = {};
-
-    if (obj != null) {
-      for (var key in obj) {
-        if (Object.prototype.hasOwnProperty.call(obj, key)) {
-          var desc = _Object$defineProperty && _Object$getOwnPropertyDescriptor ? _Object$getOwnPropertyDescriptor(obj, key) : {};
-
-          if (desc.get || desc.set) {
-            _Object$defineProperty(newObj, key, desc);
-          } else {
-            newObj[key] = obj[key];
-          }
-        }
-      }
-    }
-
-    newObj["default"] = obj;
-    return newObj;
-  }
-}
-
-module.exports = _interopRequireWildcard;
 
 /***/ }),
 
@@ -4895,9 +5452,9 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 // const path = require('path');
 // require('dotenv').config({path: path.join(__dirname, '../.env')});
-const SibApiV3Sdk = __webpack_require__(/*! sib-api-v3-sdk */ "sib-api-v3-sdk");
+const SibApiV3Sdk = __webpack_require__(/*! sib-api-v3-sdk */ "sib-api-v3-sdk"); // console.log(SibApiV3Sdk.ApiClient.instance)
 
-console.log(SibApiV3Sdk.ApiClient.instance);
+
 const defaultClient = SibApiV3Sdk.ApiClient.instance; // const moment = require('moment');
 // Configure API key authorization: api-key
 
@@ -4941,7 +5498,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -4950,83 +5507,6 @@ module.exports = {
 
 module.exports = __webpack_require__(/*! /Users/user1/Documents/development/greenscapes/greenscapes-domestic/pages/index.js */"./pages/index.js");
 
-
-/***/ }),
-
-/***/ "core-js/library/fn/map":
-/*!*****************************************!*\
-  !*** external "core-js/library/fn/map" ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("core-js/library/fn/map");
-
-/***/ }),
-
-/***/ "core-js/library/fn/object/assign":
-/*!***************************************************!*\
-  !*** external "core-js/library/fn/object/assign" ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("core-js/library/fn/object/assign");
-
-/***/ }),
-
-/***/ "core-js/library/fn/object/create":
-/*!***************************************************!*\
-  !*** external "core-js/library/fn/object/create" ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("core-js/library/fn/object/create");
-
-/***/ }),
-
-/***/ "core-js/library/fn/object/define-property":
-/*!************************************************************!*\
-  !*** external "core-js/library/fn/object/define-property" ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("core-js/library/fn/object/define-property");
-
-/***/ }),
-
-/***/ "core-js/library/fn/object/get-own-property-descriptor":
-/*!************************************************************************!*\
-  !*** external "core-js/library/fn/object/get-own-property-descriptor" ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("core-js/library/fn/object/get-own-property-descriptor");
-
-/***/ }),
-
-/***/ "core-js/library/fn/object/keys":
-/*!*************************************************!*\
-  !*** external "core-js/library/fn/object/keys" ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("core-js/library/fn/object/keys");
-
-/***/ }),
-
-/***/ "core-js/library/fn/promise":
-/*!*********************************************!*\
-  !*** external "core-js/library/fn/promise" ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("core-js/library/fn/promise");
 
 /***/ }),
 

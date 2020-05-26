@@ -5,7 +5,19 @@ const withPlugins = require('next-compose-plugins');
 const optimizedImages = require('next-optimized-images');
 const withVideos = require('next-videos');
 
+// module.exports = {
+//     webpack: (config, options) => {
+//         console.log(config.module)
+//         // config.module.rules.push({ parser: { amd: false } })
+//         return config;
+//     }
+// }
+
 module.exports = withPlugins([
+    { webpack: (config, options) => {
+        config.module.rules.push({ parser: { amd: false } })
+        return config;
+    }},
     [optimizedImages, {
         inlineImageLimit: 8192,
         imagesFolder: 'images',

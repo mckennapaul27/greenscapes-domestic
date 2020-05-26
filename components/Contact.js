@@ -106,7 +106,7 @@ class Contact extends Component {
                                     <li>
                                         <i className='fas fa-map-marker-alt'></i>
                                         <span>Address:</span>
-                                        139 Seal Rd, Bramhall, Stockport SK7 2LL, UK
+                                        Seal Rd, Bramhall, Stockport SK7 2LL, UK
                                     </li>
 
                                     <li>

@@ -22,8 +22,8 @@ class Banner extends Component {
                         <div className='d-table-cell'>
                             <div className='container'>
                                 <div className='main-banner-content'>
-                                    <h1>Greenscapes Gardening Services North West Cheshire &amp; South Manchester</h1>
-                                    <p>Reliable Cheshire gardneners. We are making your outdoor dreams come true. Experienced domestic garden maintenance.</p>=
+                                    <h1>Greenscapes Gardening Services Cheshire &amp; South Manchester</h1>
+                                    <p>Reliable Cheshire gardeners. We are making your outdoor dreams come true. Experienced domestic garden maintenance.</p>=
                                     <div className='btn-box'>
                                         <AnchorLink 
                                             onClick={this.toggleNavbar} 

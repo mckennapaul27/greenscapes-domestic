@@ -19,7 +19,7 @@ class Footer extends Component {
                                 </div>
         
                                 <ul className='contact-info'>
-                                    <li>139 Seal Rd, Bramhall, Stockport</li>
+                                    <li>Seal Rd, Bramhall, Stockport</li>
                                     <li>
                                         <a href='tel:07772 656034'>07772 656034</a>
                                         <a href='tel:0161 425 0035'>0161 425 0035</a>

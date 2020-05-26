@@ -2,7 +2,7 @@
 // require('dotenv').config({path: path.join(__dirname, '../.env')});
 
 const SibApiV3Sdk = require('sib-api-v3-sdk');
-console.log(SibApiV3Sdk.ApiClient.instance)
+// console.log(SibApiV3Sdk.ApiClient.instance)
 const defaultClient = SibApiV3Sdk.ApiClient.instance;
 
 // const moment = require('moment');
