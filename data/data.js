@@ -13,7 +13,6 @@ import l12 from '../images/gardening-landscaping12.jpg'
 
 import domestic1 from '../images/gardening-domestic1.jpeg';
 import domestic2 from '../images/gardening-domestic2.jpeg';
-import domestic3 from '../images/gardening-domestic3.jpeg';
 import domestic4 from '../images/gardening-domestic4.jpeg';
 import domestic5 from '../images/gardening-domestic5.jpeg';
 import domestic6 from '../images/gardening-domestic6.jpeg';
@@ -37,10 +36,11 @@ import turfing8 from '../images/gardening-turfing8.jpeg';
 import turfing9 from '../images/gardening-turfing9.jpeg';
 import turfing10 from '../images/gardening-turfing10.jpeg';
 import turfing11 from '../images/gardening-turfing11.jpeg';
+import turfing12 from '../images/gardening-domestic3.jpeg';
 
 
 import planting1 from '../images/gardening-services1.jpeg';
-import planting2 from '../images/gardening-planting1.jpeg';
+// import planting2 from '../images/gardening-planting1.jpeg';
 import planting3 from '../images/gardening-planting2.jpg';
 import planting4 from '../images/gardening-planting3.jpg';
 
@@ -168,7 +168,7 @@ const services = [
     },
     { 
         title: 'Hedge & Tree Pruning', 
-        src: 'gardening-servicesHedge1.jpeg', 
+        src: 'gardening-hedge-pruning5.jpeg', 
         desc: 'Greenscapes can provide a trimming and lowering of all types of hedges. We can prune and fell all types of trees to a high standard. We can also arrange stump removal' ,
         id: 'hedge-pruning' 
     },
@@ -198,7 +198,7 @@ const landscapingImages = [
 const domesticImages = [
     { original: domestic1, thumbnail: domestic1 },
     { original: domestic2, thumbnail: domestic2 },
-    { original: domestic3, thumbnail: domestic3 },
+    // { original: domestic3, thumbnail: domestic3 },
     { original: domestic4, thumbnail: domestic4 },
     { original: domestic5, thumbnail: domestic5 },
     { original: domestic6, thumbnail: domestic6 },
@@ -213,7 +213,7 @@ const domesticImages = [
 ]
 
 const turfingImages = [
-    { original: turfing1 },
+    // { original: turfing1 },
     { original: turfing2 },
     { original: turfing3 },
     { original: turfing4 },
@@ -224,13 +224,17 @@ const turfingImages = [
     { original: turfing9 },
     { original: turfing10 },
     { original: turfing11 },
+    { original: turfing12 },
+    { original: hedgePruning1 }
 ]
 
 const plantingImages = [
     { original: planting1 },
-    { original: planting2 },
+    // { original: planting2 },
     { original: planting3 },
-    { original: planting4 }
+    { original: planting4 },
+    { original: hedgePlanting8 },
+    { original: hedgePlanting9 },
 ]
 const hedgePlantingImages = [
     { original: hedgePlanting1 },
@@ -240,8 +244,7 @@ const hedgePlantingImages = [
     { original: hedgePlanting5 },
     { original: hedgePlanting6 },
     { original: hedgePlanting7 },
-    { original: hedgePlanting8 },
-    { original: hedgePlanting9 },
+    
     { original: hedgePlanting10 },
     { original: hedgePlanting11 },
     { original: hedgePlanting12 },
@@ -255,11 +258,10 @@ const hedgePlantingImages = [
     { original: hedgePlanting20 },
 ]
 const hedgePruningImages = [
-    { original: hedgePruning1 },
+    { original: hedgePruning5 },
     { original: hedgePruning2 },
     { original: hedgePruning3 },
-    { original: hedgePruning4 },
-    { original: hedgePruning5 },
+    { original: hedgePruning4 },    
     { original: hedgePruning6 },
     { original: hedgePruning7 }
 ]

@@ -1216,27 +1216,25 @@ var _gardeningDomestic = _interopRequireDefault(__webpack_require__(/*! ../image
 
 var _gardeningDomestic2 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic2.jpeg */ "./images/gardening-domestic2.jpeg"));
 
-var _gardeningDomestic3 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic3.jpeg */ "./images/gardening-domestic3.jpeg"));
+var _gardeningDomestic3 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic4.jpeg */ "./images/gardening-domestic4.jpeg"));
 
-var _gardeningDomestic4 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic4.jpeg */ "./images/gardening-domestic4.jpeg"));
+var _gardeningDomestic4 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic5.jpeg */ "./images/gardening-domestic5.jpeg"));
 
-var _gardeningDomestic5 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic5.jpeg */ "./images/gardening-domestic5.jpeg"));
+var _gardeningDomestic5 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic6.jpeg */ "./images/gardening-domestic6.jpeg"));
 
-var _gardeningDomestic6 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic6.jpeg */ "./images/gardening-domestic6.jpeg"));
+var _gardeningDomestic6 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic7.jpeg */ "./images/gardening-domestic7.jpeg"));
 
-var _gardeningDomestic7 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic7.jpeg */ "./images/gardening-domestic7.jpeg"));
+var _gardeningDomestic7 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic8.jpeg */ "./images/gardening-domestic8.jpeg"));
 
-var _gardeningDomestic8 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic8.jpeg */ "./images/gardening-domestic8.jpeg"));
+var _gardeningDomestic8 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic9.jpeg */ "./images/gardening-domestic9.jpeg"));
 
-var _gardeningDomestic9 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic9.jpeg */ "./images/gardening-domestic9.jpeg"));
+var _gardeningDomestic9 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic10.jpeg */ "./images/gardening-domestic10.jpeg"));
 
-var _gardeningDomestic10 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic10.jpeg */ "./images/gardening-domestic10.jpeg"));
+var _gardeningDomestic10 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic11.jpeg */ "./images/gardening-domestic11.jpeg"));
 
-var _gardeningDomestic11 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic11.jpeg */ "./images/gardening-domestic11.jpeg"));
+var _gardeningDomestic11 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic12.jpeg */ "./images/gardening-domestic12.jpeg"));
 
-var _gardeningDomestic12 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic12.jpeg */ "./images/gardening-domestic12.jpeg"));
-
-var _gardeningDomestic13 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic13.jpeg */ "./images/gardening-domestic13.jpeg"));
+var _gardeningDomestic12 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic13.jpeg */ "./images/gardening-domestic13.jpeg"));
 
 var _gardeningTurfing = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-turfing1.jpeg */ "./images/gardening-turfing1.jpeg"));
 
@@ -1260,13 +1258,13 @@ var _gardeningTurfing10 = _interopRequireDefault(__webpack_require__(/*! ../imag
 
 var _gardeningTurfing11 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-turfing11.jpeg */ "./images/gardening-turfing11.jpeg"));
 
+var _gardeningDomestic13 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic3.jpeg */ "./images/gardening-domestic3.jpeg"));
+
 var _gardeningServices = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-services1.jpeg */ "./images/gardening-services1.jpeg"));
 
-var _gardeningPlanting = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-planting1.jpeg */ "./images/gardening-planting1.jpeg"));
+var _gardeningPlanting = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-planting2.jpg */ "./images/gardening-planting2.jpg"));
 
-var _gardeningPlanting2 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-planting2.jpg */ "./images/gardening-planting2.jpg"));
-
-var _gardeningPlanting3 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-planting3.jpg */ "./images/gardening-planting3.jpg"));
+var _gardeningPlanting2 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-planting3.jpg */ "./images/gardening-planting3.jpg"));
 
 var _gardeningHedgePlanting = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-hedge-planting1.jpeg */ "./images/gardening-hedge-planting1.jpeg"));
 
@@ -1324,6 +1322,7 @@ var _gardeningHedgePruning7 = _interopRequireDefault(__webpack_require__(/*! ../
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// import planting2 from '../images/gardening-planting1.jpeg';
 const blogs = [// intro 87 characters
 {
   date: 'April 17th 2019',
@@ -1404,7 +1403,7 @@ const services = [{
   id: 'planting'
 }, {
   title: 'Hedge & Tree Pruning',
-  src: 'gardening-servicesHedge1.jpeg',
+  src: 'gardening-hedge-pruning5.jpeg',
   desc: 'Greenscapes can provide a trimming and lowering of all types of hedges. We can prune and fell all types of trees to a high standard. We can also arrange stump removal',
   id: 'hedge-pruning'
 }, {
@@ -1456,7 +1455,8 @@ const domesticImages = [{
 }, {
   original: _gardeningDomestic2.default,
   thumbnail: _gardeningDomestic2.default
-}, {
+}, // { original: domestic3, thumbnail: domestic3 },
+{
   original: _gardeningDomestic3.default,
   thumbnail: _gardeningDomestic3.default
 }, {
@@ -1486,13 +1486,9 @@ const domesticImages = [{
 }, {
   original: _gardeningDomestic12.default,
   thumbnail: _gardeningDomestic12.default
-}, {
-  original: _gardeningDomestic13.default,
-  thumbnail: _gardeningDomestic13.default
 }];
-const turfingImages = [{
-  original: _gardeningTurfing.default
-}, {
+const turfingImages = [// { original: turfing1 },
+{
   original: _gardeningTurfing2.default
 }, {
   original: _gardeningTurfing3.default
@@ -1512,15 +1508,22 @@ const turfingImages = [{
   original: _gardeningTurfing10.default
 }, {
   original: _gardeningTurfing11.default
+}, {
+  original: _gardeningDomestic13.default
+}, {
+  original: _gardeningHedgePruning.default
 }];
 const plantingImages = [{
   original: _gardeningServices.default
-}, {
+}, // { original: planting2 },
+{
   original: _gardeningPlanting.default
 }, {
   original: _gardeningPlanting2.default
 }, {
-  original: _gardeningPlanting3.default
+  original: _gardeningHedgePlanting8.default
+}, {
+  original: _gardeningHedgePlanting9.default
 }];
 const hedgePlantingImages = [{
   original: _gardeningHedgePlanting.default
@@ -1536,10 +1539,6 @@ const hedgePlantingImages = [{
   original: _gardeningHedgePlanting6.default
 }, {
   original: _gardeningHedgePlanting7.default
-}, {
-  original: _gardeningHedgePlanting8.default
-}, {
-  original: _gardeningHedgePlanting9.default
 }, {
   original: _gardeningHedgePlanting10.default
 }, {
@@ -1564,15 +1563,13 @@ const hedgePlantingImages = [{
   original: _gardeningHedgePlanting20.default
 }];
 const hedgePruningImages = [{
-  original: _gardeningHedgePruning.default
+  original: _gardeningHedgePruning5.default
 }, {
   original: _gardeningHedgePruning2.default
 }, {
   original: _gardeningHedgePruning3.default
 }, {
   original: _gardeningHedgePruning4.default
-}, {
-  original: _gardeningHedgePruning5.default
 }, {
   original: _gardeningHedgePruning6.default
 }, {
