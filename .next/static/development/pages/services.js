@@ -843,7 +843,7 @@ var blogs = [// intro 87 characters
 var services = [{
   title: 'Garden Maintenance',
   src: 'gardening-services1.jpeg',
-  desc: 'Greenscapes gardening services operate throughout the stockport and cheshire areas. We are proud of our professional service and the reputation we have built',
+  desc: 'Greenscapes gardening services operate throughout the Stockport and Cheshire areas. We are proud of our professional service and the reputation we have built',
   id: 'domestic-garden-maintenance'
 }, {
   title: 'Turfing',

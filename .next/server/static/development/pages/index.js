@@ -1002,7 +1002,7 @@ const options = {
   nav: false,
   dots: true,
   autoplayHoverPause: true,
-  autoplay: true,
+  autoplay: false,
   navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
   responsive: {
     0: {
@@ -1384,7 +1384,7 @@ const blogs = [// intro 87 characters
 const services = [{
   title: 'Garden Maintenance',
   src: 'gardening-services1.jpeg',
-  desc: 'Greenscapes gardening services operate throughout the stockport and cheshire areas. We are proud of our professional service and the reputation we have built',
+  desc: 'Greenscapes gardening services operate throughout the Stockport and Cheshire areas. We are proud of our professional service and the reputation we have built',
   id: 'domestic-garden-maintenance'
 }, {
   title: 'Turfing',

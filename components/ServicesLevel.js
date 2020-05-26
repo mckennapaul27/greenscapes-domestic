@@ -9,7 +9,7 @@ const options = {
     nav: false,
     dots: true,
     autoplayHoverPause: true,
-    autoplay: true,
+    autoplay: false,
     navText: [
         '<i class="fas fa-angle-left"></i>',
         '<i class="fas fa-angle-right"></i>'
