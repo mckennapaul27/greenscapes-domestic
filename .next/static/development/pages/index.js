@@ -1804,6 +1804,7 @@ module.exports = {
 
 var map = {
 	"./404.png": "./images/404.png",
+	"./Screen Shot 2020-05-26 at 15.11.58.png": "./images/Screen Shot 2020-05-26 at 15.11.58.png",
 	"./about-img1.jpg": "./images/about-img1.jpg",
 	"./agency-blog1.jpg": "./images/agency-blog1.jpg",
 	"./agency-blog2.jpg": "./images/agency-blog2.jpg",
@@ -2008,6 +2009,17 @@ webpackContext.id = "./images sync recursive ^\\.\\/.*$";
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/404-10a47ef7f85b7727abebbda1beb87167.png";
+
+/***/ }),
+
+/***/ "./images/Screen Shot 2020-05-26 at 15.11.58.png":
+/*!*******************************************************!*\
+  !*** ./images/Screen Shot 2020-05-26 at 15.11.58.png ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Screen Shot 2020-05-26 at 15.11.58-379b8c34a43f111d72032d92135b6f31.png";
 
 /***/ }),
 

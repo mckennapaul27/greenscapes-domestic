@@ -6,6 +6,7 @@ class MyDocument extends Document {
             <Html lang="en">
                 <Head>
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+                    <meta name="google-site-verification" content="Tahw9fanrLxKM0YJV76A8Vrd8rAgZxH3xBPpCphmLYE" />
                     <link rel="icon" type="image/png" href={require("../images/favicon.ico")}></link>
                 </Head>
                 <body>

@@ -13,14 +13,14 @@ app.prepare().then(() => {
 
     server.use(compression());
 
-    server.use(function(req, res, next) {
-        if(req.headers['x-forwarded-proto'] !== 'https' && process.env.NODE_ENV === 'production') {
-          const secureUrl = "https://" + req.headers['host'] + req.url; 
-          res.writeHead(301, { "Location":  secureUrl });
-          res.end();
-        }
-        next();
-    });   
+    // server.use(function(req, res, next) {
+    //     if(req.headers['x-forwarded-proto'] !== 'https' && process.env.NODE_ENV === 'production') {
+    //       const secureUrl = "https://" + req.headers['host'] + req.url; 
+    //       res.writeHead(301, { "Location":  secureUrl });
+    //       res.end();
+    //     }
+    //     next();
+    // });   
 
     server.get('/sitemap.xml', (req, res) => {
         const sitemap = path.join(__dirname, 'public', 'sitemap.xml')

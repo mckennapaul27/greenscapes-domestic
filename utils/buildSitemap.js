@@ -5,7 +5,7 @@ const path = require('path')
 const glob = require('glob')
 const fs = require('fs')
 // const { excludedRoutes } = require('../lib/slugs');
-const SITE_ROOT = process.env.SITE_ROOT || 'https://greenscapes-gardening.co.uk'
+const SITE_ROOT = process.env.SITE_ROOT || 'https://www.greenscapes-gardening.co.uk'
 const SOURCE = process.env.SOURCE || path.join(__dirname, '..', 'pages', '/**/*.js')
 const DESTINATION = process.env.DESTINATION || path.join(__dirname, '..', 'public', 'sitemap.xml')
 

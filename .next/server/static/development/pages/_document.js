@@ -1105,6 +1105,9 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Head"], null, __jsx("meta", {
       name: "viewport",
       content: "width=device-width, initial-scale=1, shrink-to-fit=no"
+    }), __jsx("meta", {
+      name: "google-site-verification",
+      content: "Tahw9fanrLxKM0YJV76A8Vrd8rAgZxH3xBPpCphmLYE"
     }), __jsx("link", {
       rel: "icon",
       type: "image/png",
