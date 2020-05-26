@@ -383,7 +383,8 @@ class Contact extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       });
     });
 
-    _defineProperty(this, "handleSubmit", () => {
+    _defineProperty(this, "handleSubmit", e => {
+      e.preventDefault();
       const {
         name,
         email,
@@ -395,6 +396,7 @@ class Contact extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         submitted: true
       }, () => {
         Object(_utils_sib_helpers__WEBPACK_IMPORTED_MODULE_2__["sendContactForm"])(name, email, subject, phone, message);
+        Object(_utils_sib_helpers__WEBPACK_IMPORTED_MODULE_2__["createNewContact"])(name, email, subject, phone, message);
         react_toastify__WEBPACK_IMPORTED_MODULE_3__["toast"].success(`Thanks ${name}. We have received your message and will be in contact very soon.`);
       });
     });
@@ -5490,10 +5492,30 @@ function sendContactForm(name, email, subject, phone, message) {
     EMAIL: email
   };
   apiInstance.sendTransacEmail(sendSmtpEmail).then(res => console.log(res)).catch(e => console.log(e));
+} // create new contact
+
+
+function createNewContact(name, email, subject, phone, message) {
+  const apiInstance = new SibApiV3Sdk.ContactsApi();
+  let createContact = new SibApiV3Sdk.CreateContact();
+  createContact.email = email;
+  createContact.attributes = {
+    FIRSTNAME: name,
+    PHONENUMBER: phone
+  };
+  createContact.listIds = [3];
+  apiInstance.createContact(createContact).then(res => {
+    console.log(res);
+    return {
+      success: true,
+      msg: 'User added'
+    };
+  }).catch(e => console.log(e));
 }
 
 module.exports = {
-  sendContactForm
+  sendContactForm,
+  createNewContact
 };
 
 /***/ }),

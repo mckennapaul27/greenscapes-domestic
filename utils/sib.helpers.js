@@ -42,6 +42,25 @@ function sendContactForm (name, email, subject, phone, message) {
     .catch(e => console.log(e))
 }
 
+// create new contact
+function createNewContact (name, email, subject, phone, message) {
+    const apiInstance = new SibApiV3Sdk.ContactsApi();
+    let createContact = new SibApiV3Sdk.CreateContact();
+    createContact.email = email;
+    createContact.attributes = {
+        FIRSTNAME: name,
+        PHONENUMBER: phone
+    }
+    createContact.listIds = [3];
+    apiInstance.createContact(createContact)
+    .then((res) => {
+        console.log(res)
+        return ({ success: true, msg: 'User added' })
+    })
+    .catch(e => console.log(e))
+}
+
 module.exports = {
-    sendContactForm
+    sendContactForm,
+    createNewContact
 }

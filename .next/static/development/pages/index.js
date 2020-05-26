@@ -399,7 +399,8 @@ var Contact = /*#__PURE__*/function (_Component) {
       _this.setState(Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])({}, name, value));
     });
 
-    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), "handleSubmit", function () {
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), "handleSubmit", function (e) {
+      e.preventDefault();
       var _this$state = _this.state,
           name = _this$state.name,
           email = _this$state.email,
@@ -411,6 +412,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         submitted: true
       }, function () {
         Object(_utils_sib_helpers__WEBPACK_IMPORTED_MODULE_9__["sendContactForm"])(name, email, subject, phone, message);
+        Object(_utils_sib_helpers__WEBPACK_IMPORTED_MODULE_9__["createNewContact"])(name, email, subject, phone, message);
         react_toastify__WEBPACK_IMPORTED_MODULE_10__["toast"].success("Thanks ".concat(name, ". We have received your message and will be in contact very soon."));
       });
     });
@@ -75666,10 +75668,32 @@ function sendContactForm(name, email, subject, phone, message) {
   })["catch"](function (e) {
     return console.log(e);
   });
+} // create new contact
+
+
+function createNewContact(name, email, subject, phone, message) {
+  var apiInstance = new SibApiV3Sdk.ContactsApi();
+  var createContact = new SibApiV3Sdk.CreateContact();
+  createContact.email = email;
+  createContact.attributes = {
+    FIRSTNAME: name,
+    PHONENUMBER: phone
+  };
+  createContact.listIds = [3];
+  apiInstance.createContact(createContact).then(function (res) {
+    console.log(res);
+    return {
+      success: true,
+      msg: 'User added'
+    };
+  })["catch"](function (e) {
+    return console.log(e);
+  });
 }
 
 module.exports = {
-  sendContactForm: sendContactForm
+  sendContactForm: sendContactForm,
+  createNewContact: createNewContact
 };
 
 /***/ }),

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-import { sendContactForm } from '../utils/sib.helpers';
+import { sendContactForm, createNewContact } from '../utils/sib.helpers';
 import { ToastContainer, toast } from 'react-toastify';
 import '../node_modules/react-toastify/dist/ReactToastify.css'
 class Contact extends Component {
@@ -24,13 +24,14 @@ class Contact extends Component {
         })
     }
 
-    handleSubmit = () => {
-
+    handleSubmit = (e) => {
+        e.preventDefault()
         const { name, email, subject, phone, message } = this.state;
         this.setState({
             submitted: true
         }, () => {
-            sendContactForm (name, email, subject, phone, message)
+            sendContactForm(name, email, subject, phone, message)
+            createNewContact(name, email, subject, phone, message)
             toast.success(`Thanks ${name}. We have received your message and will be in contact very soon.`);
         })
     }
