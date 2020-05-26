@@ -222,7 +222,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         className: "fas fa-globe"
       }), __jsx("span", null, "Website:"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
         href: "/"
-      }, __jsx("a", null, "https://greenscapes-gardening.co.uk/"))))))), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_10__["ToastContainer"], {
+      }, __jsx("a", null, "https://www.greenscapes-gardening.co.uk/"))))))), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_10__["ToastContainer"], {
         position: 'bottom-left',
         autoClose: 5000
       })));

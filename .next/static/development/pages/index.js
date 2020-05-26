@@ -544,7 +544,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         className: "fas fa-globe"
       }), __jsx("span", null, "Website:"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
         href: "/"
-      }, __jsx("a", null, "https://greenscapes-gardening.co.uk/"))))))), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_10__["ToastContainer"], {
+      }, __jsx("a", null, "https://www.greenscapes-gardening.co.uk/"))))))), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_10__["ToastContainer"], {
         position: 'bottom-left',
         autoClose: 5000
       })));
@@ -636,7 +636,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         href: "#"
       }, __jsx("a", null, "simon@greenscapes-gardening.co.uk"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "#"
-      }, __jsx("a", null, "https://greenscapes-gardening.co.uk")))))), __jsx("div", {
+      }, __jsx("a", null, "https://www.greenscapes-gardening.co.uk")))))), __jsx("div", {
         className: "col-lg-2 col-md-6"
       }), __jsx("div", {
         className: "col-lg-3 col-md-6"
@@ -75614,7 +75614,7 @@ var Index = /*#__PURE__*/function (_Component) {
       return __jsx(react__WEBPACK_IMPORTED_MODULE_5___default.a.Fragment, null, __jsx(_components_Layouts_SeoSection__WEBPACK_IMPORTED_MODULE_15__["default"], {
         title: "Greenscapes Gardening | Call Us Today",
         desc: "Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire",
-        url: "https://greenscapes-gardening.co.uk"
+        url: "https://www.greenscapes-gardening.co.uk"
       }), __jsx(_components_Layouts_NavbarOne__WEBPACK_IMPORTED_MODULE_6__["default"], null), __jsx(_components_Banner__WEBPACK_IMPORTED_MODULE_8__["default"], null), __jsx(_components_Partner__WEBPACK_IMPORTED_MODULE_9__["default"], null), __jsx(_components_About__WEBPACK_IMPORTED_MODULE_10__["default"], null), __jsx(_components_ServicesLevel__WEBPACK_IMPORTED_MODULE_14__["default"], null), __jsx(_components_Blog__WEBPACK_IMPORTED_MODULE_12__["default"], null), __jsx(_components_Contact__WEBPACK_IMPORTED_MODULE_13__["default"], null), __jsx(_components_Testimonials__WEBPACK_IMPORTED_MODULE_11__["default"], null), __jsx(_components_Layouts_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
     }
   }]);

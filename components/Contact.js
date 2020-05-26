@@ -125,7 +125,7 @@ class Contact extends Component {
                                     <li>
                                         <i className='fas fa-globe'></i>
                                         <span>Website:</span>
-                                        <Link href='/'><a>https://greenscapes-gardening.co.uk/</a></Link>
+                                        <Link href='/'><a>https://www.greenscapes-gardening.co.uk/</a></Link>
                                     </li>
                                 </ul>
                             </address>

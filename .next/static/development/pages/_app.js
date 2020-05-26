@@ -7619,7 +7619,7 @@ var MyApp = /*#__PURE__*/function (_App) {
         openGraph: {
           type: 'website',
           locale: 'en_GB',
-          url: 'https://greenscapes-gardening.co.uk',
+          url: 'https://www.greenscapes-gardening.co.uk',
           site_name: 'Greenscapes Gardening | Call Us Today'
         }
       }), __jsx(react_preloading_screen__WEBPACK_IMPORTED_MODULE_11__["Preloader"], null, __jsx(Component, pageProps), __jsx(_components_Shared_GoTop__WEBPACK_IMPORTED_MODULE_15__["default"], {

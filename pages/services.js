@@ -18,7 +18,7 @@ const Services = () => (
         <SeoSection 
             title='Our Services | Greenscapes Gardening'
             desc='We provide a range of services from domestic gardening, landscpaing, turfing and planting to large projects. No job is too big or too small. '
-            url='https://greenscapes-gardening.co.uk/services'
+            url='https://www.greenscapes-gardening.co.uk/services'
         />
         <NavbarTwo />
         <section className='page-title-area jarallax' data-jarallax="{'speed': 0.2}">

@@ -12,7 +12,7 @@ import SeoSection from '../components/Layouts/SeoSection';
         <SeoSection 
             title='Landscaping | Greenscapes Gardening'
             desc='Greenscapes specialises in driveways, patios, decking, composite decking, walling, fencing and any other landscaping needs you may have. '
-            url='https://greenscapes-gardening.co.uk/landscaping'
+            url='https://www.greenscapes-gardening.co.uk/landscaping'
         />
         <section className='page-title-area jarallax' data-jarallax="{'speed': 0.2}">
             <div className='container'>

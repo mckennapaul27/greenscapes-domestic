@@ -17,7 +17,7 @@ class Index extends Component {
                 <SeoSection 
                     title='Greenscapes Gardening | Call Us Today'
                     desc='Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire'
-                    url='https://greenscapes-gardening.co.uk'
+                    url='https://www.greenscapes-gardening.co.uk'
                 />
                 <NavbarOne />
                 <Banner />

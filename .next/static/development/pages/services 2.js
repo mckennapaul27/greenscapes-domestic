@@ -253,7 +253,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         className: "fas fa-globe"
       }), __jsx("span", null, "Website:"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
         href: "/"
-      }, __jsx("a", null, "https://greenscapes-gardening.co.uk/"))))))), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_10__["ToastContainer"], {
+      }, __jsx("a", null, "https://www.greenscapes-gardening.co.uk/"))))))), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_10__["ToastContainer"], {
         position: 'bottom-left',
         autoClose: 5000
       })));
@@ -345,7 +345,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         href: "#"
       }, __jsx("a", null, "simon@greenscapes-gardening.co.uk"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "#"
-      }, __jsx("a", null, "https://greenscapes-gardening.co.uk")))))), __jsx("div", {
+      }, __jsx("a", null, "https://www.greenscapes-gardening.co.uk")))))), __jsx("div", {
         className: "col-lg-2 col-md-6"
       }), __jsx("div", {
         className: "col-lg-3 col-md-6"
@@ -76362,7 +76362,7 @@ var Services = function Services() {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(_components_Layouts_SeoSection__WEBPACK_IMPORTED_MODULE_7__["default"], {
     title: "Our Services | Greenscapes Gardening",
     desc: "We provide a range of services from domestic gardening, landscpaing, turfing and planting to large projects. No job is too big or too small. ",
-    url: "https://greenscapes-gardening.co.uk/services"
+    url: "https://www.greenscapes-gardening.co.uk/services"
   }), __jsx(_components_Layouts_NavbarTwo__WEBPACK_IMPORTED_MODULE_2__["default"], null), __jsx("section", {
     "data-jarallax": "{'speed': 0.2}",
     className: "jsx-1467028609" + " " + 'page-title-area jarallax'

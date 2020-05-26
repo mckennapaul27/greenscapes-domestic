@@ -31,7 +31,7 @@ class Footer extends Component {
                                     </li>
                                     <li>
                                         <Link href='#'>
-                                            <a>https://greenscapes-gardening.co.uk</a>
+                                            <a>https://www.greenscapes-gardening.co.uk</a>
                                         </Link>
                                     </li>
                                 </ul>

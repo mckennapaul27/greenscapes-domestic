@@ -16,7 +16,7 @@ class Blog extends Component {
                 <SeoSection 
                     title='Blog | Greenscapes Gardening'
                     desc='Follow the Greenscapes Blog to keep up-to-date with all the latest news from Greenscapes, along with helpful gardening tips'
-                    url='https://greenscapes-gardening.co.uk/blog'
+                    url='https://www.greenscapes-gardening.co.uk/blog'
                 />
                 <section className='page-title-area jarallax' data-jarallax="{'speed': 0.2}">
                     <div className='container'>

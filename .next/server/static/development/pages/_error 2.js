@@ -144,7 +144,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       href: "#"
     }, __jsx("a", null, "simon@greenscapes-gardening.co.uk"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "#"
-    }, __jsx("a", null, "https://greenscapes-gardening.co.uk")))))), __jsx("div", {
+    }, __jsx("a", null, "https://www.greenscapes-gardening.co.uk")))))), __jsx("div", {
       className: "col-lg-2 col-md-6"
     }), __jsx("div", {
       className: "col-lg-3 col-md-6"
