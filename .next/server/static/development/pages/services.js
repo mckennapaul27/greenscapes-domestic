@@ -3802,8 +3802,8 @@ function sendContactForm(name, email, subject, phone, message) {
   sendSmtpEmail.to = [{
     email: email,
     name: name
-  }, {
-    name: 'Greenscapes Gardening',
+  }];
+  sendSmtpEmail.bcc = [{
     email: 'simon@greenscapes-gardening.co.uk'
   }];
   sendSmtpEmail.replyTo = {

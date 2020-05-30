@@ -25,9 +25,11 @@ function sendContactForm (name, email, subject, phone, message) {
         email: 'simon@greenscapes-gardening.co.uk'
     }
     sendSmtpEmail.to = [
-        { email: email, name: name }, 
-        { name: 'Greenscapes Gardening', email: 'simon@greenscapes-gardening.co.uk' }
+        { email: email, name: name }        
     ];
+    sendSmtpEmail.bcc = [{
+        email: 'simon@greenscapes-gardening.co.uk'
+    }]
     sendSmtpEmail.replyTo = { email: email };
     sendSmtpEmail.templateId = 1;
     sendSmtpEmail.tags = ['support'];
