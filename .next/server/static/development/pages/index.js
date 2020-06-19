@@ -101,7 +101,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -572,11 +572,18 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("div", {
       className: "logo"
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/agency"
+      href: "/"
     }, __jsx("a", null, __jsx("img", {
       src: __webpack_require__(/*! ../../images/gardening-logo-transparent.png */ "./images/gardening-logo-transparent.png"),
       style: {
         maxWidth: '150px'
+      }
+    }))), __jsx("div", null, __jsx("a", {
+      href: "https://www.greenscapes-commercial.co.uk/"
+    }, __jsx("img", {
+      src: __webpack_require__(/*! ../../images/green-trans.png */ "./images/green-trans.png"),
+      style: {
+        maxWidth: '125px'
       }
     })))), __jsx("ul", {
       className: "contact-info"
@@ -585,9 +592,9 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, "07772 656034"), __jsx("a", {
       href: "tel:0161 425 0035"
     }, "0161 425 0035")), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
+      href: "mailto: simon@greenscapes-gardening.co.uk"
     }, __jsx("a", null, "simon@greenscapes-gardening.co.uk"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
+      href: "/"
     }, __jsx("a", null, "https://www.greenscapes-gardening.co.uk")))))), __jsx("div", {
       className: "col-lg-2 col-md-6"
     }), __jsx("div", {
@@ -1236,6 +1243,8 @@ var _gardeningDomestic11 = _interopRequireDefault(__webpack_require__(/*! ../ima
 
 var _gardeningDomestic12 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic13.jpeg */ "./images/gardening-domestic13.jpeg"));
 
+var _gardeningDomestic13 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic14.jpeg */ "./images/gardening-domestic14.jpeg"));
+
 var _gardeningTurfing = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-turfing1.jpeg */ "./images/gardening-turfing1.jpeg"));
 
 var _gardeningTurfing2 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-turfing2.jpeg */ "./images/gardening-turfing2.jpeg"));
@@ -1258,7 +1267,7 @@ var _gardeningTurfing10 = _interopRequireDefault(__webpack_require__(/*! ../imag
 
 var _gardeningTurfing11 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-turfing11.jpeg */ "./images/gardening-turfing11.jpeg"));
 
-var _gardeningDomestic13 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic3.jpeg */ "./images/gardening-domestic3.jpeg"));
+var _gardeningDomestic14 = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-domestic3.jpeg */ "./images/gardening-domestic3.jpeg"));
 
 var _gardeningServices = _interopRequireDefault(__webpack_require__(/*! ../images/gardening-services1.jpeg */ "./images/gardening-services1.jpeg"));
 
@@ -1509,7 +1518,7 @@ const turfingImages = [// { original: turfing1 },
 }, {
   original: _gardeningTurfing11.default
 }, {
-  original: _gardeningDomestic13.default
+  original: _gardeningDomestic14.default
 }, {
   original: _gardeningHedgePruning.default
 }];
@@ -1661,6 +1670,7 @@ var map = {
 	"./gardening-domestic11.jpeg": "./images/gardening-domestic11.jpeg",
 	"./gardening-domestic12.jpeg": "./images/gardening-domestic12.jpeg",
 	"./gardening-domestic13.jpeg": "./images/gardening-domestic13.jpeg",
+	"./gardening-domestic14.jpeg": "./images/gardening-domestic14.jpeg",
 	"./gardening-domestic2.jpeg": "./images/gardening-domestic2.jpeg",
 	"./gardening-domestic3.jpeg": "./images/gardening-domestic3.jpeg",
 	"./gardening-domestic4.jpeg": "./images/gardening-domestic4.jpeg",
@@ -1733,6 +1743,7 @@ var map = {
 	"./gardening-turfing9.jpeg": "./images/gardening-turfing9.jpeg",
 	"./gardening-van.jpg": "./images/gardening-van.jpg",
 	"./gardening-van2.jpeg": "./images/gardening-van2.jpeg",
+	"./green-trans.png": "./images/green-trans.png",
 	"./greenscapes-test.png": "./images/greenscapes-test.png",
 	"./icon-facebook.png": "./images/icon-facebook.png",
 	"./icon1.png": "./images/icon1.png",
@@ -2506,6 +2517,17 @@ module.exports = "/_next/static/images/gardening-domestic12-c27e15cc0afda100143e
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/gardening-domestic13-b7d37d43bc8b9a473ff1386e102075c0.jpeg";
+
+/***/ }),
+
+/***/ "./images/gardening-domestic14.jpeg":
+/*!******************************************!*\
+  !*** ./images/gardening-domestic14.jpeg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gardening-domestic14-98b4e21b834526f9429de01c240c759e.jpeg";
 
 /***/ }),
 
@@ -3298,6 +3320,17 @@ module.exports = "/_next/static/images/gardening-van-32434b228be0445b90e72c0e982
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/gardening-van2-f3401130c90d750e907082a6faf32a08.jpeg";
+
+/***/ }),
+
+/***/ "./images/green-trans.png":
+/*!********************************!*\
+  !*** ./images/green-trans.png ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/green-trans-445e6ac2f1dfea8c2b6e0ac6308bf7be.png";
 
 /***/ }),
 
@@ -5529,7 +5562,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

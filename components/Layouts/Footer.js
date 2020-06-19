@@ -11,11 +11,16 @@ class Footer extends Component {
                         <div className='col-lg-4 col-md-6'>
                             <div className='single-footer-widget'>
                                 <div className='logo'>
-                                    <Link href='/agency'>
+                                    <Link href='/'>
                                         <a>
                                             <img src={require('../../images/gardening-logo-transparent.png')} style={{ maxWidth: '150px' }} />
                                         </a>
                                     </Link>
+                                    <div>
+                                    <a href='https://www.greenscapes-commercial.co.uk/'>
+                                        <img src={require('../../images/green-trans.png')} style={{ maxWidth: '125px' }} />
+                                    </a>
+                                    </div>
                                 </div>
         
                                 <ul className='contact-info'>
@@ -25,12 +30,12 @@ class Footer extends Component {
                                         <a href='tel:0161 425 0035'>0161 425 0035</a>
                                     </li>
                                     <li>
-                                        <Link href='#'>
+                                        <Link href='mailto: simon@greenscapes-gardening.co.uk'>
                                             <a>simon@greenscapes-gardening.co.uk</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href='#'>
+                                        <Link href='/'>
                                             <a>https://www.greenscapes-gardening.co.uk</a>
                                         </Link>
                                     </li>

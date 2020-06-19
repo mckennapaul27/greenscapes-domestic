@@ -23,6 +23,7 @@ import domestic10 from '../images/gardening-domestic10.jpeg';
 import domestic11 from '../images/gardening-domestic11.jpeg';
 import domestic12 from '../images/gardening-domestic12.jpeg';
 import domestic13 from '../images/gardening-domestic13.jpeg';
+import domestic14 from '../images/gardening-domestic14.jpeg';
 
 import turfing1 from '../images/gardening-turfing1.jpeg';
 import turfing2 from '../images/gardening-turfing2.jpeg';
