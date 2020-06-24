@@ -33,7 +33,7 @@ import SeoSection from '../components/Layouts/SeoSection';
                                 </ul>
                             </div>
                             
-                            <p>Here at Greenscapes we specialise in driveways, patios, decking, composite decking, walling, fencing and any other landscaping needs you may have. Our landscaping teams and contractors we work closely with will deliver the garden you have dreamed about.</p>
+                            <p>Here at Greenscapes we specialise in driveways, patios, walling, fencing and any other landscaping needs you may have. Our landscaping teams and contractors we work closely with will deliver the garden you have dreamed about.</p>
                             <p>Covering the whole South Manchester and Cheshire from Didsbury over to Bramhall, Wilmslow, Heald Green, Cheadle, Cheadle Hulme and surrounding areas. No job is too big or too small.</p>
                             <blockquote className='blockquote'>
                                 <p>Covering the whole South Manchester and Cheshire from Didsbury over to Bramhall, Wilmslow, Heald Green, Cheadle, Cheadle Hulme and surrounding areas. No job is too big or too small.</p>
