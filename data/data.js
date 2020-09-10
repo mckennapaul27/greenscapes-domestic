@@ -105,7 +105,7 @@ const blogs = [ // intro 87 characters
         title: 'Gardening Legalities', 
         intro: 'By law you are can trim any overhanging leaves and branches up to the boundary line',
         link: 'garden-maintenance-legals-wilmslow',
-        img: 'gardening-blog4.png',
+        img: 'gardening-blog3.png',
         tag: 'Garden Tips' 
     },
     { 
