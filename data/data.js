@@ -158,7 +158,7 @@ const services = [
     { 
         title: 'Landscaping', 
         src: 'gardening-servicesLandscaping.jpeg', 
-        desc: 'Here at Greenscapes we specialise in driveways, patios, decking, composite decking, walling, fencing and any other landscaping needs you may have',
+        desc: 'Here at Greenscapes we specialise in soft landscaping',
         id: 'landscaping'  
     },
     { 
@@ -182,18 +182,18 @@ const services = [
 ]
 
 const landscapingImages = [
-    { original: l1, thumbnail: l1, },
-    { original: l2, thumbnail: l2, },
-    { original: l3, thumbnail: l3, },
-    { original: l4, thumbnail: l4, },
+    // { original: l1, thumbnail: l1, },
+    // { original: l2, thumbnail: l2, },
+    // { original: l3, thumbnail: l3, },
+    // { original: l4, thumbnail: l4, },
     { original: l5, thumbnail: l5, },
     { original: l6, thumbnail: l6, },
-    { original: l7, thumbnail: l7, },
-    { original: l8, thumbnail: l8, },
-    { original: l9, thumbnail: l9, },
-    { original: l10, thumbnail: l10, },
-    { original: l11, thumbnail: l11, },
-    { original: l12, thumbnail: l12, }
+    // { original: l7, thumbnail: l7, },
+    // { original: l8, thumbnail: l8, },
+    // { original: l9, thumbnail: l9, },
+    // { original: l10, thumbnail: l10, },
+    // { original: l11, thumbnail: l11, },
+    // { original: l12, thumbnail: l12, }
 ]
 
 const domesticImages = [

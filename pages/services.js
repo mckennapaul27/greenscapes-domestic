@@ -82,7 +82,7 @@ const Services = () => (
                                 <div className='col-lg-6 col-md-12'>
                                     <br/>
                                     <h3>Landscaping</h3>
-                                    <p>Here at Greenscapes we specialise in driveways, patios, decking, composite decking, walling, fencing and any other landscaping needs you may have.</p>
+                                    <p>Here at Greenscapes we specialise in soft landscaping needs you may have.</p>
                                     <p>Our landscaping teams and contractors we work closely with will deliver the garden you have dreamed about. </p>
                                     <br/>
                                 </div>

@@ -24,7 +24,7 @@ import SeoSection from '../components/Layouts/SeoSection';
                 <div className='row'>
                     <div className='col-lg-12 col-md-12'>
                         <div className='blog-details'>
-                            <h2>Hard &amp; Soft Landscaping</h2>
+                            <h2>Landscaping</h2>
                             <div className='blog-meta'>
                                 <ul>
                                     <li><i className='fas fa-user'></i> <a>Admin</a></li>
@@ -33,7 +33,7 @@ import SeoSection from '../components/Layouts/SeoSection';
                                 </ul>
                             </div>
                             
-                            <p>Here at Greenscapes we specialise in driveways, patios, walling, fencing and any other landscaping needs you may have. Our landscaping teams and contractors we work closely with will deliver the garden you have dreamed about.</p>
+                            {/* <p>Here at Greenscapes we specialise in driveways, patios, walling, fencing and any other landscaping needs you may have. Our landscaping teams and contractors we work closely with will deliver the garden you have dreamed about.</p> */}
                             <p>Covering the whole South Manchester and Cheshire from Didsbury over to Bramhall, Wilmslow, Heald Green, Cheadle, Cheadle Hulme and surrounding areas. No job is too big or too small.</p>
                             <blockquote className='blockquote'>
                                 <p>Covering the whole South Manchester and Cheshire from Didsbury over to Bramhall, Wilmslow, Heald Green, Cheadle, Cheadle Hulme and surrounding areas. No job is too big or too small.</p>
@@ -51,7 +51,7 @@ import SeoSection from '../components/Layouts/SeoSection';
                                     <p><span><i className='fa fa-check-circle'></i> Weed control &amp; advice</span></p>
                                     <p><span><i className='fa fa-check-circle'></i> Pathways and driveways laid</span></p>
                                 </div>
-                                <div className='col-lg-6 col-md-12'>
+                                {/* <div className='col-lg-6 col-md-12'>
                                     <br/>
                                     <h3>Hard Landscaping</h3>
                                     <p><span><i className='fa fa-check-circle'></i> Patios</span></p>
@@ -67,7 +67,7 @@ import SeoSection from '../components/Layouts/SeoSection';
                                     <p><span><i className='fa fa-check-circle'></i> Wildlife gardens &amp; wildlife ponds</span></p>
                                     <p><span><i className='fa fa-check-circle'></i> Terrace gardens &amp; roof terraces</span></p>
                                     <p><span><i className='fa fa-check-circle'></i> Artificial lawns</span></p>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <br/>
@@ -84,7 +84,7 @@ import SeoSection from '../components/Layouts/SeoSection';
                                     <ul className='tag'>
                                         <li><span>Tags:</span></li>
                                         <li><a>Soft Landscaping</a></li>
-                                        <li><a>Hard Landscaping</a></li>
+                                        {/* <li><a>Hard Landscaping</a></li> */}
                                     </ul>
                                 </div>
                                 {/* <div className='col-lg-6 col-md-5'>
