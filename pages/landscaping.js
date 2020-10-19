@@ -49,7 +49,7 @@ import SeoSection from '../components/Layouts/SeoSection';
                                     <p><span><i className='fa fa-check-circle'></i> Bulbs supplied and planted</span></p>
                                     <p><span><i className='fa fa-check-circle'></i> Trees supplied and planted</span></p>
                                     <p><span><i className='fa fa-check-circle'></i> Weed control &amp; advice</span></p>
-                                    <p><span><i className='fa fa-check-circle'></i> Pathways and driveways laid</span></p>
+                                    {/* <p><span><i className='fa fa-check-circle'></i> Pathways and driveways laid</span></p> */}
                                 </div>
                                 {/* <div className='col-lg-6 col-md-12'>
                                     <br/>
