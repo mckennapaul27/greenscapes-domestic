@@ -6651,3 +6651,17 @@ Go Top CSS
   font-weight: 600 !important;
 }
 /*# sourceMappingURL=style.css.map */
+
+#logo-group .logo-group-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#logo-group .logo-group-box a {
+  padding: 0.5rem;
+}
+
+#logo-group .logo-group-box a img {
+  max-width: 125px;
+}

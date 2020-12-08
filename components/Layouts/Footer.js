@@ -10,16 +10,21 @@ class Footer extends Component {
                     <div className='row'>
                         <div className='col-lg-4 col-md-6'>
                             <div className='single-footer-widget'>
-                                <div className='logo'>
-                                    <Link href='/'>
-                                        <a>
-                                            <img src={require('../../images/gardening-logo-transparent.png')} style={{ maxWidth: '150px' }} />
-                                        </a>
-                                    </Link>
-                                    <div>
-                                    <a href='https://www.greenscapes-commercial.co.uk/'>
-                                        <img src={require('../../images/green-trans.png')} style={{ maxWidth: '125px' }} />
-                                    </a>
+                                <div id='logo-group'>
+                                    <div className='logo-group-box'>
+                                        {/* <Link href='/'>
+                                            <a>
+                                                <img src={require('../../images/gardening-logo-transparent.png')} style={{ maxWidth: '150px' }} />
+                                            </a>
+                                        </Link> */}
+                                        
+                                            <a href='https://www.greenscapes-commercial.co.uk/'>
+                                                <img src={require('../../images/green-trans.png')}  />
+                                            </a>
+                                    
+                                            <a href='https://www.greenscapes-powerwashing.co.uk/'>
+                                                <img src={require('../../images/greenscapes-pw.png')}  />
+                                            </a>
                                     </div>
                                 </div>
         

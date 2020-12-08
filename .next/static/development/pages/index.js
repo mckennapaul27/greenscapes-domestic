@@ -104,7 +104,7 @@ var About = /*#__PURE__*/function (_Component) {
       }, __jsx("i", {
         className: "fas fa-thumbs-up"
       })), __jsx("h3", null, "Best result")), __jsx("p", null, "We always offer you the best by being able to meet any demand needed, which shows with the repeat customers who love the end result and reliability of Greenscapes.")))), __jsx("a", {
-        href: "tel:07772 656034",
+        href: "tel:0161 425 0035",
         className: "btn btn-primary"
       }, "Call Greenscapes Today"))))), __jsx("div", {
         className: "circle"
@@ -616,21 +616,17 @@ var Footer = /*#__PURE__*/function (_Component) {
       }, __jsx("div", {
         className: "single-footer-widget"
       }, __jsx("div", {
-        className: "logo"
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/"
-      }, __jsx("a", null, __jsx("img", {
-        src: __webpack_require__(/*! ../../images/gardening-logo-transparent.png */ "./images/gardening-logo-transparent.png"),
-        style: {
-          maxWidth: '150px'
-        }
-      }))), __jsx("div", null, __jsx("a", {
+        id: "logo-group"
+      }, __jsx("div", {
+        className: "logo-group-box"
+      }, __jsx("a", {
         href: "https://www.greenscapes-commercial.co.uk/"
       }, __jsx("img", {
-        src: __webpack_require__(/*! ../../images/green-trans.png */ "./images/green-trans.png"),
-        style: {
-          maxWidth: '125px'
-        }
+        src: __webpack_require__(/*! ../../images/green-trans.png */ "./images/green-trans.png")
+      })), __jsx("a", {
+        href: "https://www.greenscapes-powerwashing.co.uk/"
+      }, __jsx("img", {
+        src: __webpack_require__(/*! ../../images/greenscapes-pw.png */ "./images/greenscapes-pw.png")
       })))), __jsx("ul", {
         className: "contact-info"
       }, __jsx("li", null, "Seal Rd, Bramhall, Stockport"), __jsx("li", null, __jsx("a", {
@@ -1925,6 +1921,7 @@ var map = {
 	"./gardening-van.jpg": "./images/gardening-van.jpg",
 	"./gardening-van2.jpeg": "./images/gardening-van2.jpeg",
 	"./green-trans.png": "./images/green-trans.png",
+	"./greenscapes-pw.png": "./images/greenscapes-pw.png",
 	"./greenscapes-test.png": "./images/greenscapes-test.png",
 	"./icon-facebook.png": "./images/icon-facebook.png",
 	"./icon1.png": "./images/icon1.png",
@@ -3490,6 +3487,17 @@ module.exports = "/_next/static/images/gardening-van2-f3401130c90d750e907082a6fa
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/green-trans-445e6ac2f1dfea8c2b6e0ac6308bf7be.png";
+
+/***/ }),
+
+/***/ "./images/greenscapes-pw.png":
+/*!***********************************!*\
+  !*** ./images/greenscapes-pw.png ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/greenscapes-pw-92b95e06abccb624100243e19b6a8d42.png";
 
 /***/ }),
 
@@ -41792,7 +41800,7 @@ try {
     if (true) {
       var fs;
       try {
-        fs = __webpack_require__(/*! fs */ 8);
+        fs = __webpack_require__(/*! fs */ 9);
       } catch (err) {}
       if (fs && fs.ReadStream && param instanceof fs.ReadStream) {
         return true;
@@ -75692,7 +75700,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 12:
+/***/ 7:
 /*!*******************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fuser1%2FDocuments%2Fdevelopment%2Fgreenscapes%2Fgreenscapes-domestic%2Fpages%2Findex.js ***!
   \*******************************************************************************************************************************************************************/
@@ -75704,7 +75712,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 
 /***/ }),
 
-/***/ 8:
+/***/ 9:
 /*!********************!*\
   !*** fs (ignored) ***!
   \********************/
@@ -75726,5 +75734,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[12,"static/runtime/webpack.js","styles"]]]);
+},[[7,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
