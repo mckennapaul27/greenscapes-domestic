@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-import { sendContactForm, createNewContact } from '../utils/sib.helpers';
+// import { sendContactForm, createNewContact } from '../utils/sib.helpers';
 import { ToastContainer, toast } from 'react-toastify';
 import '../node_modules/react-toastify/dist/ReactToastify.css'
+import axios from 'axios';
+
 class Contact extends Component {
 
     state = {
@@ -24,16 +26,36 @@ class Contact extends Component {
         })
     }
 
+    // handleSubmit = (e) => {
+    //     e.preventDefault()
+    //     const { name, email, subject, phone, message } = this.state;
+    //     this.setState({
+    //         submitted: true
+    //     }, () => {
+    //         sendContactForm(name, email, subject, phone, message)
+    //         // createNewContact(name, email, subject, phone, message)
+    //         toast.success(`Thanks ${name}. We have received your message and will be in contact very soon.`);
+    //     })
+    // }
+
     handleSubmit = (e) => {
-        e.preventDefault()
-        const { name, email, subject, phone, message } = this.state;
-        this.setState({
-            submitted: true
-        }, () => {
-            sendContactForm(name, email, subject, phone, message)
-            createNewContact(name, email, subject, phone, message)
-            toast.success(`Thanks ${name}. We have received your message and will be in contact very soon.`);
-        })
+        e.preventDefault();
+        let { name, email, phone, subject, message } = this.state;   
+        axios.post(`/api/contact`, { name, email, phone, subject, message })
+        .then((res) => {
+            console.log('This is the result', res)
+            if (res.data.success) {
+                this.setState({
+                    // buttonText: <a><span>Message sent <i className='fa fa-check'></i></span></a>,
+                    submitted: true
+                }, () => {
+                    toast.success(`Thanks ${name}. We have received your message and will be in contact very soon.`);
+                })
+            }            
+        })     
+        .catch(error => {
+            console.log(error);
+        })   
     }
 
     render() {

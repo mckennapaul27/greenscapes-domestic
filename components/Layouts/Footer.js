@@ -35,9 +35,9 @@ class Footer extends Component {
                                         <a href='tel:0161 425 0035'>0161 425 0035</a>
                                     </li>
                                     <li>
-                                        <Link href='mailto: simon@greenscapes-gardening.co.uk'>
-                                            <a>simon@greenscapes-gardening.co.uk</a>
-                                        </Link>
+                                        <a href='mailto: simon@greenscapes-gardening.co.uk'>
+                                            simon@greenscapes-gardening.co.uk
+                                        </a>
                                     </li>
                                     <li>
                                         <Link href='/'>

@@ -2,16 +2,21 @@ const express = require('express');
 const next = require('next');
 const path = require('path');
 const compression = require('compression');
+const bodyParser = require('body-parser');
 
 const dev = process.env.NODE_ENV !== 'production';
 
 const app = next({ dir: '.', dev });
 const handle = app.getRequestHandler();
 
+const { sendContactForm } = require('./utils/nodemailer')
+
 app.prepare().then(() => {
     const server = express();
 
     server.use(compression());
+
+    server.use(bodyParser.json());
 
     // server.use(function(req, res, next) {
     //     if(req.headers['x-forwarded-proto'] !== 'https' && process.env.NODE_ENV === 'production') {
@@ -30,6 +35,8 @@ app.prepare().then(() => {
     server.use('/images', express.static(path.join(__dirname, 'images'), {
         maxAge: dev ? '0' : '365d'
     }));
+
+    server.post('/api/contact', sendContactForm);
 
     server.get('*', (req, res) => {
         return handle(req, res)

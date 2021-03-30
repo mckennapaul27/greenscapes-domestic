@@ -345,17 +345,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _utils_sib_helpers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/sib.helpers */ "./utils/sib.helpers.js");
-/* harmony import */ var _utils_sib_helpers__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_utils_sib_helpers__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-toastify */ "react-toastify");
-/* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_toastify__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _node_modules_react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../node_modules/react-toastify/dist/ReactToastify.css */ "./node_modules/react-toastify/dist/ReactToastify.css");
-/* harmony import */ var _node_modules_react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-toastify */ "react-toastify");
+/* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_toastify__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/react-toastify/dist/ReactToastify.css */ "./node_modules/react-toastify/dist/ReactToastify.css");
+/* harmony import */ var _node_modules_react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
+ // import { sendContactForm, createNewContact } from '../utils/sib.helpers';
 
 
 
@@ -385,19 +386,32 @@ class Contact extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
     _defineProperty(this, "handleSubmit", e => {
       e.preventDefault();
-      const {
+      let {
         name,
         email,
-        subject,
         phone,
+        subject,
         message
       } = this.state;
-      this.setState({
-        submitted: true
-      }, () => {
-        Object(_utils_sib_helpers__WEBPACK_IMPORTED_MODULE_2__["sendContactForm"])(name, email, subject, phone, message);
-        Object(_utils_sib_helpers__WEBPACK_IMPORTED_MODULE_2__["createNewContact"])(name, email, subject, phone, message);
-        react_toastify__WEBPACK_IMPORTED_MODULE_3__["toast"].success(`Thanks ${name}. We have received your message and will be in contact very soon.`);
+      axios__WEBPACK_IMPORTED_MODULE_4___default.a.post(`/api/contact`, {
+        name,
+        email,
+        phone,
+        subject,
+        message
+      }).then(res => {
+        console.log('This is the result', res);
+
+        if (res.data.success) {
+          this.setState({
+            // buttonText: <a><span>Message sent <i className='fa fa-check'></i></span></a>,
+            submitted: true
+          }, () => {
+            react_toastify__WEBPACK_IMPORTED_MODULE_2__["toast"].success(`Thanks ${name}. We have received your message and will be in contact very soon.`);
+          });
+        }
+      }).catch(error => {
+        console.log(error);
       });
     });
   }
@@ -523,7 +537,7 @@ class Contact extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "fas fa-globe"
     }), __jsx("span", null, "Website:"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/"
-    }, __jsx("a", null, "https://www.greenscapes-gardening.co.uk/"))))))), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_3__["ToastContainer"], {
+    }, __jsx("a", null, "https://www.greenscapes-gardening.co.uk/"))))))), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_2__["ToastContainer"], {
       position: 'bottom-left',
       autoClose: 5000
     })));
@@ -583,9 +597,9 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "contact-info"
     }, __jsx("li", null, "Seal Rd, Bramhall, Stockport"), __jsx("li", null, __jsx("a", {
       href: "tel:0161 425 0035"
-    }, "0161 425 0035")), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    }, "0161 425 0035")), __jsx("li", null, __jsx("a", {
       href: "mailto: simon@greenscapes-gardening.co.uk"
-    }, __jsx("a", null, "simon@greenscapes-gardening.co.uk"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    }, "simon@greenscapes-gardening.co.uk")), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/"
     }, __jsx("a", null, "https://www.greenscapes-gardening.co.uk")))))), __jsx("div", {
       className: "col-lg-2 col-md-6"
@@ -786,7 +800,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_2___default.a, {
       onClick: this.toggleNavbar,
       href: "#about"
-    }, __jsx("a", {
+    }, __jsx("button", {
       className: "nav-link"
     }, "About"))), __jsx("li", {
       className: "nav-item"
@@ -5447,81 +5461,6 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 /***/ }),
 
-/***/ "./utils/sib.helpers.js":
-/*!******************************!*\
-  !*** ./utils/sib.helpers.js ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// const path = require('path');
-// require('dotenv').config({path: path.join(__dirname, '../.env')});
-const SibApiV3Sdk = __webpack_require__(/*! sib-api-v3-sdk */ "sib-api-v3-sdk"); // console.log(SibApiV3Sdk.ApiClient.instance)
-
-
-const defaultClient = SibApiV3Sdk.ApiClient.instance; // const moment = require('moment');
-// Configure API key authorization: api-key
-
-let apiKey = defaultClient.authentications['api-key'];
-apiKey.apiKey = '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'; // // // Configure API key authorization: partner-key
-// let partnerKey = defaultClient.authentications['partner-key'];
-// partnerKey.apiKey = process.env.SIBKEY;
-// // send contact form submitted
-
-function sendContactForm(name, email, subject, phone, message) {
-  const apiInstance = new SibApiV3Sdk.SMTPApi();
-  let sendSmtpEmail = new SibApiV3Sdk.SendSmtpEmail();
-  sendSmtpEmail.sender = {
-    name: 'Greenscapes Gardening Sevices',
-    email: 'simon@greenscapes-gardening.co.uk'
-  };
-  sendSmtpEmail.to = [{
-    email: email,
-    name: name
-  }];
-  sendSmtpEmail.bcc = [{
-    email: 'simon@greenscapes-gardening.co.uk'
-  }];
-  sendSmtpEmail.replyTo = {
-    email: email
-  };
-  sendSmtpEmail.templateId = 1;
-  sendSmtpEmail.tags = ['support'];
-  sendSmtpEmail.params = {
-    FIRSTNAME: name,
-    MESSAGE: message,
-    PHONE: phone,
-    EMAIL: email
-  };
-  apiInstance.sendTransacEmail(sendSmtpEmail).then(res => console.log(res)).catch(e => console.log(e));
-} // create new contact
-
-
-function createNewContact(name, email, subject, phone, message) {
-  const apiInstance = new SibApiV3Sdk.ContactsApi();
-  let createContact = new SibApiV3Sdk.CreateContact();
-  createContact.email = email;
-  createContact.attributes = {
-    FIRSTNAME: name,
-    PHONENUMBER: phone
-  };
-  createContact.listIds = [3];
-  apiInstance.createContact(createContact).then(res => {
-    console.log(res);
-    return {
-      success: true,
-      msg: 'User added'
-    };
-  }).catch(e => console.log(e));
-}
-
-module.exports = {
-  sendContactForm,
-  createNewContact
-};
-
-/***/ }),
-
 /***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
@@ -5531,6 +5470,17 @@ module.exports = {
 
 module.exports = __webpack_require__(/*! /Users/user1/Documents/development/greenscapes/greenscapes-domestic/pages/index.js */"./pages/index.js");
 
+
+/***/ }),
+
+/***/ "axios":
+/*!************************!*\
+  !*** external "axios" ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("axios");
 
 /***/ }),
 
@@ -5652,17 +5602,6 @@ module.exports = require("react-owl-carousel3");
 /***/ (function(module, exports) {
 
 module.exports = require("react-toastify");
-
-/***/ }),
-
-/***/ "sib-api-v3-sdk":
-/*!*********************************!*\
-  !*** external "sib-api-v3-sdk" ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("sib-api-v3-sdk");
 
 /***/ }),
 

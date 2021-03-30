@@ -1,5 +1,5 @@
-// const path = require('path');
-// require('dotenv').config({path: path.join(__dirname, '../.env')});
+const path = require('path');
+require('dotenv').config({path: path.join(__dirname, '../.env')});
 
 const SibApiV3Sdk = require('sib-api-v3-sdk');
 // console.log(SibApiV3Sdk.ApiClient.instance)
@@ -16,10 +16,11 @@ apiKey.apiKey = 'xkeysib-c8d38047b1d71ce1c5923c7cd8d8b1ac1ac39f1cf95483ce41f4109
 // partnerKey.apiKey = process.env.SIBKEY;
 
 // // send contact form submitted
-function sendContactForm (name, email, subject, phone, message) {
-    const apiInstance = new SibApiV3Sdk.SMTPApi();
+async function sendContactForm (name, email, subject, phone, message) {
+    const apiInstance = new SibApiV3Sdk.TransactionalEmailsApi();
     let sendSmtpEmail = new SibApiV3Sdk.SendSmtpEmail();
-    
+    console.log('called')
+
     sendSmtpEmail.sender = {
         name: 'Greenscapes Gardening Sevices',
         email: 'simon@greenscapes-gardening.co.uk'
@@ -39,9 +40,14 @@ function sendContactForm (name, email, subject, phone, message) {
         PHONE: phone,
         EMAIL: email
     }
-    apiInstance.sendTransacEmail(sendSmtpEmail)
-    .then(res => console.log(res))
-    .catch(e => console.log(e))
+    try {
+        const res = await apiInstance.sendTransacEmail(sendSmtpEmail);
+        console.log(res);
+        Promise.resolve(res);
+    } catch (error) {
+        console.log(error);
+        Promise.reject(error);
+    }
 }
 
 // create new contact
