@@ -86,7 +86,7 @@ class NavbarOne extends Component {
                                 <AnchorLink 
                                     onClick={this.toggleNavbar} 
                                     href='#about'>
-                                    <button className='nav-link'>About</button>
+                                    <a className='nav-link'>About</a>
                                 </AnchorLink>
                             </li>
                             <li className='nav-item'>                                

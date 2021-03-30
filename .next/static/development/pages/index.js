@@ -880,7 +880,7 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
       }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_9___default.a, {
         onClick: this.toggleNavbar,
         href: "#about"
-      }, __jsx("button", {
+      }, __jsx("a", {
         className: "nav-link"
       }, "About"))), __jsx("li", {
         className: "nav-item"
@@ -42271,7 +42271,7 @@ var Index = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ 7:
+/***/ 8:
 /*!*******************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fuser1%2FDocuments%2Fdevelopment%2Fgreenscapes%2Fgreenscapes-domestic%2Fpages%2Findex.js ***!
   \*******************************************************************************************************************************************************************/
@@ -42294,5 +42294,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js","styles"]]]);
+},[[8,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

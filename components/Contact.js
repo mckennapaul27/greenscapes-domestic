@@ -28,7 +28,7 @@ class Contact extends Component {
 
     // handleSubmit = (e) => {
     //     e.preventDefault()
-    //     const { name, email, subject, phone, message } = this.state;
+    //     const { name, email, phone, subject, message } = this.state;
     //     this.setState({
     //         submitted: true
     //     }, () => {

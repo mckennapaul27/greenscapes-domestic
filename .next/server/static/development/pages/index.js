@@ -101,7 +101,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -800,7 +800,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_2___default.a, {
       onClick: this.toggleNavbar,
       href: "#about"
-    }, __jsx("button", {
+    }, __jsx("a", {
       className: "nav-link"
     }, "About"))), __jsx("li", {
       className: "nav-item"
@@ -5461,7 +5461,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
