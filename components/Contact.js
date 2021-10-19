@@ -67,9 +67,11 @@ class Contact extends Component {
             .post(`/api/verify-captcha`, { ['g-recaptcha-response']: value })
             .then(
                 (res) => {
+                    // console.log(res);
                     this.setState({ isVerified: res.data.success });
                 },
                 (err) => {
+                    // console.log(err);
                     this.setState({ isVerified: false });
                 }
             );
@@ -198,14 +200,25 @@ class Contact extends Component {
                                             sitekey='6Leeet4cAAAAAJjq92Kszwuq2MTPkaitG-qv3Bkg'
                                             onChange={this.onChange}
                                         />
-                                        <button
-                                            type='submit'
-                                            style={buttonStyle}
-                                            className='btn btn-primary'
-                                            onClick={this.handleSubmit}>
-                                            Send Message
-                                        </button>
-                                        ,
+                                        {this.state.isVerified ? (
+                                            <button
+                                                type='submit'
+                                                className='btn btn-primary'
+                                                onClick={this.handleSubmit}>
+                                                Send Message
+                                            </button>
+                                        ) : (
+                                            <button
+                                                type='submit'
+                                                style={buttonStyle}
+                                                onClick={(e) =>
+                                                    e.preventDefault()
+                                                }
+                                                className='btn btn-primary'>
+                                                Send Message
+                                            </button>
+                                        )}
+
                                         <div
                                             id='msgSubmit'
                                             className='h3 text-center hidden'></div>

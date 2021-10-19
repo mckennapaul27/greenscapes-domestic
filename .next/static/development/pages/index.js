@@ -506,10 +506,14 @@ var Contact = /*#__PURE__*/function (_Component) {
           switch (_context.prev = _context.next) {
             case 0:
               axios__WEBPACK_IMPORTED_MODULE_12___default.a.post("/api/verify-captcha", Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])({}, 'g-recaptcha-response', value)).then(function (res) {
+                console.log(res);
+
                 _this.setState({
                   isVerified: res.data.success
                 });
               }, function (err) {
+                console.log(err);
+
                 _this.setState({
                   isVerified: false
                 });
@@ -546,7 +550,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95,
+          lineNumber: 97,
           columnNumber: 13
         }
       }, __jsx("div", {
@@ -554,7 +558,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96,
+          lineNumber: 98,
           columnNumber: 17
         }
       }, __jsx("div", {
@@ -562,21 +566,21 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97,
+          lineNumber: 99,
           columnNumber: 21
         }
       }, __jsx("h2", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98,
+          lineNumber: 100,
           columnNumber: 25
         }
       }, "Contact Us"), __jsx("p", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99,
+          lineNumber: 101,
           columnNumber: 25
         }
       }, "Greenscapes are a Cheshire based garden maintenanace and landscaping company, that covers all South Manchester and surrounding areas.")), __jsx("div", {
@@ -584,7 +588,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106,
+          lineNumber: 108,
           columnNumber: 21
         }
       }, __jsx("div", {
@@ -592,7 +596,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 107,
+          lineNumber: 109,
           columnNumber: 25
         }
       }, __jsx("form", {
@@ -600,7 +604,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108,
+          lineNumber: 110,
           columnNumber: 29
         }
       }, __jsx("div", {
@@ -608,7 +612,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 109,
+          lineNumber: 111,
           columnNumber: 33
         }
       }, __jsx("div", {
@@ -616,7 +620,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110,
+          lineNumber: 112,
           columnNumber: 37
         }
       }, __jsx("div", {
@@ -624,14 +628,14 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111,
+          lineNumber: 113,
           columnNumber: 41
         }
       }, __jsx("label", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 112,
+          lineNumber: 114,
           columnNumber: 45
         }
       }, "Name"), __jsx("input", {
@@ -644,7 +648,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 113,
+          lineNumber: 115,
           columnNumber: 45
         }
       }), __jsx("div", {
@@ -652,7 +656,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 123,
+          lineNumber: 125,
           columnNumber: 45
         }
       }))), __jsx("div", {
@@ -660,7 +664,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 127,
+          lineNumber: 129,
           columnNumber: 37
         }
       }, __jsx("div", {
@@ -668,14 +672,14 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 128,
+          lineNumber: 130,
           columnNumber: 41
         }
       }, __jsx("label", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 129,
+          lineNumber: 131,
           columnNumber: 45
         }
       }, "Email"), __jsx("input", {
@@ -688,7 +692,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 130,
+          lineNumber: 132,
           columnNumber: 45
         }
       }), __jsx("div", {
@@ -696,7 +700,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 140,
+          lineNumber: 142,
           columnNumber: 45
         }
       }))), __jsx("div", {
@@ -704,7 +708,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 144,
+          lineNumber: 146,
           columnNumber: 37
         }
       }, __jsx("div", {
@@ -712,14 +716,14 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 145,
+          lineNumber: 147,
           columnNumber: 41
         }
       }, __jsx("label", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 146,
+          lineNumber: 148,
           columnNumber: 45
         }
       }, "Subject"), __jsx("input", {
@@ -732,7 +736,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 147,
+          lineNumber: 149,
           columnNumber: 45
         }
       }), __jsx("div", {
@@ -740,7 +744,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 157,
+          lineNumber: 159,
           columnNumber: 45
         }
       }))), __jsx("div", {
@@ -748,7 +752,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 161,
+          lineNumber: 163,
           columnNumber: 37
         }
       }, __jsx("div", {
@@ -756,14 +760,14 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 162,
+          lineNumber: 164,
           columnNumber: 41
         }
       }, __jsx("label", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 163,
+          lineNumber: 165,
           columnNumber: 45
         }
       }, "Phone Number"), __jsx("input", {
@@ -776,7 +780,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 164,
+          lineNumber: 166,
           columnNumber: 45
         }
       }), __jsx("div", {
@@ -784,7 +788,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 174,
+          lineNumber: 176,
           columnNumber: 45
         }
       }))), __jsx("div", {
@@ -792,7 +796,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 178,
+          lineNumber: 180,
           columnNumber: 37
         }
       }, __jsx("div", {
@@ -800,14 +804,14 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 179,
+          lineNumber: 181,
           columnNumber: 41
         }
       }, __jsx("label", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 180,
+          lineNumber: 182,
           columnNumber: 45
         }
       }, "Message"), __jsx("textarea", {
@@ -821,7 +825,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 181,
+          lineNumber: 183,
           columnNumber: 45
         }
       }), __jsx("div", {
@@ -829,7 +833,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 192,
+          lineNumber: 194,
           columnNumber: 45
         }
       }))), __jsx("div", {
@@ -837,7 +841,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 196,
+          lineNumber: 198,
           columnNumber: 37
         }
       }, __jsx(react_google_recaptcha__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -846,34 +850,46 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 197,
+          lineNumber: 199,
           columnNumber: 41
         }
-      }), __jsx("button", {
+      }), this.state.isVerified ? __jsx("button", {
         type: "submit",
-        style: buttonStyle,
         className: "btn btn-primary",
         onClick: this.handleSubmit,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 201,
-          columnNumber: 41
+          lineNumber: 204,
+          columnNumber: 45
         }
-      }, "Send Message"), ",", __jsx("div", {
+      }, "Send Message") : __jsx("button", {
+        type: "submit",
+        style: buttonStyle,
+        onClick: function onClick(e) {
+          return e.preventDefault();
+        },
+        className: "btn btn-primary",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 211,
+          columnNumber: 45
+        }
+      }, "Send Message"), __jsx("div", {
         id: "msgSubmit",
         className: "h3 text-center hidden",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 209,
+          lineNumber: 222,
           columnNumber: 41
         }
       }), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 212,
+          lineNumber: 225,
           columnNumber: 41
         }
       }), this.state.submitted && __jsx("div", {
@@ -881,14 +897,14 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 214,
+          lineNumber: 227,
           columnNumber: 45
         }
       }, __jsx("span", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 215,
+          lineNumber: 228,
           columnNumber: 49
         }
       }, "We have received your message", ' ', __jsx("i", {
@@ -896,7 +912,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 218,
+          lineNumber: 231,
           columnNumber: 53
         }
       }))))))), __jsx("div", {
@@ -904,7 +920,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 227,
+          lineNumber: 240,
           columnNumber: 25
         }
       }, __jsx("address", {
@@ -912,21 +928,21 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 228,
+          lineNumber: 241,
           columnNumber: 29
         }
       }, __jsx("ul", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 229,
+          lineNumber: 242,
           columnNumber: 33
         }
       }, __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 230,
+          lineNumber: 243,
           columnNumber: 37
         }
       }, __jsx("i", {
@@ -934,21 +950,21 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 231,
+          lineNumber: 244,
           columnNumber: 41
         }
       }), __jsx("span", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 232,
+          lineNumber: 245,
           columnNumber: 41
         }
       }, "Address:"), "Seal Rd, Bramhall, Stockport SK7 2LL, UK"), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 236,
+          lineNumber: 249,
           columnNumber: 37
         }
       }, __jsx("i", {
@@ -956,14 +972,14 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 237,
+          lineNumber: 250,
           columnNumber: 41
         }
       }), __jsx("span", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 238,
+          lineNumber: 251,
           columnNumber: 41
         }
       }, "Email:"), __jsx("a", {
@@ -971,14 +987,14 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 239,
+          lineNumber: 252,
           columnNumber: 41
         }
       }, "simon@greenscapes-gardening.co.uk")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 244,
+          lineNumber: 257,
           columnNumber: 37
         }
       }, __jsx("i", {
@@ -986,14 +1002,14 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 245,
+          lineNumber: 258,
           columnNumber: 41
         }
       }), __jsx("span", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 246,
+          lineNumber: 259,
           columnNumber: 41
         }
       }, "Phone:"), __jsx("a", {
@@ -1001,14 +1017,14 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 248,
+          lineNumber: 261,
           columnNumber: 41
         }
       }, "0161 425 0035")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 252,
+          lineNumber: 265,
           columnNumber: 37
         }
       }, __jsx("i", {
@@ -1016,14 +1032,14 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 253,
+          lineNumber: 266,
           columnNumber: 41
         }
       }), __jsx("span", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 254,
+          lineNumber: 267,
           columnNumber: 41
         }
       }, "Website:"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
@@ -1031,14 +1047,14 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 255,
+          lineNumber: 268,
           columnNumber: 41
         }
       }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 256,
+          lineNumber: 269,
           columnNumber: 45
         }
       }, "https://www.greenscapes-gardening.co.uk/"))))))), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_10__["ToastContainer"], {
@@ -1047,7 +1063,7 @@ var Contact = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 265,
+          lineNumber: 278,
           columnNumber: 21
         }
       })));

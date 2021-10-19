@@ -7,13 +7,13 @@ export default async function handler(req, res) {
             `https://www.google.com/recaptcha/api/siteverify?secret=${RECAPTCHA_SECRET}&response=${req.body['g-recaptcha-response']}`
         );
         if (google.data.success)
-            res.status(200).json({ success: google.data.success });
+            return res.status(200).json({ success: google.data.success });
         else
-            res.status(500).json({
+            return res.status(500).json({
                 msg: 'Server error: Please contact support',
             });
     } catch (error) {
-        res.status(500).json({
+        return res.status(500).json({
             msg: 'Server error: Please contact support',
         });
     }
