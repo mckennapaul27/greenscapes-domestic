@@ -157,14 +157,18 @@ module.exports =
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return GoTop; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/user1/Documents/development/greenscapes/greenscapes-domestic/components/Shared/GoTop.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-class GoTop extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+
+
+class GoTop extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   constructor(props) {
     super(props);
 
@@ -192,9 +196,21 @@ class GoTop extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       if (this.state.thePosition) {
         return __jsx("div", {
           className: "go-top",
-          onClick: this.scrollToTop
+          onClick: this.scrollToTop,
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 47,
+            columnNumber: 17
+          }
         }, __jsx("i", {
-          className: "fas fa-angle-up"
+          className: "fas fa-angle-up",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 48,
+            columnNumber: 21
+          }
         }));
       }
     });
@@ -207,7 +223,7 @@ class GoTop extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
   componentDidMount() {
     this._isMounted = true;
-    document.addEventListener("scroll", () => {
+    document.addEventListener('scroll', () => {
       if (window.scrollY > 170) {
         this.setState({
           thePosition: true
@@ -226,12 +242,17 @@ class GoTop extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   }
 
   render() {
-    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, this.renderGoTopIcon());
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 55,
+        columnNumber: 16
+      }
+    }, this.renderGoTopIcon());
   }
 
 }
-
-/* harmony default export */ __webpack_exports__["default"] = (GoTop);
 
 /***/ }),
 
@@ -246,25 +267,62 @@ class GoTop extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/user1/Documents/development/greenscapes/greenscapes-domestic/components/Shared/Loader.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-class Loader extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+
+class Loader extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
     return __jsx("div", {
-      className: "preloader"
+      className: "preloader",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6,
+        columnNumber: 13
+      }
     }, __jsx("div", {
-      className: "spinner"
+      className: "spinner",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7,
+        columnNumber: 17
+      }
     }, __jsx("div", {
-      className: "double-bounce1"
+      className: "double-bounce1",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8,
+        columnNumber: 21
+      }
     }), __jsx("div", {
-      className: "double-bounce2"
+      className: "double-bounce2",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9,
+        columnNumber: 21
+      }
     })));
   }
 
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Loader);
+
+/***/ }),
+
+/***/ "./images/favicon.ico":
+/*!****************************!*\
+  !*** ./images/favicon.ico ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/favicon-1a8b0a46edad3a1bfc1034f2d758894d.ico";
 
 /***/ }),
 
@@ -598,8 +656,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _components_Shared_Loader__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Shared/Loader */ "./components/Shared/Loader.js");
 /* harmony import */ var _components_Shared_GoTop__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Shared/GoTop */ "./components/Shared/GoTop.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_11__);
+var _jsxFileName = "/Users/user1/Documents/development/greenscapes/greenscapes-domestic/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
 
 
 
@@ -622,11 +687,86 @@ class MyApp extends next_app__WEBPACK_IMPORTED_MODULE_7___default.a {
         locale: 'en_GB',
         url: 'https://www.greenscapes-gardening.co.uk',
         site_name: 'Greenscapes Gardening | Call Us Today'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20,
+        columnNumber: 17
       }
-    }), __jsx(react_preloading_screen__WEBPACK_IMPORTED_MODULE_6__["Preloader"], null, __jsx(Component, pageProps), __jsx(_components_Shared_GoTop__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    }), __jsx(next_head__WEBPACK_IMPORTED_MODULE_11___default.a, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28,
+        columnNumber: 17
+      }
+    }, __jsx("meta", {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1, shrink-to-fit=no",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29,
+        columnNumber: 21
+      }
+    }), __jsx("meta", {
+      name: "google-site-verification",
+      content: "Tahw9fanrLxKM0YJV76A8Vrd8rAgZxH3xBPpCphmLYE",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33,
+        columnNumber: 21
+      }
+    }), __jsx("link", {
+      rel: "icon",
+      type: "image/png",
+      href: __webpack_require__(/*! ../images/favicon.ico */ "./images/favicon.ico"),
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37,
+        columnNumber: 21
+      }
+    })), __jsx(react_preloading_screen__WEBPACK_IMPORTED_MODULE_6__["Preloader"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43,
+        columnNumber: 17
+      }
+    }, __jsx(Component, _extends({}, pageProps, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 44,
+        columnNumber: 21
+      }
+    })), __jsx(_components_Shared_GoTop__WEBPACK_IMPORTED_MODULE_10__["default"], {
       scrollStepInPx: "50",
-      delayInMs: "16.66"
-    }), __jsx(react_preloading_screen__WEBPACK_IMPORTED_MODULE_6__["Placeholder"], null, __jsx(_components_Shared_Loader__WEBPACK_IMPORTED_MODULE_9__["default"], null))));
+      delayInMs: "16.66",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45,
+        columnNumber: 21
+      }
+    }), __jsx(react_preloading_screen__WEBPACK_IMPORTED_MODULE_6__["Placeholder"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46,
+        columnNumber: 21
+      }
+    }, __jsx(_components_Shared_Loader__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 47,
+        columnNumber: 25
+      }
+    }))));
   }
 
 }
@@ -653,6 +793,17 @@ module.exports = __webpack_require__(/*! private-next-pages/_app.js */"./pages/_
 /***/ (function(module, exports) {
 
 module.exports = require("next-seo");
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ }),
 

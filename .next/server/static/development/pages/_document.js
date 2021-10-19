@@ -93,17 +93,6 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./images/favicon.ico":
-/*!****************************!*\
-  !*** ./images/favicon.ico ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/favicon-1a8b0a46edad3a1bfc1034f2d758894d.ico";
-
-/***/ }),
-
 /***/ "./node_modules/next/dist/next-server/lib/constants.js":
 /*!*************************************************************!*\
   !*** ./node_modules/next/dist/next-server/lib/constants.js ***!
@@ -1094,6 +1083,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/document */ "./node_modules/next/document.js");
 /* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_document__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/user1/Documents/development/greenscapes/greenscapes-domestic/pages/_document.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1101,18 +1091,42 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
   render() {
     return __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Html"], {
-      lang: "en"
-    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Head"], null, __jsx("meta", {
-      name: "viewport",
-      content: "width=device-width, initial-scale=1, shrink-to-fit=no"
-    }), __jsx("meta", {
-      name: "google-site-verification",
-      content: "Tahw9fanrLxKM0YJV76A8Vrd8rAgZxH3xBPpCphmLYE"
-    }), __jsx("link", {
-      rel: "icon",
-      type: "image/png",
-      href: __webpack_require__(/*! ../images/favicon.ico */ "./images/favicon.ico")
-    })), __jsx("body", null, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], null), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], null)));
+      lang: "en",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6,
+        columnNumber: 13
+      }
+    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Head"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7,
+        columnNumber: 17
+      }
+    }), __jsx("body", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8,
+        columnNumber: 17
+      }
+    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9,
+        columnNumber: 21
+      }
+    }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10,
+        columnNumber: 21
+      }
+    })));
   }
 
 }

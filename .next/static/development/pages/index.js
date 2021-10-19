@@ -142,12 +142,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var react_modal_video__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-modal-video */ "./node_modules/react-modal-video/lib/index.js");
-/* harmony import */ var react_modal_video__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_modal_video__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _node_modules_react_modal_video_scss_modal_video_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../node_modules/react-modal-video/scss/modal-video.scss */ "./node_modules/react-modal-video/scss/modal-video.scss");
-/* harmony import */ var _node_modules_react_modal_video_scss_modal_video_scss__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_node_modules_react_modal_video_scss_modal_video_scss__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-anchor-link-smooth-scroll */ "./node_modules/react-anchor-link-smooth-scroll/lib/anchor-link.js");
-/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-anchor-link-smooth-scroll */ "./node_modules/react-anchor-link-smooth-scroll/lib/anchor-link.js");
+/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_9__);
 
 
 
@@ -155,6 +151,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+var _jsxFileName = "/Users/user1/Documents/development/greenscapes/greenscapes-domestic/components/Banner.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, result); }; }
@@ -162,8 +159,8 @@ function _createSuper(Derived) { return function () { var Super = Object(_babel_
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
 
-
-
+ // import ModalVideo from 'react-modal-video';
+// import 'react-modal-video/scss/modal-video.scss';
 
 
 
@@ -199,29 +196,98 @@ var Banner = /*#__PURE__*/function (_Component) {
   Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Banner, [{
     key: "render",
     value: function render() {
-      return __jsx(react__WEBPACK_IMPORTED_MODULE_7___default.a.Fragment, null, __jsx("div", {
+      return __jsx(react__WEBPACK_IMPORTED_MODULE_7___default.a.Fragment, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 13
+        }
+      }, __jsx("div", {
         id: "home",
         className: "main-banner jarallax",
-        "data-jarallax": "{'speed': 0.2}"
+        "data-jarallax": "{'speed': 0.2}",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19,
+          columnNumber: 17
+        }
       }, __jsx("div", {
-        className: "d-table"
+        className: "d-table",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23,
+          columnNumber: 21
+        }
       }, __jsx("div", {
-        className: "d-table-cell"
+        className: "d-table-cell",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24,
+          columnNumber: 25
+        }
       }, __jsx("div", {
-        className: "container"
+        className: "container",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 29
+        }
       }, __jsx("div", {
-        className: "main-banner-content"
-      }, __jsx("h1", null, "Greenscapes Gardening Services Cheshire & South Manchester"), __jsx("p", null, "Reliable Cheshire gardeners. We are making your outdoor dreams come true. Experienced domestic garden maintenance."), "=", __jsx("div", {
-        className: "btn-box"
-      }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_11___default.a, {
+        className: "main-banner-content",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 33
+        }
+      }, __jsx("h1", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 37
+        }
+      }, "Greenscapes Gardening Services Cheshire & South Manchester"), __jsx("p", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31,
+          columnNumber: 37
+        }
+      }, "Reliable Cheshire gardeners. We are making your outdoor dreams come true. Experienced domestic garden maintenance."), "=", __jsx("div", {
+        className: "btn-box",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37,
+          columnNumber: 37
+        }
+      }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_9___default.a, {
         onClick: this.toggleNavbar,
         offset: function offset() {
           return -10;
-        } // className='nav-link' 
+        } // className='nav-link'
         ,
-        href: "#contact"
+        href: "#contact",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38,
+          columnNumber: 41
+        }
       }, __jsx("button", {
-        className: "btn btn-primary"
+        className: "btn btn-primary",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 45
+        }
       }, "Contact Us Today")))))))));
     }
   }]);
@@ -331,22 +397,25 @@ var Blog = /*#__PURE__*/function (_Component) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-toastify */ "./node_modules/react-toastify/esm/react-toastify.js");
-/* harmony import */ var _node_modules_react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../node_modules/react-toastify/dist/ReactToastify.css */ "./node_modules/react-toastify/dist/ReactToastify.css");
-/* harmony import */ var _node_modules_react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_node_modules_react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-toastify */ "./node_modules/react-toastify/esm/react-toastify.js");
+/* harmony import */ var _node_modules_react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../node_modules/react-toastify/dist/ReactToastify.css */ "./node_modules/react-toastify/dist/ReactToastify.css");
+/* harmony import */ var _node_modules_react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_node_modules_react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var react_google_recaptcha__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-google-recaptcha */ "./node_modules/react-google-recaptcha/lib/esm/index.js");
 
 
 
@@ -354,9 +423,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
-function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, result); }; }
+var _jsxFileName = "/Users/user1/Documents/development/greenscapes/greenscapes-domestic/components/Contact.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
+
+function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_5__["default"])(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
@@ -367,15 +438,16 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 
 
+
 var Contact = /*#__PURE__*/function (_Component) {
-  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__["default"])(Contact, _Component);
+  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Contact, _Component);
 
   var _super = _createSuper(Contact);
 
   function Contact() {
     var _this;
 
-    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Contact);
+    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Contact);
 
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
@@ -383,24 +455,26 @@ var Contact = /*#__PURE__*/function (_Component) {
 
     _this = _super.call.apply(_super, [this].concat(args));
 
-    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), "state", {
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "state", {
       name: '',
       email: '',
       subject: '',
       phone: '',
       message: '',
-      submitted: false
+      submitted: false,
+      recaptchaKey: null,
+      isVerified: false
     });
 
-    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), "handleInputChange", function (e) {
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "handleInputChange", function (e) {
       var target = e.target;
       var name = e.target.name;
       var value = target.value;
 
-      _this.setState(Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])({}, name, value));
+      _this.setState(Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])({}, name, value));
     });
 
-    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), "handleSubmit", function (e) {
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "handleSubmit", function (e) {
       e.preventDefault();
       var _this$state = _this.state,
           name = _this$state.name,
@@ -408,32 +482,51 @@ var Contact = /*#__PURE__*/function (_Component) {
           phone = _this$state.phone,
           subject = _this$state.subject,
           message = _this$state.message;
-      axios__WEBPACK_IMPORTED_MODULE_11___default.a.post("/api/contact", {
+      axios__WEBPACK_IMPORTED_MODULE_12___default.a.post("/api/contact", {
         name: name,
         email: email,
         phone: phone,
         subject: subject,
         message: message
       }).then(function (res) {
-        console.log('This is the result', res);
-
         if (res.data.success) {
           _this.setState({
             // buttonText: <a><span>Message sent <i className='fa fa-check'></i></span></a>,
             submitted: true
           }, function () {
-            react_toastify__WEBPACK_IMPORTED_MODULE_9__["toast"].success("Thanks ".concat(name, ". We have received your message and will be in contact very soon."));
+            react_toastify__WEBPACK_IMPORTED_MODULE_10__["toast"].success("Thanks ".concat(name, ". We have received your message and will be in contact very soon."));
           });
         }
-      })["catch"](function (error) {
-        console.log(error);
-      });
+      })["catch"](function (error) {});
+    });
+
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "onChange", function _callee(value) {
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.async(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              axios__WEBPACK_IMPORTED_MODULE_12___default.a.post("/api/verify-captcha", Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])({}, 'g-recaptcha-response', value)).then(function (res) {
+                _this.setState({
+                  isVerified: res.data.success
+                });
+              }, function (err) {
+                _this.setState({
+                  isVerified: false
+                });
+              });
+
+            case 1:
+            case "end":
+              return _context.stop();
+          }
+        }
+      }, null, null, null, Promise);
     });
 
     return _this;
   }
 
-  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Contact, [{
+  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Contact, [{
     key: "render",
     value: function render() {
       var _this$state2 = this.state,
@@ -443,127 +536,526 @@ var Contact = /*#__PURE__*/function (_Component) {
           phone = _this$state2.phone,
           message = _this$state2.message;
       var disabled = name === '' || email === '' || subject === '' || phone === '' || message === '';
+      var buttonStyle = this.state.isVerified === false ? {
+        opacity: 0.1,
+        cursor: 'not-allowed'
+      } : {};
       return __jsx("section", {
         id: "contact",
-        className: "contact-area ptb-100 bg-f9f9f9"
+        className: "contact-area ptb-100 bg-f9f9f9",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 95,
+          columnNumber: 13
+        }
       }, __jsx("div", {
-        className: "container"
+        className: "container",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 96,
+          columnNumber: 17
+        }
       }, __jsx("div", {
-        className: "section-title"
-      }, __jsx("h2", null, "Contact Us"), __jsx("p", null, "Greenscapes are a Cheshire based garden maintenanace and landscaping company, that covers all South Manchester and surrounding areas.")), __jsx("div", {
-        className: "row align-items-center"
+        className: "section-title",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 97,
+          columnNumber: 21
+        }
+      }, __jsx("h2", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 98,
+          columnNumber: 25
+        }
+      }, "Contact Us"), __jsx("p", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 99,
+          columnNumber: 25
+        }
+      }, "Greenscapes are a Cheshire based garden maintenanace and landscaping company, that covers all South Manchester and surrounding areas.")), __jsx("div", {
+        className: "row align-items-center",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 106,
+          columnNumber: 21
+        }
       }, __jsx("div", {
-        className: "col-lg-8 col-md-12"
+        className: "col-lg-8 col-md-12",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 107,
+          columnNumber: 25
+        }
       }, __jsx("form", {
-        id: "contactForm"
+        id: "contactForm",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 108,
+          columnNumber: 29
+        }
       }, __jsx("div", {
-        className: "row"
+        className: "row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 109,
+          columnNumber: 33
+        }
       }, __jsx("div", {
-        className: "col-lg-6 col-md-6"
+        className: "col-lg-6 col-md-6",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 110,
+          columnNumber: 37
+        }
       }, __jsx("div", {
-        className: "form-group"
-      }, __jsx("label", null, "Name"), __jsx("input", {
+        className: "form-group",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 111,
+          columnNumber: 41
+        }
+      }, __jsx("label", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 112,
+          columnNumber: 45
+        }
+      }, "Name"), __jsx("input", {
         type: "text",
         className: "form-control",
         required: true,
         "data-error": "Please enter your name",
         name: 'name',
-        onChange: this.handleInputChange
+        onChange: this.handleInputChange,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 113,
+          columnNumber: 45
+        }
       }), __jsx("div", {
-        className: "help-block with-errors"
+        className: "help-block with-errors",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 123,
+          columnNumber: 45
+        }
       }))), __jsx("div", {
-        className: "col-lg-6 col-md-6"
+        className: "col-lg-6 col-md-6",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 127,
+          columnNumber: 37
+        }
       }, __jsx("div", {
-        className: "form-group"
-      }, __jsx("label", null, "Email"), __jsx("input", {
+        className: "form-group",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 128,
+          columnNumber: 41
+        }
+      }, __jsx("label", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 129,
+          columnNumber: 45
+        }
+      }, "Email"), __jsx("input", {
         type: "email",
         className: "form-control",
         required: true,
         "data-error": "Please enter your email",
         name: 'email',
-        onChange: this.handleInputChange
+        onChange: this.handleInputChange,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 130,
+          columnNumber: 45
+        }
       }), __jsx("div", {
-        className: "help-block with-errors"
+        className: "help-block with-errors",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 140,
+          columnNumber: 45
+        }
       }))), __jsx("div", {
-        className: "col-lg-6 col-md-6"
+        className: "col-lg-6 col-md-6",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 144,
+          columnNumber: 37
+        }
       }, __jsx("div", {
-        className: "form-group"
-      }, __jsx("label", null, "Subject"), __jsx("input", {
+        className: "form-group",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 145,
+          columnNumber: 41
+        }
+      }, __jsx("label", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 146,
+          columnNumber: 45
+        }
+      }, "Subject"), __jsx("input", {
         type: "text",
         className: "form-control",
         required: true,
         "data-error": "Please enter your subject",
         name: 'subject',
-        onChange: this.handleInputChange
+        onChange: this.handleInputChange,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 147,
+          columnNumber: 45
+        }
       }), __jsx("div", {
-        className: "help-block with-errors"
+        className: "help-block with-errors",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 157,
+          columnNumber: 45
+        }
       }))), __jsx("div", {
-        className: "col-lg-6 col-md-6"
+        className: "col-lg-6 col-md-6",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 161,
+          columnNumber: 37
+        }
       }, __jsx("div", {
-        className: "form-group"
-      }, __jsx("label", null, "Phone Number"), __jsx("input", {
+        className: "form-group",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 162,
+          columnNumber: 41
+        }
+      }, __jsx("label", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 163,
+          columnNumber: 45
+        }
+      }, "Phone Number"), __jsx("input", {
         type: "text",
         className: "form-control",
         required: true,
         "data-error": "Please enter your number",
         name: 'phone',
-        onChange: this.handleInputChange
+        onChange: this.handleInputChange,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 164,
+          columnNumber: 45
+        }
       }), __jsx("div", {
-        className: "help-block with-errors"
+        className: "help-block with-errors",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 174,
+          columnNumber: 45
+        }
       }))), __jsx("div", {
-        className: "col-lg-12 col-md-12"
+        className: "col-lg-12 col-md-12",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 178,
+          columnNumber: 37
+        }
       }, __jsx("div", {
-        className: "form-group"
-      }, __jsx("label", null, "Message"), __jsx("textarea", {
+        className: "form-group",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 179,
+          columnNumber: 41
+        }
+      }, __jsx("label", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 180,
+          columnNumber: 45
+        }
+      }, "Message"), __jsx("textarea", {
         className: "form-control",
         cols: "30",
         rows: "4",
         required: true,
         "data-error": "Write your message",
         name: 'message',
-        onChange: this.handleInputChange
+        onChange: this.handleInputChange,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 181,
+          columnNumber: 45
+        }
       }), __jsx("div", {
-        className: "help-block with-errors"
+        className: "help-block with-errors",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 192,
+          columnNumber: 45
+        }
       }))), __jsx("div", {
-        className: "col-lg-12 col-md-12"
-      }, __jsx("button", {
+        className: "col-lg-12 col-md-12",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 196,
+          columnNumber: 37
+        }
+      }, __jsx(react_google_recaptcha__WEBPACK_IMPORTED_MODULE_13__["default"], {
+        sitekey: "6Leeet4cAAAAAJjq92Kszwuq2MTPkaitG-qv3Bkg",
+        onChange: this.onChange,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 197,
+          columnNumber: 41
+        }
+      }), __jsx("button", {
         type: "submit",
+        style: buttonStyle,
         className: "btn btn-primary",
-        onClick: this.handleSubmit
-      }, "Send Message"), __jsx("div", {
+        onClick: this.handleSubmit,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 201,
+          columnNumber: 41
+        }
+      }, "Send Message"), ",", __jsx("div", {
         id: "msgSubmit",
-        className: "h3 text-center hidden"
-      }), __jsx("br", null), this.state.submitted && __jsx("div", {
-        className: "clearfix"
-      }, __jsx("span", null, "We have received your message ", __jsx("i", {
-        className: "fa fa-check-circle"
+        className: "h3 text-center hidden",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 209,
+          columnNumber: 41
+        }
+      }), __jsx("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 212,
+          columnNumber: 41
+        }
+      }), this.state.submitted && __jsx("div", {
+        className: "clearfix",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 214,
+          columnNumber: 45
+        }
+      }, __jsx("span", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 215,
+          columnNumber: 49
+        }
+      }, "We have received your message", ' ', __jsx("i", {
+        className: "fa fa-check-circle",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 218,
+          columnNumber: 53
+        }
       }))))))), __jsx("div", {
-        className: "col-lg-4 col-md-12"
+        className: "col-lg-4 col-md-12",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 227,
+          columnNumber: 25
+        }
       }, __jsx("address", {
-        className: "contact-info-box"
-      }, __jsx("ul", null, __jsx("li", null, __jsx("i", {
-        className: "fas fa-map-marker-alt"
-      }), __jsx("span", null, "Address:"), "Seal Rd, Bramhall, Stockport SK7 2LL, UK"), __jsx("li", null, __jsx("i", {
-        className: "fas fa-envelope"
-      }), __jsx("span", null, "Email:"), __jsx("a", {
-        href: "mailto:simon@greenscapes-gardening.co.uk"
-      }, "simon@greenscapes-gardening.co.uk")), __jsx("li", null, __jsx("i", {
-        className: "fas fa-phone"
-      }), __jsx("span", null, "Phone:"), __jsx("a", {
-        href: "tel:0161 425 0035"
-      }, "0161 425 0035")), __jsx("li", null, __jsx("i", {
-        className: "fas fa-globe"
-      }), __jsx("span", null, "Website:"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "/"
-      }, __jsx("a", null, "https://www.greenscapes-gardening.co.uk/"))))))), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_9__["ToastContainer"], {
+        className: "contact-info-box",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 228,
+          columnNumber: 29
+        }
+      }, __jsx("ul", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 229,
+          columnNumber: 33
+        }
+      }, __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 230,
+          columnNumber: 37
+        }
+      }, __jsx("i", {
+        className: "fas fa-map-marker-alt",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 231,
+          columnNumber: 41
+        }
+      }), __jsx("span", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 232,
+          columnNumber: 41
+        }
+      }, "Address:"), "Seal Rd, Bramhall, Stockport SK7 2LL, UK"), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 236,
+          columnNumber: 37
+        }
+      }, __jsx("i", {
+        className: "fas fa-envelope",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 237,
+          columnNumber: 41
+        }
+      }), __jsx("span", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 238,
+          columnNumber: 41
+        }
+      }, "Email:"), __jsx("a", {
+        href: "mailto:simon@greenscapes-gardening.co.uk",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 239,
+          columnNumber: 41
+        }
+      }, "simon@greenscapes-gardening.co.uk")), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 244,
+          columnNumber: 37
+        }
+      }, __jsx("i", {
+        className: "fas fa-phone",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 245,
+          columnNumber: 41
+        }
+      }), __jsx("span", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 246,
+          columnNumber: 41
+        }
+      }, "Phone:"), __jsx("a", {
+        href: "tel:0161 425 0035",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 248,
+          columnNumber: 41
+        }
+      }, "0161 425 0035")), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 252,
+          columnNumber: 37
+        }
+      }, __jsx("i", {
+        className: "fas fa-globe",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 253,
+          columnNumber: 41
+        }
+      }), __jsx("span", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 254,
+          columnNumber: 41
+        }
+      }, "Website:"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
+        href: "/",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 255,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 256,
+          columnNumber: 45
+        }
+      }, "https://www.greenscapes-gardening.co.uk/"))))))), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_10__["ToastContainer"], {
         position: 'bottom-left',
-        autoClose: 5000
+        autoClose: 5000,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 265,
+          columnNumber: 21
+        }
       })));
     }
   }]);
 
   return Contact;
-}(react__WEBPACK_IMPORTED_MODULE_7__["Component"]);
+}(react__WEBPACK_IMPORTED_MODULE_8__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (Contact);
 
@@ -754,6 +1246,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+var _jsxFileName = "/Users/user1/Documents/development/greenscapes/greenscapes-domestic/components/Layouts/NavbarOne.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, result); }; }
@@ -832,26 +1325,69 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
       var collapsed = this.state.collapsed;
       var classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
       var classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
-      return __jsx(react__WEBPACK_IMPORTED_MODULE_7___default.a.Fragment, null, __jsx("nav", {
+      return __jsx(react__WEBPACK_IMPORTED_MODULE_7___default.a.Fragment, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60,
+          columnNumber: 13
+        }
+      }, __jsx("nav", {
         id: "navbar",
-        className: "navbar navbar-expand-lg navbar-style-one navbar-light bg-light"
+        className: "navbar navbar-expand-lg navbar-style-one navbar-light bg-light",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61,
+          columnNumber: 17
+        }
       }, __jsx("div", {
-        className: "container"
+        className: "container",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 64,
+          columnNumber: 21
+        }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "/"
+        href: "/",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65,
+          columnNumber: 25
+        }
       }, __jsx("a", {
-        className: "navbar-brand"
+        className: "navbar-brand",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66,
+          columnNumber: 29
+        }
       }, __jsx("img", {
         src: __webpack_require__(/*! ../../images/greenscapes-test.png */ "./images/greenscapes-test.png"),
         alt: "logo",
         style: {
           maxWidth: '150px'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67,
+          columnNumber: 33
         }
       }), __jsx("img", {
         src: __webpack_require__(/*! ../../images/gardening-logo-transparent.png */ "./images/gardening-logo-transparent.png"),
         alt: "logo",
         style: {
           maxWidth: '125px'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 72,
+          columnNumber: 33
         }
       }))), __jsx("button", {
         onClick: this.toggleNavbar,
@@ -861,58 +1397,215 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
         "data-target": "#navbarSupportedContent",
         "aria-controls": "navbarSupportedContent",
         "aria-expanded": "false",
-        "aria-label": "Toggle navigation"
+        "aria-label": "Toggle navigation",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 79,
+          columnNumber: 25
+        }
       }, __jsx("span", {
-        className: "navbar-toggler-icon"
+        className: "navbar-toggler-icon",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 88,
+          columnNumber: 29
+        }
       })), __jsx("div", {
         className: classOne,
-        id: "navbarSupportedContent"
+        id: "navbarSupportedContent",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 91,
+          columnNumber: 25
+        }
       }, __jsx("ul", {
-        className: "navbar-nav ml-auto"
+        className: "navbar-nav ml-auto",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92,
+          columnNumber: 29
+        }
       }, __jsx("li", {
-        className: "nav-item"
+        className: "nav-item",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93,
+          columnNumber: 33
+        }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "/"
+        href: "/",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 94,
+          columnNumber: 37
+        }
       }, __jsx("a", {
-        className: "nav-link"
+        className: "nav-link",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 95,
+          columnNumber: 41
+        }
       }, "Home"))), __jsx("li", {
-        className: "nav-item"
+        className: "nav-item",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 98,
+          columnNumber: 33
+        }
       }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_9___default.a, {
         onClick: this.toggleNavbar,
-        href: "#about"
+        href: "#about",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 99,
+          columnNumber: 37
+        }
       }, __jsx("a", {
-        className: "nav-link"
+        className: "nav-link",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 102,
+          columnNumber: 41
+        }
       }, "About"))), __jsx("li", {
-        className: "nav-item"
+        className: "nav-item",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 105,
+          columnNumber: 33
+        }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "/services"
+        href: "/services",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 106,
+          columnNumber: 37
+        }
       }, __jsx("a", {
-        className: "nav-link"
+        className: "nav-link",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 107,
+          columnNumber: 41
+        }
       }, "Services"))), __jsx("li", {
-        className: "nav-item"
+        className: "nav-item",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 110,
+          columnNumber: 33
+        }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "/garden-maintenance"
+        href: "/garden-maintenance",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 111,
+          columnNumber: 37
+        }
       }, __jsx("a", {
-        className: "nav-link"
+        className: "nav-link",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 112,
+          columnNumber: 41
+        }
       }, "Garden Maintenance"))), __jsx("li", {
-        className: "nav-item"
+        className: "nav-item",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 117,
+          columnNumber: 33
+        }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "/landscaping"
+        href: "/landscaping",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 118,
+          columnNumber: 37
+        }
       }, __jsx("a", {
-        className: "nav-link"
+        className: "nav-link",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 119,
+          columnNumber: 41
+        }
       }, "Landscaping"))), __jsx("li", {
-        className: "nav-item"
+        className: "nav-item",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 122,
+          columnNumber: 33
+        }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "/blog"
+        href: "/blog",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 123,
+          columnNumber: 37
+        }
       }, __jsx("a", {
-        className: "nav-link"
+        className: "nav-link",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 124,
+          columnNumber: 41
+        }
       }, "Blog")))), __jsx("ul", {
-        className: "others-option"
-      }, __jsx("li", null, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_9___default.a, {
+        className: "others-option",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 128,
+          columnNumber: 29
+        }
+      }, __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 129,
+          columnNumber: 33
+        }
+      }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_9___default.a, {
         onClick: this.toggleNavbar,
-        href: "#contact"
+        href: "#contact",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 130,
+          columnNumber: 37
+        }
       }, __jsx("button", {
-        className: "btn btn-primary"
+        className: "btn btn-primary",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 133,
+          columnNumber: 41
+        }
       }, "Contact Us"))))))));
     }
   }]);
@@ -1943,7 +2636,6 @@ var map = {
 	"./instagram.png": "./images/instagram.png",
 	"./laptop-with-dashoard.png": "./images/laptop-with-dashoard.png",
 	"./laptop.png": "./images/laptop.png",
-	"./line.png": "./images/line.png",
 	"./mailchimp.png": "./images/mailchimp.png",
 	"./main-pic.png": "./images/main-pic.png",
 	"./man-and-women.png": "./images/man-and-women.png",
@@ -3599,17 +4291,6 @@ module.exports = "/_next/static/images/laptop-with-dashoard-e911d420ae2356a54dc5
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/laptop-e0bbe326d1dd7b3130014a2a259f8d55.png";
-
-/***/ }),
-
-/***/ "./images/line.png":
-/*!*************************!*\
-  !*** ./images/line.png ***!
-  \*************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUcAAAALCAYAAADspE/IAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDozOTRmMGRjMy1mNjc2LTkwNDctOTIzNi1hMWI2ZWQ3NGY0ZmEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUY2NzRCQzc2QjUzMTFFOUEwNTZENTQzQzdDQUQ3MDgiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUY2NzRCQzY2QjUzMTFFOUEwNTZENTQzQzdDQUQ3MDgiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6ZDMwNDY4OWMtNmJlMC03MDQxLTkyZjctMDk0NDJhOTkxZDQxIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjM5NGYwZGMzLWY2NzYtOTA0Ny05MjM2LWExYjZlZDc0ZjRmYSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PlNYk88AAAgCSURBVHja7Fppb+M2EBUp2bIdx5vs0QL91t/Q/9T/3Qvb7plNfMoSWQmYAV5fhpSdDbqbdgkM5EOieMy8mTdDF3/6uXiizfUy7+VCZPg8kd+7Xo69HECG741cQ/H/aU7Ey3VoEYTXwtP3SNdv7b+hD472OMIeDzpQiT1VIg70ZbCvFj6HhC496Vb9y++bCpBdgizk9xIMWDcuyCYMgLbrZdvLRn4bNm7Vy/NevhN50cuV9FkJGH7q5c9e/ujlV7m+7eXOMPhSxjJIDcpRglQ0VlWqDpSmITBWaUmBnLxjKteSwP1zwdyBcg/9z3pZyrrr9QKu6mCG9+1l7d6BfJR96MhQvgHn19lq2fM56DPqVyt7p87TJ4AT70e9jA8AZLZvBmbr2bHP7MTjlwBHNea5AJAa1jORC/h9JsauC1DJf/jcSmQh9ytQWJ4KwQe/49hKALapbLYa+k6AdS2ykd8OoCTqMWuZ44yAsgYg07XTMbXS11rA97defhEwHsD5BkD9UkB9APNXvXzfy7WsQyFjey/9/NXLB/mtgffs5drIHDFCrGT8L6RvlB/keiX7UEO0eJT3DCD4RuQtjOO1/LeWtdvL/V1CXzw4FU9OpoR19DAGdS4a7Rew9gvYE0/g7MAJIAgoc9iBo/FwXwVjKIzo6AjzK0E/FHhm5FDnMM4ZOD0FgyPoySdx0ncyvhbs60I+d6C7G3k20D5fiP2p01vJ/j4DW9QxVwY4YWMg1PFuIEBB/etoTWt55xKcbQF7sZW534ro/DfS55EClYXMZynzcKB3t/DsgXChgb3rEnN9MDh62HSNOhYAhJcAjNfyeQYK8kyuc1AUVRYPUoLyuIQX82BgKe+W8zjcAlECXDjsG9+HtNQZdJMpa2eAejA2CSNSZyhoR1SnhPcjMB8Np1GCwtYE7i6xdhYwKGh+Ermh650ofSfjXIhxvhJ5IcpdwTsxqi0JIAPt0Sl7HGg9AjgNTil0ZDRhhHpyBD4l2on34356Q3dxf3cg6AjUbqbgtDA91MG42CYc2ReOqyIHguufW9uYiNCCQa3ZKQaDVe1I9rBnJaxxDRg0pXF20JcCpALte3Hkb4DxvBN9ZeYTc+DoaaERtVcAhtfgjZYwWJW9eIRW+tHo8EqipGvot4IFxDAfKaSnDa2MyKPMRLjRALCYALWSFMLKy4zl3xhcy8TzIWOQKcN0GcDnDXYJsA702Zqjo+jZZfqLmfe6E51UMWKARWZeqT6CkQOLGXrHAJujg4WRp7OooTNsKtfXQ9oplDQmdNaity6Tj0ztg0/MBcflwYH4RK7TChrYgSlG7IlB7QAY1+Kk94BDmkrqgPnuT0kNVAZwYFS0BaqzJ2qyArmC3GFlUFAFigboYUP0YApUpYbn0NulIsdiBMRSCuITADTWdzSAjqMQZ9BKlwDkc4wmJgA5d586m7HoK9WPo2f9GYAXT5zDqeDI73eGwfoMcOUiRJ8Za8iAhT8TwM/NibmEA2DKGBMMzJPOnWo35/5fZBzoKU475bwigeMW8GgLlPwgfSul/xGCuKMA6I1EkW/l+gFoueZT74EjT7oFOvUeookF5FQ037GCpK/S6qWI3ltJn5hr6eS/AVxfCgV7Kd8j0ApeqED0lUN6zm+lqHE4AUTHQNfa5MIo1iCt8gbFx2c5OrYALBoGEgyjTVG7h0YrTJNaoP+BwL9KULeYAWfLWUSDBqUopRW1pRxbZ/RXZPo71xlbbIEjeHRAxQhF5iKJ5Zh5D0rKkZ8KkKlUW24tIkXtcWR9I9lJMPbZQ+C0lBQNrjMXQBsByj2kH1rJT76RvteyDh0803L0OlaQ4aLHXcazlZTjwuLMApK0U7hPgdbLe7aSH2ioKJMCRj4+YAEjG3dr5NNwgXL5KE+5v4mRM8PNrCEKxsg3QM5pTQlpzbvMwfnU9J7UfLAq3hrG7zI510ApjYoi+Sk400CpkAYKWw72X5mFVsOnAPY+kwvkfWDH5zM5PXYerbFGXSLfjP1NEjk661SFGwGWVJW2SDhUi3EwIE3OoNFs07nx+UyfIePcnOEYrSgyFvdPOMSEE2H7C4auN5SHRdtSu95KgDcUR38XeS1Fxt1jVatPiSpQ4TAvoOGqFmown7mAyHIjz08oL+nIWxygWruH8HpDFco7CMMPEIrvaZGPRhQaKCJCJSipsq2FpwuY2yVU2WoAxgYqblg931DqgivQlrF6chwtAdbBOIbRUMEn0pGOCVXssUBQkbMqCGwQXCdUwCiN6COOAGMwTiXgvLVi+xwKQN9BkXBCVeKjAepHin5xLSPkrlbSr+bQl7JOHMF0Rn+OwNcCo0AOLsq9qGN4iqLMOJiQyEd7o8jpEtEvO9HOAHNmaDmWwQFHSQXGtrh/RhlB7yAR4I0EUR+FFr+Div+e7P4AOt+QnsaHVqvPbY6KKLzweuZwaxg5Lm5FkUoJFDjQ0YItVLy2dBwAo8I2EbI/RrvL5CvHEuZfW0Pj0nOOT6E5ylvzkbAiwzqi4dSt3GBV/PPIDlf9O6ry47lWD2OaG4yqhkgQq9hYVMBnakq3WMUyLApWhiBVZzbANJVBXiPrGbA/Be3SKLDi8adKflPWdCt6dis23BiA6qj2sYYizAaeax/TxqtHNqoAHnRb3D+OkyumWNU0n4hMLdobvzCoFMW3w9Bfcv2PkCN/Su2UYloxkutzlFooDQqfynt+TsPjflNge4FScp5SSwWALxZ6v6r2twADAI6YNvJboSPOAAAAAElFTkSuQmCC"
 
 /***/ }),
 
@@ -9624,72 +10305,6 @@ for (var i = 0; i < DOMIterables.length; i++) {
   Iterators[NAME] = Iterators.Array;
 }
 
-
-/***/ }),
-
-/***/ "./node_modules/dom-helpers/class/addClass.js":
-/*!****************************************************!*\
-  !*** ./node_modules/dom-helpers/class/addClass.js ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-
-exports.__esModule = true;
-exports.default = addClass;
-
-var _hasClass = _interopRequireDefault(__webpack_require__(/*! ./hasClass */ "./node_modules/dom-helpers/class/hasClass.js"));
-
-function addClass(element, className) {
-  if (element.classList) element.classList.add(className);else if (!(0, _hasClass.default)(element, className)) if (typeof element.className === 'string') element.className = element.className + ' ' + className;else element.setAttribute('class', (element.className && element.className.baseVal || '') + ' ' + className);
-}
-
-module.exports = exports["default"];
-
-/***/ }),
-
-/***/ "./node_modules/dom-helpers/class/hasClass.js":
-/*!****************************************************!*\
-  !*** ./node_modules/dom-helpers/class/hasClass.js ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.default = hasClass;
-
-function hasClass(element, className) {
-  if (element.classList) return !!className && element.classList.contains(className);else return (" " + (element.className.baseVal || element.className) + " ").indexOf(" " + className + " ") !== -1;
-}
-
-module.exports = exports["default"];
-
-/***/ }),
-
-/***/ "./node_modules/dom-helpers/class/removeClass.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/dom-helpers/class/removeClass.js ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-function replaceClassName(origClass, classToRemove) {
-  return origClass.replace(new RegExp('(^|\\s)' + classToRemove + '(?:\\s|$)', 'g'), '$1').replace(/\s+/g, ' ').replace(/^\s*|\s*$/g, '');
-}
-
-module.exports = function removeClass(element, className) {
-  if (element.classList) element.classList.remove(className);else if (typeof element.className === 'string') element.className = replaceClassName(element.className, className);else element.setAttribute('class', replaceClassName(element.className && element.className.baseVal || '', className));
-};
 
 /***/ }),
 
@@ -30857,12 +31472,12 @@ var _Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-j
 
 /***/ "./node_modules/next/dist/build/polyfills/object-assign.js":
 /*!***********************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_2adc2403d89adc16ead0 ***!
+  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_3ec8d6b5ba938fe8cb37 ***!
   \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/next/dist/build/polyfills/object-assign.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_3ec8d6b5ba938fe8cb37 */ "dll-reference dll_3ec8d6b5ba938fe8cb37"))("./node_modules/next/dist/build/polyfills/object-assign.js");
 
 /***/ }),
 
@@ -33903,12 +34518,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_2adc2403d89adc16ead0 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_3ec8d6b5ba938fe8cb37 ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_3ec8d6b5ba938fe8cb37 */ "dll-reference dll_3ec8d6b5ba938fe8cb37"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -34543,12 +35158,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_2adc2403d89adc16ead0 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_3ec8d6b5ba938fe8cb37 ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_3ec8d6b5ba938fe8cb37 */ "dll-reference dll_3ec8d6b5ba938fe8cb37"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -35402,14 +36017,678 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_2__;
 
 /***/ }),
 
+/***/ "./node_modules/react-async-script/lib/esm/async-script-loader.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/react-async-script/lib/esm/async-script-loader.js ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return makeAsyncScript; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! hoist-non-react-statics */ "./node_modules/react-async-script/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js");
+/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2__);
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
+
+
+
+
+var SCRIPT_MAP = {}; // A counter used to generate a unique id for each component that uses the function
+
+var idCount = 0;
+function makeAsyncScript(getScriptURL, options) {
+  options = options || {};
+  return function wrapWithAsyncScript(WrappedComponent) {
+    var wrappedComponentName = WrappedComponent.displayName || WrappedComponent.name || "Component";
+
+    var AsyncScriptLoader =
+    /*#__PURE__*/
+    function (_Component) {
+      _inheritsLoose(AsyncScriptLoader, _Component);
+
+      function AsyncScriptLoader(props, context) {
+        var _this;
+
+        _this = _Component.call(this, props, context) || this;
+        _this.state = {};
+        _this.__scriptURL = "";
+        return _this;
+      }
+
+      var _proto = AsyncScriptLoader.prototype;
+
+      _proto.asyncScriptLoaderGetScriptLoaderID = function asyncScriptLoaderGetScriptLoaderID() {
+        if (!this.__scriptLoaderID) {
+          this.__scriptLoaderID = "async-script-loader-" + idCount++;
+        }
+
+        return this.__scriptLoaderID;
+      };
+
+      _proto.setupScriptURL = function setupScriptURL() {
+        this.__scriptURL = typeof getScriptURL === "function" ? getScriptURL() : getScriptURL;
+        return this.__scriptURL;
+      };
+
+      _proto.asyncScriptLoaderHandleLoad = function asyncScriptLoaderHandleLoad(state) {
+        var _this2 = this;
+
+        // use reacts setState callback to fire props.asyncScriptOnLoad with new state/entry
+        this.setState(state, function () {
+          return _this2.props.asyncScriptOnLoad && _this2.props.asyncScriptOnLoad(_this2.state);
+        });
+      };
+
+      _proto.asyncScriptLoaderTriggerOnScriptLoaded = function asyncScriptLoaderTriggerOnScriptLoaded() {
+        var mapEntry = SCRIPT_MAP[this.__scriptURL];
+
+        if (!mapEntry || !mapEntry.loaded) {
+          throw new Error("Script is not loaded.");
+        }
+
+        for (var obsKey in mapEntry.observers) {
+          mapEntry.observers[obsKey](mapEntry);
+        }
+
+        delete window[options.callbackName];
+      };
+
+      _proto.componentDidMount = function componentDidMount() {
+        var _this3 = this;
+
+        var scriptURL = this.setupScriptURL();
+        var key = this.asyncScriptLoaderGetScriptLoaderID();
+        var _options = options,
+            globalName = _options.globalName,
+            callbackName = _options.callbackName,
+            scriptId = _options.scriptId; // check if global object already attached to window
+
+        if (globalName && typeof window[globalName] !== "undefined") {
+          SCRIPT_MAP[scriptURL] = {
+            loaded: true,
+            observers: {}
+          };
+        } // check if script loading already
+
+
+        if (SCRIPT_MAP[scriptURL]) {
+          var entry = SCRIPT_MAP[scriptURL]; // if loaded or errored then "finish"
+
+          if (entry && (entry.loaded || entry.errored)) {
+            this.asyncScriptLoaderHandleLoad(entry);
+            return;
+          } // if still loading then callback to observer queue
+
+
+          entry.observers[key] = function (entry) {
+            return _this3.asyncScriptLoaderHandleLoad(entry);
+          };
+
+          return;
+        }
+        /*
+         * hasn't started loading
+         * start the "magic"
+         * setup script to load and observers
+         */
+
+
+        var observers = {};
+
+        observers[key] = function (entry) {
+          return _this3.asyncScriptLoaderHandleLoad(entry);
+        };
+
+        SCRIPT_MAP[scriptURL] = {
+          loaded: false,
+          observers: observers
+        };
+        var script = document.createElement("script");
+        script.src = scriptURL;
+        script.async = true;
+
+        for (var attribute in options.attributes) {
+          script.setAttribute(attribute, options.attributes[attribute]);
+        }
+
+        if (scriptId) {
+          script.id = scriptId;
+        }
+
+        var callObserverFuncAndRemoveObserver = function callObserverFuncAndRemoveObserver(func) {
+          if (SCRIPT_MAP[scriptURL]) {
+            var mapEntry = SCRIPT_MAP[scriptURL];
+            var observersMap = mapEntry.observers;
+
+            for (var obsKey in observersMap) {
+              if (func(observersMap[obsKey])) {
+                delete observersMap[obsKey];
+              }
+            }
+          }
+        };
+
+        if (callbackName && typeof window !== "undefined") {
+          window[callbackName] = function () {
+            return _this3.asyncScriptLoaderTriggerOnScriptLoaded();
+          };
+        }
+
+        script.onload = function () {
+          var mapEntry = SCRIPT_MAP[scriptURL];
+
+          if (mapEntry) {
+            mapEntry.loaded = true;
+            callObserverFuncAndRemoveObserver(function (observer) {
+              if (callbackName) {
+                return false;
+              }
+
+              observer(mapEntry);
+              return true;
+            });
+          }
+        };
+
+        script.onerror = function () {
+          var mapEntry = SCRIPT_MAP[scriptURL];
+
+          if (mapEntry) {
+            mapEntry.errored = true;
+            callObserverFuncAndRemoveObserver(function (observer) {
+              observer(mapEntry);
+              return true;
+            });
+          }
+        };
+
+        document.body.appendChild(script);
+      };
+
+      _proto.componentWillUnmount = function componentWillUnmount() {
+        // Remove tag script
+        var scriptURL = this.__scriptURL;
+
+        if (options.removeOnUnmount === true) {
+          var allScripts = document.getElementsByTagName("script");
+
+          for (var i = 0; i < allScripts.length; i += 1) {
+            if (allScripts[i].src.indexOf(scriptURL) > -1) {
+              if (allScripts[i].parentNode) {
+                allScripts[i].parentNode.removeChild(allScripts[i]);
+              }
+            }
+          }
+        } // Clean the observer entry
+
+
+        var mapEntry = SCRIPT_MAP[scriptURL];
+
+        if (mapEntry) {
+          delete mapEntry.observers[this.asyncScriptLoaderGetScriptLoaderID()];
+
+          if (options.removeOnUnmount === true) {
+            delete SCRIPT_MAP[scriptURL];
+          }
+        }
+      };
+
+      _proto.render = function render() {
+        var globalName = options.globalName; // remove asyncScriptOnLoad from childProps
+
+        var _this$props = this.props,
+            asyncScriptOnLoad = _this$props.asyncScriptOnLoad,
+            forwardedRef = _this$props.forwardedRef,
+            childProps = _objectWithoutPropertiesLoose(_this$props, ["asyncScriptOnLoad", "forwardedRef"]); // eslint-disable-line no-unused-vars
+
+
+        if (globalName && typeof window !== "undefined") {
+          childProps[globalName] = typeof window[globalName] !== "undefined" ? window[globalName] : undefined;
+        }
+
+        childProps.ref = forwardedRef;
+        return Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(WrappedComponent, childProps);
+      };
+
+      return AsyncScriptLoader;
+    }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]); // Note the second param "ref" provided by React.forwardRef.
+    // We can pass it along to AsyncScriptLoader as a regular prop, e.g. "forwardedRef"
+    // And it can then be attached to the Component.
+
+
+    var ForwardedComponent = Object(react__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(function (props, ref) {
+      return Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(AsyncScriptLoader, _extends({}, props, {
+        forwardedRef: ref
+      }));
+    });
+    ForwardedComponent.displayName = "AsyncScriptLoader(" + wrappedComponentName + ")";
+    ForwardedComponent.propTypes = {
+      asyncScriptOnLoad: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
+    };
+    return hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2___default()(ForwardedComponent, WrappedComponent);
+  };
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-async-script/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js":
+/*!******************************************************************************************************************!*\
+  !*** ./node_modules/react-async-script/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js ***!
+  \******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var reactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
+
+/**
+ * Copyright 2015, Yahoo! Inc.
+ * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
+ */
+var REACT_STATICS = {
+  childContextTypes: true,
+  contextType: true,
+  contextTypes: true,
+  defaultProps: true,
+  displayName: true,
+  getDefaultProps: true,
+  getDerivedStateFromError: true,
+  getDerivedStateFromProps: true,
+  mixins: true,
+  propTypes: true,
+  type: true
+};
+var KNOWN_STATICS = {
+  name: true,
+  length: true,
+  prototype: true,
+  caller: true,
+  callee: true,
+  arguments: true,
+  arity: true
+};
+var FORWARD_REF_STATICS = {
+  '$$typeof': true,
+  render: true,
+  defaultProps: true,
+  displayName: true,
+  propTypes: true
+};
+var MEMO_STATICS = {
+  '$$typeof': true,
+  compare: true,
+  defaultProps: true,
+  displayName: true,
+  propTypes: true,
+  type: true
+};
+var TYPE_STATICS = {};
+TYPE_STATICS[reactIs.ForwardRef] = FORWARD_REF_STATICS;
+TYPE_STATICS[reactIs.Memo] = MEMO_STATICS;
+
+function getStatics(component) {
+  // React v16.11 and below
+  if (reactIs.isMemo(component)) {
+    return MEMO_STATICS;
+  } // React v16.12 and above
+
+
+  return TYPE_STATICS[component['$$typeof']] || REACT_STATICS;
+}
+
+var defineProperty = Object.defineProperty;
+var getOwnPropertyNames = Object.getOwnPropertyNames;
+var getOwnPropertySymbols = Object.getOwnPropertySymbols;
+var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+var getPrototypeOf = Object.getPrototypeOf;
+var objectPrototype = Object.prototype;
+function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
+  if (typeof sourceComponent !== 'string') {
+    // don't hoist over string (html) components
+    if (objectPrototype) {
+      var inheritedComponent = getPrototypeOf(sourceComponent);
+
+      if (inheritedComponent && inheritedComponent !== objectPrototype) {
+        hoistNonReactStatics(targetComponent, inheritedComponent, blacklist);
+      }
+    }
+
+    var keys = getOwnPropertyNames(sourceComponent);
+
+    if (getOwnPropertySymbols) {
+      keys = keys.concat(getOwnPropertySymbols(sourceComponent));
+    }
+
+    var targetStatics = getStatics(targetComponent);
+    var sourceStatics = getStatics(sourceComponent);
+
+    for (var i = 0; i < keys.length; ++i) {
+      var key = keys[i];
+
+      if (!KNOWN_STATICS[key] && !(blacklist && blacklist[key]) && !(sourceStatics && sourceStatics[key]) && !(targetStatics && targetStatics[key])) {
+        var descriptor = getOwnPropertyDescriptor(sourceComponent, key);
+
+        try {
+          // Avoid failures from read-only properties
+          defineProperty(targetComponent, key, descriptor);
+        } catch (e) {}
+      }
+    }
+  }
+
+  return targetComponent;
+}
+
+module.exports = hoistNonReactStatics;
+
+
+/***/ }),
+
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_2adc2403d89adc16ead0 ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_3ec8d6b5ba938fe8cb37 ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_3ec8d6b5ba938fe8cb37 */ "dll-reference dll_3ec8d6b5ba938fe8cb37"))("./node_modules/react-dom/index.js");
+
+/***/ }),
+
+/***/ "./node_modules/react-google-recaptcha/lib/esm/index.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/react-google-recaptcha/lib/esm/index.js ***!
+  \**************************************************************/
+/*! exports provided: default, ReCAPTCHA */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _recaptcha_wrapper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./recaptcha-wrapper */ "./node_modules/react-google-recaptcha/lib/esm/recaptcha-wrapper.js");
+/* harmony import */ var _recaptcha__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./recaptcha */ "./node_modules/react-google-recaptcha/lib/esm/recaptcha.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReCAPTCHA", function() { return _recaptcha__WEBPACK_IMPORTED_MODULE_1__["default"]; });
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (_recaptcha_wrapper__WEBPACK_IMPORTED_MODULE_0__["default"]);
+
+
+/***/ }),
+
+/***/ "./node_modules/react-google-recaptcha/lib/esm/recaptcha-wrapper.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/react-google-recaptcha/lib/esm/recaptcha-wrapper.js ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _recaptcha__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./recaptcha */ "./node_modules/react-google-recaptcha/lib/esm/recaptcha.js");
+/* harmony import */ var react_async_script__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-async-script */ "./node_modules/react-async-script/lib/esm/async-script-loader.js");
+
+
+var callbackName = "onloadcallback";
+var globalName = "grecaptcha";
+
+function getOptions() {
+  return typeof window !== "undefined" && window.recaptchaOptions || {};
+}
+
+function getURL() {
+  var dynamicOptions = getOptions();
+  var hostname = dynamicOptions.useRecaptchaNet ? "recaptcha.net" : "www.google.com";
+  return "https://" + hostname + "/recaptcha/api.js?onload=" + callbackName + "&render=explicit";
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_async_script__WEBPACK_IMPORTED_MODULE_1__["default"])(getURL, {
+  callbackName: callbackName,
+  globalName: globalName
+})(_recaptcha__WEBPACK_IMPORTED_MODULE_0__["default"]));
+
+/***/ }),
+
+/***/ "./node_modules/react-google-recaptcha/lib/esm/recaptcha.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/react-google-recaptcha/lib/esm/recaptcha.js ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ReCAPTCHA; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
+
+
+
+
+var ReCAPTCHA =
+/*#__PURE__*/
+function (_React$Component) {
+  _inheritsLoose(ReCAPTCHA, _React$Component);
+
+  function ReCAPTCHA() {
+    var _this;
+
+    _this = _React$Component.call(this) || this;
+    _this.handleExpired = _this.handleExpired.bind(_assertThisInitialized(_this));
+    _this.handleErrored = _this.handleErrored.bind(_assertThisInitialized(_this));
+    _this.handleChange = _this.handleChange.bind(_assertThisInitialized(_this));
+    _this.handleRecaptchaRef = _this.handleRecaptchaRef.bind(_assertThisInitialized(_this));
+    return _this;
+  }
+
+  var _proto = ReCAPTCHA.prototype;
+
+  _proto.getValue = function getValue() {
+    if (this.props.grecaptcha && this._widgetId !== undefined) {
+      return this.props.grecaptcha.getResponse(this._widgetId);
+    }
+
+    return null;
+  };
+
+  _proto.getWidgetId = function getWidgetId() {
+    if (this.props.grecaptcha && this._widgetId !== undefined) {
+      return this._widgetId;
+    }
+
+    return null;
+  };
+
+  _proto.execute = function execute() {
+    var grecaptcha = this.props.grecaptcha;
+
+    if (grecaptcha && this._widgetId !== undefined) {
+      return grecaptcha.execute(this._widgetId);
+    } else {
+      this._executeRequested = true;
+    }
+  };
+
+  _proto.executeAsync = function executeAsync() {
+    var _this2 = this;
+
+    return new Promise(function (resolve, reject) {
+      _this2.executionResolve = resolve;
+      _this2.executionReject = reject;
+
+      _this2.execute();
+    });
+  };
+
+  _proto.reset = function reset() {
+    if (this.props.grecaptcha && this._widgetId !== undefined) {
+      this.props.grecaptcha.reset(this._widgetId);
+    }
+  };
+
+  _proto.handleExpired = function handleExpired() {
+    if (this.props.onExpired) {
+      this.props.onExpired();
+    } else {
+      this.handleChange(null);
+    }
+  };
+
+  _proto.handleErrored = function handleErrored() {
+    if (this.props.onErrored) {
+      this.props.onErrored();
+    }
+
+    if (this.executionReject) {
+      this.executionReject();
+      delete this.executionResolve;
+      delete this.executionReject;
+    }
+  };
+
+  _proto.handleChange = function handleChange(token) {
+    if (this.props.onChange) {
+      this.props.onChange(token);
+    }
+
+    if (this.executionResolve) {
+      this.executionResolve(token);
+      delete this.executionReject;
+      delete this.executionResolve;
+    }
+  };
+
+  _proto.explicitRender = function explicitRender() {
+    if (this.props.grecaptcha && this.props.grecaptcha.render && this._widgetId === undefined) {
+      var wrapper = document.createElement("div");
+      this._widgetId = this.props.grecaptcha.render(wrapper, {
+        sitekey: this.props.sitekey,
+        callback: this.handleChange,
+        theme: this.props.theme,
+        type: this.props.type,
+        tabindex: this.props.tabindex,
+        "expired-callback": this.handleExpired,
+        "error-callback": this.handleErrored,
+        size: this.props.size,
+        stoken: this.props.stoken,
+        hl: this.props.hl,
+        badge: this.props.badge
+      });
+      this.captcha.appendChild(wrapper);
+    }
+
+    if (this._executeRequested && this.props.grecaptcha && this._widgetId !== undefined) {
+      this._executeRequested = false;
+      this.execute();
+    }
+  };
+
+  _proto.componentDidMount = function componentDidMount() {
+    this.explicitRender();
+  };
+
+  _proto.componentDidUpdate = function componentDidUpdate() {
+    this.explicitRender();
+  };
+
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    if (this._widgetId !== undefined) {
+      this.delayOfCaptchaIframeRemoving();
+      this.reset();
+    }
+  };
+
+  _proto.delayOfCaptchaIframeRemoving = function delayOfCaptchaIframeRemoving() {
+    var temporaryNode = document.createElement("div");
+    document.body.appendChild(temporaryNode);
+    temporaryNode.style.display = "none"; // move of the recaptcha to a temporary node
+
+    while (this.captcha.firstChild) {
+      temporaryNode.appendChild(this.captcha.firstChild);
+    } // delete the temporary node after reset will be done
+
+
+    setTimeout(function () {
+      document.body.removeChild(temporaryNode);
+    }, 5000);
+  };
+
+  _proto.handleRecaptchaRef = function handleRecaptchaRef(elem) {
+    this.captcha = elem;
+  };
+
+  _proto.render = function render() {
+    // consume properties owned by the reCATPCHA, pass the rest to the div so the user can style it.
+
+    /* eslint-disable no-unused-vars */
+    var _this$props = this.props,
+        sitekey = _this$props.sitekey,
+        onChange = _this$props.onChange,
+        theme = _this$props.theme,
+        type = _this$props.type,
+        tabindex = _this$props.tabindex,
+        onExpired = _this$props.onExpired,
+        onErrored = _this$props.onErrored,
+        size = _this$props.size,
+        stoken = _this$props.stoken,
+        grecaptcha = _this$props.grecaptcha,
+        badge = _this$props.badge,
+        hl = _this$props.hl,
+        childProps = _objectWithoutPropertiesLoose(_this$props, ["sitekey", "onChange", "theme", "type", "tabindex", "onExpired", "onErrored", "size", "stoken", "grecaptcha", "badge", "hl"]);
+    /* eslint-enable no-unused-vars */
+
+
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, childProps, {
+      ref: this.handleRecaptchaRef
+    }));
+  };
+
+  return ReCAPTCHA;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+
+ReCAPTCHA.displayName = "ReCAPTCHA";
+ReCAPTCHA.propTypes = {
+  sitekey: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
+  onChange: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  grecaptcha: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object,
+  theme: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOf(["dark", "light"]),
+  type: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOf(["image", "audio"]),
+  tabindex: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
+  onExpired: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onErrored: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  size: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOf(["compact", "normal", "invisible"]),
+  stoken: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  hl: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  badge: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOf(["bottomright", "bottomleft", "inline"])
+};
+ReCAPTCHA.defaultProps = {
+  onChange: function onChange() {},
+  theme: "light",
+  type: "image",
+  tabindex: 0,
+  size: "normal",
+  badge: "bottomright"
+};
 
 /***/ }),
 
@@ -35666,454 +36945,6 @@ if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/react-is/cjs/react-is.development.js");
 }
 
-
-/***/ }),
-
-/***/ "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js":
-/*!****************************************************************************!*\
-  !*** ./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js ***!
-  \****************************************************************************/
-/*! exports provided: polyfill */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "polyfill", function() { return polyfill; });
-/**
- * Copyright (c) 2013-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-function componentWillMount() {
-  // Call this.constructor.gDSFP to support sub-classes.
-  var state = this.constructor.getDerivedStateFromProps(this.props, this.state);
-  if (state !== null && state !== undefined) {
-    this.setState(state);
-  }
-}
-
-function componentWillReceiveProps(nextProps) {
-  // Call this.constructor.gDSFP to support sub-classes.
-  // Use the setState() updater to ensure state isn't stale in certain edge cases.
-  function updater(prevState) {
-    var state = this.constructor.getDerivedStateFromProps(nextProps, prevState);
-    return state !== null && state !== undefined ? state : null;
-  }
-  // Binding "this" is important for shallow renderer support.
-  this.setState(updater.bind(this));
-}
-
-function componentWillUpdate(nextProps, nextState) {
-  try {
-    var prevProps = this.props;
-    var prevState = this.state;
-    this.props = nextProps;
-    this.state = nextState;
-    this.__reactInternalSnapshotFlag = true;
-    this.__reactInternalSnapshot = this.getSnapshotBeforeUpdate(
-      prevProps,
-      prevState
-    );
-  } finally {
-    this.props = prevProps;
-    this.state = prevState;
-  }
-}
-
-// React may warn about cWM/cWRP/cWU methods being deprecated.
-// Add a flag to suppress these warnings for this special case.
-componentWillMount.__suppressDeprecationWarning = true;
-componentWillReceiveProps.__suppressDeprecationWarning = true;
-componentWillUpdate.__suppressDeprecationWarning = true;
-
-function polyfill(Component) {
-  var prototype = Component.prototype;
-
-  if (!prototype || !prototype.isReactComponent) {
-    throw new Error('Can only polyfill class components');
-  }
-
-  if (
-    typeof Component.getDerivedStateFromProps !== 'function' &&
-    typeof prototype.getSnapshotBeforeUpdate !== 'function'
-  ) {
-    return Component;
-  }
-
-  // If new component APIs are defined, "unsafe" lifecycles won't be called.
-  // Error if any of these lifecycles are present,
-  // Because they would work differently between older and newer (16.3+) versions of React.
-  var foundWillMountName = null;
-  var foundWillReceivePropsName = null;
-  var foundWillUpdateName = null;
-  if (typeof prototype.componentWillMount === 'function') {
-    foundWillMountName = 'componentWillMount';
-  } else if (typeof prototype.UNSAFE_componentWillMount === 'function') {
-    foundWillMountName = 'UNSAFE_componentWillMount';
-  }
-  if (typeof prototype.componentWillReceiveProps === 'function') {
-    foundWillReceivePropsName = 'componentWillReceiveProps';
-  } else if (typeof prototype.UNSAFE_componentWillReceiveProps === 'function') {
-    foundWillReceivePropsName = 'UNSAFE_componentWillReceiveProps';
-  }
-  if (typeof prototype.componentWillUpdate === 'function') {
-    foundWillUpdateName = 'componentWillUpdate';
-  } else if (typeof prototype.UNSAFE_componentWillUpdate === 'function') {
-    foundWillUpdateName = 'UNSAFE_componentWillUpdate';
-  }
-  if (
-    foundWillMountName !== null ||
-    foundWillReceivePropsName !== null ||
-    foundWillUpdateName !== null
-  ) {
-    var componentName = Component.displayName || Component.name;
-    var newApiName =
-      typeof Component.getDerivedStateFromProps === 'function'
-        ? 'getDerivedStateFromProps()'
-        : 'getSnapshotBeforeUpdate()';
-
-    throw Error(
-      'Unsafe legacy lifecycles will not be called for components using new component APIs.\n\n' +
-        componentName +
-        ' uses ' +
-        newApiName +
-        ' but also contains the following legacy lifecycles:' +
-        (foundWillMountName !== null ? '\n  ' + foundWillMountName : '') +
-        (foundWillReceivePropsName !== null
-          ? '\n  ' + foundWillReceivePropsName
-          : '') +
-        (foundWillUpdateName !== null ? '\n  ' + foundWillUpdateName : '') +
-        '\n\nThe above lifecycles should be removed. Learn more about this warning here:\n' +
-        'https://fb.me/react-async-component-lifecycle-hooks'
-    );
-  }
-
-  // React <= 16.2 does not support static getDerivedStateFromProps.
-  // As a workaround, use cWM and cWRP to invoke the new static lifecycle.
-  // Newer versions of React will ignore these lifecycles if gDSFP exists.
-  if (typeof Component.getDerivedStateFromProps === 'function') {
-    prototype.componentWillMount = componentWillMount;
-    prototype.componentWillReceiveProps = componentWillReceiveProps;
-  }
-
-  // React <= 16.2 does not support getSnapshotBeforeUpdate.
-  // As a workaround, use cWU to invoke the new lifecycle.
-  // Newer versions of React will ignore that lifecycle if gSBU exists.
-  if (typeof prototype.getSnapshotBeforeUpdate === 'function') {
-    if (typeof prototype.componentDidUpdate !== 'function') {
-      throw new Error(
-        'Cannot polyfill getSnapshotBeforeUpdate() for components that do not define componentDidUpdate() on the prototype'
-      );
-    }
-
-    prototype.componentWillUpdate = componentWillUpdate;
-
-    var componentDidUpdate = prototype.componentDidUpdate;
-
-    prototype.componentDidUpdate = function componentDidUpdatePolyfill(
-      prevProps,
-      prevState,
-      maybeSnapshot
-    ) {
-      // 16.3+ will not execute our will-update method;
-      // It will pass a snapshot value to did-update though.
-      // Older versions will require our polyfilled will-update value.
-      // We need to handle both cases, but can't just check for the presence of "maybeSnapshot",
-      // Because for <= 15.x versions this might be a "prevContext" object.
-      // We also can't just check "__reactInternalSnapshot",
-      // Because get-snapshot might return a falsy value.
-      // So check for the explicit __reactInternalSnapshotFlag flag to determine behavior.
-      var snapshot = this.__reactInternalSnapshotFlag
-        ? this.__reactInternalSnapshot
-        : maybeSnapshot;
-
-      componentDidUpdate.call(this, prevProps, prevState, snapshot);
-    };
-  }
-
-  return Component;
-}
-
-
-
-
-/***/ }),
-
-/***/ "./node_modules/react-modal-video/lib/index.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/react-modal-video/lib/index.js ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _CSSTransition = __webpack_require__(/*! react-transition-group/CSSTransition */ "./node_modules/react-transition-group/CSSTransition.js");
-
-var _CSSTransition2 = _interopRequireDefault(_CSSTransition);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ModalVideo = function (_React$Component) {
-  _inherits(ModalVideo, _React$Component);
-
-  function ModalVideo(props) {
-    _classCallCheck(this, ModalVideo);
-
-    var _this = _possibleConstructorReturn(this, (ModalVideo.__proto__ || Object.getPrototypeOf(ModalVideo)).call(this, props));
-
-    _this.state = {
-      isOpen: false
-    };
-    _this.closeModal = _this.closeModal.bind(_this);
-    _this.updateFocus = _this.updateFocus.bind(_this);
-    return _this;
-  }
-
-  _createClass(ModalVideo, [{
-    key: 'openModal',
-    value: function openModal() {
-      this.setState({ isOpen: true });
-    }
-  }, {
-    key: 'closeModal',
-    value: function closeModal() {
-      this.setState({ isOpen: false });
-      if (typeof this.props.onClose === 'function') {
-        this.props.onClose();
-      }
-    }
-  }, {
-    key: 'keydownHandler',
-    value: function keydownHandler(e) {
-      if (e.keyCode === 27) {
-        this.closeModal();
-      }
-    }
-  }, {
-    key: 'componentDidMount',
-    value: function componentDidMount() {
-      document.addEventListener('keydown', this.keydownHandler.bind(this));
-    }
-  }, {
-    key: 'componentWillUnmount',
-    value: function componentWillUnmount() {
-      document.removeEventListener('keydown', this.keydownHandler.bind(this));
-    }
-  }, {
-    key: 'componentDidUpdate',
-    value: function componentDidUpdate() {
-      if (this.state.isOpen && this.modal) {
-        this.modal.focus();
-      }
-    }
-  }, {
-    key: 'updateFocus',
-    value: function updateFocus(e) {
-      if (e.keyCode === 9) {
-        e.preventDefault();
-        e.stopPropagation();
-        if (this.modal === document.activeElement) {
-          this.modalbtn.focus();
-        } else {
-          this.modal.focus();
-        }
-      }
-    }
-  }, {
-    key: 'getQueryString',
-    value: function getQueryString(obj) {
-      var url = '';
-      for (var key in obj) {
-        if (obj.hasOwnProperty(key)) {
-          if (obj[key] !== null) {
-            url += key + '=' + obj[key] + '&';
-          }
-        }
-      }
-      return url.substr(0, url.length - 1);
-    }
-  }, {
-    key: 'getYoutubeUrl',
-    value: function getYoutubeUrl(youtube, videoId) {
-      var query = this.getQueryString(youtube);
-      return '//www.youtube.com/embed/' + videoId + '?' + query;
-    }
-  }, {
-    key: 'getVimeoUrl',
-    value: function getVimeoUrl(vimeo, videoId) {
-      var query = this.getQueryString(vimeo);
-      return '//player.vimeo.com/video/' + videoId + '?' + query;
-    }
-  }, {
-    key: 'getYoukuUrl',
-    value: function getYoukuUrl(youku, videoId) {
-      var query = this.getQueryString(youku);
-      return '//player.youku.com/embed/' + videoId + '?' + query;
-    }
-  }, {
-    key: 'getVideoUrl',
-    value: function getVideoUrl(opt, videoId) {
-      if (opt.channel === 'youtube') {
-        return this.getYoutubeUrl(opt.youtube, videoId);
-      } else if (opt.channel === 'vimeo') {
-        return this.getVimeoUrl(opt.vimeo, videoId);
-      } else if (opt.channel === 'youku') {
-        return this.getYoukuUrl(opt.youku, videoId);
-      }
-    }
-  }, {
-    key: 'getPadding',
-    value: function getPadding(ratio) {
-      var arr = ratio.split(':');
-      var width = Number(arr[0]);
-      var height = Number(arr[1]);
-      var padding = height * 100 / width;
-      return padding + '%';
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var _this2 = this;
-
-      var style = {
-        paddingBottom: this.getPadding(this.props.ratio)
-      };
-
-      return _react2.default.createElement(
-        _CSSTransition2.default,
-        {
-          classNames: this.props.classNames.modalVideoEffect,
-          timeout: this.props.animationSpeed
-        },
-        function () {
-          if (!_this2.state.isOpen) {
-            return null;
-          }
-
-          return _react2.default.createElement(
-            'div',
-            { className: _this2.props.classNames.modalVideo, tabIndex: '-1', role: 'dialog',
-              'aria-label': _this2.props.aria.openMessage, onClick: _this2.closeModal, ref: function ref(node) {
-                _this2.modal = node;
-              }, onKeyDown: _this2.updateFocus },
-            _react2.default.createElement(
-              'div',
-              { className: _this2.props.classNames.modalVideoBody },
-              _react2.default.createElement(
-                'div',
-                { className: _this2.props.classNames.modalVideoInner },
-                _react2.default.createElement(
-                  'div',
-                  { className: _this2.props.classNames.modalVideoIframeWrap, style: style },
-                  _react2.default.createElement('button', { className: _this2.props.classNames.modalVideoCloseBtn, 'aria-label': _this2.props.aria.dismissBtnMessage, ref: function ref(node) {
-                      _this2.modalbtn = node;
-                    }, onKeyDown: _this2.updateFocus }),
-                  _react2.default.createElement('iframe', { width: '460', height: '230', src: _this2.getVideoUrl(_this2.props, _this2.props.videoId), frameBorder: '0', allowFullScreen: _this2.props.allowFullScreen, tabIndex: '-1' })
-                )
-              )
-            )
-          );
-        }
-      );
-    }
-  }], [{
-    key: 'getDerivedStateFromProps',
-    value: function getDerivedStateFromProps(props) {
-      return { isOpen: props.isOpen };
-    }
-  }]);
-
-  return ModalVideo;
-}(_react2.default.Component);
-
-exports.default = ModalVideo;
-
-
-ModalVideo.defaultProps = {
-  channel: 'youtube',
-  isOpen: false,
-  youtube: {
-    autoplay: 1,
-    cc_load_policy: 1,
-    color: null,
-    controls: 1,
-    disablekb: 0,
-    enablejsapi: 0,
-    end: null,
-    fs: 1,
-    h1: null,
-    iv_load_policy: 1,
-    list: null,
-    listType: null,
-    loop: 0,
-    modestbranding: null,
-    origin: null,
-    playlist: null,
-    playsinline: null,
-    rel: 0,
-    showinfo: 1,
-    start: 0,
-    wmode: 'transparent',
-    theme: 'dark'
-  },
-  ratio: '16:9',
-  vimeo: {
-    api: false,
-    autopause: true,
-    autoplay: true,
-    byline: true,
-    callback: null,
-    color: null,
-    height: null,
-    loop: false,
-    maxheight: null,
-    maxwidth: null,
-    player_id: null,
-    portrait: true,
-    title: true,
-    width: null,
-    xhtml: false
-  },
-  youku: {
-    autoplay: 1,
-    show_related: 0
-  },
-  allowFullScreen: true,
-  animationSpeed: 300,
-  classNames: {
-    modalVideoEffect: 'modal-video-effect',
-    modalVideo: 'modal-video',
-    modalVideoClose: 'modal-video-close',
-    modalVideoBody: 'modal-video-body',
-    modalVideoInner: 'modal-video-inner',
-    modalVideoIframeWrap: 'modal-video-movie-wrap',
-    modalVideoCloseBtn: 'modal-video-close-btn'
-  },
-  aria: {
-    openMessage: 'You just openned the modal video',
-    dismissBtnMessage: 'Close the modal by clicking here'
-  }
-};
 
 /***/ }),
 
@@ -39436,1048 +40267,14 @@ var classNamesShape =  true ? prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.
 
 /***/ }),
 
-/***/ "./node_modules/react-transition-group/CSSTransition.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/react-transition-group/CSSTransition.js ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.default = void 0;
-
-var PropTypes = _interopRequireWildcard(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
-
-var _addClass = _interopRequireDefault(__webpack_require__(/*! dom-helpers/class/addClass */ "./node_modules/dom-helpers/class/addClass.js"));
-
-var _removeClass = _interopRequireDefault(__webpack_require__(/*! dom-helpers/class/removeClass */ "./node_modules/dom-helpers/class/removeClass.js"));
-
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var _Transition = _interopRequireDefault(__webpack_require__(/*! ./Transition */ "./node_modules/react-transition-group/Transition.js"));
-
-var _PropTypes = __webpack_require__(/*! ./utils/PropTypes */ "./node_modules/react-transition-group/utils/PropTypes.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-var addClass = function addClass(node, classes) {
-  return node && classes && classes.split(' ').forEach(function (c) {
-    return (0, _addClass.default)(node, c);
-  });
-};
-
-var removeClass = function removeClass(node, classes) {
-  return node && classes && classes.split(' ').forEach(function (c) {
-    return (0, _removeClass.default)(node, c);
-  });
-};
-/**
- * A transition component inspired by the excellent
- * [ng-animate](http://www.nganimate.org/) library, you should use it if you're
- * using CSS transitions or animations. It's built upon the
- * [`Transition`](https://reactcommunity.org/react-transition-group/transition)
- * component, so it inherits all of its props.
- *
- * `CSSTransition` applies a pair of class names during the `appear`, `enter`,
- * and `exit` states of the transition. The first class is applied and then a
- * second `*-active` class in order to activate the CSSS transition. After the
- * transition, matching `*-done` class names are applied to persist the
- * transition state.
- *
- * ```jsx
- * function App() {
- *   const [inProp, setInProp] = useState(false);
- *   return (
- *     <div>
- *       <CSSTransition in={inProp} timeout={200} classNames="my-node">
- *         <div>
- *           {"I'll receive my-node-* classes"}
- *         </div>
- *       </CSSTransition>
- *       <button type="button" onClick={() => setInProp(true)}>
- *         Click to Enter
- *       </button>
- *     </div>
- *   );
- * }
- * ```
- *
- * When the `in` prop is set to `true`, the child component will first receive
- * the class `example-enter`, then the `example-enter-active` will be added in
- * the next tick. `CSSTransition` [forces a
- * reflow](https://github.com/reactjs/react-transition-group/blob/5007303e729a74be66a21c3e2205e4916821524b/src/CSSTransition.js#L208-L215)
- * between before adding the `example-enter-active`. This is an important trick
- * because it allows us to transition between `example-enter` and
- * `example-enter-active` even though they were added immediately one after
- * another. Most notably, this is what makes it possible for us to animate
- * _appearance_.
- *
- * ```css
- * .my-node-enter {
- *   opacity: 0;
- * }
- * .my-node-enter-active {
- *   opacity: 1;
- *   transition: opacity 200ms;
- * }
- * .my-node-exit {
- *   opacity: 1;
- * }
- * .my-node-exit-active {
- *   opacity: 0;
- *   transition: opacity: 200ms;
- * }
- * ```
- *
- * `*-active` classes represent which styles you want to animate **to**.
- */
-
-
-var CSSTransition =
-/*#__PURE__*/
-function (_React$Component) {
-  _inheritsLoose(CSSTransition, _React$Component);
-
-  function CSSTransition() {
-    var _this;
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
-
-    _this.onEnter = function (node, appearing) {
-      var _this$getClassNames = _this.getClassNames(appearing ? 'appear' : 'enter'),
-          className = _this$getClassNames.className;
-
-      _this.removeClasses(node, 'exit');
-
-      addClass(node, className);
-
-      if (_this.props.onEnter) {
-        _this.props.onEnter(node, appearing);
-      }
-    };
-
-    _this.onEntering = function (node, appearing) {
-      var _this$getClassNames2 = _this.getClassNames(appearing ? 'appear' : 'enter'),
-          activeClassName = _this$getClassNames2.activeClassName;
-
-      _this.reflowAndAddClass(node, activeClassName);
-
-      if (_this.props.onEntering) {
-        _this.props.onEntering(node, appearing);
-      }
-    };
-
-    _this.onEntered = function (node, appearing) {
-      var appearClassName = _this.getClassNames('appear').doneClassName;
-
-      var enterClassName = _this.getClassNames('enter').doneClassName;
-
-      var doneClassName = appearing ? appearClassName + " " + enterClassName : enterClassName;
-
-      _this.removeClasses(node, appearing ? 'appear' : 'enter');
-
-      addClass(node, doneClassName);
-
-      if (_this.props.onEntered) {
-        _this.props.onEntered(node, appearing);
-      }
-    };
-
-    _this.onExit = function (node) {
-      var _this$getClassNames3 = _this.getClassNames('exit'),
-          className = _this$getClassNames3.className;
-
-      _this.removeClasses(node, 'appear');
-
-      _this.removeClasses(node, 'enter');
-
-      addClass(node, className);
-
-      if (_this.props.onExit) {
-        _this.props.onExit(node);
-      }
-    };
-
-    _this.onExiting = function (node) {
-      var _this$getClassNames4 = _this.getClassNames('exit'),
-          activeClassName = _this$getClassNames4.activeClassName;
-
-      _this.reflowAndAddClass(node, activeClassName);
-
-      if (_this.props.onExiting) {
-        _this.props.onExiting(node);
-      }
-    };
-
-    _this.onExited = function (node) {
-      var _this$getClassNames5 = _this.getClassNames('exit'),
-          doneClassName = _this$getClassNames5.doneClassName;
-
-      _this.removeClasses(node, 'exit');
-
-      addClass(node, doneClassName);
-
-      if (_this.props.onExited) {
-        _this.props.onExited(node);
-      }
-    };
-
-    _this.getClassNames = function (type) {
-      var classNames = _this.props.classNames;
-      var isStringClassNames = typeof classNames === 'string';
-      var prefix = isStringClassNames && classNames ? classNames + '-' : '';
-      var className = isStringClassNames ? prefix + type : classNames[type];
-      var activeClassName = isStringClassNames ? className + '-active' : classNames[type + 'Active'];
-      var doneClassName = isStringClassNames ? className + '-done' : classNames[type + 'Done'];
-      return {
-        className: className,
-        activeClassName: activeClassName,
-        doneClassName: doneClassName
-      };
-    };
-
-    return _this;
-  }
-
-  var _proto = CSSTransition.prototype;
-
-  _proto.removeClasses = function removeClasses(node, type) {
-    var _this$getClassNames6 = this.getClassNames(type),
-        className = _this$getClassNames6.className,
-        activeClassName = _this$getClassNames6.activeClassName,
-        doneClassName = _this$getClassNames6.doneClassName;
-
-    className && removeClass(node, className);
-    activeClassName && removeClass(node, activeClassName);
-    doneClassName && removeClass(node, doneClassName);
-  };
-
-  _proto.reflowAndAddClass = function reflowAndAddClass(node, className) {
-    // This is for to force a repaint,
-    // which is necessary in order to transition styles when adding a class name.
-    if (className) {
-      /* eslint-disable no-unused-expressions */
-      node && node.scrollTop;
-      /* eslint-enable no-unused-expressions */
-
-      addClass(node, className);
-    }
-  };
-
-  _proto.render = function render() {
-    var props = _extends({}, this.props);
-
-    delete props.classNames;
-    return _react.default.createElement(_Transition.default, _extends({}, props, {
-      onEnter: this.onEnter,
-      onEntered: this.onEntered,
-      onEntering: this.onEntering,
-      onExit: this.onExit,
-      onExiting: this.onExiting,
-      onExited: this.onExited
-    }));
-  };
-
-  return CSSTransition;
-}(_react.default.Component);
-
-CSSTransition.defaultProps = {
-  classNames: ''
-};
-CSSTransition.propTypes =  true ? _extends({}, _Transition.default.propTypes, {
-  /**
-   * The animation classNames applied to the component as it enters, exits or
-   * has finished the transition. A single name can be provided and it will be
-   * suffixed for each stage: e.g.
-   *
-   * `classNames="fade"` applies `fade-enter`, `fade-enter-active`,
-   * `fade-enter-done`, `fade-exit`, `fade-exit-active`, `fade-exit-done`,
-   * `fade-appear`, `fade-appear-active`, and `fade-appear-done`.
-   *
-   * **Note**: `fade-appear-done` and `fade-enter-done` will _both_ be applied.
-   * This allows you to define different behavior for when appearing is done and
-   * when regular entering is done, using selectors like
-   * `.fade-enter-done:not(.fade-appear-done)`. For example, you could apply an
-   * epic entrance animation when element first appears in the DOM using
-   * [Animate.css](https://daneden.github.io/animate.css/). Otherwise you can
-   * simply use `fade-enter-done` for defining both cases.
-   *
-   * Each individual classNames can also be specified independently like:
-   *
-   * ```js
-   * classNames={{
-   *  appear: 'my-appear',
-   *  appearActive: 'my-active-appear',
-   *  appearDone: 'my-done-appear',
-   *  enter: 'my-enter',
-   *  enterActive: 'my-active-enter',
-   *  enterDone: 'my-done-enter',
-   *  exit: 'my-exit',
-   *  exitActive: 'my-active-exit',
-   *  exitDone: 'my-done-exit',
-   * }}
-   * ```
-   *
-   * If you want to set these classes using CSS Modules:
-   *
-   * ```js
-   * import styles from './styles.css';
-   * ```
-   *
-   * you might want to use camelCase in your CSS file, that way could simply
-   * spread them instead of listing them one by one:
-   *
-   * ```js
-   * classNames={{ ...styles }}
-   * ```
-   *
-   * @type {string | {
-   *  appear?: string,
-   *  appearActive?: string,
-   *  appearDone?: string,
-   *  enter?: string,
-   *  enterActive?: string,
-   *  enterDone?: string,
-   *  exit?: string,
-   *  exitActive?: string,
-   *  exitDone?: string,
-   * }}
-   */
-  classNames: _PropTypes.classNamesShape,
-
-  /**
-   * A `<Transition>` callback fired immediately after the 'enter' or 'appear' class is
-   * applied.
-   *
-   * @type Function(node: HtmlElement, isAppearing: bool)
-   */
-  onEnter: PropTypes.func,
-
-  /**
-   * A `<Transition>` callback fired immediately after the 'enter-active' or
-   * 'appear-active' class is applied.
-   *
-   * @type Function(node: HtmlElement, isAppearing: bool)
-   */
-  onEntering: PropTypes.func,
-
-  /**
-   * A `<Transition>` callback fired immediately after the 'enter' or
-   * 'appear' classes are **removed** and the `done` class is added to the DOM node.
-   *
-   * @type Function(node: HtmlElement, isAppearing: bool)
-   */
-  onEntered: PropTypes.func,
-
-  /**
-   * A `<Transition>` callback fired immediately after the 'exit' class is
-   * applied.
-   *
-   * @type Function(node: HtmlElement)
-   */
-  onExit: PropTypes.func,
-
-  /**
-   * A `<Transition>` callback fired immediately after the 'exit-active' is applied.
-   *
-   * @type Function(node: HtmlElement)
-   */
-  onExiting: PropTypes.func,
-
-  /**
-   * A `<Transition>` callback fired immediately after the 'exit' classes
-   * are **removed** and the `exit-done` class is added to the DOM node.
-   *
-   * @type Function(node: HtmlElement)
-   */
-  onExited: PropTypes.func
-}) : undefined;
-var _default = CSSTransition;
-exports.default = _default;
-module.exports = exports["default"];
-
-/***/ }),
-
-/***/ "./node_modules/react-transition-group/Transition.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/react-transition-group/Transition.js ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.default = exports.EXITING = exports.ENTERED = exports.ENTERING = exports.EXITED = exports.UNMOUNTED = void 0;
-
-var PropTypes = _interopRequireWildcard(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
-
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var _reactDom = _interopRequireDefault(__webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js"));
-
-var _reactLifecyclesCompat = __webpack_require__(/*! react-lifecycles-compat */ "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js");
-
-var _PropTypes = __webpack_require__(/*! ./utils/PropTypes */ "./node_modules/react-transition-group/utils/PropTypes.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-var UNMOUNTED = 'unmounted';
-exports.UNMOUNTED = UNMOUNTED;
-var EXITED = 'exited';
-exports.EXITED = EXITED;
-var ENTERING = 'entering';
-exports.ENTERING = ENTERING;
-var ENTERED = 'entered';
-exports.ENTERED = ENTERED;
-var EXITING = 'exiting';
-/**
- * The Transition component lets you describe a transition from one component
- * state to another _over time_ with a simple declarative API. Most commonly
- * it's used to animate the mounting and unmounting of a component, but can also
- * be used to describe in-place transition states as well.
- *
- * ---
- *
- * **Note**: `Transition` is a platform-agnostic base component. If you're using
- * transitions in CSS, you'll probably want to use
- * [`CSSTransition`](https://reactcommunity.org/react-transition-group/css-transition)
- * instead. It inherits all the features of `Transition`, but contains
- * additional features necessary to play nice with CSS transitions (hence the
- * name of the component).
- *
- * ---
- *
- * By default the `Transition` component does not alter the behavior of the
- * component it renders, it only tracks "enter" and "exit" states for the
- * components. It's up to you to give meaning and effect to those states. For
- * example we can add styles to a component when it enters or exits:
- *
- * ```jsx
- * import { Transition } from 'react-transition-group';
- *
- * const duration = 300;
- *
- * const defaultStyle = {
- *   transition: `opacity ${duration}ms ease-in-out`,
- *   opacity: 0,
- * }
- *
- * const transitionStyles = {
- *   entering: { opacity: 0 },
- *   entered:  { opacity: 1 },
- * };
- *
- * const Fade = ({ in: inProp }) => (
- *   <Transition in={inProp} timeout={duration}>
- *     {state => (
- *       <div style={{
- *         ...defaultStyle,
- *         ...transitionStyles[state]
- *       }}>
- *         I'm a fade Transition!
- *       </div>
- *     )}
- *   </Transition>
- * );
- * ```
- *
- * There are 4 main states a Transition can be in:
- *  - `'entering'`
- *  - `'entered'`
- *  - `'exiting'`
- *  - `'exited'`
- *
- * Transition state is toggled via the `in` prop. When `true` the component
- * begins the "Enter" stage. During this stage, the component will shift from
- * its current transition state, to `'entering'` for the duration of the
- * transition and then to the `'entered'` stage once it's complete. Let's take
- * the following example (we'll use the
- * [useState](https://reactjs.org/docs/hooks-reference.html#usestate) hook):
- *
- * ```jsx
- * function App() {
- *   const [inProp, setInProp] = useState(false);
- *   return (
- *     <div>
- *       <Transition in={inProp} timeout={500}>
- *         {state => (
- *           // ...
- *         )}
- *       </Transition>
- *       <button onClick={() => setInProp(true)}>
- *         Click to Enter
- *       </button>
- *     </div>
- *   );
- * }
- * ```
- *
- * When the button is clicked the component will shift to the `'entering'` state
- * and stay there for 500ms (the value of `timeout`) before it finally switches
- * to `'entered'`.
- *
- * When `in` is `false` the same thing happens except the state moves from
- * `'exiting'` to `'exited'`.
- */
-
-exports.EXITING = EXITING;
-
-var Transition =
-/*#__PURE__*/
-function (_React$Component) {
-  _inheritsLoose(Transition, _React$Component);
-
-  function Transition(props, context) {
-    var _this;
-
-    _this = _React$Component.call(this, props, context) || this;
-    var parentGroup = context.transitionGroup; // In the context of a TransitionGroup all enters are really appears
-
-    var appear = parentGroup && !parentGroup.isMounting ? props.enter : props.appear;
-    var initialStatus;
-    _this.appearStatus = null;
-
-    if (props.in) {
-      if (appear) {
-        initialStatus = EXITED;
-        _this.appearStatus = ENTERING;
-      } else {
-        initialStatus = ENTERED;
-      }
-    } else {
-      if (props.unmountOnExit || props.mountOnEnter) {
-        initialStatus = UNMOUNTED;
-      } else {
-        initialStatus = EXITED;
-      }
-    }
-
-    _this.state = {
-      status: initialStatus
-    };
-    _this.nextCallback = null;
-    return _this;
-  }
-
-  var _proto = Transition.prototype;
-
-  _proto.getChildContext = function getChildContext() {
-    return {
-      transitionGroup: null // allows for nested Transitions
-
-    };
-  };
-
-  Transition.getDerivedStateFromProps = function getDerivedStateFromProps(_ref, prevState) {
-    var nextIn = _ref.in;
-
-    if (nextIn && prevState.status === UNMOUNTED) {
-      return {
-        status: EXITED
-      };
-    }
-
-    return null;
-  }; // getSnapshotBeforeUpdate(prevProps) {
-  //   let nextStatus = null
-  //   if (prevProps !== this.props) {
-  //     const { status } = this.state
-  //     if (this.props.in) {
-  //       if (status !== ENTERING && status !== ENTERED) {
-  //         nextStatus = ENTERING
-  //       }
-  //     } else {
-  //       if (status === ENTERING || status === ENTERED) {
-  //         nextStatus = EXITING
-  //       }
-  //     }
-  //   }
-  //   return { nextStatus }
-  // }
-
-
-  _proto.componentDidMount = function componentDidMount() {
-    this.updateStatus(true, this.appearStatus);
-  };
-
-  _proto.componentDidUpdate = function componentDidUpdate(prevProps) {
-    var nextStatus = null;
-
-    if (prevProps !== this.props) {
-      var status = this.state.status;
-
-      if (this.props.in) {
-        if (status !== ENTERING && status !== ENTERED) {
-          nextStatus = ENTERING;
-        }
-      } else {
-        if (status === ENTERING || status === ENTERED) {
-          nextStatus = EXITING;
-        }
-      }
-    }
-
-    this.updateStatus(false, nextStatus);
-  };
-
-  _proto.componentWillUnmount = function componentWillUnmount() {
-    this.cancelNextCallback();
-  };
-
-  _proto.getTimeouts = function getTimeouts() {
-    var timeout = this.props.timeout;
-    var exit, enter, appear;
-    exit = enter = appear = timeout;
-
-    if (timeout != null && typeof timeout !== 'number') {
-      exit = timeout.exit;
-      enter = timeout.enter; // TODO: remove fallback for next major
-
-      appear = timeout.appear !== undefined ? timeout.appear : enter;
-    }
-
-    return {
-      exit: exit,
-      enter: enter,
-      appear: appear
-    };
-  };
-
-  _proto.updateStatus = function updateStatus(mounting, nextStatus) {
-    if (mounting === void 0) {
-      mounting = false;
-    }
-
-    if (nextStatus !== null) {
-      // nextStatus will always be ENTERING or EXITING.
-      this.cancelNextCallback();
-
-      var node = _reactDom.default.findDOMNode(this);
-
-      if (nextStatus === ENTERING) {
-        this.performEnter(node, mounting);
-      } else {
-        this.performExit(node);
-      }
-    } else if (this.props.unmountOnExit && this.state.status === EXITED) {
-      this.setState({
-        status: UNMOUNTED
-      });
-    }
-  };
-
-  _proto.performEnter = function performEnter(node, mounting) {
-    var _this2 = this;
-
-    var enter = this.props.enter;
-    var appearing = this.context.transitionGroup ? this.context.transitionGroup.isMounting : mounting;
-    var timeouts = this.getTimeouts();
-    var enterTimeout = appearing ? timeouts.appear : timeouts.enter; // no enter animation skip right to ENTERED
-    // if we are mounting and running this it means appear _must_ be set
-
-    if (!mounting && !enter) {
-      this.safeSetState({
-        status: ENTERED
-      }, function () {
-        _this2.props.onEntered(node);
-      });
-      return;
-    }
-
-    this.props.onEnter(node, appearing);
-    this.safeSetState({
-      status: ENTERING
-    }, function () {
-      _this2.props.onEntering(node, appearing);
-
-      _this2.onTransitionEnd(node, enterTimeout, function () {
-        _this2.safeSetState({
-          status: ENTERED
-        }, function () {
-          _this2.props.onEntered(node, appearing);
-        });
-      });
-    });
-  };
-
-  _proto.performExit = function performExit(node) {
-    var _this3 = this;
-
-    var exit = this.props.exit;
-    var timeouts = this.getTimeouts(); // no exit animation skip right to EXITED
-
-    if (!exit) {
-      this.safeSetState({
-        status: EXITED
-      }, function () {
-        _this3.props.onExited(node);
-      });
-      return;
-    }
-
-    this.props.onExit(node);
-    this.safeSetState({
-      status: EXITING
-    }, function () {
-      _this3.props.onExiting(node);
-
-      _this3.onTransitionEnd(node, timeouts.exit, function () {
-        _this3.safeSetState({
-          status: EXITED
-        }, function () {
-          _this3.props.onExited(node);
-        });
-      });
-    });
-  };
-
-  _proto.cancelNextCallback = function cancelNextCallback() {
-    if (this.nextCallback !== null) {
-      this.nextCallback.cancel();
-      this.nextCallback = null;
-    }
-  };
-
-  _proto.safeSetState = function safeSetState(nextState, callback) {
-    // This shouldn't be necessary, but there are weird race conditions with
-    // setState callbacks and unmounting in testing, so always make sure that
-    // we can cancel any pending setState callbacks after we unmount.
-    callback = this.setNextCallback(callback);
-    this.setState(nextState, callback);
-  };
-
-  _proto.setNextCallback = function setNextCallback(callback) {
-    var _this4 = this;
-
-    var active = true;
-
-    this.nextCallback = function (event) {
-      if (active) {
-        active = false;
-        _this4.nextCallback = null;
-        callback(event);
-      }
-    };
-
-    this.nextCallback.cancel = function () {
-      active = false;
-    };
-
-    return this.nextCallback;
-  };
-
-  _proto.onTransitionEnd = function onTransitionEnd(node, timeout, handler) {
-    this.setNextCallback(handler);
-    var doesNotHaveTimeoutOrListener = timeout == null && !this.props.addEndListener;
-
-    if (!node || doesNotHaveTimeoutOrListener) {
-      setTimeout(this.nextCallback, 0);
-      return;
-    }
-
-    if (this.props.addEndListener) {
-      this.props.addEndListener(node, this.nextCallback);
-    }
-
-    if (timeout != null) {
-      setTimeout(this.nextCallback, timeout);
-    }
-  };
-
-  _proto.render = function render() {
-    var status = this.state.status;
-
-    if (status === UNMOUNTED) {
-      return null;
-    }
-
-    var _this$props = this.props,
-        children = _this$props.children,
-        childProps = _objectWithoutPropertiesLoose(_this$props, ["children"]); // filter props for Transtition
-
-
-    delete childProps.in;
-    delete childProps.mountOnEnter;
-    delete childProps.unmountOnExit;
-    delete childProps.appear;
-    delete childProps.enter;
-    delete childProps.exit;
-    delete childProps.timeout;
-    delete childProps.addEndListener;
-    delete childProps.onEnter;
-    delete childProps.onEntering;
-    delete childProps.onEntered;
-    delete childProps.onExit;
-    delete childProps.onExiting;
-    delete childProps.onExited;
-
-    if (typeof children === 'function') {
-      return children(status, childProps);
-    }
-
-    var child = _react.default.Children.only(children);
-
-    return _react.default.cloneElement(child, childProps);
-  };
-
-  return Transition;
-}(_react.default.Component);
-
-Transition.contextTypes = {
-  transitionGroup: PropTypes.object
-};
-Transition.childContextTypes = {
-  transitionGroup: function transitionGroup() {}
-};
-Transition.propTypes =  true ? {
-  /**
-   * A `function` child can be used instead of a React element. This function is
-   * called with the current transition status (`'entering'`, `'entered'`,
-   * `'exiting'`, `'exited'`, `'unmounted'`), which can be used to apply context
-   * specific props to a component.
-   *
-   * ```jsx
-   * <Transition in={this.state.in} timeout={150}>
-   *   {state => (
-   *     <MyComponent className={`fade fade-${state}`} />
-   *   )}
-   * </Transition>
-   * ```
-   */
-  children: PropTypes.oneOfType([PropTypes.func.isRequired, PropTypes.element.isRequired]).isRequired,
-
-  /**
-   * Show the component; triggers the enter or exit states
-   */
-  in: PropTypes.bool,
-
-  /**
-   * By default the child component is mounted immediately along with
-   * the parent `Transition` component. If you want to "lazy mount" the component on the
-   * first `in={true}` you can set `mountOnEnter`. After the first enter transition the component will stay
-   * mounted, even on "exited", unless you also specify `unmountOnExit`.
-   */
-  mountOnEnter: PropTypes.bool,
-
-  /**
-   * By default the child component stays mounted after it reaches the `'exited'` state.
-   * Set `unmountOnExit` if you'd prefer to unmount the component after it finishes exiting.
-   */
-  unmountOnExit: PropTypes.bool,
-
-  /**
-   * Normally a component is not transitioned if it is shown when the `<Transition>` component mounts.
-   * If you want to transition on the first mount set `appear` to `true`, and the
-   * component will transition in as soon as the `<Transition>` mounts.
-   *
-   * > Note: there are no specific "appear" states. `appear` only adds an additional `enter` transition.
-   */
-  appear: PropTypes.bool,
-
-  /**
-   * Enable or disable enter transitions.
-   */
-  enter: PropTypes.bool,
-
-  /**
-   * Enable or disable exit transitions.
-   */
-  exit: PropTypes.bool,
-
-  /**
-   * The duration of the transition, in milliseconds.
-   * Required unless `addEndListener` is provided.
-   *
-   * You may specify a single timeout for all transitions:
-   *
-   * ```jsx
-   * timeout={500}
-   * ```
-   *
-   * or individually:
-   *
-   * ```jsx
-   * timeout={{
-   *  appear: 500,
-   *  enter: 300,
-   *  exit: 500,
-   * }}
-   * ```
-   *
-   * - `appear` defaults to the value of `enter`
-   * - `enter` defaults to `0`
-   * - `exit` defaults to `0`
-   *
-   * @type {number | { enter?: number, exit?: number, appear?: number }}
-   */
-  timeout: function timeout(props) {
-    var pt = _PropTypes.timeoutsShape;
-    if (!props.addEndListener) pt = pt.isRequired;
-
-    for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-      args[_key - 1] = arguments[_key];
-    }
-
-    return pt.apply(void 0, [props].concat(args));
-  },
-
-  /**
-   * Add a custom transition end trigger. Called with the transitioning
-   * DOM node and a `done` callback. Allows for more fine grained transition end
-   * logic. **Note:** Timeouts are still used as a fallback if provided.
-   *
-   * ```jsx
-   * addEndListener={(node, done) => {
-   *   // use the css transitionend event to mark the finish of a transition
-   *   node.addEventListener('transitionend', done, false);
-   * }}
-   * ```
-   */
-  addEndListener: PropTypes.func,
-
-  /**
-   * Callback fired before the "entering" status is applied. An extra parameter
-   * `isAppearing` is supplied to indicate if the enter stage is occurring on the initial mount
-   *
-   * @type Function(node: HtmlElement, isAppearing: bool) -> void
-   */
-  onEnter: PropTypes.func,
-
-  /**
-   * Callback fired after the "entering" status is applied. An extra parameter
-   * `isAppearing` is supplied to indicate if the enter stage is occurring on the initial mount
-   *
-   * @type Function(node: HtmlElement, isAppearing: bool)
-   */
-  onEntering: PropTypes.func,
-
-  /**
-   * Callback fired after the "entered" status is applied. An extra parameter
-   * `isAppearing` is supplied to indicate if the enter stage is occurring on the initial mount
-   *
-   * @type Function(node: HtmlElement, isAppearing: bool) -> void
-   */
-  onEntered: PropTypes.func,
-
-  /**
-   * Callback fired before the "exiting" status is applied.
-   *
-   * @type Function(node: HtmlElement) -> void
-   */
-  onExit: PropTypes.func,
-
-  /**
-   * Callback fired after the "exiting" status is applied.
-   *
-   * @type Function(node: HtmlElement) -> void
-   */
-  onExiting: PropTypes.func,
-
-  /**
-   * Callback fired after the "exited" status is applied.
-   *
-   * @type Function(node: HtmlElement) -> void
-   */
-  onExited: PropTypes.func // Name the function so it is clearer in the documentation
-
-} : undefined;
-
-function noop() {}
-
-Transition.defaultProps = {
-  in: false,
-  mountOnEnter: false,
-  unmountOnExit: false,
-  appear: false,
-  enter: true,
-  exit: true,
-  onEnter: noop,
-  onEntering: noop,
-  onEntered: noop,
-  onExit: noop,
-  onExiting: noop,
-  onExited: noop
-};
-Transition.UNMOUNTED = 0;
-Transition.EXITED = 1;
-Transition.ENTERING = 2;
-Transition.ENTERED = 3;
-Transition.EXITING = 4;
-
-var _default = (0, _reactLifecyclesCompat.polyfill)(Transition);
-
-exports.default = _default;
-
-/***/ }),
-
-/***/ "./node_modules/react-transition-group/utils/PropTypes.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/react-transition-group/utils/PropTypes.js ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.classNamesShape = exports.timeoutsShape = void 0;
-
-var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var timeoutsShape =  true ? _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.shape({
-  enter: _propTypes.default.number,
-  exit: _propTypes.default.number,
-  appear: _propTypes.default.number
-}).isRequired]) : undefined;
-exports.timeoutsShape = timeoutsShape;
-var classNamesShape =  true ? _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.shape({
-  enter: _propTypes.default.string,
-  exit: _propTypes.default.string,
-  active: _propTypes.default.string
-}), _propTypes.default.shape({
-  enter: _propTypes.default.string,
-  enterDone: _propTypes.default.string,
-  enterActive: _propTypes.default.string,
-  exit: _propTypes.default.string,
-  exitDone: _propTypes.default.string,
-  exitActive: _propTypes.default.string
-})]) : undefined;
-exports.classNamesShape = classNamesShape;
-
-/***/ }),
-
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_2adc2403d89adc16ead0 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_3ec8d6b5ba938fe8cb37 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_3ec8d6b5ba938fe8cb37 */ "dll-reference dll_3ec8d6b5ba938fe8cb37"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -42283,14 +42080,14 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 
 /***/ }),
 
-/***/ "dll-reference dll_2adc2403d89adc16ead0":
+/***/ "dll-reference dll_3ec8d6b5ba938fe8cb37":
 /*!*******************************************!*\
-  !*** external "dll_2adc2403d89adc16ead0" ***!
+  !*** external "dll_3ec8d6b5ba938fe8cb37" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_2adc2403d89adc16ead0;
+module.exports = dll_3ec8d6b5ba938fe8cb37;
 
 /***/ })
 

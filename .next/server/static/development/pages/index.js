@@ -212,19 +212,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_modal_video__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-modal-video */ "react-modal-video");
-/* harmony import */ var react_modal_video__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_modal_video__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _node_modules_react_modal_video_scss_modal_video_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/react-modal-video/scss/modal-video.scss */ "./node_modules/react-modal-video/scss/modal-video.scss");
-/* harmony import */ var _node_modules_react_modal_video_scss_modal_video_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_react_modal_video_scss_modal_video_scss__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-anchor-link-smooth-scroll */ "react-anchor-link-smooth-scroll");
-/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-anchor-link-smooth-scroll */ "react-anchor-link-smooth-scroll");
+/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/Users/user1/Documents/development/greenscapes/greenscapes-domestic/components/Banner.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
-
-
+ // import ModalVideo from 'react-modal-video';
+// import 'react-modal-video/scss/modal-video.scss';
 
 
 
@@ -244,27 +241,96 @@ class Banner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   }
 
   render() {
-    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 13
+      }
+    }, __jsx("div", {
       id: "home",
       className: "main-banner jarallax",
-      "data-jarallax": "{'speed': 0.2}"
+      "data-jarallax": "{'speed': 0.2}",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19,
+        columnNumber: 17
+      }
     }, __jsx("div", {
-      className: "d-table"
+      className: "d-table",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23,
+        columnNumber: 21
+      }
     }, __jsx("div", {
-      className: "d-table-cell"
+      className: "d-table-cell",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 25
+      }
     }, __jsx("div", {
-      className: "container"
+      className: "container",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 29
+      }
     }, __jsx("div", {
-      className: "main-banner-content"
-    }, __jsx("h1", null, "Greenscapes Gardening Services Cheshire & South Manchester"), __jsx("p", null, "Reliable Cheshire gardeners. We are making your outdoor dreams come true. Experienced domestic garden maintenance."), "=", __jsx("div", {
-      className: "btn-box"
-    }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_4___default.a, {
+      className: "main-banner-content",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26,
+        columnNumber: 33
+      }
+    }, __jsx("h1", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27,
+        columnNumber: 37
+      }
+    }, "Greenscapes Gardening Services Cheshire & South Manchester"), __jsx("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31,
+        columnNumber: 37
+      }
+    }, "Reliable Cheshire gardeners. We are making your outdoor dreams come true. Experienced domestic garden maintenance."), "=", __jsx("div", {
+      className: "btn-box",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37,
+        columnNumber: 37
+      }
+    }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_2___default.a, {
       onClick: this.toggleNavbar,
-      offset: () => -10 // className='nav-link' 
+      offset: () => -10 // className='nav-link'
       ,
-      href: "#contact"
+      href: "#contact",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38,
+        columnNumber: 41
+      }
     }, __jsx("button", {
-      className: "btn btn-primary"
+      className: "btn btn-primary",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43,
+        columnNumber: 45
+      }
     }, "Contact Us Today")))))))));
   }
 
@@ -351,12 +417,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ "axios");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_google_recaptcha__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-google-recaptcha */ "react-google-recaptcha");
+/* harmony import */ var react_google_recaptcha__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_google_recaptcha__WEBPACK_IMPORTED_MODULE_5__);
+var _jsxFileName = "/Users/user1/Documents/development/greenscapes/greenscapes-domestic/components/Contact.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
  // import { sendContactForm, createNewContact } from '../utils/sib.helpers';
+
 
 
 
@@ -372,7 +442,9 @@ class Contact extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       subject: '',
       phone: '',
       message: '',
-      submitted: false
+      submitted: false,
+      recaptchaKey: null,
+      isVerified: false
     });
 
     _defineProperty(this, "handleInputChange", e => {
@@ -400,8 +472,6 @@ class Contact extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         subject,
         message
       }).then(res => {
-        console.log('This is the result', res);
-
         if (res.data.success) {
           this.setState({
             // buttonText: <a><span>Message sent <i className='fa fa-check'></i></span></a>,
@@ -410,8 +480,20 @@ class Contact extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
             react_toastify__WEBPACK_IMPORTED_MODULE_2__["toast"].success(`Thanks ${name}. We have received your message and will be in contact very soon.`);
           });
         }
-      }).catch(error => {
-        console.log(error);
+      }).catch(error => {});
+    });
+
+    _defineProperty(this, "onChange", async value => {
+      axios__WEBPACK_IMPORTED_MODULE_4___default.a.post(`/api/verify-captcha`, {
+        ['g-recaptcha-response']: value
+      }).then(res => {
+        this.setState({
+          isVerified: res.data.success
+        });
+      }, err => {
+        this.setState({
+          isVerified: false
+        });
       });
     });
   }
@@ -425,121 +507,520 @@ class Contact extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       message
     } = this.state;
     const disabled = name === '' || email === '' || subject === '' || phone === '' || message === '';
+    const buttonStyle = this.state.isVerified === false ? {
+      opacity: 0.1,
+      cursor: 'not-allowed'
+    } : {};
     return __jsx("section", {
       id: "contact",
-      className: "contact-area ptb-100 bg-f9f9f9"
+      className: "contact-area ptb-100 bg-f9f9f9",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 95,
+        columnNumber: 13
+      }
     }, __jsx("div", {
-      className: "container"
+      className: "container",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 96,
+        columnNumber: 17
+      }
     }, __jsx("div", {
-      className: "section-title"
-    }, __jsx("h2", null, "Contact Us"), __jsx("p", null, "Greenscapes are a Cheshire based garden maintenanace and landscaping company, that covers all South Manchester and surrounding areas.")), __jsx("div", {
-      className: "row align-items-center"
+      className: "section-title",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 97,
+        columnNumber: 21
+      }
+    }, __jsx("h2", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 98,
+        columnNumber: 25
+      }
+    }, "Contact Us"), __jsx("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 99,
+        columnNumber: 25
+      }
+    }, "Greenscapes are a Cheshire based garden maintenanace and landscaping company, that covers all South Manchester and surrounding areas.")), __jsx("div", {
+      className: "row align-items-center",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 106,
+        columnNumber: 21
+      }
     }, __jsx("div", {
-      className: "col-lg-8 col-md-12"
+      className: "col-lg-8 col-md-12",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 107,
+        columnNumber: 25
+      }
     }, __jsx("form", {
-      id: "contactForm"
+      id: "contactForm",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 108,
+        columnNumber: 29
+      }
     }, __jsx("div", {
-      className: "row"
+      className: "row",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 109,
+        columnNumber: 33
+      }
     }, __jsx("div", {
-      className: "col-lg-6 col-md-6"
+      className: "col-lg-6 col-md-6",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 110,
+        columnNumber: 37
+      }
     }, __jsx("div", {
-      className: "form-group"
-    }, __jsx("label", null, "Name"), __jsx("input", {
+      className: "form-group",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 111,
+        columnNumber: 41
+      }
+    }, __jsx("label", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 112,
+        columnNumber: 45
+      }
+    }, "Name"), __jsx("input", {
       type: "text",
       className: "form-control",
       required: true,
       "data-error": "Please enter your name",
       name: 'name',
-      onChange: this.handleInputChange
+      onChange: this.handleInputChange,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 113,
+        columnNumber: 45
+      }
     }), __jsx("div", {
-      className: "help-block with-errors"
+      className: "help-block with-errors",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 123,
+        columnNumber: 45
+      }
     }))), __jsx("div", {
-      className: "col-lg-6 col-md-6"
+      className: "col-lg-6 col-md-6",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 127,
+        columnNumber: 37
+      }
     }, __jsx("div", {
-      className: "form-group"
-    }, __jsx("label", null, "Email"), __jsx("input", {
+      className: "form-group",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 128,
+        columnNumber: 41
+      }
+    }, __jsx("label", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 129,
+        columnNumber: 45
+      }
+    }, "Email"), __jsx("input", {
       type: "email",
       className: "form-control",
       required: true,
       "data-error": "Please enter your email",
       name: 'email',
-      onChange: this.handleInputChange
+      onChange: this.handleInputChange,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 130,
+        columnNumber: 45
+      }
     }), __jsx("div", {
-      className: "help-block with-errors"
+      className: "help-block with-errors",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 140,
+        columnNumber: 45
+      }
     }))), __jsx("div", {
-      className: "col-lg-6 col-md-6"
+      className: "col-lg-6 col-md-6",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 144,
+        columnNumber: 37
+      }
     }, __jsx("div", {
-      className: "form-group"
-    }, __jsx("label", null, "Subject"), __jsx("input", {
+      className: "form-group",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 145,
+        columnNumber: 41
+      }
+    }, __jsx("label", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 146,
+        columnNumber: 45
+      }
+    }, "Subject"), __jsx("input", {
       type: "text",
       className: "form-control",
       required: true,
       "data-error": "Please enter your subject",
       name: 'subject',
-      onChange: this.handleInputChange
+      onChange: this.handleInputChange,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 147,
+        columnNumber: 45
+      }
     }), __jsx("div", {
-      className: "help-block with-errors"
+      className: "help-block with-errors",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 157,
+        columnNumber: 45
+      }
     }))), __jsx("div", {
-      className: "col-lg-6 col-md-6"
+      className: "col-lg-6 col-md-6",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 161,
+        columnNumber: 37
+      }
     }, __jsx("div", {
-      className: "form-group"
-    }, __jsx("label", null, "Phone Number"), __jsx("input", {
+      className: "form-group",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 162,
+        columnNumber: 41
+      }
+    }, __jsx("label", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 163,
+        columnNumber: 45
+      }
+    }, "Phone Number"), __jsx("input", {
       type: "text",
       className: "form-control",
       required: true,
       "data-error": "Please enter your number",
       name: 'phone',
-      onChange: this.handleInputChange
+      onChange: this.handleInputChange,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 164,
+        columnNumber: 45
+      }
     }), __jsx("div", {
-      className: "help-block with-errors"
+      className: "help-block with-errors",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 174,
+        columnNumber: 45
+      }
     }))), __jsx("div", {
-      className: "col-lg-12 col-md-12"
+      className: "col-lg-12 col-md-12",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 178,
+        columnNumber: 37
+      }
     }, __jsx("div", {
-      className: "form-group"
-    }, __jsx("label", null, "Message"), __jsx("textarea", {
+      className: "form-group",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 179,
+        columnNumber: 41
+      }
+    }, __jsx("label", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 180,
+        columnNumber: 45
+      }
+    }, "Message"), __jsx("textarea", {
       className: "form-control",
       cols: "30",
       rows: "4",
       required: true,
       "data-error": "Write your message",
       name: 'message',
-      onChange: this.handleInputChange
+      onChange: this.handleInputChange,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 181,
+        columnNumber: 45
+      }
     }), __jsx("div", {
-      className: "help-block with-errors"
+      className: "help-block with-errors",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 192,
+        columnNumber: 45
+      }
     }))), __jsx("div", {
-      className: "col-lg-12 col-md-12"
-    }, __jsx("button", {
+      className: "col-lg-12 col-md-12",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 196,
+        columnNumber: 37
+      }
+    }, __jsx(react_google_recaptcha__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      sitekey: "6Leeet4cAAAAAJjq92Kszwuq2MTPkaitG-qv3Bkg",
+      onChange: this.onChange,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 197,
+        columnNumber: 41
+      }
+    }), __jsx("button", {
       type: "submit",
+      style: buttonStyle,
       className: "btn btn-primary",
-      onClick: this.handleSubmit
-    }, "Send Message"), __jsx("div", {
+      onClick: this.handleSubmit,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 201,
+        columnNumber: 41
+      }
+    }, "Send Message"), ",", __jsx("div", {
       id: "msgSubmit",
-      className: "h3 text-center hidden"
-    }), __jsx("br", null), this.state.submitted && __jsx("div", {
-      className: "clearfix"
-    }, __jsx("span", null, "We have received your message ", __jsx("i", {
-      className: "fa fa-check-circle"
+      className: "h3 text-center hidden",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 209,
+        columnNumber: 41
+      }
+    }), __jsx("br", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 212,
+        columnNumber: 41
+      }
+    }), this.state.submitted && __jsx("div", {
+      className: "clearfix",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 214,
+        columnNumber: 45
+      }
+    }, __jsx("span", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 215,
+        columnNumber: 49
+      }
+    }, "We have received your message", ' ', __jsx("i", {
+      className: "fa fa-check-circle",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 218,
+        columnNumber: 53
+      }
     }))))))), __jsx("div", {
-      className: "col-lg-4 col-md-12"
+      className: "col-lg-4 col-md-12",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 227,
+        columnNumber: 25
+      }
     }, __jsx("address", {
-      className: "contact-info-box"
-    }, __jsx("ul", null, __jsx("li", null, __jsx("i", {
-      className: "fas fa-map-marker-alt"
-    }), __jsx("span", null, "Address:"), "Seal Rd, Bramhall, Stockport SK7 2LL, UK"), __jsx("li", null, __jsx("i", {
-      className: "fas fa-envelope"
-    }), __jsx("span", null, "Email:"), __jsx("a", {
-      href: "mailto:simon@greenscapes-gardening.co.uk"
-    }, "simon@greenscapes-gardening.co.uk")), __jsx("li", null, __jsx("i", {
-      className: "fas fa-phone"
-    }), __jsx("span", null, "Phone:"), __jsx("a", {
-      href: "tel:0161 425 0035"
-    }, "0161 425 0035")), __jsx("li", null, __jsx("i", {
-      className: "fas fa-globe"
-    }), __jsx("span", null, "Website:"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/"
-    }, __jsx("a", null, "https://www.greenscapes-gardening.co.uk/"))))))), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_2__["ToastContainer"], {
+      className: "contact-info-box",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 228,
+        columnNumber: 29
+      }
+    }, __jsx("ul", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 229,
+        columnNumber: 33
+      }
+    }, __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 230,
+        columnNumber: 37
+      }
+    }, __jsx("i", {
+      className: "fas fa-map-marker-alt",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 231,
+        columnNumber: 41
+      }
+    }), __jsx("span", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 232,
+        columnNumber: 41
+      }
+    }, "Address:"), "Seal Rd, Bramhall, Stockport SK7 2LL, UK"), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 236,
+        columnNumber: 37
+      }
+    }, __jsx("i", {
+      className: "fas fa-envelope",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 237,
+        columnNumber: 41
+      }
+    }), __jsx("span", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 238,
+        columnNumber: 41
+      }
+    }, "Email:"), __jsx("a", {
+      href: "mailto:simon@greenscapes-gardening.co.uk",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 239,
+        columnNumber: 41
+      }
+    }, "simon@greenscapes-gardening.co.uk")), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 244,
+        columnNumber: 37
+      }
+    }, __jsx("i", {
+      className: "fas fa-phone",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 245,
+        columnNumber: 41
+      }
+    }), __jsx("span", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 246,
+        columnNumber: 41
+      }
+    }, "Phone:"), __jsx("a", {
+      href: "tel:0161 425 0035",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 248,
+        columnNumber: 41
+      }
+    }, "0161 425 0035")), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 252,
+        columnNumber: 37
+      }
+    }, __jsx("i", {
+      className: "fas fa-globe",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 253,
+        columnNumber: 41
+      }
+    }), __jsx("span", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 254,
+        columnNumber: 41
+      }
+    }, "Website:"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 255,
+        columnNumber: 41
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 256,
+        columnNumber: 45
+      }
+    }, "https://www.greenscapes-gardening.co.uk/"))))))), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_2__["ToastContainer"], {
       position: 'bottom-left',
-      autoClose: 5000
+      autoClose: 5000,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 265,
+        columnNumber: 21
+      }
     })));
   }
 
@@ -691,6 +1172,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-anchor-link-smooth-scroll */ "react-anchor-link-smooth-scroll");
 /* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/Users/user1/Documents/development/greenscapes/greenscapes-domestic/components/Layouts/NavbarOne.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -752,26 +1234,69 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     } = this.state;
     const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
     const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
-    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("nav", {
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 60,
+        columnNumber: 13
+      }
+    }, __jsx("nav", {
       id: "navbar",
-      className: "navbar navbar-expand-lg navbar-style-one navbar-light bg-light"
+      className: "navbar navbar-expand-lg navbar-style-one navbar-light bg-light",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 61,
+        columnNumber: 17
+      }
     }, __jsx("div", {
-      className: "container"
+      className: "container",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64,
+        columnNumber: 21
+      }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/"
+      href: "/",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65,
+        columnNumber: 25
+      }
     }, __jsx("a", {
-      className: "navbar-brand"
+      className: "navbar-brand",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66,
+        columnNumber: 29
+      }
     }, __jsx("img", {
       src: __webpack_require__(/*! ../../images/greenscapes-test.png */ "./images/greenscapes-test.png"),
       alt: "logo",
       style: {
         maxWidth: '150px'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67,
+        columnNumber: 33
       }
     }), __jsx("img", {
       src: __webpack_require__(/*! ../../images/gardening-logo-transparent.png */ "./images/gardening-logo-transparent.png"),
       alt: "logo",
       style: {
         maxWidth: '125px'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 72,
+        columnNumber: 33
       }
     }))), __jsx("button", {
       onClick: this.toggleNavbar,
@@ -781,58 +1306,215 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       "data-target": "#navbarSupportedContent",
       "aria-controls": "navbarSupportedContent",
       "aria-expanded": "false",
-      "aria-label": "Toggle navigation"
+      "aria-label": "Toggle navigation",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 79,
+        columnNumber: 25
+      }
     }, __jsx("span", {
-      className: "navbar-toggler-icon"
+      className: "navbar-toggler-icon",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 88,
+        columnNumber: 29
+      }
     })), __jsx("div", {
       className: classOne,
-      id: "navbarSupportedContent"
+      id: "navbarSupportedContent",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 91,
+        columnNumber: 25
+      }
     }, __jsx("ul", {
-      className: "navbar-nav ml-auto"
+      className: "navbar-nav ml-auto",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 92,
+        columnNumber: 29
+      }
     }, __jsx("li", {
-      className: "nav-item"
+      className: "nav-item",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 93,
+        columnNumber: 33
+      }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/"
+      href: "/",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 94,
+        columnNumber: 37
+      }
     }, __jsx("a", {
-      className: "nav-link"
+      className: "nav-link",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 95,
+        columnNumber: 41
+      }
     }, "Home"))), __jsx("li", {
-      className: "nav-item"
+      className: "nav-item",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 98,
+        columnNumber: 33
+      }
     }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_2___default.a, {
       onClick: this.toggleNavbar,
-      href: "#about"
+      href: "#about",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 99,
+        columnNumber: 37
+      }
     }, __jsx("a", {
-      className: "nav-link"
+      className: "nav-link",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 102,
+        columnNumber: 41
+      }
     }, "About"))), __jsx("li", {
-      className: "nav-item"
+      className: "nav-item",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 105,
+        columnNumber: 33
+      }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/services"
+      href: "/services",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 106,
+        columnNumber: 37
+      }
     }, __jsx("a", {
-      className: "nav-link"
+      className: "nav-link",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 107,
+        columnNumber: 41
+      }
     }, "Services"))), __jsx("li", {
-      className: "nav-item"
+      className: "nav-item",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 110,
+        columnNumber: 33
+      }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/garden-maintenance"
+      href: "/garden-maintenance",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 111,
+        columnNumber: 37
+      }
     }, __jsx("a", {
-      className: "nav-link"
+      className: "nav-link",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 112,
+        columnNumber: 41
+      }
     }, "Garden Maintenance"))), __jsx("li", {
-      className: "nav-item"
+      className: "nav-item",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 117,
+        columnNumber: 33
+      }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/landscaping"
+      href: "/landscaping",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 118,
+        columnNumber: 37
+      }
     }, __jsx("a", {
-      className: "nav-link"
+      className: "nav-link",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 119,
+        columnNumber: 41
+      }
     }, "Landscaping"))), __jsx("li", {
-      className: "nav-item"
+      className: "nav-item",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 122,
+        columnNumber: 33
+      }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog"
+      href: "/blog",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 123,
+        columnNumber: 37
+      }
     }, __jsx("a", {
-      className: "nav-link"
+      className: "nav-link",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 124,
+        columnNumber: 41
+      }
     }, "Blog")))), __jsx("ul", {
-      className: "others-option"
-    }, __jsx("li", null, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      className: "others-option",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 128,
+        columnNumber: 29
+      }
+    }, __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 129,
+        columnNumber: 33
+      }
+    }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_2___default.a, {
       onClick: this.toggleNavbar,
-      href: "#contact"
+      href: "#contact",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 130,
+        columnNumber: 37
+      }
     }, __jsx("button", {
-      className: "btn btn-primary"
+      className: "btn btn-primary",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 133,
+        columnNumber: 41
+      }
     }, "Contact Us"))))))));
   }
 
@@ -1737,7 +2419,6 @@ var map = {
 	"./instagram.png": "./images/instagram.png",
 	"./laptop-with-dashoard.png": "./images/laptop-with-dashoard.png",
 	"./laptop.png": "./images/laptop.png",
-	"./line.png": "./images/line.png",
 	"./mailchimp.png": "./images/mailchimp.png",
 	"./main-pic.png": "./images/main-pic.png",
 	"./man-and-women.png": "./images/man-and-women.png",
@@ -3393,17 +4074,6 @@ module.exports = "/_next/static/images/laptop-with-dashoard-e911d420ae2356a54dc5
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/laptop-e0bbe326d1dd7b3130014a2a259f8d55.png";
-
-/***/ }),
-
-/***/ "./images/line.png":
-/*!*************************!*\
-  !*** ./images/line.png ***!
-  \*************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUcAAAALCAYAAADspE/IAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDozOTRmMGRjMy1mNjc2LTkwNDctOTIzNi1hMWI2ZWQ3NGY0ZmEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUY2NzRCQzc2QjUzMTFFOUEwNTZENTQzQzdDQUQ3MDgiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUY2NzRCQzY2QjUzMTFFOUEwNTZENTQzQzdDQUQ3MDgiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6ZDMwNDY4OWMtNmJlMC03MDQxLTkyZjctMDk0NDJhOTkxZDQxIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjM5NGYwZGMzLWY2NzYtOTA0Ny05MjM2LWExYjZlZDc0ZjRmYSIv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"
 
 /***/ }),
 
@@ -5390,17 +6060,6 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./node_modules/react-modal-video/scss/modal-video.scss":
-/*!**************************************************************!*\
-  !*** ./node_modules/react-modal-video/scss/modal-video.scss ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
 /***/ "./node_modules/react-toastify/dist/ReactToastify.css":
 /*!************************************************************!*\
   !*** ./node_modules/react-toastify/dist/ReactToastify.css ***!
@@ -5561,6 +6220,17 @@ module.exports = require("react-anchor-link-smooth-scroll");
 
 /***/ }),
 
+/***/ "react-google-recaptcha":
+/*!*****************************************!*\
+  !*** external "react-google-recaptcha" ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-google-recaptcha");
+
+/***/ }),
+
 /***/ "react-is":
 /*!***************************!*\
   !*** external "react-is" ***!
@@ -5569,17 +6239,6 @@ module.exports = require("react-anchor-link-smooth-scroll");
 /***/ (function(module, exports) {
 
 module.exports = require("react-is");
-
-/***/ }),
-
-/***/ "react-modal-video":
-/*!************************************!*\
-  !*** external "react-modal-video" ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-modal-video");
 
 /***/ }),
 

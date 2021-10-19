@@ -1,36 +1,48 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-import ModalVideo from 'react-modal-video';
-import '../node_modules/react-modal-video/scss/modal-video.scss';
+// import ModalVideo from 'react-modal-video';
+// import 'react-modal-video/scss/modal-video.scss';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 class Banner extends Component {
-
     state = {
-        isOpen: false
+        isOpen: false,
     };
 
     openModal = () => {
-        this.setState({isOpen: true})
+        this.setState({ isOpen: true });
     };
-    
+
     render() {
         return (
             <React.Fragment>
-                <div id='home' className='main-banner jarallax' data-jarallax="{'speed': 0.2}">
+                <div
+                    id='home'
+                    className='main-banner jarallax'
+                    data-jarallax="{'speed': 0.2}">
                     <div className='d-table'>
                         <div className='d-table-cell'>
                             <div className='container'>
                                 <div className='main-banner-content'>
-                                    <h1>Greenscapes Gardening Services Cheshire &amp; South Manchester</h1>
-                                    <p>Reliable Cheshire gardeners. We are making your outdoor dreams come true. Experienced domestic garden maintenance.</p>=
+                                    <h1>
+                                        Greenscapes Gardening Services Cheshire
+                                        &amp; South Manchester
+                                    </h1>
+                                    <p>
+                                        Reliable Cheshire gardeners. We are
+                                        making your outdoor dreams come true.
+                                        Experienced domestic garden maintenance.
+                                    </p>
+                                    =
                                     <div className='btn-box'>
-                                        <AnchorLink 
-                                            onClick={this.toggleNavbar} 
-                                            offset={() => -10} 
-                                            // className='nav-link' 
+                                        <AnchorLink
+                                            onClick={this.toggleNavbar}
+                                            offset={() => -10}
+                                            // className='nav-link'
                                             href='#contact'>
-                                            <button className='btn btn-primary'>Contact Us Today</button>
+                                            <button className='btn btn-primary'>
+                                                Contact Us Today
+                                            </button>
                                         </AnchorLink>
                                     </div>
                                 </div>
