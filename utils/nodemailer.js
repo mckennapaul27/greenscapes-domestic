@@ -6,6 +6,7 @@ const nodemailer = require('nodemailer');
 const nodeMailerPass = process.env.nodeMailerPass;
 const nodeMailerUser = process.env.nodeMailerUser;
 const axios = require('axios');
+const RECAPTCHA_SECRET = process.env.RECAPTCHA_SECRET;
 
 const transporter = nodemailer.createTransport({
     host: 'smtp.zoho.eu',
@@ -53,7 +54,6 @@ async function sendContactForm(req, res, next) {
 }
 
 async function verifyCaptcha(req, res, next) {
-    const RECAPTCHA_SECRET = '6Leeet4cAAAAAPdfj1HKk2iZLmmoKVC8e_L3MVQu';
     try {
         const google = await axios.post(
             `https://www.google.com/recaptcha/api/siteverify?secret=${RECAPTCHA_SECRET}&response=${req.body['g-recaptcha-response']}`
