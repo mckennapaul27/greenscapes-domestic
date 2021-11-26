@@ -38,6 +38,7 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 
 "use strict";
 /* globals self */var fetch=self.fetch.bind(self);module.exports=fetch;module.exports.default=module.exports;
+//# sourceMappingURL=index.js.map
 
 /***/ }),
 

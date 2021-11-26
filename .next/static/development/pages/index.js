@@ -424,7 +424,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/user1/Documents/development/greenscapes/greenscapes-domestic/components/Contact.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 
 function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_5__["default"])(this, result); }; }
@@ -506,14 +505,12 @@ var Contact = /*#__PURE__*/function (_Component) {
           switch (_context.prev = _context.next) {
             case 0:
               axios__WEBPACK_IMPORTED_MODULE_12___default.a.post("/api/verify-captcha", Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])({}, 'g-recaptcha-response', value)).then(function (res) {
-                console.log(res);
-
+                // console.log(res);
                 _this.setState({
                   isVerified: res.data.success
                 });
               }, function (err) {
-                console.log(err);
-
+                // console.log(err);
                 _this.setState({
                   isVerified: false
                 });
@@ -546,526 +543,129 @@ var Contact = /*#__PURE__*/function (_Component) {
       } : {};
       return __jsx("section", {
         id: "contact",
-        className: "contact-area ptb-100 bg-f9f9f9",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 97,
-          columnNumber: 13
-        }
+        className: "contact-area ptb-100 bg-f9f9f9"
       }, __jsx("div", {
-        className: "container",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 98,
-          columnNumber: 17
-        }
+        className: "container"
       }, __jsx("div", {
-        className: "section-title",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 99,
-          columnNumber: 21
-        }
-      }, __jsx("h2", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 100,
-          columnNumber: 25
-        }
-      }, "Contact Us"), __jsx("p", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 101,
-          columnNumber: 25
-        }
-      }, "Greenscapes are a Cheshire based garden maintenanace and landscaping company, that covers all South Manchester and surrounding areas.")), __jsx("div", {
-        className: "row align-items-center",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 108,
-          columnNumber: 21
-        }
+        className: "section-title"
+      }, __jsx("h2", null, "Contact Us"), __jsx("p", null, "Greenscapes are a Cheshire based garden maintenanace and landscaping company, that covers all South Manchester and surrounding areas.")), __jsx("div", {
+        className: "row align-items-center"
       }, __jsx("div", {
-        className: "col-lg-8 col-md-12",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 109,
-          columnNumber: 25
-        }
+        className: "col-lg-8 col-md-12"
       }, __jsx("form", {
-        id: "contactForm",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 110,
-          columnNumber: 29
-        }
+        id: "contactForm"
       }, __jsx("div", {
-        className: "row",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 111,
-          columnNumber: 33
-        }
+        className: "row"
       }, __jsx("div", {
-        className: "col-lg-6 col-md-6",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 112,
-          columnNumber: 37
-        }
+        className: "col-lg-6 col-md-6"
       }, __jsx("div", {
-        className: "form-group",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 113,
-          columnNumber: 41
-        }
-      }, __jsx("label", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 114,
-          columnNumber: 45
-        }
-      }, "Name"), __jsx("input", {
+        className: "form-group"
+      }, __jsx("label", null, "Name"), __jsx("input", {
         type: "text",
         className: "form-control",
         required: true,
         "data-error": "Please enter your name",
         name: 'name',
-        onChange: this.handleInputChange,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 115,
-          columnNumber: 45
-        }
+        onChange: this.handleInputChange
       }), __jsx("div", {
-        className: "help-block with-errors",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 125,
-          columnNumber: 45
-        }
+        className: "help-block with-errors"
       }))), __jsx("div", {
-        className: "col-lg-6 col-md-6",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 129,
-          columnNumber: 37
-        }
+        className: "col-lg-6 col-md-6"
       }, __jsx("div", {
-        className: "form-group",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 130,
-          columnNumber: 41
-        }
-      }, __jsx("label", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 131,
-          columnNumber: 45
-        }
-      }, "Email"), __jsx("input", {
+        className: "form-group"
+      }, __jsx("label", null, "Email"), __jsx("input", {
         type: "email",
         className: "form-control",
         required: true,
         "data-error": "Please enter your email",
         name: 'email',
-        onChange: this.handleInputChange,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 132,
-          columnNumber: 45
-        }
+        onChange: this.handleInputChange
       }), __jsx("div", {
-        className: "help-block with-errors",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 142,
-          columnNumber: 45
-        }
+        className: "help-block with-errors"
       }))), __jsx("div", {
-        className: "col-lg-6 col-md-6",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 146,
-          columnNumber: 37
-        }
+        className: "col-lg-6 col-md-6"
       }, __jsx("div", {
-        className: "form-group",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 147,
-          columnNumber: 41
-        }
-      }, __jsx("label", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 148,
-          columnNumber: 45
-        }
-      }, "Subject"), __jsx("input", {
+        className: "form-group"
+      }, __jsx("label", null, "Subject"), __jsx("input", {
         type: "text",
         className: "form-control",
         required: true,
         "data-error": "Please enter your subject",
         name: 'subject',
-        onChange: this.handleInputChange,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 149,
-          columnNumber: 45
-        }
+        onChange: this.handleInputChange
       }), __jsx("div", {
-        className: "help-block with-errors",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 159,
-          columnNumber: 45
-        }
+        className: "help-block with-errors"
       }))), __jsx("div", {
-        className: "col-lg-6 col-md-6",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 163,
-          columnNumber: 37
-        }
+        className: "col-lg-6 col-md-6"
       }, __jsx("div", {
-        className: "form-group",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 164,
-          columnNumber: 41
-        }
-      }, __jsx("label", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 165,
-          columnNumber: 45
-        }
-      }, "Phone Number"), __jsx("input", {
+        className: "form-group"
+      }, __jsx("label", null, "Phone Number"), __jsx("input", {
         type: "text",
         className: "form-control",
         required: true,
         "data-error": "Please enter your number",
         name: 'phone',
-        onChange: this.handleInputChange,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 166,
-          columnNumber: 45
-        }
+        onChange: this.handleInputChange
       }), __jsx("div", {
-        className: "help-block with-errors",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 176,
-          columnNumber: 45
-        }
+        className: "help-block with-errors"
       }))), __jsx("div", {
-        className: "col-lg-12 col-md-12",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 180,
-          columnNumber: 37
-        }
+        className: "col-lg-12 col-md-12"
       }, __jsx("div", {
-        className: "form-group",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 181,
-          columnNumber: 41
-        }
-      }, __jsx("label", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 182,
-          columnNumber: 45
-        }
-      }, "Message"), __jsx("textarea", {
+        className: "form-group"
+      }, __jsx("label", null, "Message"), __jsx("textarea", {
         className: "form-control",
         cols: "30",
         rows: "4",
         required: true,
         "data-error": "Write your message",
         name: 'message',
-        onChange: this.handleInputChange,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 183,
-          columnNumber: 45
-        }
+        onChange: this.handleInputChange
       }), __jsx("div", {
-        className: "help-block with-errors",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 194,
-          columnNumber: 45
-        }
+        className: "help-block with-errors"
       }))), __jsx("div", {
-        className: "col-lg-12 col-md-12",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 198,
-          columnNumber: 37
-        }
+        className: "col-lg-12 col-md-12"
       }, __jsx(react_google_recaptcha__WEBPACK_IMPORTED_MODULE_13__["default"], {
         sitekey: "6Leeet4cAAAAAJjq92Kszwuq2MTPkaitG-qv3Bkg",
-        onChange: this.onChange,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 199,
-          columnNumber: 41
-        }
+        onChange: this.onChange
       }), this.state.isVerified ? __jsx("button", {
         type: "submit",
         className: "btn btn-primary",
-        onClick: this.handleSubmit,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 204,
-          columnNumber: 45
-        }
+        onClick: this.handleSubmit
       }, "Send Message") : __jsx("button", {
         type: "submit",
         style: buttonStyle,
         onClick: function onClick(e) {
           return e.preventDefault();
         },
-        className: "btn btn-primary",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 211,
-          columnNumber: 45
-        }
+        className: "btn btn-primary"
       }, "Send Message"), __jsx("div", {
         id: "msgSubmit",
-        className: "h3 text-center hidden",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 222,
-          columnNumber: 41
-        }
-      }), __jsx("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 225,
-          columnNumber: 41
-        }
-      }), this.state.submitted && __jsx("div", {
-        className: "clearfix",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 227,
-          columnNumber: 45
-        }
-      }, __jsx("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 228,
-          columnNumber: 49
-        }
-      }, "We have received your message", ' ', __jsx("i", {
-        className: "fa fa-check-circle",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 231,
-          columnNumber: 53
-        }
+        className: "h3 text-center hidden"
+      }), __jsx("br", null), this.state.submitted && __jsx("div", {
+        className: "clearfix"
+      }, __jsx("span", null, "We have received your message", ' ', __jsx("i", {
+        className: "fa fa-check-circle"
       }))))))), __jsx("div", {
-        className: "col-lg-4 col-md-12",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 240,
-          columnNumber: 25
-        }
+        className: "col-lg-4 col-md-12"
       }, __jsx("address", {
-        className: "contact-info-box",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 241,
-          columnNumber: 29
-        }
-      }, __jsx("ul", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 242,
-          columnNumber: 33
-        }
-      }, __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 243,
-          columnNumber: 37
-        }
-      }, __jsx("i", {
-        className: "fas fa-map-marker-alt",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 244,
-          columnNumber: 41
-        }
-      }), __jsx("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 245,
-          columnNumber: 41
-        }
-      }, "Address:"), "Seal Rd, Bramhall, Stockport SK7 2LL, UK"), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 249,
-          columnNumber: 37
-        }
-      }, __jsx("i", {
-        className: "fas fa-envelope",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 250,
-          columnNumber: 41
-        }
-      }), __jsx("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 251,
-          columnNumber: 41
-        }
-      }, "Email:"), __jsx("a", {
-        href: "mailto:simon@greenscapes-gardening.co.uk",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 252,
-          columnNumber: 41
-        }
-      }, "simon@greenscapes-gardening.co.uk")), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 257,
-          columnNumber: 37
-        }
-      }, __jsx("i", {
-        className: "fas fa-phone",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 258,
-          columnNumber: 41
-        }
-      }), __jsx("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 259,
-          columnNumber: 41
-        }
-      }, "Phone:"), __jsx("a", {
-        href: "tel:0161 425 0035",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 261,
-          columnNumber: 41
-        }
-      }, "0161 425 0035")), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 265,
-          columnNumber: 37
-        }
-      }, __jsx("i", {
-        className: "fas fa-globe",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 266,
-          columnNumber: 41
-        }
-      }), __jsx("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 267,
-          columnNumber: 41
-        }
-      }, "Website:"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
-        href: "/",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 268,
-          columnNumber: 41
-        }
-      }, __jsx("a", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 269,
-          columnNumber: 45
-        }
-      }, "https://www.greenscapes-gardening.co.uk/"))))))), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_10__["ToastContainer"], {
+        className: "contact-info-box"
+      }, __jsx("ul", null, __jsx("li", null, __jsx("i", {
+        className: "fas fa-map-marker-alt"
+      }), __jsx("span", null, "Address:"), "Seal Rd, Bramhall, Stockport SK7 2LL, UK"), __jsx("li", null, __jsx("i", {
+        className: "fas fa-envelope"
+      }), __jsx("span", null, "Email:"), __jsx("a", {
+        href: "mailto:simon@greenscapes-gardening.co.uk"
+      }, "simon@greenscapes-gardening.co.uk")), __jsx("li", null, __jsx("i", {
+        className: "fas fa-phone"
+      }), __jsx("span", null, "Phone:"), __jsx("a", {
+        href: "tel:0161 425 0035"
+      }, "0161 425 0035")), __jsx("li", null, __jsx("i", {
+        className: "fas fa-globe"
+      }), __jsx("span", null, "Website:"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
+        href: "/"
+      }, __jsx("a", null, "https://www.greenscapes-gardening.co.uk/"))))))), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_10__["ToastContainer"], {
         position: 'bottom-left',
-        autoClose: 5000,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 278,
-          columnNumber: 21
-        }
+        autoClose: 5000
       })));
     }
   }]);
@@ -1102,6 +702,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+var _jsxFileName = "/Users/user1/Documents/development/greenscapes/greenscapes-domestic/components/Layouts/Footer.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
 function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, result); }; }
@@ -1127,101 +728,620 @@ var Footer = /*#__PURE__*/function (_Component) {
     key: "render",
     value: function render() {
       return __jsx("footer", {
-        className: "footer-area bg-fffcf4"
+        className: "footer-area bg-fffcf4",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8,
+          columnNumber: 13
+        }
       }, __jsx("div", {
-        className: "container"
+        className: "container",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 17
+        }
       }, __jsx("div", {
-        className: "row"
+        className: "row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 21
+        }
       }, __jsx("div", {
-        className: "col-lg-4 col-md-6"
+        className: "col-lg-4 col-md-6",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 25
+        }
       }, __jsx("div", {
-        className: "single-footer-widget"
+        className: "single-footer-widget",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 29
+        }
       }, __jsx("div", {
-        id: "logo-group"
+        id: "logo-group",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13,
+          columnNumber: 33
+        }
       }, __jsx("div", {
-        className: "logo-group-box"
+        className: "logo-group-box",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14,
+          columnNumber: 37
+        }
       }, __jsx("a", {
-        href: "https://www.greenscapes-commercial.co.uk/"
+        href: "https://www.greenscapes-commercial.co.uk/",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 41
+        }
       }, __jsx("img", {
-        src: __webpack_require__(/*! ../../images/green-trans.png */ "./images/green-trans.png")
+        src: __webpack_require__(/*! ../../images/green-trans.png */ "./images/green-trans.png"),
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22,
+          columnNumber: 45
+        }
       })), __jsx("a", {
-        href: "https://www.greenscapes-powerwashing.co.uk/"
+        href: "https://www.greenscapes-powerwashing.co.uk/",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 41
+        }
       }, __jsx("img", {
-        src: __webpack_require__(/*! ../../images/greenscapes-pw.png */ "./images/greenscapes-pw.png")
+        src: __webpack_require__(/*! ../../images/greenscapes-pw.png */ "./images/greenscapes-pw.png"),
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 45
+        }
+      })), __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 41
+        }
+      }, __jsx("img", {
+        src: __webpack_require__(/*! ../../images/waste-carrier1.png */ "./images/waste-carrier1.png"),
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33,
+          columnNumber: 45
+        }
       })))), __jsx("ul", {
-        className: "contact-info"
-      }, __jsx("li", null, "Seal Rd, Bramhall, Stockport"), __jsx("li", null, __jsx("a", {
-        href: "tel:0161 425 0035"
-      }, "0161 425 0035")), __jsx("li", null, __jsx("a", {
-        href: "mailto: simon@greenscapes-gardening.co.uk"
-      }, "simon@greenscapes-gardening.co.uk")), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/"
-      }, __jsx("a", null, "https://www.greenscapes-gardening.co.uk")))))), __jsx("div", {
-        className: "col-lg-2 col-md-6"
+        className: "contact-info",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40,
+          columnNumber: 33
+        }
+      }, __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 37
+        }
+      }, "Seal Rd, Bramhall, Stockport"), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 37
+        }
+      }, __jsx("a", {
+        href: "tel:0161 425 0035",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 41
+        }
+      }, "0161 425 0035")), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47,
+          columnNumber: 37
+        }
+      }, __jsx("a", {
+        href: "mailto: simon@greenscapes-gardening.co.uk",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48,
+          columnNumber: 41
+        }
+      }, "simon@greenscapes-gardening.co.uk")), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        href: "/",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54,
+          columnNumber: 45
+        }
+      }, "https://www.greenscapes-gardening.co.uk")))))), __jsx("div", {
+        className: "col-lg-2 col-md-6",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63,
+          columnNumber: 25
+        }
       }), __jsx("div", {
-        className: "col-lg-3 col-md-6"
+        className: "col-lg-3 col-md-6",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65,
+          columnNumber: 25
+        }
       }, __jsx("div", {
-        className: "single-footer-widget pl-3"
-      }, __jsx("h3", null, "Quick Links"), __jsx("ul", {
-        className: "list"
-      }, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/"
-      }, __jsx("a", null, "Home"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/services"
-      }, __jsx("a", null, "Projects"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/blog"
-      }, __jsx("a", null, "Blog"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/#testimonials"
-      }, __jsx("a", null, "Testimonial"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/#contact"
-      }, __jsx("a", null, "Contact")))))), __jsx("div", {
-        className: "col-lg-2 col-md-6"
+        className: "single-footer-widget pl-3",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66,
+          columnNumber: 29
+        }
+      }, __jsx("h3", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67,
+          columnNumber: 33
+        }
+      }, "Quick Links"), __jsx("ul", {
+        className: "list",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69,
+          columnNumber: 33
+        }
+      }, __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 70,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        href: "/",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 71,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 72,
+          columnNumber: 45
+        }
+      }, "Home"))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 75,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        href: "/services",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77,
+          columnNumber: 45
+        }
+      }, "Projects"))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 80,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        href: "/blog",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 81,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 82,
+          columnNumber: 45
+        }
+      }, "Blog"))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 85,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        href: "/#testimonials",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 86,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 87,
+          columnNumber: 45
+        }
+      }, "Testimonial"))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 90,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        href: "/#contact",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 91,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92,
+          columnNumber: 45
+        }
+      }, "Contact")))))), __jsx("div", {
+        className: "col-lg-2 col-md-6",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 99,
+          columnNumber: 25
+        }
       }, __jsx("div", {
-        className: "single-footer-widget pl-3"
-      }, __jsx("h3", null, "Follow Us"), __jsx("ul", {
-        className: "list"
-      }, __jsx("li", null, __jsx("a", {
-        href: "https://www.facebook.com/greenscapesgardeners"
+        className: "single-footer-widget pl-3",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 100,
+          columnNumber: 29
+        }
+      }, __jsx("h3", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 101,
+          columnNumber: 33
+        }
+      }, "Follow Us"), __jsx("ul", {
+        className: "list",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 103,
+          columnNumber: 33
+        }
+      }, __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 104,
+          columnNumber: 37
+        }
+      }, __jsx("a", {
+        href: "https://www.facebook.com/greenscapesgardeners",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 105,
+          columnNumber: 41
+        }
       }, __jsx("img", {
         src: __webpack_require__(/*! ../../images/icon-facebook.png */ "./images/icon-facebook.png"),
         style: {
           maxWidth: '150px'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 106,
+          columnNumber: 45
         }
       })))))))), __jsx("div", {
-        className: "copyright-area"
+        className: "copyright-area",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 118,
+          columnNumber: 17
+        }
       }, __jsx("div", {
-        className: "container"
+        className: "container",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 119,
+          columnNumber: 21
+        }
       }, __jsx("div", {
-        className: "row align-items-center"
+        className: "row align-items-center",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 120,
+          columnNumber: 25
+        }
       }, __jsx("div", {
-        className: "col-lg-7 col-md-7"
-      }, __jsx("p", null, __jsx("i", {
-        className: "far fa-copyright"
-      }), " ", moment__WEBPACK_IMPORTED_MODULE_7___default()().format('YYYY'), " ", __jsx("a", {
-        href: "/"
+        className: "col-lg-4 col-md-4",
+        style: {
+          display: 'flex',
+          justifyContent: 'center'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 121,
+          columnNumber: 29
+        }
+      }, __jsx("p", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 127,
+          columnNumber: 33
+        }
+      }, __jsx("i", {
+        className: "far fa-copyright",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 128,
+          columnNumber: 37
+        }
+      }), ' ', moment__WEBPACK_IMPORTED_MODULE_7___default()().format('YYYY'), ' ', __jsx("a", {
+        href: "/",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 130,
+          columnNumber: 37
+        }
       }, "Greenscapes"), ". All Rights Reserved")), __jsx("div", {
-        className: "col-lg-5 col-md-5"
-      }, __jsx("ul", null, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "#"
-      }, __jsx("a", null, __jsx("i", {
-        className: "fab fa-facebook-f"
-      })))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "#"
-      }, __jsx("a", null, __jsx("i", {
-        className: "fab fa-twitter"
-      })))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "#"
-      }, __jsx("a", null, __jsx("i", {
-        className: "fab fa-instagram"
-      })))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "#"
-      }, __jsx("a", null, __jsx("i", {
-        className: "fab fa-linkedin-in"
+        className: "col-lg-4 col-md-4",
+        style: {
+          display: 'flex',
+          justifyContent: 'center'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 135,
+          columnNumber: 29
+        }
+      }, __jsx("img", {
+        src: __webpack_require__(/*! ../../images/icon-group.svg */ "./images/icon-group.svg"),
+        height: "30px",
+        style: {
+          marginTop: '15px'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 141,
+          columnNumber: 33
+        }
+      })), __jsx("div", {
+        className: "col-lg-4 col-md-4",
+        style: {
+          display: 'flex',
+          justifyContent: 'center'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 147,
+          columnNumber: 29
+        }
+      }, __jsx("ul", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 153,
+          columnNumber: 33
+        }
+      }, __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 154,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        href: "#",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 155,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 156,
+          columnNumber: 45
+        }
+      }, __jsx("i", {
+        className: "fab fa-facebook-f",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 157,
+          columnNumber: 49
+        }
+      })))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 161,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        href: "#",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 162,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 163,
+          columnNumber: 45
+        }
+      }, __jsx("i", {
+        className: "fab fa-twitter",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 164,
+          columnNumber: 49
+        }
+      })))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 168,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        href: "#",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 169,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 170,
+          columnNumber: 45
+        }
+      }, __jsx("i", {
+        className: "fab fa-instagram",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 171,
+          columnNumber: 49
+        }
+      })))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 175,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        href: "#",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 176,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 177,
+          columnNumber: 45
+        }
+      }, __jsx("i", {
+        className: "fab fa-linkedin-in",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 178,
+          columnNumber: 49
+        }
       }))))))))), __jsx("div", {
-        className: "map2"
+        className: "map2",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 188,
+          columnNumber: 17
+        }
       }, __jsx("img", {
         src: __webpack_require__(/*! ../../images/map2.png */ "./images/map2.png"),
-        alt: "map"
+        alt: "map",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 189,
+          columnNumber: 21
+        }
       })));
     }
   }]);
@@ -2646,12 +2766,15 @@ var map = {
 	"./greenscapes-pw.png": "./images/greenscapes-pw.png",
 	"./greenscapes-test.png": "./images/greenscapes-test.png",
 	"./icon-facebook.png": "./images/icon-facebook.png",
+	"./icon-group.svg": "./images/icon-group.svg",
 	"./icon1.png": "./images/icon1.png",
 	"./icon2.png": "./images/icon2.png",
 	"./icon3.png": "./images/icon3.png",
 	"./instagram.png": "./images/instagram.png",
 	"./laptop-with-dashoard.png": "./images/laptop-with-dashoard.png",
 	"./laptop.png": "./images/laptop.png",
+	"./line.png": "./images/line.png",
+	"./logo-group.png": "./images/logo-group.png",
 	"./mailchimp.png": "./images/mailchimp.png",
 	"./main-pic.png": "./images/main-pic.png",
 	"./man-and-women.png": "./images/man-and-women.png",
@@ -2673,6 +2796,8 @@ var map = {
 	"./star.png": "./images/star.png",
 	"./twitter.png": "./images/twitter.png",
 	"./ux-women.jpg": "./images/ux-women.jpg",
+	"./waste-carrier.jpeg": "./images/waste-carrier.jpeg",
+	"./waste-carrier1.png": "./images/waste-carrier1.png",
 	"./white-logo.png": "./images/white-logo.png",
 	"./work-img1.jpg": "./images/work-img1.jpg",
 	"./work-img2.jpg": "./images/work-img2.jpg",
@@ -4244,6 +4369,17 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAxCAIAAAFt
 
 /***/ }),
 
+/***/ "./images/icon-group.svg":
+/*!*******************************!*\
+  !*** ./images/icon-group.svg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/icon-group-2420f94dacaf3c06302b3b55e529074b.svg";
+
+/***/ }),
+
 /***/ "./images/icon1.png":
 /*!**************************!*\
   !*** ./images/icon1.png ***!
@@ -4307,6 +4443,28 @@ module.exports = "/_next/static/images/laptop-with-dashoard-e911d420ae2356a54dc5
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/laptop-e0bbe326d1dd7b3130014a2a259f8d55.png";
+
+/***/ }),
+
+/***/ "./images/line.png":
+/*!*************************!*\
+  !*** ./images/line.png ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUcAAAALCAYAAADspE/IAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDozOTRmMGRjMy1mNjc2LTkwNDctOTIzNi1hMWI2ZWQ3NGY0ZmEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUY2NzRCQzc2QjUzMTFFOUEwNTZENTQzQzdDQUQ3MDgiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUY2NzRCQzY2QjUzMTFFOUEwNTZENTQzQzdDQUQ3MDgiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6ZDMwNDY4OWMtNmJlMC03MDQxLTkyZjctMDk0NDJhOTkxZDQxIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjM5NGYwZGMzLWY2NzYtOTA0Ny05MjM2LWExYjZlZDc0ZjRmYSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PlNYk88AAAgCSURBVHja7Fppb+M2EBUp2bIdx5vs0QL91t/Q/9T/3Qvb7plNfMoSWQmYAV5fhpSdDbqbdgkM5EOieMy8mTdDF3/6uXiizfUy7+VCZPg8kd+7Xo69HECG741cQ/H/aU7Ey3VoEYTXwtP3SNdv7b+hD472OMIeDzpQiT1VIg70ZbCvFj6HhC496Vb9y++bCpBdgizk9xIMWDcuyCYMgLbrZdvLRn4bNm7Vy/NevhN50cuV9FkJGH7q5c9e/ujlV7m+7eXOMPhSxjJIDcpRglQ0VlWqDpSmITBWaUmBnLxjKteSwP1zwdyBcg/9z3pZyrrr9QKu6mCG9+1l7d6BfJR96MhQvgHn19lq2fM56DPqVyt7p87TJ4AT70e9jA8AZLZvBmbr2bHP7MTjlwBHNea5AJAa1jORC/h9JsauC1DJf/jcSmQh9ytQWJ4KwQe/49hKALapbLYa+k6AdS2ykd8OoCTqMWuZ44yAsgYg07XTMbXS11rA97defhEwHsD5BkD9UkB9APNXvXzfy7WsQyFjey/9/NXLB/mtgffs5drIHDFCrGT8L6RvlB/keiX7UEO0eJT3DCD4RuQtjOO1/LeWtdvL/V1CXzw4FU9OpoR19DAGdS4a7Rew9gvYE0/g7MAJIAgoc9iBo/FwXwVjKIzo6AjzK0E/FHhm5FDnMM4ZOD0FgyPoySdx0ncyvhbs60I+d6C7G3k20D5fiP2p01vJ/j4DW9QxVwY4YWMg1PFuIEBB/etoTWt55xKcbQF7sZW534ro/DfS55EClYXMZynzcKB3t/DsgXChgb3rEnN9MDh62HSNOhYAhJcAjNfyeQYK8kyuc1AUVRYPUoLyuIQX82BgKe+W8zjcAlECXDjsG9+HtNQZdJMpa2eAejA2CSNSZyhoR1SnhPcjMB8Np1GCwtYE7i6xdhYwKGh+Ermh650ofSfjXIhxvhJ5IcpdwTsxqi0JIAPt0Sl7HGg9AjgNTil0ZDRhhHpyBD4l2on34356Q3dxf3cg6AjUbqbgtDA91MG42CYc2ReOqyIHguufW9uYiNCCQa3ZKQaDVe1I9rBnJaxxDRg0pXF20JcCpALte3Hkb4DxvBN9ZeYTc+DoaaERtVcAhtfgjZYwWJW9eIRW+tHo8EqipGvot4IFxDAfKaSnDa2MyKPMRLjRALCYALWSFMLKy4zl3xhcy8TzIWOQKcN0GcDnDXYJsA702Zqjo+jZZfqLmfe6E51UMWKARWZeqT6CkQOLGXrHAJujg4WRp7OooTNsKtfXQ9oplDQmdNaity6Tj0ztg0/MBcflwYH4RK7TChrYgSlG7IlB7QAY1+Kk94BDmkrqgPnuT0kNVAZwYFS0BaqzJ2qyArmC3GFlUFAFigboYUP0YApUpYbn0NulIsdiBMRSCuITADTWdzSAjqMQZ9BKlwDkc4wmJgA5d586m7HoK9WPo2f9GYAXT5zDqeDI73eGwfoMcOUiRJ8Za8iAhT8TwM/NibmEA2DKGBMMzJPOnWo35/5fZBzoKU475bwigeMW8GgLlPwgfSul/xGCuKMA6I1EkW/l+gFoueZT74EjT7oFOvUeookF5FQ037GCpK/S6qWI3ltJn5hr6eS/AVxfCgV7Kd8j0ApeqED0lUN6zm+lqHE4AUTHQNfa5MIo1iCt8gbFx2c5OrYALBoGEgyjTVG7h0YrTJNaoP+BwL9KULeYAWfLWUSDBqUopRW1pRxbZ/RXZPo71xlbbIEjeHRAxQhF5iKJ5Zh5D0rKkZ8KkKlUW24tIkXtcWR9I9lJMPbZQ+C0lBQNrjMXQBsByj2kH1rJT76RvteyDh0803L0OlaQ4aLHXcazlZTjwuLMApK0U7hPgdbLe7aSH2ioKJMCRj4+YAEjG3dr5NNwgXL5KE+5v4mRM8PNrCEKxsg3QM5pTQlpzbvMwfnU9J7UfLAq3hrG7zI510ApjYoi+Sk400CpkAYKWw72X5mFVsOnAPY+kwvkfWDH5zM5PXYerbFGXSLfjP1NEjk661SFGwGWVJW2SDhUi3EwIE3OoNFs07nx+UyfIePcnOEYrSgyFvdPOMSEE2H7C4auN5SHRdtSu95KgDcUR38XeS1Fxt1jVatPiSpQ4TAvoOGqFmown7mAyHIjz08oL+nIWxygWruH8HpDFco7CMMPEIrvaZGPRhQaKCJCJSipsq2FpwuY2yVU2WoAxgYqblg931DqgivQlrF6chwtAdbBOIbRUMEn0pGOCVXssUBQkbMqCGwQXCdUwCiN6COOAGMwTiXgvLVi+xwKQN9BkXBCVeKjAepHin5xLSPkrlbSr+bQl7JOHMF0Rn+OwNcCo0AOLsq9qGN4iqLMOJiQyEd7o8jpEtEvO9HOAHNmaDmWwQFHSQXGtrh/RhlB7yAR4I0EUR+FFr+Div+e7P4AOt+QnsaHVqvPbY6KKLzweuZwaxg5Lm5FkUoJFDjQ0YItVLy2dBwAo8I2EbI/RrvL5CvHEuZfW0Pj0nOOT6E5ylvzkbAiwzqi4dSt3GBV/PPIDlf9O6ry47lWD2OaG4yqhkgQq9hYVMBnakq3WMUyLApWhiBVZzbANJVBXiPrGbA/Be3SKLDi8adKflPWdCt6dis23BiA6qj2sYYizAaeax/TxqtHNqoAHnRb3D+OkyumWNU0n4hMLdobvzCoFMW3w9Bfcv2PkCN/Su2UYloxkutzlFooDQqfynt+TsPjflNge4FScp5SSwWALxZ6v6r2twADAI6YNvJboSPOAAAAAElFTkSuQmCC"
+
+/***/ }),
+
+/***/ "./images/logo-group.png":
+/*!*******************************!*\
+  !*** ./images/logo-group.png ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/logo-group-da3950ebf716ef11e6362796cab26a0a.png";
 
 /***/ }),
 
@@ -4538,6 +4696,28 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/ux-women-77bc78472cfa62a231fa038a135dbe9e.jpg";
+
+/***/ }),
+
+/***/ "./images/waste-carrier.jpeg":
+/*!***********************************!*\
+  !*** ./images/waste-carrier.jpeg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/waste-carrier-e925c4a0a7a7217c6c1c52270734bc8f.jpeg";
+
+/***/ }),
+
+/***/ "./images/waste-carrier1.png":
+/*!***********************************!*\
+  !*** ./images/waste-carrier1.png ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/waste-carrier1-5c8340b1ff24218c0de4f280faf8c5a7.png";
 
 /***/ }),
 
@@ -5844,6 +6024,7 @@ module.exports = function xhrAdapter(config) {
   return new Promise(function dispatchXhrRequest(resolve, reject) {
     var requestData = config.data;
     var requestHeaders = config.headers;
+    var responseType = config.responseType;
 
     if (utils.isFormData(requestData)) {
       delete requestHeaders['Content-Type']; // Let the browser set it
@@ -5864,23 +6045,14 @@ module.exports = function xhrAdapter(config) {
     // Set the request timeout in MS
     request.timeout = config.timeout;
 
-    // Listen for ready state
-    request.onreadystatechange = function handleLoad() {
-      if (!request || request.readyState !== 4) {
+    function onloadend() {
+      if (!request) {
         return;
       }
-
-      // The request errored out and we didn't get a response, this will be
-      // handled by onerror instead
-      // With one exception: request that using file: protocol, most browsers
-      // will return status as 0 even though it's a successful request
-      if (request.status === 0 && !(request.responseURL && request.responseURL.indexOf('file:') === 0)) {
-        return;
-      }
-
       // Prepare the response
       var responseHeaders = 'getAllResponseHeaders' in request ? parseHeaders(request.getAllResponseHeaders()) : null;
-      var responseData = !config.responseType || config.responseType === 'text' ? request.responseText : request.response;
+      var responseData = !responseType || responseType === 'text' ||  responseType === 'json' ?
+        request.responseText : request.response;
       var response = {
         data: responseData,
         status: request.status,
@@ -5894,7 +6066,30 @@ module.exports = function xhrAdapter(config) {
 
       // Clean up request
       request = null;
-    };
+    }
+
+    if ('onloadend' in request) {
+      // Use onloadend if available
+      request.onloadend = onloadend;
+    } else {
+      // Listen for ready state to emulate onloadend
+      request.onreadystatechange = function handleLoad() {
+        if (!request || request.readyState !== 4) {
+          return;
+        }
+
+        // The request errored out and we didn't get a response, this will be
+        // handled by onerror instead
+        // With one exception: request that using file: protocol, most browsers
+        // will return status as 0 even though it's a successful request
+        if (request.status === 0 && !(request.responseURL && request.responseURL.indexOf('file:') === 0)) {
+          return;
+        }
+        // readystate handler is calling before onerror or ontimeout handlers,
+        // so we should call onloadend on the next 'tick'
+        setTimeout(onloadend);
+      };
+    }
 
     // Handle browser request cancellation (as opposed to a manual cancellation)
     request.onabort = function handleAbort() {
@@ -5924,7 +6119,10 @@ module.exports = function xhrAdapter(config) {
       if (config.timeoutErrorMessage) {
         timeoutErrorMessage = config.timeoutErrorMessage;
       }
-      reject(createError(timeoutErrorMessage, config, 'ECONNABORTED',
+      reject(createError(
+        timeoutErrorMessage,
+        config,
+        config.transitional && config.transitional.clarifyTimeoutError ? 'ETIMEDOUT' : 'ECONNABORTED',
         request));
 
       // Clean up request
@@ -5964,16 +6162,8 @@ module.exports = function xhrAdapter(config) {
     }
 
     // Add responseType to request if needed
-    if (config.responseType) {
-      try {
-        request.responseType = config.responseType;
-      } catch (e) {
-        // Expected DOMException thrown by browsers not compatible XMLHttpRequest Level 2.
-        // But, this can be suppressed for 'json' type as it can be parsed by default 'transformResponse' function.
-        if (config.responseType !== 'json') {
-          throw e;
-        }
-      }
+    if (responseType && responseType !== 'json') {
+      request.responseType = config.responseType;
     }
 
     // Handle progress if needed
@@ -6212,7 +6402,9 @@ var buildURL = __webpack_require__(/*! ../helpers/buildURL */ "./node_modules/ax
 var InterceptorManager = __webpack_require__(/*! ./InterceptorManager */ "./node_modules/axios/lib/core/InterceptorManager.js");
 var dispatchRequest = __webpack_require__(/*! ./dispatchRequest */ "./node_modules/axios/lib/core/dispatchRequest.js");
 var mergeConfig = __webpack_require__(/*! ./mergeConfig */ "./node_modules/axios/lib/core/mergeConfig.js");
+var validator = __webpack_require__(/*! ../helpers/validator */ "./node_modules/axios/lib/helpers/validator.js");
 
+var validators = validator.validators;
 /**
  * Create a new instance of Axios
  *
@@ -6252,20 +6444,71 @@ Axios.prototype.request = function request(config) {
     config.method = 'get';
   }
 
-  // Hook up interceptors middleware
-  var chain = [dispatchRequest, undefined];
-  var promise = Promise.resolve(config);
+  var transitional = config.transitional;
 
+  if (transitional !== undefined) {
+    validator.assertOptions(transitional, {
+      silentJSONParsing: validators.transitional(validators.boolean, '1.0.0'),
+      forcedJSONParsing: validators.transitional(validators.boolean, '1.0.0'),
+      clarifyTimeoutError: validators.transitional(validators.boolean, '1.0.0')
+    }, false);
+  }
+
+  // filter out skipped interceptors
+  var requestInterceptorChain = [];
+  var synchronousRequestInterceptors = true;
   this.interceptors.request.forEach(function unshiftRequestInterceptors(interceptor) {
-    chain.unshift(interceptor.fulfilled, interceptor.rejected);
+    if (typeof interceptor.runWhen === 'function' && interceptor.runWhen(config) === false) {
+      return;
+    }
+
+    synchronousRequestInterceptors = synchronousRequestInterceptors && interceptor.synchronous;
+
+    requestInterceptorChain.unshift(interceptor.fulfilled, interceptor.rejected);
   });
 
+  var responseInterceptorChain = [];
   this.interceptors.response.forEach(function pushResponseInterceptors(interceptor) {
-    chain.push(interceptor.fulfilled, interceptor.rejected);
+    responseInterceptorChain.push(interceptor.fulfilled, interceptor.rejected);
   });
 
-  while (chain.length) {
-    promise = promise.then(chain.shift(), chain.shift());
+  var promise;
+
+  if (!synchronousRequestInterceptors) {
+    var chain = [dispatchRequest, undefined];
+
+    Array.prototype.unshift.apply(chain, requestInterceptorChain);
+    chain = chain.concat(responseInterceptorChain);
+
+    promise = Promise.resolve(config);
+    while (chain.length) {
+      promise = promise.then(chain.shift(), chain.shift());
+    }
+
+    return promise;
+  }
+
+
+  var newConfig = config;
+  while (requestInterceptorChain.length) {
+    var onFulfilled = requestInterceptorChain.shift();
+    var onRejected = requestInterceptorChain.shift();
+    try {
+      newConfig = onFulfilled(newConfig);
+    } catch (error) {
+      onRejected(error);
+      break;
+    }
+  }
+
+  try {
+    promise = dispatchRequest(newConfig);
+  } catch (error) {
+    return Promise.reject(error);
+  }
+
+  while (responseInterceptorChain.length) {
+    promise = promise.then(responseInterceptorChain.shift(), responseInterceptorChain.shift());
   }
 
   return promise;
@@ -6328,10 +6571,12 @@ function InterceptorManager() {
  *
  * @return {Number} An ID used to remove interceptor later
  */
-InterceptorManager.prototype.use = function use(fulfilled, rejected) {
+InterceptorManager.prototype.use = function use(fulfilled, rejected, options) {
   this.handlers.push({
     fulfilled: fulfilled,
-    rejected: rejected
+    rejected: rejected,
+    synchronous: options ? options.synchronous : false,
+    runWhen: options ? options.runWhen : null
   });
   return this.handlers.length - 1;
 };
@@ -6467,7 +6712,8 @@ module.exports = function dispatchRequest(config) {
   config.headers = config.headers || {};
 
   // Transform request data
-  config.data = transformData(
+  config.data = transformData.call(
+    config,
     config.data,
     config.headers,
     config.transformRequest
@@ -6493,7 +6739,8 @@ module.exports = function dispatchRequest(config) {
     throwIfCancellationRequested(config);
 
     // Transform response data
-    response.data = transformData(
+    response.data = transformData.call(
+      config,
       response.data,
       response.headers,
       config.transformResponse
@@ -6506,7 +6753,8 @@ module.exports = function dispatchRequest(config) {
 
       // Transform response data
       if (reason && reason.response) {
-        reason.response.data = transformData(
+        reason.response.data = transformData.call(
+          config,
           reason.response.data,
           reason.response.headers,
           config.transformResponse
@@ -6722,6 +6970,7 @@ module.exports = function settle(resolve, reject, response) {
 
 
 var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+var defaults = __webpack_require__(/*! ./../defaults */ "./node_modules/axios/lib/defaults.js");
 
 /**
  * Transform the data for a request or a response
@@ -6732,9 +6981,10 @@ var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/util
  * @returns {*} The resulting transformed data
  */
 module.exports = function transformData(data, headers, fns) {
+  var context = this || defaults;
   /*eslint no-param-reassign:0*/
   utils.forEach(fns, function transform(fn) {
-    data = fn(data, headers);
+    data = fn.call(context, data, headers);
   });
 
   return data;
@@ -6755,6 +7005,7 @@ module.exports = function transformData(data, headers, fns) {
 
 var utils = __webpack_require__(/*! ./utils */ "./node_modules/axios/lib/utils.js");
 var normalizeHeaderName = __webpack_require__(/*! ./helpers/normalizeHeaderName */ "./node_modules/axios/lib/helpers/normalizeHeaderName.js");
+var enhanceError = __webpack_require__(/*! ./core/enhanceError */ "./node_modules/axios/lib/core/enhanceError.js");
 
 var DEFAULT_CONTENT_TYPE = {
   'Content-Type': 'application/x-www-form-urlencoded'
@@ -6778,12 +7029,35 @@ function getDefaultAdapter() {
   return adapter;
 }
 
+function stringifySafely(rawValue, parser, encoder) {
+  if (utils.isString(rawValue)) {
+    try {
+      (parser || JSON.parse)(rawValue);
+      return utils.trim(rawValue);
+    } catch (e) {
+      if (e.name !== 'SyntaxError') {
+        throw e;
+      }
+    }
+  }
+
+  return (encoder || JSON.stringify)(rawValue);
+}
+
 var defaults = {
+
+  transitional: {
+    silentJSONParsing: true,
+    forcedJSONParsing: true,
+    clarifyTimeoutError: false
+  },
+
   adapter: getDefaultAdapter(),
 
   transformRequest: [function transformRequest(data, headers) {
     normalizeHeaderName(headers, 'Accept');
     normalizeHeaderName(headers, 'Content-Type');
+
     if (utils.isFormData(data) ||
       utils.isArrayBuffer(data) ||
       utils.isBuffer(data) ||
@@ -6800,20 +7074,32 @@ var defaults = {
       setContentTypeIfUnset(headers, 'application/x-www-form-urlencoded;charset=utf-8');
       return data.toString();
     }
-    if (utils.isObject(data)) {
-      setContentTypeIfUnset(headers, 'application/json;charset=utf-8');
-      return JSON.stringify(data);
+    if (utils.isObject(data) || (headers && headers['Content-Type'] === 'application/json')) {
+      setContentTypeIfUnset(headers, 'application/json');
+      return stringifySafely(data);
     }
     return data;
   }],
 
   transformResponse: [function transformResponse(data) {
-    /*eslint no-param-reassign:0*/
-    if (typeof data === 'string') {
+    var transitional = this.transitional;
+    var silentJSONParsing = transitional && transitional.silentJSONParsing;
+    var forcedJSONParsing = transitional && transitional.forcedJSONParsing;
+    var strictJSONParsing = !silentJSONParsing && this.responseType === 'json';
+
+    if (strictJSONParsing || (forcedJSONParsing && utils.isString(data) && data.length)) {
       try {
-        data = JSON.parse(data);
-      } catch (e) { /* Ignore */ }
+        return JSON.parse(data);
+      } catch (e) {
+        if (strictJSONParsing) {
+          if (e.name === 'SyntaxError') {
+            throw enhanceError(e, this, 'E_JSON_PARSE');
+          }
+          throw e;
+        }
+      }
     }
+
     return data;
   }],
 
@@ -7307,6 +7593,123 @@ module.exports = function spread(callback) {
 
 /***/ }),
 
+/***/ "./node_modules/axios/lib/helpers/validator.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/validator.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var pkg = __webpack_require__(/*! ./../../package.json */ "./node_modules/axios/package.json");
+
+var validators = {};
+
+// eslint-disable-next-line func-names
+['object', 'boolean', 'number', 'function', 'string', 'symbol'].forEach(function(type, i) {
+  validators[type] = function validator(thing) {
+    return typeof thing === type || 'a' + (i < 1 ? 'n ' : ' ') + type;
+  };
+});
+
+var deprecatedWarnings = {};
+var currentVerArr = pkg.version.split('.');
+
+/**
+ * Compare package versions
+ * @param {string} version
+ * @param {string?} thanVersion
+ * @returns {boolean}
+ */
+function isOlderVersion(version, thanVersion) {
+  var pkgVersionArr = thanVersion ? thanVersion.split('.') : currentVerArr;
+  var destVer = version.split('.');
+  for (var i = 0; i < 3; i++) {
+    if (pkgVersionArr[i] > destVer[i]) {
+      return true;
+    } else if (pkgVersionArr[i] < destVer[i]) {
+      return false;
+    }
+  }
+  return false;
+}
+
+/**
+ * Transitional option validator
+ * @param {function|boolean?} validator
+ * @param {string?} version
+ * @param {string} message
+ * @returns {function}
+ */
+validators.transitional = function transitional(validator, version, message) {
+  var isDeprecated = version && isOlderVersion(version);
+
+  function formatMessage(opt, desc) {
+    return '[Axios v' + pkg.version + '] Transitional option \'' + opt + '\'' + desc + (message ? '. ' + message : '');
+  }
+
+  // eslint-disable-next-line func-names
+  return function(value, opt, opts) {
+    if (validator === false) {
+      throw new Error(formatMessage(opt, ' has been removed in ' + version));
+    }
+
+    if (isDeprecated && !deprecatedWarnings[opt]) {
+      deprecatedWarnings[opt] = true;
+      // eslint-disable-next-line no-console
+      console.warn(
+        formatMessage(
+          opt,
+          ' has been deprecated since v' + version + ' and will be removed in the near future'
+        )
+      );
+    }
+
+    return validator ? validator(value, opt, opts) : true;
+  };
+};
+
+/**
+ * Assert object's properties type
+ * @param {object} options
+ * @param {object} schema
+ * @param {boolean?} allowUnknown
+ */
+
+function assertOptions(options, schema, allowUnknown) {
+  if (typeof options !== 'object') {
+    throw new TypeError('options must be an object');
+  }
+  var keys = Object.keys(options);
+  var i = keys.length;
+  while (i-- > 0) {
+    var opt = keys[i];
+    var validator = schema[opt];
+    if (validator) {
+      var value = options[opt];
+      var result = value === undefined || validator(value, opt, options);
+      if (result !== true) {
+        throw new TypeError('option ' + opt + ' must be ' + result);
+      }
+      continue;
+    }
+    if (allowUnknown !== true) {
+      throw Error('Unknown option ' + opt);
+    }
+  }
+}
+
+module.exports = {
+  isOlderVersion: isOlderVersion,
+  assertOptions: assertOptions,
+  validators: validators
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/axios/lib/utils.js":
 /*!*****************************************!*\
   !*** ./node_modules/axios/lib/utils.js ***!
@@ -7318,8 +7721,6 @@ module.exports = function spread(callback) {
 
 
 var bind = __webpack_require__(/*! ./helpers/bind */ "./node_modules/axios/lib/helpers/bind.js");
-
-/*global toString:true*/
 
 // utils is a library of generic helper functions non-specific to axios
 
@@ -7504,7 +7905,7 @@ function isURLSearchParams(val) {
  * @returns {String} The String freed of excess whitespace
  */
 function trim(str) {
-  return str.replace(/^\s*/, '').replace(/\s*$/, '');
+  return str.trim ? str.trim() : str.replace(/^\s+|\s+$/g, '');
 }
 
 /**
@@ -7667,6 +8068,17 @@ module.exports = {
   stripBOM: stripBOM
 };
 
+
+/***/ }),
+
+/***/ "./node_modules/axios/package.json":
+/*!*****************************************!*\
+  !*** ./node_modules/axios/package.json ***!
+  \*****************************************/
+/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, bundlesize, dependencies, deprecated, description, devDependencies, homepage, jsdelivr, keywords, license, main, name, repository, scripts, typings, unpkg, version, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"_from\":\"axios@0.21.4\",\"_id\":\"axios@0.21.4\",\"_inBundle\":false,\"_integrity\":\"sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==\",\"_location\":\"/axios\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"axios@0.21.4\",\"name\":\"axios\",\"escapedName\":\"axios\",\"rawSpec\":\"0.21.4\",\"saveSpec\":null,\"fetchSpec\":\"0.21.4\"},\"_requiredBy\":[\"#USER\",\"/\"],\"_resolved\":\"https://registry.npmjs.org/axios/-/axios-0.21.4.tgz\",\"_shasum\":\"c67b90dc0568e5c1cf2b0b858c43ba28e2eda575\",\"_spec\":\"axios@0.21.4\",\"_where\":\"/Users/user1/Documents/development/greenscapes/greenscapes-domestic\",\"author\":{\"name\":\"Matt Zabriskie\"},\"browser\":{\"./lib/adapters/http.js\":\"./lib/adapters/xhr.js\"},\"bugs\":{\"url\":\"https://github.com/axios/axios/issues\"},\"bundleDependencies\":false,\"bundlesize\":[{\"path\":\"./dist/axios.min.js\",\"threshold\":\"5kB\"}],\"dependencies\":{\"follow-redirects\":\"^1.14.0\"},\"deprecated\":false,\"description\":\"Promise based HTTP client for the browser and node.js\",\"devDependencies\":{\"coveralls\":\"^3.0.0\",\"es6-promise\":\"^4.2.4\",\"grunt\":\"^1.3.0\",\"grunt-banner\":\"^0.6.0\",\"grunt-cli\":\"^1.2.0\",\"grunt-contrib-clean\":\"^1.1.0\",\"grunt-contrib-watch\":\"^1.0.0\",\"grunt-eslint\":\"^23.0.0\",\"grunt-karma\":\"^4.0.0\",\"grunt-mocha-test\":\"^0.13.3\",\"grunt-ts\":\"^6.0.0-beta.19\",\"grunt-webpack\":\"^4.0.2\",\"istanbul-instrumenter-loader\":\"^1.0.0\",\"jasmine-core\":\"^2.4.1\",\"karma\":\"^6.3.2\",\"karma-chrome-launcher\":\"^3.1.0\",\"karma-firefox-launcher\":\"^2.1.0\",\"karma-jasmine\":\"^1.1.1\",\"karma-jasmine-ajax\":\"^0.1.13\",\"karma-safari-launcher\":\"^1.0.0\",\"karma-sauce-launcher\":\"^4.3.6\",\"karma-sinon\":\"^1.0.5\",\"karma-sourcemap-loader\":\"^0.3.8\",\"karma-webpack\":\"^4.0.2\",\"load-grunt-tasks\":\"^3.5.2\",\"minimist\":\"^1.2.0\",\"mocha\":\"^8.2.1\",\"sinon\":\"^4.5.0\",\"terser-webpack-plugin\":\"^4.2.3\",\"typescript\":\"^4.0.5\",\"url-search-params\":\"^0.10.0\",\"webpack\":\"^4.44.2\",\"webpack-dev-server\":\"^3.11.0\"},\"homepage\":\"https://axios-http.com\",\"jsdelivr\":\"dist/axios.min.js\",\"keywords\":[\"xhr\",\"http\",\"ajax\",\"promise\",\"node\"],\"license\":\"MIT\",\"main\":\"index.js\",\"name\":\"axios\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/axios/axios.git\"},\"scripts\":{\"build\":\"NODE_ENV=production grunt build\",\"coveralls\":\"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js\",\"examples\":\"node ./examples/server.js\",\"fix\":\"eslint --fix lib/**/*.js\",\"postversion\":\"git push && git push --tags\",\"preversion\":\"npm test\",\"start\":\"node ./sandbox/server.js\",\"test\":\"grunt test\",\"version\":\"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json\"},\"typings\":\"./index.d.ts\",\"unpkg\":\"dist/axios.min.js\",\"version\":\"0.21.4\"}");
 
 /***/ }),
 
@@ -31488,12 +31900,12 @@ var _Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-j
 
 /***/ "./node_modules/next/dist/build/polyfills/object-assign.js":
 /*!***********************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_3ec8d6b5ba938fe8cb37 ***!
+  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_8ece8160b3aa9cc692cd ***!
   \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_3ec8d6b5ba938fe8cb37 */ "dll-reference dll_3ec8d6b5ba938fe8cb37"))("./node_modules/next/dist/build/polyfills/object-assign.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_8ece8160b3aa9cc692cd */ "dll-reference dll_8ece8160b3aa9cc692cd"))("./node_modules/next/dist/build/polyfills/object-assign.js");
 
 /***/ }),
 
@@ -31506,6 +31918,7 @@ module.exports = (__webpack_require__(/*! dll-reference dll_3ec8d6b5ba938fe8cb37
 
 "use strict";
 var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineProperties(g(),{implementation:{get:g},shim:{value:g},getPolyfill:{value:g}});module.exports=g();
+//# sourceMappingURL=index.js.map
 
 /***/ }),
 
@@ -33850,17 +34263,14 @@ Router.events = mitt_1["default"]();
 "use strict";
 
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-}); // Identify /[param]/ in route string
+exports.__esModule = true;
+exports.isDynamicRoute = isDynamicRoute; // Identify /[param]/ in route string
 
 var TEST_ROUTE = /\/\[[^/]+?\](?=\/|$)/;
 
 function isDynamicRoute(route) {
   return TEST_ROUTE.test(route);
 }
-
-exports.isDynamicRoute = isDynamicRoute;
 
 /***/ }),
 
@@ -34534,12 +34944,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_3ec8d6b5ba938fe8cb37 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_8ece8160b3aa9cc692cd ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_3ec8d6b5ba938fe8cb37 */ "dll-reference dll_3ec8d6b5ba938fe8cb37"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_8ece8160b3aa9cc692cd */ "dll-reference dll_8ece8160b3aa9cc692cd"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -35174,12 +35584,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_3ec8d6b5ba938fe8cb37 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_8ece8160b3aa9cc692cd ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_3ec8d6b5ba938fe8cb37 */ "dll-reference dll_3ec8d6b5ba938fe8cb37"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_8ece8160b3aa9cc692cd */ "dll-reference dll_8ece8160b3aa9cc692cd"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -36413,12 +36823,12 @@ module.exports = hoistNonReactStatics;
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_3ec8d6b5ba938fe8cb37 ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_8ece8160b3aa9cc692cd ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_3ec8d6b5ba938fe8cb37 */ "dll-reference dll_3ec8d6b5ba938fe8cb37"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_8ece8160b3aa9cc692cd */ "dll-reference dll_8ece8160b3aa9cc692cd"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -40285,12 +40695,12 @@ var classNamesShape =  true ? prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_3ec8d6b5ba938fe8cb37 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_8ece8160b3aa9cc692cd ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_3ec8d6b5ba938fe8cb37 */ "dll-reference dll_3ec8d6b5ba938fe8cb37"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_8ece8160b3aa9cc692cd */ "dll-reference dll_8ece8160b3aa9cc692cd"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -42096,14 +42506,14 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 
 /***/ }),
 
-/***/ "dll-reference dll_3ec8d6b5ba938fe8cb37":
+/***/ "dll-reference dll_8ece8160b3aa9cc692cd":
 /*!*******************************************!*\
-  !*** external "dll_3ec8d6b5ba938fe8cb37" ***!
+  !*** external "dll_8ece8160b3aa9cc692cd" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_3ec8d6b5ba938fe8cb37;
+module.exports = dll_8ece8160b3aa9cc692cd;
 
 /***/ })
 

@@ -1,201 +1,38 @@
 {
-  "devFiles": [],
+  "devFiles": [
+    "static/development/dll/dll_53503df420135fbe0812.js",
+    "static/development/dll/dll_53503df420135fbe0812.js.map"
+  ],
   "lowPriorityFiles": [
-    "static/ylAxsBbFCcM-Oxmx-HLcc/_buildManifest.js",
-    "static/ylAxsBbFCcM-Oxmx-HLcc/_ssgManifest.js"
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
   ],
   "pages": {
     "/": [
-      "static/runtime/webpack-fe7e4f94f463d815bdd0.js",
-      "static/chunks/framework.b09c46d2ad4e5c9a1487.js",
-      "static/chunks/75fc9c18.076f719b76aaeefce12b.js",
-      "static/chunks/commons.5e01eb7241a700600e6d.js",
-      "static/chunks/aed733288a633da05252c5f3471ef5b38f1721dc.18ee28499781e403a804.js",
-      "static/chunks/975e7ba50253d28ae28218f620c22063418295ef.11f1977ee7320566a30a.js",
-      "static/chunks/1cc71eefa99178d86ee4372020ac1e235a8e0370.e0bf57753213521d48af.js",
-      "static/chunks/82cb5b5007135aacdfc56ec640c0c681cc61a146.3043a562b8611723fbff.js",
-      "static/chunks/d825c8e5db143b2533eee065cd98c9b7afb403d8.68c51c41baa2d4dc1ddf.js",
-      "static/css/styles.bbc22beb.chunk.css",
-      "static/chunks/styles.09f854fcfba0be98c975.js",
-      "static/runtime/main-ec4e0ac55a7b02863126.js"
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
     ],
     "/_app": [
-      "static/runtime/webpack-fe7e4f94f463d815bdd0.js",
-      "static/chunks/framework.b09c46d2ad4e5c9a1487.js",
-      "static/chunks/commons.5e01eb7241a700600e6d.js",
-      "static/chunks/1cc71eefa99178d86ee4372020ac1e235a8e0370.e0bf57753213521d48af.js",
-      "static/css/styles.bbc22beb.chunk.css",
-      "static/chunks/styles.09f854fcfba0be98c975.js",
-      "static/runtime/main-ec4e0ac55a7b02863126.js"
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
     ],
     "/_error": [
-      "static/runtime/webpack-fe7e4f94f463d815bdd0.js",
-      "static/chunks/framework.b09c46d2ad4e5c9a1487.js",
-      "static/chunks/75fc9c18.076f719b76aaeefce12b.js",
-      "static/chunks/commons.5e01eb7241a700600e6d.js",
-      "static/chunks/aed733288a633da05252c5f3471ef5b38f1721dc.18ee28499781e403a804.js",
-      "static/runtime/main-ec4e0ac55a7b02863126.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_polyfills": [
-      "static/runtime/polyfills-7faabd862e67e8fa0d48.js"
-    ],
-    "/blog": [
-      "static/runtime/webpack-fe7e4f94f463d815bdd0.js",
-      "static/chunks/framework.b09c46d2ad4e5c9a1487.js",
-      "static/chunks/75fc9c18.076f719b76aaeefce12b.js",
-      "static/chunks/commons.5e01eb7241a700600e6d.js",
-      "static/chunks/aed733288a633da05252c5f3471ef5b38f1721dc.18ee28499781e403a804.js",
-      "static/chunks/975e7ba50253d28ae28218f620c22063418295ef.11f1977ee7320566a30a.js",
-      "static/chunks/1cc71eefa99178d86ee4372020ac1e235a8e0370.e0bf57753213521d48af.js",
-      "static/chunks/82cb5b5007135aacdfc56ec640c0c681cc61a146.3043a562b8611723fbff.js",
-      "static/chunks/d825c8e5db143b2533eee065cd98c9b7afb403d8.68c51c41baa2d4dc1ddf.js",
-      "static/css/styles.bbc22beb.chunk.css",
-      "static/chunks/styles.09f854fcfba0be98c975.js",
-      "static/runtime/main-ec4e0ac55a7b02863126.js"
-    ],
-    "/blog/domestic-garden-maintenance-tips-wilmslow": [
-      "static/runtime/webpack-fe7e4f94f463d815bdd0.js",
-      "static/chunks/framework.b09c46d2ad4e5c9a1487.js",
-      "static/chunks/75fc9c18.076f719b76aaeefce12b.js",
-      "static/chunks/commons.5e01eb7241a700600e6d.js",
-      "static/chunks/aed733288a633da05252c5f3471ef5b38f1721dc.18ee28499781e403a804.js",
-      "static/chunks/975e7ba50253d28ae28218f620c22063418295ef.11f1977ee7320566a30a.js",
-      "static/css/styles.bbc22beb.chunk.css",
-      "static/chunks/styles.09f854fcfba0be98c975.js",
-      "static/runtime/main-ec4e0ac55a7b02863126.js"
-    ],
-    "/blog/domestic-garden-maintenance-wilmslow": [
-      "static/runtime/webpack-fe7e4f94f463d815bdd0.js",
-      "static/chunks/framework.b09c46d2ad4e5c9a1487.js",
-      "static/chunks/75fc9c18.076f719b76aaeefce12b.js",
-      "static/chunks/commons.5e01eb7241a700600e6d.js",
-      "static/chunks/aed733288a633da05252c5f3471ef5b38f1721dc.18ee28499781e403a804.js",
-      "static/chunks/975e7ba50253d28ae28218f620c22063418295ef.11f1977ee7320566a30a.js",
-      "static/css/styles.bbc22beb.chunk.css",
-      "static/chunks/styles.09f854fcfba0be98c975.js",
-      "static/runtime/main-ec4e0ac55a7b02863126.js"
-    ],
-    "/blog/garden-maintenance-legals-wilmslow": [
-      "static/runtime/webpack-fe7e4f94f463d815bdd0.js",
-      "static/chunks/framework.b09c46d2ad4e5c9a1487.js",
-      "static/chunks/75fc9c18.076f719b76aaeefce12b.js",
-      "static/chunks/commons.5e01eb7241a700600e6d.js",
-      "static/chunks/aed733288a633da05252c5f3471ef5b38f1721dc.18ee28499781e403a804.js",
-      "static/chunks/975e7ba50253d28ae28218f620c22063418295ef.11f1977ee7320566a30a.js",
-      "static/css/styles.bbc22beb.chunk.css",
-      "static/chunks/styles.09f854fcfba0be98c975.js",
-      "static/runtime/main-ec4e0ac55a7b02863126.js"
-    ],
-    "/blog/garden-maintenance-service-stockport": [
-      "static/runtime/webpack-fe7e4f94f463d815bdd0.js",
-      "static/chunks/framework.b09c46d2ad4e5c9a1487.js",
-      "static/chunks/75fc9c18.076f719b76aaeefce12b.js",
-      "static/chunks/commons.5e01eb7241a700600e6d.js",
-      "static/chunks/aed733288a633da05252c5f3471ef5b38f1721dc.18ee28499781e403a804.js",
-      "static/chunks/975e7ba50253d28ae28218f620c22063418295ef.11f1977ee7320566a30a.js",
-      "static/css/styles.bbc22beb.chunk.css",
-      "static/chunks/styles.09f854fcfba0be98c975.js",
-      "static/runtime/main-ec4e0ac55a7b02863126.js"
-    ],
-    "/blog/garden-maintenance-service-wilmslow": [
-      "static/runtime/webpack-fe7e4f94f463d815bdd0.js",
-      "static/chunks/framework.b09c46d2ad4e5c9a1487.js",
-      "static/chunks/75fc9c18.076f719b76aaeefce12b.js",
-      "static/chunks/commons.5e01eb7241a700600e6d.js",
-      "static/chunks/aed733288a633da05252c5f3471ef5b38f1721dc.18ee28499781e403a804.js",
-      "static/chunks/975e7ba50253d28ae28218f620c22063418295ef.11f1977ee7320566a30a.js",
-      "static/css/styles.bbc22beb.chunk.css",
-      "static/chunks/styles.09f854fcfba0be98c975.js",
-      "static/runtime/main-ec4e0ac55a7b02863126.js"
-    ],
-    "/blog/how-to-deadhead-an-astilbe": [
-      "static/runtime/webpack-fe7e4f94f463d815bdd0.js",
-      "static/chunks/framework.b09c46d2ad4e5c9a1487.js",
-      "static/chunks/75fc9c18.076f719b76aaeefce12b.js",
-      "static/chunks/commons.5e01eb7241a700600e6d.js",
-      "static/chunks/aed733288a633da05252c5f3471ef5b38f1721dc.18ee28499781e403a804.js",
-      "static/chunks/975e7ba50253d28ae28218f620c22063418295ef.11f1977ee7320566a30a.js",
-      "static/css/styles.bbc22beb.chunk.css",
-      "static/chunks/styles.09f854fcfba0be98c975.js",
-      "static/runtime/main-ec4e0ac55a7b02863126.js"
-    ],
-    "/blog/spring-garden-maintenance-service-stockport": [
-      "static/runtime/webpack-fe7e4f94f463d815bdd0.js",
-      "static/chunks/framework.b09c46d2ad4e5c9a1487.js",
-      "static/chunks/75fc9c18.076f719b76aaeefce12b.js",
-      "static/chunks/commons.5e01eb7241a700600e6d.js",
-      "static/chunks/aed733288a633da05252c5f3471ef5b38f1721dc.18ee28499781e403a804.js",
-      "static/chunks/975e7ba50253d28ae28218f620c22063418295ef.11f1977ee7320566a30a.js",
-      "static/css/styles.bbc22beb.chunk.css",
-      "static/chunks/styles.09f854fcfba0be98c975.js",
-      "static/runtime/main-ec4e0ac55a7b02863126.js"
-    ],
-    "/blog/winter-garden-maintenance": [
-      "static/runtime/webpack-fe7e4f94f463d815bdd0.js",
-      "static/chunks/framework.b09c46d2ad4e5c9a1487.js",
-      "static/chunks/75fc9c18.076f719b76aaeefce12b.js",
-      "static/chunks/commons.5e01eb7241a700600e6d.js",
-      "static/chunks/aed733288a633da05252c5f3471ef5b38f1721dc.18ee28499781e403a804.js",
-      "static/chunks/975e7ba50253d28ae28218f620c22063418295ef.11f1977ee7320566a30a.js",
-      "static/css/styles.bbc22beb.chunk.css",
-      "static/chunks/styles.09f854fcfba0be98c975.js",
-      "static/runtime/main-ec4e0ac55a7b02863126.js"
-    ],
-    "/garden-maintenance": [
-      "static/runtime/webpack-fe7e4f94f463d815bdd0.js",
-      "static/chunks/framework.b09c46d2ad4e5c9a1487.js",
-      "static/chunks/75fc9c18.076f719b76aaeefce12b.js",
-      "static/chunks/commons.5e01eb7241a700600e6d.js",
-      "static/chunks/aed733288a633da05252c5f3471ef5b38f1721dc.18ee28499781e403a804.js",
-      "static/chunks/975e7ba50253d28ae28218f620c22063418295ef.11f1977ee7320566a30a.js",
-      "static/chunks/1cc71eefa99178d86ee4372020ac1e235a8e0370.e0bf57753213521d48af.js",
-      "static/chunks/82cb5b5007135aacdfc56ec640c0c681cc61a146.3043a562b8611723fbff.js",
-      "static/chunks/13a1fb40ca8b543b88551716ad98a084089f0844.29b0b6aac95cda178bd6.js",
-      "static/css/styles.bbc22beb.chunk.css",
-      "static/chunks/styles.09f854fcfba0be98c975.js",
-      "static/runtime/main-ec4e0ac55a7b02863126.js"
+      "static/runtime/polyfills.js",
+      "static/runtime/polyfills.js.map"
     ],
     "/index": [
-      "static/runtime/webpack-fe7e4f94f463d815bdd0.js",
-      "static/chunks/framework.b09c46d2ad4e5c9a1487.js",
-      "static/chunks/75fc9c18.076f719b76aaeefce12b.js",
-      "static/chunks/commons.5e01eb7241a700600e6d.js",
-      "static/chunks/aed733288a633da05252c5f3471ef5b38f1721dc.18ee28499781e403a804.js",
-      "static/chunks/975e7ba50253d28ae28218f620c22063418295ef.11f1977ee7320566a30a.js",
-      "static/chunks/1cc71eefa99178d86ee4372020ac1e235a8e0370.e0bf57753213521d48af.js",
-      "static/chunks/82cb5b5007135aacdfc56ec640c0c681cc61a146.3043a562b8611723fbff.js",
-      "static/chunks/d825c8e5db143b2533eee065cd98c9b7afb403d8.68c51c41baa2d4dc1ddf.js",
-      "static/css/styles.bbc22beb.chunk.css",
-      "static/chunks/styles.09f854fcfba0be98c975.js",
-      "static/runtime/main-ec4e0ac55a7b02863126.js"
-    ],
-    "/landscaping": [
-      "static/runtime/webpack-fe7e4f94f463d815bdd0.js",
-      "static/chunks/framework.b09c46d2ad4e5c9a1487.js",
-      "static/chunks/75fc9c18.076f719b76aaeefce12b.js",
-      "static/chunks/commons.5e01eb7241a700600e6d.js",
-      "static/chunks/aed733288a633da05252c5f3471ef5b38f1721dc.18ee28499781e403a804.js",
-      "static/chunks/975e7ba50253d28ae28218f620c22063418295ef.11f1977ee7320566a30a.js",
-      "static/chunks/1cc71eefa99178d86ee4372020ac1e235a8e0370.e0bf57753213521d48af.js",
-      "static/chunks/82cb5b5007135aacdfc56ec640c0c681cc61a146.3043a562b8611723fbff.js",
-      "static/chunks/13a1fb40ca8b543b88551716ad98a084089f0844.29b0b6aac95cda178bd6.js",
-      "static/css/styles.bbc22beb.chunk.css",
-      "static/chunks/styles.09f854fcfba0be98c975.js",
-      "static/runtime/main-ec4e0ac55a7b02863126.js"
-    ],
-    "/services": [
-      "static/runtime/webpack-fe7e4f94f463d815bdd0.js",
-      "static/chunks/framework.b09c46d2ad4e5c9a1487.js",
-      "static/chunks/75fc9c18.076f719b76aaeefce12b.js",
-      "static/chunks/commons.5e01eb7241a700600e6d.js",
-      "static/chunks/aed733288a633da05252c5f3471ef5b38f1721dc.18ee28499781e403a804.js",
-      "static/chunks/975e7ba50253d28ae28218f620c22063418295ef.11f1977ee7320566a30a.js",
-      "static/chunks/1cc71eefa99178d86ee4372020ac1e235a8e0370.e0bf57753213521d48af.js",
-      "static/chunks/82cb5b5007135aacdfc56ec640c0c681cc61a146.3043a562b8611723fbff.js",
-      "static/chunks/13a1fb40ca8b543b88551716ad98a084089f0844.29b0b6aac95cda178bd6.js",
-      "static/css/styles.bbc22beb.chunk.css",
-      "static/chunks/styles.09f854fcfba0be98c975.js",
-      "static/runtime/main-ec4e0ac55a7b02863126.js"
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
     ]
   }
 }
