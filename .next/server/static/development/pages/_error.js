@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1046,31 +1046,7 @@ class NavbarTwo extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 102,
         columnNumber: 41
       }
-    }, "Landscaping"))), __jsx("li", {
-      className: "nav-item",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 105,
-        columnNumber: 33
-      }
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 106,
-        columnNumber: 37
-      }
-    }, __jsx("a", {
-      className: "nav-link",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 107,
-        columnNumber: 41
-      }
-    }, "Blog")))), __jsx("ul", {
+    }, "Landscaping")))), __jsx("ul", {
       className: "others-option",
       __self: this,
       __source: {
@@ -2947,7 +2923,7 @@ class Error extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!*******************************!*\
   !*** multi ./pages/_error.js ***!
   \*******************************/

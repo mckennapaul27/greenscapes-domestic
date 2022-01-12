@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1060,31 +1060,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 142,
         columnNumber: 41
       }
-    }, "Landscaping"))), __jsx("li", {
-      className: "nav-item",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 145,
-        columnNumber: 33
-      }
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 146,
-        columnNumber: 37
-      }
-    }, __jsx("a", {
-      className: "nav-link",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 147,
-        columnNumber: 41
-      }
-    }, "Blog")))), __jsx("ul", {
+    }, "Landscaping")))), __jsx("ul", {
       className: "others-option",
       __self: this,
       __source: {
@@ -3722,7 +3698,7 @@ const questions = [{
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*****************************************************!*\
   !*** multi ./pages/artificial-lawn-specialists.jsx ***!
   \*****************************************************/

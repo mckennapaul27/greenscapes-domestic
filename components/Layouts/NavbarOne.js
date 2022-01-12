@@ -126,11 +126,11 @@ class NavbarOne extends Component {
                                         <a className='nav-link'>Landscaping</a>
                                     </Link>
                                 </li>
-                                <li className='nav-item'>
+                                {/* <li className='nav-item'>
                                     <Link href='/blog'>
                                         <a className='nav-link'>Blog</a>
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                             <ul className='others-option'>
                                 <li>

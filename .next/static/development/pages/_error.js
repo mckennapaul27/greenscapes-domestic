@@ -1013,31 +1013,7 @@ var NavbarTwo = /*#__PURE__*/function (_Component) {
           lineNumber: 102,
           columnNumber: 41
         }
-      }, "Landscaping"))), __jsx("li", {
-        className: "nav-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 105,
-          columnNumber: 33
-        }
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "/blog",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 106,
-          columnNumber: 37
-        }
-      }, __jsx("a", {
-        className: "nav-link",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 107,
-          columnNumber: 41
-        }
-      }, "Blog")))), __jsx("ul", {
+      }, "Landscaping")))), __jsx("ul", {
         className: "others-option",
         __self: this,
         __source: {
