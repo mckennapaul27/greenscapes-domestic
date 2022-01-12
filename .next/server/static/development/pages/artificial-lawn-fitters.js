@@ -948,8 +948,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 116,
         columnNumber: 33
       }
-    }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      onClick: this.toggleNavbar,
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "#about",
       __self: this,
       __source: {
@@ -962,7 +961,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 120,
+        lineNumber: 118,
         columnNumber: 41
       }
     }, "About"))), __jsx("li", {
@@ -970,7 +969,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 123,
+        lineNumber: 121,
         columnNumber: 33
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -978,7 +977,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 124,
+        lineNumber: 122,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -986,7 +985,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 125,
+        lineNumber: 123,
         columnNumber: 41
       }
     }, "Services"))), __jsx("li", {
@@ -994,7 +993,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 128,
+        lineNumber: 126,
         columnNumber: 33
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -1002,7 +1001,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 129,
+        lineNumber: 127,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -1010,7 +1009,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 130,
+        lineNumber: 128,
         columnNumber: 41
       }
     }, "Garden Maintenance"))), __jsx("li", {
@@ -1018,7 +1017,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 135,
+        lineNumber: 133,
         columnNumber: 33
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -1026,7 +1025,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 136,
+        lineNumber: 134,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -1034,7 +1033,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 137,
+        lineNumber: 135,
         columnNumber: 41
       }
     }, "Landscaping"))), __jsx("li", {
@@ -1042,7 +1041,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 140,
+        lineNumber: 138,
         columnNumber: 33
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -1050,7 +1049,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 141,
+        lineNumber: 139,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -1058,7 +1057,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 142,
+        lineNumber: 140,
         columnNumber: 41
       }
     }, "Blog")))), __jsx("ul", {
@@ -1066,23 +1065,22 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 146,
+        lineNumber: 144,
         columnNumber: 29
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 147,
+        lineNumber: 145,
         columnNumber: 33
       }
-    }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      onClick: this.toggleNavbar,
-      href: "#contact",
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/index#contact",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 148,
+        lineNumber: 146,
         columnNumber: 37
       }
     }, __jsx("button", {
@@ -1090,7 +1088,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 151,
+        lineNumber: 147,
         columnNumber: 41
       }
     }, "Contact Us"))))))));

@@ -114,11 +114,9 @@ class NavbarOne extends Component {
                                     </Link>
                                 </li>
                                 <li className='nav-item'>
-                                    <AnchorLink
-                                        onClick={this.toggleNavbar}
-                                        href='#about'>
+                                    <Link href='#about'>
                                         <a className='nav-link'>About</a>
-                                    </AnchorLink>
+                                    </Link>
                                 </li>
                                 <li className='nav-item'>
                                     <Link href='/services'>
@@ -145,13 +143,11 @@ class NavbarOne extends Component {
                             </ul>
                             <ul className='others-option'>
                                 <li>
-                                    <AnchorLink
-                                        onClick={this.toggleNavbar}
-                                        href='#contact'>
+                                    <Link href='/index#contact'>
                                         <button className='btn btn-primary'>
                                             Contact Us
                                         </button>
-                                    </AnchorLink>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>

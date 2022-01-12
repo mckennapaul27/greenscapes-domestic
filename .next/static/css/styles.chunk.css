@@ -9506,6 +9506,7 @@ Go Top CSS
 .ag-header {
   position: relative;
   padding: 200px 0;
+  padding-bottom: 140px;
   max-width: 600px; }
   .ag-header h1 {
     font-family: Rubik;
