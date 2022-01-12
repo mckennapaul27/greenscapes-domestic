@@ -5622,14 +5622,17 @@ Router.events = mitt_1["default"]();
 "use strict";
 
 
-exports.__esModule = true;
-exports.isDynamicRoute = isDynamicRoute; // Identify /[param]/ in route string
+Object.defineProperty(exports, "__esModule", {
+  value: true
+}); // Identify /[param]/ in route string
 
 var TEST_ROUTE = /\/\[[^/]+?\](?=\/|$)/;
 
 function isDynamicRoute(route) {
   return TEST_ROUTE.test(route);
 }
+
+exports.isDynamicRoute = isDynamicRoute;
 
 /***/ }),
 
@@ -6880,12 +6883,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_8ece8160b3aa9cc692cd ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_3ec8d6b5ba938fe8cb37 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_8ece8160b3aa9cc692cd */ "dll-reference dll_8ece8160b3aa9cc692cd"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_3ec8d6b5ba938fe8cb37 */ "dll-reference dll_3ec8d6b5ba938fe8cb37"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -7819,14 +7822,14 @@ module.exports = __webpack_require__(/*! /Users/user1/Documents/development/gree
 
 /***/ }),
 
-/***/ "dll-reference dll_8ece8160b3aa9cc692cd":
+/***/ "dll-reference dll_3ec8d6b5ba938fe8cb37":
 /*!*******************************************!*\
-  !*** external "dll_8ece8160b3aa9cc692cd" ***!
+  !*** external "dll_3ec8d6b5ba938fe8cb37" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_8ece8160b3aa9cc692cd;
+module.exports = dll_3ec8d6b5ba938fe8cb37;
 
 /***/ })
 

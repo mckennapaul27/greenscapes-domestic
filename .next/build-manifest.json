@@ -1,19 +1,13 @@
 {
   "devFiles": [
-    "static/development/dll/dll_53503df420135fbe0812.js",
-    "static/development/dll/dll_53503df420135fbe0812.js.map"
+    "static/development/dll/dll_a76d7ffb63db6603914e.js",
+    "static/development/dll/dll_a76d7ffb63db6603914e.js.map"
   ],
   "lowPriorityFiles": [
     "static/development/_buildManifest.js",
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
-    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
@@ -28,7 +22,7 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/index": [
+    "/artificial-lawn-fitters": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",

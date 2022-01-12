@@ -470,7 +470,6 @@ var e,t=(e=__webpack_require__(/*! querystring */ "./node_modules/querystring-es
 
 "use strict";
 /* globals self */var fetch=self.fetch.bind(self);module.exports=fetch;module.exports.default=module.exports;
-//# sourceMappingURL=index.js.map
 
 /***/ }),
 
@@ -5034,14 +5033,17 @@ Router.events = mitt_1["default"]();
 "use strict";
 
 
-exports.__esModule = true;
-exports.isDynamicRoute = isDynamicRoute; // Identify /[param]/ in route string
+Object.defineProperty(exports, "__esModule", {
+  value: true
+}); // Identify /[param]/ in route string
 
 var TEST_ROUTE = /\/\[[^/]+?\](?=\/|$)/;
 
 function isDynamicRoute(route) {
   return TEST_ROUTE.test(route);
 }
+
+exports.isDynamicRoute = isDynamicRoute;
 
 /***/ }),
 
@@ -5138,20 +5140,20 @@ exports.getRouteRegex = getRouteRegex;
 "use strict";
 
 
-exports.__esModule = true;
-exports.setConfig = setConfig;
-exports["default"] = void 0;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 var runtimeConfig;
 
-var _default = function _default() {
+exports["default"] = function () {
   return runtimeConfig;
 };
-
-exports["default"] = _default;
 
 function setConfig(configValue) {
   runtimeConfig = configValue;
 }
+
+exports.setConfig = setConfig;
 
 /***/ }),
 
@@ -5741,12 +5743,12 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_8ece8160b3aa9cc692cd ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_3ec8d6b5ba938fe8cb37 ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_8ece8160b3aa9cc692cd */ "dll-reference dll_8ece8160b3aa9cc692cd"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_3ec8d6b5ba938fe8cb37 */ "dll-reference dll_3ec8d6b5ba938fe8cb37"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -6020,12 +6022,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_8ece8160b3aa9cc692cd ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_3ec8d6b5ba938fe8cb37 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_8ece8160b3aa9cc692cd */ "dll-reference dll_8ece8160b3aa9cc692cd"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_3ec8d6b5ba938fe8cb37 */ "dll-reference dll_3ec8d6b5ba938fe8cb37"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -6781,9 +6783,12 @@ try {
 
 var ansiRegex = __webpack_require__(/*! ansi-regex */ "./node_modules/strip-ansi/node_modules/ansi-regex/index.js");
 
-module.exports = function (string) {
+var stripAnsi = function stripAnsi(string) {
   return typeof string === 'string' ? string.replace(ansiRegex(), '') : string;
 };
+
+module.exports = stripAnsi;
+module.exports["default"] = stripAnsi;
 
 /***/ }),
 
@@ -6807,14 +6812,14 @@ module.exports = function (options) {
 
 /***/ }),
 
-/***/ "dll-reference dll_8ece8160b3aa9cc692cd":
+/***/ "dll-reference dll_3ec8d6b5ba938fe8cb37":
 /*!*******************************************!*\
-  !*** external "dll_8ece8160b3aa9cc692cd" ***!
+  !*** external "dll_3ec8d6b5ba938fe8cb37" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_8ece8160b3aa9cc692cd;
+module.exports = dll_3ec8d6b5ba938fe8cb37;
 
 /***/ })
 
