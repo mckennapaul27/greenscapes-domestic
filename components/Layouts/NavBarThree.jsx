@@ -114,7 +114,7 @@ class NavbarOne extends Component {
                                     </Link>
                                 </li>
                                 <li className='nav-item'>
-                                    <Link href='#about'>
+                                    <Link href='/#about'>
                                         <a className='nav-link'>About</a>
                                     </Link>
                                 </li>
@@ -127,6 +127,13 @@ class NavbarOne extends Component {
                                     <Link href='/garden-maintenance'>
                                         <a className='nav-link'>
                                             Garden Maintenance
+                                        </a>
+                                    </Link>
+                                </li>
+                                <li className='nav-item'>
+                                    <Link href='/artificial-lawn-specialists'>
+                                        <a className='nav-link'>
+                                            Artificial Grass
                                         </a>
                                     </Link>
                                 </li>

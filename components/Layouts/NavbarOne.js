@@ -115,6 +115,13 @@ class NavbarOne extends Component {
                                     </Link>
                                 </li>
                                 <li className='nav-item'>
+                                    <Link href='/artificial-lawn-specialists'>
+                                        <a className='nav-link'>
+                                            Artificial Grass
+                                        </a>
+                                    </Link>
+                                </li>
+                                <li className='nav-item'>
                                     <Link href='/landscaping'>
                                         <a className='nav-link'>Landscaping</a>
                                     </Link>
