@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -863,17 +863,26 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 29
       }
     }, __jsx("img", {
-      src: '/greenscapes-artificial-grass-logo.svg',
+      src: "/logo-trans.png",
+      alt: "",
       alt: "logo",
-      style: {
-        width: '107px',
-        height: '74px',
-        display: 'block'
-      },
+      width: "107px",
+      height: "74px",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 84,
+        lineNumber: 85,
+        columnNumber: 33
+      }
+    }), __jsx("img", {
+      src: '/greenscapes-artificial-grass-logo.svg',
+      alt: "logo",
+      width: "107px",
+      height: "74px",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 92,
         columnNumber: 33
       }
     }))), __jsx("button", {
@@ -888,7 +897,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 97,
+        lineNumber: 102,
         columnNumber: 25
       }
     }, __jsx("span", {
@@ -896,7 +905,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 106,
+        lineNumber: 111,
         columnNumber: 29
       }
     })), __jsx("div", {
@@ -905,7 +914,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 109,
+        lineNumber: 114,
         columnNumber: 25
       }
     }, __jsx("ul", {
@@ -913,34 +922,10 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 110,
+        lineNumber: 115,
         columnNumber: 29
       }
     }, __jsx("li", {
-      className: "nav-item",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 111,
-        columnNumber: 33
-      }
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 112,
-        columnNumber: 37
-      }
-    }, __jsx("a", {
-      className: "nav-link",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 113,
-        columnNumber: 41
-      }
-    }, "Home"))), __jsx("li", {
       className: "nav-item",
       __self: this,
       __source: {
@@ -949,7 +934,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 33
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/#about",
+      href: "/",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -964,7 +949,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 118,
         columnNumber: 41
       }
-    }, "About"))), __jsx("li", {
+    }, "Home"))), __jsx("li", {
       className: "nav-item",
       __self: this,
       __source: {
@@ -973,7 +958,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 33
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/services",
+      href: "/#about",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -988,7 +973,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 123,
         columnNumber: 41
       }
-    }, "Services"))), __jsx("li", {
+    }, "About"))), __jsx("li", {
       className: "nav-item",
       __self: this,
       __source: {
@@ -997,7 +982,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 33
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/garden-maintenance",
+      href: "/services",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -1012,12 +997,36 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 128,
         columnNumber: 41
       }
+    }, "Services"))), __jsx("li", {
+      className: "nav-item",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 131,
+        columnNumber: 33
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/garden-maintenance",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 132,
+        columnNumber: 37
+      }
+    }, __jsx("a", {
+      className: "nav-link",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 133,
+        columnNumber: 41
+      }
     }, "Garden Maintenance"))), __jsx("li", {
       className: "nav-item",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 133,
+        lineNumber: 138,
         columnNumber: 33
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -1025,7 +1034,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 134,
+        lineNumber: 139,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -1033,7 +1042,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 135,
+        lineNumber: 140,
         columnNumber: 41
       }
     }, "Artificial Grass"))), __jsx("li", {
@@ -1041,7 +1050,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 140,
+        lineNumber: 145,
         columnNumber: 33
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -1049,7 +1058,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 141,
+        lineNumber: 146,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -1057,7 +1066,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 142,
+        lineNumber: 147,
         columnNumber: 41
       }
     }, "Landscaping")))), __jsx("ul", {
@@ -1065,14 +1074,14 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 151,
+        lineNumber: 156,
         columnNumber: 29
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 152,
+        lineNumber: 157,
         columnNumber: 33
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -1080,7 +1089,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 153,
+        lineNumber: 158,
         columnNumber: 37
       }
     }, __jsx("button", {
@@ -1088,7 +1097,7 @@ class NavbarOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 154,
+        lineNumber: 159,
         columnNumber: 41
       }
     }, "Contact Us"))))))));
@@ -3072,7 +3081,7 @@ const Page = ({}) => {
       lineNumber: 71,
       columnNumber: 33
     }
-  }, "artifical lawn "), "specialists"), __jsx("p", {
+  }, "artificial lawn "), "specialists"), __jsx("p", {
     className: "ag-subtitle",
     __self: undefined,
     __source: {
@@ -3698,7 +3707,7 @@ const questions = [{
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!*****************************************************!*\
   !*** multi ./pages/artificial-lawn-specialists.jsx ***!
   \*****************************************************/

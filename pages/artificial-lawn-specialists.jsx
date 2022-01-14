@@ -68,7 +68,7 @@ const Page = ({}) => {
                             </div>
                             <h1>
                                 welcome to greenscapes{' '}
-                                <span>artifical lawn </span>
+                                <span>artificial lawn </span>
                                 specialists
                             </h1>
                             <p className='ag-subtitle'>

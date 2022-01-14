@@ -81,16 +81,21 @@ class NavbarOne extends Component {
                                     alt='logo'
                                     style={{ maxWidth: '125px' }}
                                 /> */}
+
+                                <img
+                                    src='/logo-trans.png'
+                                    alt=''
+                                    alt='logo'
+                                    width='107px'
+                                    height='74px'
+                                />
                                 <img
                                     src={
                                         '/greenscapes-artificial-grass-logo.svg'
                                     }
                                     alt='logo'
-                                    style={{
-                                        width: '107px',
-                                        height: '74px',
-                                        display: 'block',
-                                    }}
+                                    width='107px'
+                                    height='74px'
                                 />
                             </a>
                         </Link>

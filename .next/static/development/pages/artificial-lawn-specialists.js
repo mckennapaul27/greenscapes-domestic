@@ -781,6 +781,8 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
   }, {
     key: "render",
     value: function render() {
+      var _jsx;
+
       var collapsed = this.state.collapsed;
       var classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
       var classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
@@ -829,18 +831,22 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
           lineNumber: 66,
           columnNumber: 29
         }
-      }, __jsx("img", {
+      }, __jsx("img", (_jsx = {
+        src: "/logo-trans.png",
+        alt: ""
+      }, Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(_jsx, "alt", "logo"), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(_jsx, "width", "107px"), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(_jsx, "height", "74px"), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(_jsx, "__self", this), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(_jsx, "__source", {
+        fileName: _jsxFileName,
+        lineNumber: 85,
+        columnNumber: 33
+      }), _jsx)), __jsx("img", {
         src: '/greenscapes-artificial-grass-logo.svg',
         alt: "logo",
-        style: {
-          width: '107px',
-          height: '74px',
-          display: 'block'
-        },
+        width: "107px",
+        height: "74px",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84,
+          lineNumber: 92,
           columnNumber: 33
         }
       }))), __jsx("button", {
@@ -855,7 +861,7 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97,
+          lineNumber: 102,
           columnNumber: 25
         }
       }, __jsx("span", {
@@ -863,7 +869,7 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106,
+          lineNumber: 111,
           columnNumber: 29
         }
       })), __jsx("div", {
@@ -872,7 +878,7 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 109,
+          lineNumber: 114,
           columnNumber: 25
         }
       }, __jsx("ul", {
@@ -880,34 +886,10 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110,
+          lineNumber: 115,
           columnNumber: 29
         }
       }, __jsx("li", {
-        className: "nav-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 111,
-          columnNumber: 33
-        }
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "/",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 112,
-          columnNumber: 37
-        }
-      }, __jsx("a", {
-        className: "nav-link",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 113,
-          columnNumber: 41
-        }
-      }, "Home"))), __jsx("li", {
         className: "nav-item",
         __self: this,
         __source: {
@@ -916,7 +898,7 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
           columnNumber: 33
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "/#about",
+        href: "/",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -931,7 +913,7 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
           lineNumber: 118,
           columnNumber: 41
         }
-      }, "About"))), __jsx("li", {
+      }, "Home"))), __jsx("li", {
         className: "nav-item",
         __self: this,
         __source: {
@@ -940,7 +922,7 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
           columnNumber: 33
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "/services",
+        href: "/#about",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -955,7 +937,7 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
           lineNumber: 123,
           columnNumber: 41
         }
-      }, "Services"))), __jsx("li", {
+      }, "About"))), __jsx("li", {
         className: "nav-item",
         __self: this,
         __source: {
@@ -964,7 +946,7 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
           columnNumber: 33
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "/garden-maintenance",
+        href: "/services",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -979,12 +961,36 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
           lineNumber: 128,
           columnNumber: 41
         }
+      }, "Services"))), __jsx("li", {
+        className: "nav-item",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 131,
+          columnNumber: 33
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        href: "/garden-maintenance",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 132,
+          columnNumber: 37
+        }
+      }, __jsx("a", {
+        className: "nav-link",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 133,
+          columnNumber: 41
+        }
       }, "Garden Maintenance"))), __jsx("li", {
         className: "nav-item",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 133,
+          lineNumber: 138,
           columnNumber: 33
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
@@ -992,7 +998,7 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 134,
+          lineNumber: 139,
           columnNumber: 37
         }
       }, __jsx("a", {
@@ -1000,7 +1006,7 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 135,
+          lineNumber: 140,
           columnNumber: 41
         }
       }, "Artificial Grass"))), __jsx("li", {
@@ -1008,7 +1014,7 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 140,
+          lineNumber: 145,
           columnNumber: 33
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
@@ -1016,7 +1022,7 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 141,
+          lineNumber: 146,
           columnNumber: 37
         }
       }, __jsx("a", {
@@ -1024,7 +1030,7 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 142,
+          lineNumber: 147,
           columnNumber: 41
         }
       }, "Landscaping")))), __jsx("ul", {
@@ -1032,14 +1038,14 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 151,
+          lineNumber: 156,
           columnNumber: 29
         }
       }, __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 152,
+          lineNumber: 157,
           columnNumber: 33
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
@@ -1047,7 +1053,7 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 153,
+          lineNumber: 158,
           columnNumber: 37
         }
       }, __jsx("button", {
@@ -1055,7 +1061,7 @@ var NavbarOne = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 154,
+          lineNumber: 159,
           columnNumber: 41
         }
       }, "Contact Us"))))))));
@@ -32222,7 +32228,7 @@ var Page = function Page(_ref2) {
       lineNumber: 71,
       columnNumber: 33
     }
-  }, "artifical lawn "), "specialists"), __jsx("p", {
+  }, "artificial lawn "), "specialists"), __jsx("p", {
     className: "ag-subtitle",
     __self: _this,
     __source: {
